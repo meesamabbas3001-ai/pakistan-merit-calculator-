@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pakistan-university-merit-calculator.ai.studio/sitemap.xml

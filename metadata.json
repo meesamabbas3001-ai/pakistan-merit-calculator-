@@ -1,0 +1,7 @@
+{
+  "name": "Pakistan University Merit Calculator",
+  "description": "Calculate your admission aggregate and merit for top Pakistani universities (NUST, FAST, COMSATS, UET, GIKI, PIEAS, LUMS, and more) using official admission formulas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
