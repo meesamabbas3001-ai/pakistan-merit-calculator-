@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { University, ProgramCategory } from '../types';
 import { Search, BookOpen, ExternalLink, CheckCircle2, ShieldCheck, MapPin } from 'lucide-react';
+import { motion } from 'motion/react';
 
 interface UniversityDirectoryProps {
   universities: University[];
@@ -75,10 +76,14 @@ export const UniversityDirectory: React.FC<UniversityDirectoryProps> = ({
 
         {/* Universities Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredUniversities.map((uni) => (
-            <div
+          {filteredUniversities.map((uni, index) => (
+            <motion.div
               key={uni.id}
-              className="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-xl transition-all"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: index * 0.05 }}
+              whileHover={{ y: -6, transition: { duration: 0.2 } }}
+              className="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-xl hover:border-emerald-500/40 transition-all"
             >
               <div className="p-6">
                 <div className="flex items-start justify-between gap-3 mb-4">
@@ -122,7 +127,7 @@ export const UniversityDirectory: React.FC<UniversityDirectoryProps> = ({
                   Calculate Merit
                 </button>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

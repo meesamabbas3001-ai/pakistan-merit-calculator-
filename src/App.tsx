@@ -13,12 +13,35 @@ import { UniversityMatcherSection } from './components/UniversityMatcherSection'
 import { HowItWorks } from './components/HowItWorks';
 import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
+import { UniversityGuideAIChat } from './components/UniversityGuideAIChat';
+import { AdminLoginModal } from './components/AdminLoginModal';
+import { AdminPanel } from './components/AdminPanel';
+import { ScholarshipsPage } from './components/ScholarshipsPage';
+import { AdmissionDeadlinesPage } from './components/AdmissionDeadlinesPage';
+import { DegreesPage } from './components/DegreesPage';
+import { TrustPages } from './components/TrustPages';
+import { UniversityDetailPage } from './components/UniversityDetailPage';
+import { getStoredUniversities } from './services/universityStore';
+import { Bot, Sparkles } from 'lucide-react';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'calculator' | 'compare' | 'directory' | 'faq' | 'matcher'>('calculator');
+  const [activeTab, setActiveTab] = useState<string>('calculator');
   const [selectedUniId, setSelectedUniId] = useState<string | undefined>(undefined);
   const [admissionYear, setAdmissionYear] = useState<string>('2026');
   const [calculationResult, setCalculationResult] = useState<CalculationResult | null>(null);
+  const [chatOpen, setChatOpen] = useState<boolean>(false);
+  const [adminLoginOpen, setAdminLoginOpen] = useState<boolean>(false);
+  const [isAdminLoggedIn, setIsAdminLoggedIn] = useState<boolean>(() => {
+    return localStorage.getItem('pakistan_merit_admin_authenticated') === 'true';
+  });
+
+  useEffect(() => {
+    const handleOpenAdmin = () => setAdminLoginOpen(true);
+    window.addEventListener('open-admin-login', handleOpenAdmin as EventListener);
+    return () => {
+      window.removeEventListener('open-admin-login', handleOpenAdmin as EventListener);
+    };
+  }, []);
   const [currentMarks, setCurrentMarks] = useState<MeritInput>({
     matricObtained: 1050,
     matricTotal: 1100,
@@ -31,7 +54,27 @@ export default function App() {
   // Initialize route from window.location.pathname on mount
   useEffect(() => {
     const pathname = window.location.pathname;
-    if (pathname.includes('/fast-merit-calculator')) {
+    if (pathname.startsWith('/universities/')) {
+      const uniId = pathname.replace('/universities/', '').split('/')[0];
+      setActiveTab('university-detail');
+      setSelectedUniId(uniId);
+    } else if (pathname.includes('/scholarships')) {
+      setActiveTab('scholarships');
+    } else if (pathname.includes('/admission-deadlines')) {
+      setActiveTab('admission-deadlines');
+    } else if (pathname.includes('/degrees')) {
+      setActiveTab('degrees');
+    } else if (pathname.includes('/about')) {
+      setActiveTab('about');
+    } else if (pathname.includes('/contact')) {
+      setActiveTab('contact');
+    } else if (pathname.includes('/verification-policy')) {
+      setActiveTab('verification-policy');
+    } else if (pathname.includes('/privacy')) {
+      setActiveTab('privacy');
+    } else if (pathname.includes('/terms')) {
+      setActiveTab('terms');
+    } else if (pathname.includes('/fast-merit-calculator')) {
       setActiveTab('calculator');
       setSelectedUniId('fast');
     } else if (pathname.includes('/comsats-merit-calculator')) {
@@ -70,6 +113,15 @@ export default function App() {
     else if (activeTab === 'matcher') path = '/matcher';
     else if (activeTab === 'directory') path = '/directory';
     else if (activeTab === 'faq') path = '/faq';
+    else if (activeTab === 'scholarships') path = '/scholarships';
+    else if (activeTab === 'admission-deadlines') path = '/admission-deadlines';
+    else if (activeTab === 'degrees') path = '/degrees';
+    else if (activeTab === 'about') path = '/about';
+    else if (activeTab === 'contact') path = '/contact';
+    else if (activeTab === 'verification-policy') path = '/verification-policy';
+    else if (activeTab === 'privacy') path = '/privacy';
+    else if (activeTab === 'terms') path = '/terms';
+    else if (activeTab === 'university-detail' && selectedUniId) path = `/universities/${selectedUniId}`;
     else if (activeTab === 'calculator') {
       if (selectedUniId === 'fast') path = '/fast-merit-calculator';
       else if (selectedUniId === 'comsats') path = '/comsats-merit-calculator';
@@ -86,13 +138,20 @@ export default function App() {
     }
 
     const seoConfig = getSeoConfigForPath(path);
-    updateDocumentSeo(seoConfig);
+    if (seoConfig) {
+      updateDocumentSeo(seoConfig);
+    }
   }, [activeTab, selectedUniId]);
 
-  const handleNavigate = (tab: 'calculator' | 'compare' | 'directory' | 'faq' | 'matcher', uniId?: string) => {
-    setActiveTab(tab);
-    if (uniId !== undefined) {
+  const handleNavigate = (tab: string, uniId?: string) => {
+    if (tab === 'universities' && uniId) {
+      setActiveTab('university-detail');
       setSelectedUniId(uniId);
+    } else {
+      setActiveTab(tab);
+      if (uniId !== undefined) {
+        setSelectedUniId(uniId);
+      }
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -107,6 +166,18 @@ export default function App() {
     setSelectedUniId(uniId);
     window.scrollTo({ top: 300, behavior: 'smooth' });
   };
+
+  if (isAdminLoggedIn) {
+    return (
+      <AdminPanel
+        onLogout={() => {
+          localStorage.removeItem('pakistan_merit_admin_authenticated');
+          setIsAdminLoggedIn(false);
+        }}
+        onExit={() => setIsAdminLoggedIn(false)}
+      />
+    );
+  }
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-900 selection:bg-emerald-500 selection:text-white">
@@ -196,9 +267,59 @@ export default function App() {
             <HowItWorks />
           </div>
         )}
+
+        {activeTab === 'scholarships' && (
+          <ScholarshipsPage onNavigate={handleNavigate} />
+        )}
+
+        {activeTab === 'admission-deadlines' && (
+          <AdmissionDeadlinesPage onNavigate={handleNavigate} />
+        )}
+
+        {activeTab === 'degrees' && (
+          <DegreesPage onNavigate={handleNavigate} />
+        )}
+
+        {(activeTab === 'about' || activeTab === 'contact' || activeTab === 'verification-policy' || activeTab === 'privacy' || activeTab === 'terms') && (
+          <TrustPages pageType={activeTab as any} onNavigate={handleNavigate} />
+        )}
+
+        {activeTab === 'university-detail' && (
+          <UniversityDetailPage
+            university={getStoredUniversities().find(u => u.id === selectedUniId) || UNIVERSITIES_DATA[0]}
+            onNavigate={handleNavigate}
+            onCalculateForUni={(uniId) => handleNavigate('calculator', uniId)}
+          />
+        )}
       </main>
 
       <Footer onNavigate={handleNavigate} />
+
+      {/* Floating AI Chatbot Button */}
+      <button
+        onClick={() => setChatOpen(!chatOpen)}
+        className="fixed bottom-6 right-6 z-40 bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-3.5 rounded-full shadow-xl flex items-center gap-2.5 transition-all transform hover:scale-105 group border-2 border-emerald-600/50"
+        aria-label="Open University Guide AI"
+      >
+        <div className="relative">
+          <Bot className="w-6 h-6 text-emerald-200 group-hover:rotate-12 transition-transform" />
+          <span className="absolute -top-1 -right-1 w-3 h-3 bg-amber-400 rounded-full border-2 border-emerald-800 animate-pulse"></span>
+        </div>
+        <div className="text-left hidden sm:block">
+          <div className="text-xs font-bold leading-tight">University Guide AI</div>
+          <div className="text-[10px] text-emerald-200">Verified Admission Assistant</div>
+        </div>
+      </button>
+
+      {/* Chatbot Window */}
+      <UniversityGuideAIChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
+
+      {/* Admin Login Modal */}
+      <AdminLoginModal
+        isOpen={adminLoginOpen}
+        onClose={() => setAdminLoginOpen(false)}
+        onLoginSuccess={() => setIsAdminLoggedIn(true)}
+      />
     </div>
   );
 }

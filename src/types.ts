@@ -10,6 +10,9 @@ export type BudgetRange =
   | 'Above Rs. 600,000 per year'
   | 'I am not sure';
 
+export type VerificationStatus = 'Verified' | 'Needs Review' | 'Expired';
+export type SourceType = 'Official website' | 'Official admission portal' | 'Official prospectus' | 'Official admission advertisement' | 'Official notice' | 'Other verified source';
+
 export interface ProgramProfile {
   id: string;
   name: string;
@@ -27,6 +30,10 @@ export interface ProgramProfile {
   verified: boolean;
   sourceUrl: string;
   lastVerified: string;
+  verificationStatus?: VerificationStatus;
+  academicSession?: string; // e.g. 'Fall 2026'
+  sourceType?: SourceType;
+  adminNotes?: string;
 }
 
 export interface University {

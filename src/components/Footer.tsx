@@ -2,14 +2,14 @@ import React from 'react';
 import { GraduationCap, ShieldCheck } from 'lucide-react';
 
 interface FooterProps {
-  onNavigate: (tab: 'calculator' | 'compare' | 'directory' | 'faq' | 'matcher', uniId?: string) => void;
+  onNavigate: (tab: any, uniId?: string) => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   return (
     <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-slate-800">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 pb-8 border-b border-slate-800">
           <div className="md:col-span-1 space-y-3">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold">
@@ -38,12 +38,24 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
 
           <div>
-            <h4 className="text-white font-semibold text-sm mb-3">Admission Tools</h4>
+            <h4 className="text-white font-semibold text-sm mb-3">Student Tools & SEO</h4>
             <ul className="space-y-2 text-xs">
               <li><button onClick={() => onNavigate('matcher')} className="hover:text-emerald-400 transition-colors">Find My Best University</button></li>
               <li><button onClick={() => onNavigate('compare')} className="hover:text-emerald-400 transition-colors">Compare Universities</button></li>
-              <li><button onClick={() => onNavigate('directory')} className="hover:text-emerald-400 transition-colors">Top 20 Universities Directory</button></li>
-              <li><button onClick={() => onNavigate('faq')} className="hover:text-emerald-400 transition-colors">Admission FAQ & Guide</button></li>
+              <li><button onClick={() => onNavigate('scholarships')} className="hover:text-emerald-400 transition-colors">Scholarship Finder 2026</button></li>
+              <li><button onClick={() => onNavigate('admission-deadlines')} className="hover:text-emerald-400 transition-colors">Admission Deadlines 2026</button></li>
+              <li><button onClick={() => onNavigate('degrees')} className="hover:text-emerald-400 transition-colors">Degree & Career Explorer</button></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-white font-semibold text-sm mb-3">Trust & E-E-A-T</h4>
+            <ul className="space-y-2 text-xs">
+              <li><button onClick={() => onNavigate('about')} className="hover:text-emerald-400 transition-colors">About Us</button></li>
+              <li><button onClick={() => onNavigate('contact')} className="hover:text-emerald-400 transition-colors">Contact Admin Support</button></li>
+              <li><button onClick={() => onNavigate('verification-policy')} className="hover:text-emerald-400 transition-colors">Data Verification Policy</button></li>
+              <li><button onClick={() => onNavigate('privacy')} className="hover:text-emerald-400 transition-colors">Privacy Policy</button></li>
+              <li><button onClick={() => onNavigate('terms')} className="hover:text-emerald-400 transition-colors">Terms & Conditions</button></li>
             </ul>
           </div>
 
@@ -55,6 +67,17 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 Verified Formulas (September 2026)
               </span>
               <p className="text-slate-400">100% Client-Side Secure calculation tool.</p>
+              <div className="pt-2">
+                <button
+                  onClick={() => {
+                    const event = new CustomEvent('open-admin-login');
+                    window.dispatchEvent(event);
+                  }}
+                  className="text-xs text-slate-400 hover:text-emerald-400 underline transition-colors"
+                >
+                  Admin Data Manager Login
+                </button>
+              </div>
             </div>
           </div>
         </div>
