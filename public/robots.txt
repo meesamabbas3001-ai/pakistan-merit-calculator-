@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /admin
-Disallow: /api/
-Disallow: /login
 
-Sitemap: https://pakistan-university-merit-calculator.ai.studio/sitemap.xml
+Sitemap: https://ais-dev-cbd3erenutttipzl3gtqhp-922101436426.asia-southeast1.run.app/sitemap.xml

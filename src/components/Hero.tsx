@@ -1,13 +1,17 @@
 import React from 'react';
 import { Award, ShieldCheck, Sparkles, ArrowRight, Calculator } from 'lucide-react';
 import { motion } from 'motion/react';
+import { getLocalCmsContent } from '../services/cmsStore';
 
 interface HeroProps {
   onStartClick: () => void;
   onCompareClick: () => void;
+  cmsContent?: Record<string, string>;
 }
 
-export const Hero: React.FC<HeroProps> = ({ onStartClick, onCompareClick }) => {
+export const Hero: React.FC<HeroProps> = ({ onStartClick, onCompareClick, cmsContent }) => {
+  const content = cmsContent || getLocalCmsContent();
+
   return (
     <div className="relative overflow-hidden bg-gradient-to-b from-emerald-950 via-slate-900 to-slate-900 text-white py-20 sm:py-28">
       {/* Background Animated Orbs / Gradient shapes */}
@@ -24,7 +28,7 @@ export const Hero: React.FC<HeroProps> = ({ onStartClick, onCompareClick }) => {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-medium mb-6 shadow-sm"
         >
           <Sparkles className="w-4 h-4 text-emerald-400" />
-          Official Verified Admission Formulas for Top 20 Pakistani Universities
+          {content['hero_badge'] || 'Official Verified Admission Formulas for Top 20 Pakistani Universities'}
         </motion.div>
 
         <motion.h1
@@ -33,7 +37,11 @@ export const Hero: React.FC<HeroProps> = ({ onStartClick, onCompareClick }) => {
           transition={{ duration: 0.6, delay: 0.1, ease: 'easeOut' }}
           className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6"
         >
-          Calculate Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-200">University Merit</span>
+          {content['hero_title'] ? (
+            <span>{content['hero_title']}</span>
+          ) : (
+            <>Calculate Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-200">University Merit</span></>
+          )}
         </motion.h1>
 
         <motion.p
@@ -42,7 +50,7 @@ export const Hero: React.FC<HeroProps> = ({ onStartClick, onCompareClick }) => {
           transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
           className="max-w-3xl mx-auto text-base sm:text-xl text-slate-300 mb-10 leading-relaxed"
         >
-          Enter your Matric, Intermediate Part-I, and entry-test marks once to accurately estimate your admission aggregate across Pakistan's leading engineering, medical, computing, and general universities.
+          {content['hero_subtitle'] || "Enter your Matric, Intermediate Part-I, and entry-test marks once to accurately estimate your admission aggregate across Pakistan's leading engineering, medical, computing, and general universities."}
         </motion.p>
 
         <motion.div
@@ -57,7 +65,7 @@ export const Hero: React.FC<HeroProps> = ({ onStartClick, onCompareClick }) => {
             onClick={onStartClick}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-semibold text-base transition-all shadow-lg shadow-emerald-500/30 cursor-pointer"
           >
-            Start Merit Calculation
+            {content['primary_cta'] || 'Start Merit Calculation'}
             <ArrowRight className="w-5 h-5" />
           </motion.button>
           
@@ -67,7 +75,7 @@ export const Hero: React.FC<HeroProps> = ({ onStartClick, onCompareClick }) => {
             onClick={onCompareClick}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-base transition-all cursor-pointer shadow-sm"
           >
-            Compare Multiple Universities
+            {content['secondary_cta'] || 'Compare Multiple Universities'}
           </motion.button>
         </motion.div>
 

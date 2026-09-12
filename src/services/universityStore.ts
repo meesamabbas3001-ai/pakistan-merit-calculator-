@@ -31,15 +31,22 @@ const INQUIRIES_KEY = 'pakistan_merit_admin_inquiries_v2';
 const HISTORY_KEY = 'pakistan_merit_update_history_v2';
 
 export function getStoredUniversities(): University[] {
+  let list = INITIAL_UNIVERSITIES;
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
-      return JSON.parse(saved);
+      const parsed: University[] = JSON.parse(saved);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        const map = new Map<string, University>();
+        INITIAL_UNIVERSITIES.forEach(u => map.set(u.id, u));
+        parsed.forEach(u => map.set(u.id, u));
+        list = Array.from(map.values());
+      }
     }
   } catch (e) {
     console.error('Failed to load stored universities', e);
   }
-  return INITIAL_UNIVERSITIES;
+  return list;
 }
 
 export function saveUniversities(universities: University[]): void {
@@ -91,6 +98,17 @@ export function saveInquiries(inquiries: AdminInquiry[]): void {
   }
 }
 
+export function addInquiry(inquiry: Omit<AdminInquiry, 'id' | 'date' | 'status'>): void {
+  const inquiries = getStoredInquiries();
+  const newInq: AdminInquiry = {
+    ...inquiry,
+    id: `inq-${Date.now()}`,
+    date: new Date().toISOString().split('T')[0],
+    status: 'Pending'
+  };
+  saveInquiries([newInq, ...inquiries]);
+}
+
 export function getStoredHistory(): UpdateHistoryItem[] {
   try {
     const saved = localStorage.getItem(HISTORY_KEY);
@@ -98,20 +116,32 @@ export function getStoredHistory(): UpdateHistoryItem[] {
       return JSON.parse(saved);
     }
   } catch (e) {
-    console.error('Failed to load history', e);
+    console.error('Failed to load stored update history', e);
   }
   return [
     {
       id: 'hist-1',
       universityId: 'nust',
-      universityName: 'National University of Sciences and Technology',
+      universityName: 'NUST Islamabad',
       programName: 'Engineering Programs',
-      fieldChanged: 'Closing Merit 2025',
-      previousValue: '70.50',
-      newValue: '72.40',
-      updatedAt: '2026-09-01',
+      fieldChanged: 'Entry Test Weight',
+      previousValue: '75%',
+      newValue: '75%',
+      updatedAt: '2026-09-10',
       session: 'Fall 2026',
-      status: 'Verified',
+      status: 'Verified'
+    },
+    {
+      id: 'hist-2',
+      universityId: 'fast',
+      universityName: 'FAST-NUCES',
+      programName: 'Computer Science',
+      fieldChanged: 'Closing Merit 2025',
+      previousValue: '74.5%',
+      newValue: '74.8%',
+      updatedAt: '2026-09-08',
+      session: 'Fall 2026',
+      status: 'Verified'
     }
   ];
 }
@@ -120,19 +150,6 @@ export function saveHistory(history: UpdateHistoryItem[]): void {
   try {
     localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
   } catch (e) {
-    console.error('Failed to save history', e);
+    console.error('Failed to save update history', e);
   }
-}
-
-export function addInquiry(inquiry: Omit<AdminInquiry, 'id' | 'date' | 'status'>): AdminInquiry {
-  const inquiries = getStoredInquiries();
-  const newInq: AdminInquiry = {
-    ...inquiry,
-    id: `inq-${Date.now()}`,
-    date: new Date().toISOString().split('T')[0],
-    status: 'Pending',
-  };
-  inquiries.unshift(newInq);
-  saveInquiries(inquiries);
-  return newInq;
 }

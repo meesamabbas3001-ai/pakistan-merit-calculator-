@@ -16,8 +16,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <GraduationCap className="w-6 h-6" />
               </div>
               <div>
-                <div className="text-white font-bold text-base">Pakistan Merit</div>
-                <div className="text-xs text-slate-400">Admission Aggregate Calculator</div>
+                <div className="text-white font-extrabold text-base tracking-tight">AggreGate</div>
+                <div className="text-xs text-slate-400">University Merit Calculator</div>
               </div>
             </div>
             <p className="text-xs text-slate-400">
@@ -28,12 +28,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div>
             <h4 className="text-white font-semibold text-sm mb-3">University Calculators</h4>
             <ul className="space-y-2 text-xs">
-              <li><button onClick={() => onNavigate('calculator', 'fast')} className="hover:text-emerald-400 transition-colors">FAST-NUCES Merit Calculator</button></li>
-              <li><button onClick={() => onNavigate('calculator', 'nust')} className="hover:text-emerald-400 transition-colors">NUST Merit Calculator</button></li>
-              <li><button onClick={() => onNavigate('calculator', 'comsats')} className="hover:text-emerald-400 transition-colors">COMSATS Merit Calculator</button></li>
-              <li><button onClick={() => onNavigate('calculator', 'uet')} className="hover:text-emerald-400 transition-colors">UET Lahore Merit Calculator</button></li>
-              <li><button onClick={() => onNavigate('calculator', 'air')} className="hover:text-emerald-400 transition-colors">Air University Calculator</button></li>
-              <li><button onClick={() => onNavigate('calculator', 'punjab')} className="hover:text-emerald-400 transition-colors">Punjab University Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'fast')} className="hover:text-emerald-400 transition-colors">FAST-NUCES Merit Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'nust')} className="hover:text-emerald-400 transition-colors">NUST Merit Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'comsats')} className="hover:text-emerald-400 transition-colors">COMSATS Merit Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'uet')} className="hover:text-emerald-400 transition-colors">UET Lahore Merit Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'air')} className="hover:text-emerald-400 transition-colors">Air University Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'punjab')} className="hover:text-emerald-400 transition-colors">Punjab University Calculator</button></li>
             </ul>
           </div>
 
@@ -42,9 +42,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-2 text-xs">
               <li><button onClick={() => onNavigate('matcher')} className="hover:text-emerald-400 transition-colors">Find My Best University</button></li>
               <li><button onClick={() => onNavigate('compare')} className="hover:text-emerald-400 transition-colors">Compare Universities</button></li>
+              <li><button onClick={() => onNavigate('directory')} className="hover:text-emerald-400 transition-colors">All Universities Directory</button></li>
               <li><button onClick={() => onNavigate('scholarships')} className="hover:text-emerald-400 transition-colors">Scholarship Finder 2026</button></li>
               <li><button onClick={() => onNavigate('admission-deadlines')} className="hover:text-emerald-400 transition-colors">Admission Deadlines 2026</button></li>
-              <li><button onClick={() => onNavigate('degrees')} className="hover:text-emerald-400 transition-colors">Degree & Career Explorer</button></li>
             </ul>
           </div>
 
@@ -52,6 +52,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <h4 className="text-white font-semibold text-sm mb-3">Trust & E-E-A-T</h4>
             <ul className="space-y-2 text-xs">
               <li><button onClick={() => onNavigate('about')} className="hover:text-emerald-400 transition-colors">About Us</button></li>
+              <li><button onClick={() => onNavigate('changelog')} className="hover:text-emerald-400 transition-colors">Formula Changelog</button></li>
               <li><button onClick={() => onNavigate('contact')} className="hover:text-emerald-400 transition-colors">Contact Admin Support</button></li>
               <li><button onClick={() => onNavigate('verification-policy')} className="hover:text-emerald-400 transition-colors">Data Verification Policy</button></li>
               <li><button onClick={() => onNavigate('privacy')} className="hover:text-emerald-400 transition-colors">Privacy Policy</button></li>
@@ -64,7 +65,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="space-y-3 text-xs">
               <span className="flex items-center gap-1.5 text-emerald-400">
                 <ShieldCheck className="w-4 h-4" />
-                Verified Formulas (September 2026)
+                Verified Formulas (2026)
               </span>
               <p className="text-slate-400">100% Client-Side Secure calculation tool.</p>
               <div className="pt-2">
@@ -84,9 +85,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
         <div className="pt-8 text-xs text-slate-500 text-center space-y-2">
           <p>
-            Disclaimer: This calculator is designed to assist Pakistani students in estimating their admission merit aggregates. All calculations are performed locally based on official university admission criteria. Always confirm final merit policies on official university admission portals.
+            Disclaimer: AggreGate is designed to assist Pakistani students in estimating admission merit aggregates. All calculations are performed locally based on official university admission criteria. Always confirm final merit policies on official university admission portals.
           </p>
-          <p>© {new Date().getFullYear()} Pakistan University Merit Calculator. Built for Pakistani Students.</p>
+          <p>© {new Date().getFullYear()} AggreGate — Pakistan University Merit Calculator 2026. Built for Pakistani Students.</p>
         </div>
       </div>
     </footer>

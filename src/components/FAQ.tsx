@@ -8,8 +8,12 @@ interface FaqItem {
 
 const FAQ_ITEMS: FaqItem[] = [
   {
+    question: 'How is university merit aggregate calculated in Pakistan?',
+    answer: 'Merit aggregate is calculated by taking weighted percentages of your Matric (usually 10-25%), Intermediate or FSc Part 1 (15-50%), and Entry Test marks (30-75% depending on the university such as NUST, FAST, or COMSATS).',
+  },
+  {
     question: 'Why does the calculator use Intermediate Part-I instead of final FSc marks?',
-    answer: 'Most Pakistani university admissions (e.g. NUST, FAST, COMSATS, UET) take place before Intermediate Part-II results are announced. Therefore, official admission policies evaluate candidates provisionally using Matric and Intermediate Part-I marks.',
+    answer: 'Most Pakistani university admissions take place before Intermediate Part-II results are announced. Therefore, official admission policies evaluate candidates provisionally using Matric and Intermediate Part-I marks.',
   },
   {
     question: 'Are these official university formulas?',
@@ -21,12 +25,28 @@ const FAQ_ITEMS: FaqItem[] = [
   },
   {
     question: 'Is the calculated aggregate a guaranteed admission?',
-    answer: 'No. Your calculated aggregate is an estimate based on your provided marks. Final admission depends on the official merit lists, category quotas, campus preferences, and annual applicant competition.',
+    answer: 'No. Your calculated aggregate is an estimate based on your provided marks. Final admission depends on official merit lists, category quotas, campus preferences, and annual applicant competition.',
   },
   {
     question: 'Can I compare multiple universities at once?',
     answer: 'Yes! Use our "Compare Universities" mode to enter your marks once and view side-by-side aggregates calculated according to each university’s unique formula.',
   },
+  {
+    question: 'What if I applied through SAT or ACT instead of the university entry test?',
+    answer: 'Many universities (like NUST, LUMS, GIKI) accept SAT-II or ACT scores in place of institutional tests with specific minimum score thresholds and conversion rules.',
+  },
+  {
+    question: 'How do I find out if my aggregate meets previous year closing merits?',
+    answer: 'You can check our University Directory or use the Find My Best University matcher tool to see closing merits for 2025 and 2024 across all major programs.',
+  },
+  {
+    question: 'Are Hafiz-e-Quran extra marks included in the aggregate?',
+    answer: 'Some public universities award 20 extra marks to Hafiz-e-Quran candidates added to total FSc marks before percentage calculation, subject to official board verification tests.',
+  },
+  {
+    question: 'Is AggreGate free to use?',
+    answer: 'Yes, AggreGate is 100% free forever for all Pakistani students seeking reliable, fast, and verified aggregate calculations.',
+  }
 ];
 
 export const FAQ: React.FC = () => {
@@ -37,7 +57,7 @@ export const FAQ: React.FC = () => {
   };
 
   return (
-    <section className="py-16 bg-slate-50 border-t border-slate-200">
+    <section className="py-16 bg-slate-50 border-t border-slate-200" id="faq">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold mb-3">
@@ -45,7 +65,7 @@ export const FAQ: React.FC = () => {
             Frequently Asked Questions
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Everything You Need to Know About University Merit
+            FAQ — Everything You Need to Know About University Merit
           </h2>
         </div>
 
@@ -61,7 +81,7 @@ export const FAQ: React.FC = () => {
                   onClick={() => toggle(idx)}
                   className="w-full p-6 text-left flex items-center justify-between gap-4 font-bold text-slate-900 hover:bg-slate-50 cursor-pointer"
                 >
-                  <span className="text-base sm:text-lg">{item.question}</span>
+                  <h3 className="text-base sm:text-lg m-0 p-0 font-bold text-slate-900">{item.question}</h3>
                   {isOpen ? <ChevronUp className="w-5 h-5 text-emerald-600 shrink-0" /> : <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" />}
                 </button>
 

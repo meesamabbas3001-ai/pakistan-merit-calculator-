@@ -6,12 +6,14 @@ import { updateDocumentSeo } from './utils/seo';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { CalculatorSection } from './components/CalculatorSection';
+import { HowItWorks } from './components/HowItWorks';
+import { MeritFormulaTable } from './components/MeritFormulaTable';
+import { WhyAggreGate } from './components/WhyAggreGate';
+import { FAQ } from './components/FAQ';
 import { ResultCard } from './components/ResultCard';
 import { UniversityComparison } from './components/UniversityComparison';
 import { UniversityDirectory } from './components/UniversityDirectory';
 import { UniversityMatcherSection } from './components/UniversityMatcherSection';
-import { HowItWorks } from './components/HowItWorks';
-import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 import { UniversityGuideAIChat } from './components/UniversityGuideAIChat';
 import { AdminLoginModal } from './components/AdminLoginModal';
@@ -21,8 +23,9 @@ import { AdmissionDeadlinesPage } from './components/AdmissionDeadlinesPage';
 import { DegreesPage } from './components/DegreesPage';
 import { TrustPages } from './components/TrustPages';
 import { UniversityDetailPage } from './components/UniversityDetailPage';
+import { ChangelogPage } from './components/ChangelogPage';
 import { getStoredUniversities } from './services/universityStore';
-import { Bot, Sparkles } from 'lucide-react';
+import { Bot, Calculator } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('calculator');
@@ -31,6 +34,7 @@ export default function App() {
   const [calculationResult, setCalculationResult] = useState<CalculationResult | null>(null);
   const [chatOpen, setChatOpen] = useState<boolean>(false);
   const [adminLoginOpen, setAdminLoginOpen] = useState<boolean>(false);
+  const [showMobileCta, setShowMobileCta] = useState<boolean>(false);
   const [isAdminLoggedIn, setIsAdminLoggedIn] = useState<boolean>(() => {
     return localStorage.getItem('pakistan_merit_admin_authenticated') === 'true';
   });
@@ -38,10 +42,22 @@ export default function App() {
   useEffect(() => {
     const handleOpenAdmin = () => setAdminLoginOpen(true);
     window.addEventListener('open-admin-login', handleOpenAdmin as EventListener);
+    
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowMobileCta(true);
+      } else {
+        setShowMobileCta(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
       window.removeEventListener('open-admin-login', handleOpenAdmin as EventListener);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
   const [currentMarks, setCurrentMarks] = useState<MeritInput>({
     matricObtained: 1050,
     matricTotal: 1100,
@@ -58,6 +74,8 @@ export default function App() {
       const uniId = pathname.replace('/universities/', '').split('/')[0];
       setActiveTab('university-detail');
       setSelectedUniId(uniId);
+    } else if (pathname.includes('/changelog')) {
+      setActiveTab('changelog');
     } else if (pathname.includes('/scholarships')) {
       setActiveTab('scholarships');
     } else if (pathname.includes('/admission-deadlines')) {
@@ -75,25 +93,25 @@ export default function App() {
     } else if (pathname.includes('/terms')) {
       setActiveTab('terms');
     } else if (pathname.includes('/fast-merit-calculator')) {
-      setActiveTab('calculator');
+      setActiveTab('university-detail');
       setSelectedUniId('fast');
     } else if (pathname.includes('/comsats-merit-calculator')) {
-      setActiveTab('calculator');
+      setActiveTab('university-detail');
       setSelectedUniId('comsats');
     } else if (pathname.includes('/nust-merit-calculator')) {
-      setActiveTab('calculator');
+      setActiveTab('university-detail');
       setSelectedUniId('nust');
     } else if (pathname.includes('/uet-lahore-merit-calculator')) {
-      setActiveTab('calculator');
+      setActiveTab('university-detail');
       setSelectedUniId('uet');
     } else if (pathname.includes('/air-university-merit-calculator')) {
-      setActiveTab('calculator');
+      setActiveTab('university-detail');
       setSelectedUniId('air');
     } else if (pathname.includes('/uaf-merit-calculator')) {
-      setActiveTab('calculator');
+      setActiveTab('university-detail');
       setSelectedUniId('uaf');
     } else if (pathname.includes('/punjab-university-merit-calculator')) {
-      setActiveTab('calculator');
+      setActiveTab('university-detail');
       setSelectedUniId('punjab');
     } else if (pathname.includes('/compare')) {
       setActiveTab('compare');
@@ -113,6 +131,7 @@ export default function App() {
     else if (activeTab === 'matcher') path = '/matcher';
     else if (activeTab === 'directory') path = '/directory';
     else if (activeTab === 'faq') path = '/faq';
+    else if (activeTab === 'changelog') path = '/changelog';
     else if (activeTab === 'scholarships') path = '/scholarships';
     else if (activeTab === 'admission-deadlines') path = '/admission-deadlines';
     else if (activeTab === 'degrees') path = '/degrees';
@@ -122,16 +141,7 @@ export default function App() {
     else if (activeTab === 'privacy') path = '/privacy';
     else if (activeTab === 'terms') path = '/terms';
     else if (activeTab === 'university-detail' && selectedUniId) path = `/universities/${selectedUniId}`;
-    else if (activeTab === 'calculator') {
-      if (selectedUniId === 'fast') path = '/fast-merit-calculator';
-      else if (selectedUniId === 'comsats') path = '/comsats-merit-calculator';
-      else if (selectedUniId === 'nust') path = '/nust-merit-calculator';
-      else if (selectedUniId === 'uet') path = '/uet-lahore-merit-calculator';
-      else if (selectedUniId === 'air') path = '/air-university-merit-calculator';
-      else if (selectedUniId === 'uaf') path = '/uaf-merit-calculator';
-      else if (selectedUniId === 'punjab') path = '/punjab-university-merit-calculator';
-      else path = '/';
-    }
+    else if (activeTab === 'calculator') path = '/';
 
     if (window.location.pathname !== path) {
       window.history.pushState({}, '', path);
@@ -162,9 +172,9 @@ export default function App() {
   };
 
   const handleSelectUniversityFromDirectory = (uniId: string) => {
-    setActiveTab('calculator');
+    setActiveTab('university-detail');
     setSelectedUniId(uniId);
-    window.scrollTo({ top: 300, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   if (isAdminLoggedIn) {
@@ -179,6 +189,9 @@ export default function App() {
     );
   }
 
+  const allUnis = [...UNIVERSITIES_DATA, ...getStoredUniversities()];
+  const currentUniversity = allUnis.find(u => u.id === selectedUniId);
+
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-900 selection:bg-emerald-500 selection:text-white">
       <Navbar
@@ -188,7 +201,7 @@ export default function App() {
         setAdmissionYear={setAdmissionYear}
       />
 
-      <main className="flex-1">
+      <main className="flex-1" id="main-content">
         {activeTab === 'calculator' && (
           <>
             {!calculationResult ? (
@@ -200,29 +213,46 @@ export default function App() {
                   }}
                   onCompareClick={() => handleNavigate('compare')}
                 />
+
                 <div className="max-w-7xl mx-auto px-4 pt-6">
                   <div className="bg-gradient-to-r from-emerald-800 to-teal-900 rounded-2xl p-6 text-white shadow-md flex flex-col sm:flex-row items-center justify-between gap-4">
                     <div>
-                      <span className="text-emerald-300 text-xs font-semibold uppercase tracking-wider">New Feature</span>
-                      <h3 className="text-xl font-bold mt-1">Want personalized recommendations?</h3>
+                      <span className="text-emerald-300 text-xs font-semibold uppercase tracking-wider">Smart Recommendation</span>
+                      <h3 className="text-xl font-bold mt-1">Want personalized university matches?</h3>
                       <p className="text-emerald-100 text-sm mt-0.5">Find universities matching your marks, budget, location & career goals instantly.</p>
                     </div>
                     <button
                       onClick={() => handleNavigate('matcher')}
-                      className="px-6 py-3 bg-white text-emerald-900 font-semibold rounded-xl text-sm shadow-sm hover:bg-emerald-50 transition-all whitespace-nowrap"
+                      className="px-6 py-3 bg-white text-emerald-900 font-semibold rounded-xl text-sm shadow-sm hover:bg-emerald-50 transition-all whitespace-nowrap cursor-pointer min-h-[44px]"
                     >
                       Find My Best University →
                     </button>
                   </div>
                 </div>
+
+                {/* 1. Choose Your University (CalculatorSection with H2) */}
                 <CalculatorSection
-                  universities={UNIVERSITIES_DATA}
+                  universities={allUnis}
                   admissionYear={admissionYear}
                   onCalculationComplete={handleCalculationComplete}
                   onMarksChange={setCurrentMarks}
                   initialUniversityId={selectedUniId}
                 />
+
+                {/* 2. How It Works (3 steps) */}
                 <HowItWorks />
+
+                {/* 3. Merit Formula Reference (real table showing exact weight split) */}
+                <MeritFormulaTable onSelectUni={(id) => {
+                  setActiveTab('university-detail');
+                  setSelectedUniId(id);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }} />
+
+                {/* 4. Why AggreGate (trust badges) */}
+                <WhyAggreGate />
+
+                {/* 5. FAQ (10+ real questions with H3 and schema) */}
                 <FAQ />
               </>
             ) : (
@@ -246,17 +276,19 @@ export default function App() {
 
         {activeTab === 'compare' && (
           <UniversityComparison
-            universities={UNIVERSITIES_DATA}
+            universities={allUnis}
             admissionYear={admissionYear}
             onSelectUniversity={(uniId) => {
-              handleNavigate('calculator', uniId);
+              setActiveTab('university-detail');
+              setSelectedUniId(uniId);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
           />
         )}
 
         {activeTab === 'directory' && (
           <UniversityDirectory
-            universities={UNIVERSITIES_DATA}
+            universities={allUnis}
             onSelectAndCalculate={handleSelectUniversityFromDirectory}
           />
         )}
@@ -266,6 +298,10 @@ export default function App() {
             <FAQ />
             <HowItWorks />
           </div>
+        )}
+
+        {activeTab === 'changelog' && (
+          <ChangelogPage onNavigate={handleNavigate} />
         )}
 
         {activeTab === 'scholarships' && (
@@ -286,27 +322,50 @@ export default function App() {
 
         {activeTab === 'university-detail' && (
           <UniversityDetailPage
-            university={getStoredUniversities().find(u => u.id === selectedUniId) || UNIVERSITIES_DATA[0]}
+            university={currentUniversity}
             onNavigate={handleNavigate}
-            onCalculateForUni={(uniId) => handleNavigate('calculator', uniId)}
+            onCalculateForUni={(uniId) => {
+              setActiveTab('calculator');
+              setSelectedUniId(uniId);
+              setTimeout(() => {
+                const el = document.getElementById('calculator');
+                el?.scrollIntoView({ behavior: 'smooth' });
+              }, 100);
+            }}
           />
         )}
       </main>
 
       <Footer onNavigate={handleNavigate} />
 
+      {/* Sticky Mobile "Calculate My Merit" CTA Button */}
+      {showMobileCta && activeTab === 'calculator' && !calculationResult && (
+        <div className="fixed bottom-20 left-4 right-4 z-40 md:hidden flex justify-center animate-bounce-short">
+          <button
+            onClick={() => {
+              const el = document.getElementById('calculator');
+              el?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="px-6 py-3.5 bg-emerald-600 text-white font-bold text-sm rounded-full shadow-2xl flex items-center gap-2 border-2 border-white cursor-pointer min-h-[48px]"
+          >
+            <Calculator className="w-5 h-5" />
+            Calculate My Merit Now ⚡
+          </button>
+        </div>
+      )}
+
       {/* Floating AI Chatbot Button */}
       <button
         onClick={() => setChatOpen(!chatOpen)}
-        className="fixed bottom-6 right-6 z-40 bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-3.5 rounded-full shadow-xl flex items-center gap-2.5 transition-all transform hover:scale-105 group border-2 border-emerald-600/50"
-        aria-label="Open University Guide AI"
+        className="fixed bottom-6 right-6 z-40 bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-3.5 rounded-full shadow-xl flex items-center gap-2.5 transition-all transform hover:scale-105 group border-2 border-emerald-600/50 min-h-[48px] min-w-[48px]"
+        aria-label="Open AggreGate AI Assistant"
       >
         <div className="relative">
           <Bot className="w-6 h-6 text-emerald-200 group-hover:rotate-12 transition-transform" />
           <span className="absolute -top-1 -right-1 w-3 h-3 bg-amber-400 rounded-full border-2 border-emerald-800 animate-pulse"></span>
         </div>
         <div className="text-left hidden sm:block">
-          <div className="text-xs font-bold leading-tight">University Guide AI</div>
+          <div className="text-xs font-bold leading-tight">AggreGate AI</div>
           <div className="text-[10px] text-emerald-200">Verified Admission Assistant</div>
         </div>
       </button>

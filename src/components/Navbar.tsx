@@ -25,12 +25,12 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xl font-bold text-slate-900 tracking-tight">Pakistan Merit</span>
+                <span className="text-xl font-extrabold text-slate-900 tracking-tight">AggreGate</span>
                 <span className="px-2 py-0.5 bg-emerald-100 text-emerald-800 text-xs font-semibold rounded-full">
                   {admissionYear}
                 </span>
               </div>
-              <p className="text-xs text-slate-500 font-medium">University Admission Aggregate Calculator</p>
+              <p className="text-xs text-slate-500 font-medium">Pakistan University Merit Calculator</p>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               }`}
             >
               <Sparkles className="w-4 h-4" />
-              Find My Best University
+              Find My University
             </button>
             <button
               onClick={() => setActiveTab('compare')}
@@ -127,7 +127,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             }`}
           >
             <Sparkles className="w-5 h-5 mb-0.5" />
-            Find Best Uni
+            Find Uni
           </button>
           <button
             onClick={() => setActiveTab('compare')}

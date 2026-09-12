@@ -1,8 +1,8 @@
 import { SeoPageConfig } from '../data/seoPages';
 
 export function updateDocumentSeo(config: SeoPageConfig) {
-  const domain = 'https://pakistan-university-merit-calculator.ai.studio';
-  const canonicalUrl = `${domain}${config.path === '/' ? '' : config.path}`;
+  const currentOrigin = window.location.origin;
+  const canonicalUrl = `${currentOrigin}${config.path === '/' ? '/' : config.path}`;
 
   // 1. Title
   document.title = config.title;
@@ -25,7 +25,16 @@ export function updateDocumentSeo(config: SeoPageConfig) {
   }
   canonicalLink.setAttribute('href', canonicalUrl);
 
-  // 4. Open Graph Meta Tags
+  // 4. Robots & Geo
+  let robotsTag = document.querySelector('meta[name="robots"]');
+  if (!robotsTag) {
+    robotsTag = document.createElement('meta');
+    robotsTag.setAttribute('name', 'robots');
+    document.head.appendChild(robotsTag);
+  }
+  robotsTag.setAttribute('content', 'index, follow, max-snippet:-1, max-image-preview:large');
+
+  // 5. Open Graph Meta Tags
   const setOgTag = (property: string, content: string) => {
     let tag = document.querySelector(`meta[property="${property}"]`);
     if (!tag) {
@@ -41,7 +50,21 @@ export function updateDocumentSeo(config: SeoPageConfig) {
   setOgTag('og:type', 'website');
   setOgTag('og:url', canonicalUrl);
 
-  // 5. JSON-LD Structured Data
+  // 6. Twitter Card Tags
+  const setTwitterTag = (name: string, content: string) => {
+    let tag = document.querySelector(`meta[name="${name}"]`);
+    if (!tag) {
+      tag = document.createElement('meta');
+      tag.setAttribute('name', name);
+      document.head.appendChild(tag);
+    }
+    tag.setAttribute('content', content);
+  };
+  setTwitterTag('twitter:card', 'summary_large_image');
+  setTwitterTag('twitter:title', config.title);
+  setTwitterTag('twitter:description', config.description);
+
+  // 7. JSON-LD Structured Data
   let jsonLdScript = document.querySelector('#dynamic-json-ld');
   if (!jsonLdScript) {
     jsonLdScript = document.createElement('script');
@@ -79,5 +102,25 @@ export function updateDocumentSeo(config: SeoPageConfig) {
     }));
   }
 
-  jsonLdScript.textContent = JSON.stringify(schemaData, null, 2);
+  // Add BreadcrumbList schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      {
+        '@type': 'ListItem',
+        'position': 1,
+        'name': 'Home',
+        'item': `${currentOrigin}/`
+      },
+      ...(config.path !== '/' ? [{
+        '@type': 'ListItem',
+        'position': 2,
+        'name': config.title.split('—')[0].trim(),
+        'item': canonicalUrl
+      }] : [])
+    ]
+  };
+
+  jsonLdScript.textContent = JSON.stringify([schemaData, breadcrumbSchema], null, 2);
 }
