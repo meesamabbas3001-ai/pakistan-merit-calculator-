@@ -714,7 +714,7 @@ export const UNIVERSITIES_DATA: University[] = [
         lastVerified: 'September 2026',
       }
     ]
-  }
+  },
   {
     id: 'kemu',
     name: 'King Edward Medical University',
