@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ais-dev-cbd3erenutttipzl3gtqhp-922101436426.asia-southeast1.run.app/sitemap.xml
+Sitemap: https://pakistan-merit-calculator.vercel.app/sitemap.xml
