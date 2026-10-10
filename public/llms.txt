@@ -22,6 +22,19 @@
 - [University directory](https://pakistan-merit-calculator.vercel.app/directory): all 20 universities with formulas.
 - [FAQs](https://pakistan-merit-calculator.vercel.app/faq): admission merit questions answered.
 
+
+## Admission guides (blog)
+
+- [All guides](https://pakistan-merit-calculator.vercel.app/blog): step-by-step explainers and comparisons.
+- [How to Calculate NUST Aggregate](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-nust-aggregate): official 2026 formula with worked example.
+- [NUST vs FAST vs COMSATS](https://pakistan-merit-calculator.vercel.app/blog/nust-vs-fast-vs-comsats-2026): formulas, closing merits and fees compared.
+- [What Is a Good Aggregate for NUST CS?](https://pakistan-merit-calculator.vercel.app/blog/good-aggregate-nust-computer-science)
+- [ECAT vs NET Differences](https://pakistan-merit-calculator.vercel.app/blog/ecat-vs-net-difference)
+- [7 Ways to Improve Your Aggregate](https://pakistan-merit-calculator.vercel.app/blog/improve-aggregate-7-tips)
+- [FAST Aggregate Formula Explained](https://pakistan-merit-calculator.vercel.app/blog/fast-aggregate-formula-explained)
+- [Inter Part-1 Provisional Merit](https://pakistan-merit-calculator.vercel.app/blog/inter-part1-provisional-merit)
+- [GIKI vs PIEAS Compared](https://pakistan-merit-calculator.vercel.app/blog/giki-vs-pieas-admission)
+
 ## Data provenance
 
 Aggregate weightages are verified against each university's official admission portal (source links on every university page). Closing merits are compiled from official merit lists. Formulas can change between admission cycles; pages carry a "last verified" date.

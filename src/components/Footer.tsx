@@ -45,6 +45,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <li><button onClick={() => onNavigate('directory')} className="hover:text-emerald-400 transition-colors">All Universities Directory</button></li>
               <li><button onClick={() => onNavigate('scholarships')} className="hover:text-emerald-400 transition-colors">Scholarship Finder 2026</button></li>
               <li><button onClick={() => onNavigate('admission-deadlines')} className="hover:text-emerald-400 transition-colors">Admission Deadlines 2026</button></li>
+              <li><button onClick={() => onNavigate('blog')} className="hover:text-emerald-400 transition-colors">Admission Guides & Blog</button></li>
             </ul>
           </div>
 
