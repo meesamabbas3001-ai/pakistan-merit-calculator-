@@ -49,6 +49,11 @@ export function updateDocumentSeo(config: SeoPageConfig) {
   setOgTag('og:description', config.description);
   setOgTag('og:type', 'website');
   setOgTag('og:url', canonicalUrl);
+  if (config.image) {
+    const imageUrl = `${currentOrigin}${config.image}`;
+    setOgTag('og:image', imageUrl);
+    setTwitterTag('twitter:image', imageUrl);
+  }
 
   // 6. Twitter Card Tags
   const setTwitterTag = (name: string, content: string) => {

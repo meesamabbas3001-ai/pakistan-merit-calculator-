@@ -24,6 +24,7 @@ export function BlogPostPage({ slug, onNavigate }: BlogPostPageProps) {
         tab: 'calculator',
         schemaType: 'WebPage',
         faqItems: post.faqs.map((f) => ({ question: f.question, answer: f.answer })),
+        image: post.image,
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -70,9 +71,18 @@ export function BlogPostPage({ slug, onNavigate }: BlogPostPageProps) {
         <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight mb-4">
           {post.title}
         </h1>
-        <p className="text-slate-600 text-base leading-relaxed mb-8 border-l-4 border-emerald-500 pl-4">
+        <p className="text-slate-600 text-base leading-relaxed mb-6 border-l-4 border-emerald-500 pl-4">
           {post.intro}
         </p>
+
+        {post.image && (
+          <img
+            src={post.image}
+            alt={post.imageAlt || post.title}
+            className="w-full rounded-2xl border border-slate-200 shadow-sm mb-8"
+            loading="lazy"
+          />
+        )}
 
         {post.sections.map((section, i) => (
           <section key={i} className="mb-8">

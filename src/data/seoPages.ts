@@ -6,6 +6,7 @@ export interface SeoPageConfig {
   universityId?: string;
   schemaType: 'WebSite' | 'WebApplication' | 'WebPage' | 'FAQPage';
   faqItems?: Array<{ question: string; answer: string }>;
+  image?: string;
 }
 
 export const SEO_PAGES: SeoPageConfig[] = [

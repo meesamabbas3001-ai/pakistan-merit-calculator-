@@ -51,6 +51,14 @@ export function BlogListPage({ onNavigate }: BlogListPageProps) {
               onClick={() => onNavigate('blog-post', post.slug)}
               className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all text-left cursor-pointer flex flex-col"
             >
+              {post.image && (
+                <img
+                  src={post.image}
+                  alt={post.imageAlt || post.title}
+                  className="w-full h-44 object-cover rounded-xl mb-4"
+                  loading="lazy"
+                />
+              )}
               <div className="flex items-center gap-2 mb-3">
                 <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${CATEGORY_COLORS[post.category] || 'bg-slate-100 text-slate-700'}`}>
                   {post.category}

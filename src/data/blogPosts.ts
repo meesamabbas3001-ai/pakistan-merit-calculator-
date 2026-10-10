@@ -20,11 +20,15 @@ export interface BlogPost {
   sections: BlogSection[];
   faqs: BlogFaq[];
   relatedCalculators: string[];
+  image?: string;
+  imageAlt?: string;
 }
 
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'how-to-calculate-nust-aggregate',
+    image: '/blog/how-to-calculate-nust-aggregate.svg',
+    imageAlt: 'Illustration for the step-by-step NUST aggregate calculation guide',
     title: 'How to Calculate NUST Aggregate 2026: Step-by-Step Guide',
     description:
       'Learn the official NUST aggregate formula for 2026 (Matric 10% + Inter 15% + NET 75%) with a worked example, so you can calculate your merit in under a minute.',
@@ -78,6 +82,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: 'nust-vs-fast-vs-comsats-2026',
+    image: '/blog/nust-vs-fast-vs-comsats-2026.svg',
+    imageAlt: 'NUST vs FAST vs COMSATS 2026 comparison illustration',
     title: 'NUST vs FAST vs COMSATS: Which University Should You Choose in 2026?',
     description:
       'Comparing NUST, FAST-NUCES and COMSATS for 2026 admissions: aggregate formulas, closing merits, entry tests, and fees — so you can decide where to apply.',
@@ -127,6 +133,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: 'good-aggregate-nust-computer-science',
+    image: '/blog/good-aggregate-nust-computer-science.svg',
+    imageAlt: 'NUST Computer Science merit illustration',
     title: 'What Is a Good Aggregate for NUST Computer Science in 2026?',
     description:
       'NUST Computing closed at 76.50% in 2025. Here is what aggregate you should target for NUST CS/SE/DS in 2026 and the NET score you need to get there.',
@@ -172,6 +180,8 @@ export const BLOG_POSTS: BlogPost[] = [
 export const BLOG_POSTS_PART2: BlogPost[] = [
   {
     slug: 'ecat-vs-net-difference',
+    image: '/blog/ecat-vs-net-difference.svg',
+    imageAlt: 'ECAT vs NET entry test difference illustration',
     title: 'ECAT vs NET: Key Differences Explained (2026)',
     description:
       'ECAT (UET) and NET (NUST) compared: test format, total marks, aggregate formulas, and which one suits your strengths.',
@@ -220,6 +230,8 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
   },
   {
     slug: 'improve-aggregate-7-tips',
+    image: '/blog/improve-aggregate-7-tips.svg',
+    imageAlt: 'Chart illustrating 7 tips to improve your merit aggregate',
     title: '7 Practical Ways to Improve Your University Admission Aggregate',
     description:
       'Seven proven strategies to raise your admission aggregate — from test-weight math to smart university selection.',
@@ -266,6 +278,8 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
   },
   {
     slug: 'fast-aggregate-formula-explained',
+    image: '/blog/fast-aggregate-formula-explained.svg',
+    imageAlt: 'FAST aggregate formula breakdown illustration',
     title: 'FAST Aggregate Formula Explained with Worked Example (2026)',
     description:
       'The FAST-NUCES aggregate formula for 2026 (Matric 10% + Inter 40% + Test 50%) explained step by step, with a real calculation example.',
@@ -311,6 +325,8 @@ export const BLOG_POSTS_PART2: BlogPost[] = [
 export const BLOG_POSTS_PART3: BlogPost[] = [
   {
     slug: 'inter-part1-provisional-merit',
+    image: '/blog/inter-part1-provisional-merit.svg',
+    imageAlt: 'Inter Part-1 provisional merit document illustration',
     title: 'Inter Part-1 and Provisional Merit: How It Works (2026)',
     description:
       'How Pakistani universities calculate provisional merit from Inter Part-1 results — and what changes when Part-2 arrives.',
@@ -353,6 +369,8 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
   },
   {
     slug: 'giki-vs-pieas-admission',
+    image: '/blog/giki-vs-pieas-admission.svg',
+    imageAlt: 'GIKI vs PIEAS admission comparison illustration',
     title: 'GIKI vs PIEAS: Admission Criteria Compared (2026)',
     description:
       'GIKI and PIEAS compared for 2026: entry tests, aggregate formulas, closing merits, and which one fits your profile.',
