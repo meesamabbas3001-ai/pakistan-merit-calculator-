@@ -1,0 +1,27 @@
+# AggreGate — Pakistan University Merit & Aggregate Calculator
+
+> Free interactive calculators for Pakistani university admission aggregates (merit), with official 2026 formulas, worked examples, program-wise closing merits for 2024 and 2025, a reverse "what test score do I need" calculator, and FAQs. Formulas last verified September 2026 against official university admission portals.
+
+## Main calculator
+
+- [All universities merit calculator](https://pakistan-merit-calculator.vercel.app/): calculate admission aggregate for NUST, FAST, COMSATS, UET, GIKI, PIEAS, LUMS and 13 more Pakistani universities.
+
+## University calculators (formula + closing merit 2024-2025 + FAQs each)
+
+- [NUST merit calculator](https://pakistan-merit-calculator.vercel.app/nust-merit-calculator): Matric 10% + Inter 15% + NET 75%. Computing closing merit 76.50% (2025).
+- [FAST merit calculator](https://pakistan-merit-calculator.vercel.app/fast-merit-calculator): NUCES aggregate formula and program weightages.
+- [COMSATS merit calculator](https://pakistan-merit-calculator.vercel.app/comsats-merit-calculator): COMSATS admission aggregate formula.
+- [UET Lahore merit calculator](https://pakistan-merit-calculator.vercel.app/uet-lahore-merit-calculator): ECAT-based aggregate formula.
+- [Air University merit calculator](https://pakistan-merit-calculator.vercel.app/air-university-merit-calculator)
+- [UAF merit calculator](https://pakistan-merit-calculator.vercel.app/uaf-merit-calculator)
+- [Punjab University merit calculator](https://pakistan-merit-calculator.vercel.app/punjab-university-merit-calculator)
+
+## Tools and reference
+
+- [Compare universities](https://pakistan-merit-calculator.vercel.app/compare): side-by-side merit comparison.
+- [University directory](https://pakistan-merit-calculator.vercel.app/directory): all 20 universities with formulas.
+- [FAQs](https://pakistan-merit-calculator.vercel.app/faq): admission merit questions answered.
+
+## Data provenance
+
+Aggregate weightages are verified against each university's official admission portal (source links on every university page). Closing merits are compiled from official merit lists. Formulas can change between admission cycles; pages carry a "last verified" date.
