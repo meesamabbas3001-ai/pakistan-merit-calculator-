@@ -45,6 +45,17 @@ export function updateDocumentSeo(config: SeoPageConfig) {
     tag.setAttribute('content', content);
   };
 
+  // 6. Twitter Card Tags (declared before use — pages with images call it in the OG block)
+  const setTwitterTag = (name: string, content: string) => {
+    let tag = document.querySelector(`meta[name="${name}"]`);
+    if (!tag) {
+      tag = document.createElement('meta');
+      tag.setAttribute('name', name);
+      document.head.appendChild(tag);
+    }
+    tag.setAttribute('content', content);
+  };
+
   setOgTag('og:title', config.title);
   setOgTag('og:description', config.description);
   setOgTag('og:type', 'website');
@@ -55,16 +66,6 @@ export function updateDocumentSeo(config: SeoPageConfig) {
     setTwitterTag('twitter:image', imageUrl);
   }
 
-  // 6. Twitter Card Tags
-  const setTwitterTag = (name: string, content: string) => {
-    let tag = document.querySelector(`meta[name="${name}"]`);
-    if (!tag) {
-      tag = document.createElement('meta');
-      tag.setAttribute('name', name);
-      document.head.appendChild(tag);
-    }
-    tag.setAttribute('content', content);
-  };
   setTwitterTag('twitter:card', 'summary_large_image');
   setTwitterTag('twitter:title', config.title);
   setTwitterTag('twitter:description', config.description);

@@ -411,6 +411,114 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
     ],
     relatedCalculators: ['giki', 'nust', 'uet'],
   },
+  {
+    slug: 'mdcat-aggregate-formula-2026',
+    image: '/blog/mdcat-aggregate-formula-2026.svg',
+    imageAlt: 'MDCAT aggregate formula 2026 — official 10/40/50 weight illustration with stethoscope motif',
+    title: 'MDCAT Aggregate Formula 2026: How to Calculate Your MBBS Merit',
+    description:
+      'The official PMDC MDCAT aggregate formula for 2026: Matric 10% + FSc 40% + MDCAT 50% (test out of 180). Worked example, minimum passing scores, and the mistakes that cost students their seat.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'Every MBBS and BDS applicant in Pakistan gets ranked by a single number: the aggregate. It blends your Matric, FSc, and MDCAT marks into one percentage, and merit lists are cut exactly on that number — sometimes down to four decimal places. This guide gives you the official 2026 formula, works through a full example, and flags the errors that quietly cost students their admission every year.',
+    sections: [
+      {
+        heading: 'The official MDCAT aggregate formula (2026)',
+        paragraphs: [
+          'The Pakistan Medical and Dental Council (PMDC) sets one national merit formula for MBBS and BDS admissions, written into its Medical and Dental Undergraduate Education (Admissions, Curriculum and Conduct) Policy and Regulations 2025. It applies to public and private medical colleges across Pakistan, and admitting universities like UHS Lahore repeat it in their own prospectuses (the UHS 2025-26 prospectus even prints a worked formula in its Annexure IV).',
+          'The weightage is: Matric (or equivalent) counts 10%, FSc Pre-Medical (or equivalent) counts 40%, and the MDCAT counts 50%. As one line: Aggregate = (Matric obtained ÷ Matric total × 10) + (FSc obtained ÷ FSc total × 40) + (MDCAT obtained ÷ MDCAT total × 50). Half your merit comes from a single 3.5-hour test — that is why MDCAT preparation, not board marks alone, decides most admission outcomes.',
+        ],
+      },
+      {
+        heading: 'MDCAT is scored out of 180 — not 200',
+        paragraphs: [
+          'The most common calculation error is dividing MDCAT marks by the wrong total. Older MDCAT sessions were scored out of 200, but recent sessions — including the 2025-26 cycle — use 180 MCQs for 180 marks. If you divide a 165 by 200 instead of 180, your aggregate comes out roughly 4.5 points lower than it really is, which can make a safe merit position look hopeless and push students toward bad decisions.',
+          'The practical rule: use 180 as the MDCAT total for the current cycle. If you are working with an older MDCAT result, confirm the total of that specific session first — results remain valid for up to three years, but the total you divide by must match the session you sat. When in doubt, check your MDCAT result card, which always states the total.',
+        ],
+      },
+      {
+        heading: 'Worked example, step by step',
+        paragraphs: [
+          'Take a student with 1050/1100 in Matric, 1000/1100 in FSc, and 165/180 in MDCAT. First convert each part to its weighted contribution. Matric: 1050 ÷ 1100 × 10 = 9.5455. FSc: 1000 ÷ 1100 × 40 = 36.3636. MDCAT: 165 ÷ 180 × 50 = 45.8333.',
+          'Add them: 9.5455 + 36.3636 + 45.8333 = 91.7424%. That is the final aggregate. Notice how the arithmetic exposes the strategy: the MDCAT column is the only one where a realistic score swing moves the total by several full percentage points, while even 50 extra board marks barely nudge it. UHS rounds the final figure to four decimal places, and merit lists are ranked at that precision — which is why two students with seemingly identical marks can still sit dozens of ranks apart.',
+        ],
+      },
+      {
+        heading: 'What each extra mark is actually worth',
+        paragraphs: [
+          'Because the weights differ so much, not all marks are equal. Ten extra MDCAT marks add about 2.78% to your aggregate (10 ÷ 180 × 50). Ten extra FSc marks add about 0.36% (10 ÷ 1100 × 40). Ten extra Matric marks add about 0.09% (10 ÷ 1100 × 10). One MDCAT mark is worth roughly eight FSc marks and thirty Matric marks.',
+          'This is not advice to ignore boards — your FSc is 40% of the formula, the second-largest component, and strong FSc preparation feeds directly into MDCAT performance since the test syllabus is built on it. But when you are allocating the final month of study time, the maths is unambiguous: an extra hour spent raising your MDCAT score pays far more than an extra hour chasing the last few board marks.',
+          'You can also run the formula backwards to set a target. Suppose you want a 90% aggregate with 1000/1100 in Matric (9.09) and 950/1100 in FSc (34.55) — your boards contribute 43.64, so MDCAT must supply the remaining 46.36. That means 46.36 ÷ 50 × 180 ≈ 167 marks out of 180. Knowing the exact number turns "do well in MDCAT" into a concrete, testable target.',
+        ],
+      },
+      {
+        heading: 'Passing MDCAT is not the same as making merit',
+        paragraphs: [
+          'PMDC sets minimum MDCAT scores: 55% for MBBS eligibility (99 out of 180) and 50% for BDS (90 out of 180). Clearing these only makes you eligible to apply — it says nothing about getting a seat. Public-sector MBBS merit closes far above the passing line every year; the minimums are a floor, not a target.',
+          'There is no negative marking in the MDCAT, so every question is worth attempting — an unanswered question and a wrong answer score the same (zero), while a guessed answer has a real chance of adding a mark. With each mark worth roughly 0.28% of aggregate, even a handful of lucky guesses can move your merit-list position.',
+        ],
+      },
+      {
+        heading: 'NUMS and AKU follow different routes',
+        paragraphs: [
+          'Not every medical seat uses the MDCAT route. The National University of Medical Sciences (NUMS) — the body behind Army Medical College and its affiliates — runs its own 200-mark admission test instead of the PMDC MDCAT, then applies the same 10/40/50 structure: Matric 10% + FSc 40% + NUMS test 50%. If you are applying to NUMS colleges, divide your test score by 200, not 180, and prepare for the NUMS syllabus and pattern.',
+          'Aga Khan University (AKU) runs an entirely separate process with its own admission test and criteria. The takeaway: never blend formulas. A "MDCAT aggregate" tells you nothing about NUMS merit, just as a UET ECAT aggregate tells you nothing about NUST. Always compute merit with the formula of the admitting body you are actually applying to.',
+        ],
+      },
+      {
+        heading: 'Where closing merits fit in',
+        paragraphs: [
+          'Your aggregate only matters relative to the closing merit of your target college — the lowest aggregate that secured a seat last session. Closing merits swing every year with the difficulty of the MDCAT paper, the number of applicants, and seat counts, so treat last year\'s numbers as a reference line, not a promise.',
+          'We publish verified 2024 and 2025 closing merits on each medical university\'s detail page, taken from official merit lists. Check the related calculators below for King Edward Medical University, Dow University of Health Sciences, and NUMS to see exactly where recent cutoffs landed — then set your MDCAT target a point or two above the line to be safe.',
+        ],
+      },
+      {
+        heading: 'Three mistakes that cost students seats',
+        paragraphs: [
+          'First, dividing the MDCAT by 200 instead of 180 — the single most common error, and it always makes your aggregate look worse than it is. Second, using the wrong formula for the wrong body: applying the MDCAT 10/40/50 split to NUMS admissions (which needs the 200-mark NUMS test), or mixing in an older session\'s rules. Third, rounding too early — computing each part to one decimal and then adding, which can shift your result by hundredths at exactly the precision merit lists are ranked.',
+        ],
+        list: [
+          'Always divide MDCAT by 180 (current cycle) and NUMS test by 200 — match the total to your session.',
+          'Keep full precision through the calculation; round only the final aggregate.',
+          'Set your target 1–2 aggregate points above last year\'s closing merit, not at it.',
+          'Remember: no negative marking, so attempt every MDCAT question.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the official MDCAT aggregate formula for 2026?',
+        answer: 'Matric 10% + FSc 40% + MDCAT 50%. Compute it as (Matric ÷ Matric total × 10) + (FSc ÷ FSc total × 40) + (MDCAT ÷ 180 × 50). This is the PMDC national formula, also used by UHS for Punjab public colleges.',
+      },
+      {
+        question: 'Is the MDCAT out of 180 or 200?',
+        answer: 'Recent MDCAT sessions, including the 2025-26 cycle, are scored out of 180 marks (180 MCQs). Older sessions used 200. Always divide by the total of the session you sat — dividing by 200 under-reports your aggregate by about 4.5 points.',
+      },
+      {
+        question: 'Does NUMS use the same MDCAT formula?',
+        answer: 'NUMS uses the same 10/40/50 weight structure but its own 200-mark admission test instead of the PMDC MDCAT. So the formula is (Matric ÷ total × 10) + (FSc ÷ total × 40) + (NUMS test ÷ 200 × 50).',
+      },
+      {
+        question: 'Is there negative marking in MDCAT 2026?',
+        answer: 'No. There is no negative marking, so you should attempt every question — a blank and a wrong answer both score zero, while a guess can add roughly 0.28% to your aggregate.',
+      },
+      {
+        question: 'What MDCAT score do I need for a public MBBS seat?',
+        answer: 'You first need the PMDC minimum of 55% (99/180) to be eligible, but public-sector MBBS closing merits sit far above that. Check the verified 2024 and 2025 closing merits on each university\'s detail page and target 1–2 aggregate points above last year\'s cutoff.',
+      },
+      {
+        question: 'Are extra FSc attempts penalized, or do Hafiz-e-Quran students get bonus marks?',
+        answer: 'According to the published criteria, no marks are deducted for extra FSc attempts, and the PMDC regulations and the UHS 2025-26 prospectus add no Hafiz-e-Quran bonus marks to the aggregate.',
+      },
+      {
+        question: 'How precise is the final aggregate?',
+        answer: 'UHS rounds the final aggregate to four decimal places, and merit lists are ranked at that precision. Keep full precision through your calculation and round only at the end.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
 
 // Combined export used by pages and sitemap tooling.

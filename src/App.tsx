@@ -24,6 +24,8 @@ const AdminPanel = React.lazy(() =>
 import { ScholarshipsPage } from './components/ScholarshipsPage';
 import { AdmissionDeadlinesPage } from './components/AdmissionDeadlinesPage';
 import { DegreesPage } from './components/DegreesPage';
+import { BlogListPage } from './components/BlogListPage';
+import { BlogPostPage } from './components/BlogPostPage';
 import { TrustPages } from './components/TrustPages';
 import { UniversityDetailPage } from './components/UniversityDetailPage';
 import { ChangelogPage } from './components/ChangelogPage';
@@ -33,6 +35,7 @@ import { Bot, Calculator } from 'lucide-react';
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('calculator');
   const [selectedUniId, setSelectedUniId] = useState<string | undefined>(undefined);
+  const [selectedBlogSlug, setSelectedBlogSlug] = useState<string | undefined>(undefined);
   const [admissionYear, setAdmissionYear] = useState<string>('2026');
   const [calculationResult, setCalculationResult] = useState<CalculationResult | null>(null);
   const [chatOpen, setChatOpen] = useState<boolean>(false);
@@ -83,6 +86,12 @@ export default function App() {
       setActiveTab('scholarships');
     } else if (pathname.includes('/admission-deadlines')) {
       setActiveTab('admission-deadlines');
+    } else if (pathname.startsWith('/blog/')) {
+      const slug = pathname.replace('/blog/', '').split('/')[0];
+      setActiveTab('blog-post');
+      setSelectedBlogSlug(slug);
+    } else if (pathname === '/blog' || pathname.endsWith('/blog')) {
+      setActiveTab('blog');
     } else if (pathname.includes('/degrees')) {
       setActiveTab('degrees');
     } else if (pathname.includes('/about')) {
@@ -150,6 +159,8 @@ export default function App() {
     else if (activeTab === 'scholarships') path = '/scholarships';
     else if (activeTab === 'admission-deadlines') path = '/admission-deadlines';
     else if (activeTab === 'degrees') path = '/degrees';
+    else if (activeTab === 'blog') path = '/blog';
+    else if (activeTab === 'blog-post' && selectedBlogSlug) path = `/blog/${selectedBlogSlug}`;
     else if (activeTab === 'about') path = '/about';
     else if (activeTab === 'contact') path = '/contact';
     else if (activeTab === 'verification-policy') path = '/verification-policy';
@@ -166,12 +177,15 @@ export default function App() {
     if (seoConfig) {
       updateDocumentSeo(seoConfig);
     }
-  }, [activeTab, selectedUniId]);
+  }, [activeTab, selectedUniId, selectedBlogSlug]);
 
   const handleNavigate = (tab: string, uniId?: string) => {
     if (tab === 'universities' && uniId) {
       setActiveTab('university-detail');
       setSelectedUniId(uniId);
+    } else if (tab === 'blog-post' && uniId) {
+      setActiveTab('blog-post');
+      setSelectedBlogSlug(uniId);
     } else {
       setActiveTab(tab);
       if (uniId !== undefined) {
@@ -337,6 +351,14 @@ export default function App() {
 
         {activeTab === 'degrees' && (
           <DegreesPage onNavigate={handleNavigate} />
+        )}
+
+        {activeTab === 'blog' && (
+          <BlogListPage onNavigate={handleNavigate} />
+        )}
+
+        {activeTab === 'blog-post' && (
+          <BlogPostPage slug={selectedBlogSlug} onNavigate={handleNavigate} />
         )}
 
         {(activeTab === 'about' || activeTab === 'contact' || activeTab === 'verification-policy' || activeTab === 'privacy' || activeTab === 'terms') && (

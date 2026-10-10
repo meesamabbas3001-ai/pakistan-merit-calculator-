@@ -34,6 +34,7 @@
 - [FAST Aggregate Formula Explained](https://pakistan-merit-calculator.vercel.app/blog/fast-aggregate-formula-explained)
 - [Inter Part-1 Provisional Merit](https://pakistan-merit-calculator.vercel.app/blog/inter-part1-provisional-merit)
 - [GIKI vs PIEAS Compared](https://pakistan-merit-calculator.vercel.app/blog/giki-vs-pieas-admission)
+- [MDCAT Aggregate Formula 2026](https://pakistan-merit-calculator.vercel.app/blog/mdcat-aggregate-formula-2026): official PMDC 10/40/50 formula, worked example, passing scores.
 
 
 ## Medical universities (MDCAT / NUMS)
