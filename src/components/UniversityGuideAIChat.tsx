@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Bot, User, ShieldCheck, HelpCircle, Sparkles, AlertCircle, ExternalLink } from 'lucide-react';
 import { University } from '../types';
+import { UNIVERSITIES_DATA } from '../data/universities';
 import { getStoredUniversities, addInquiry } from '../services/universityStore';
 import { AdminContactModal } from './AdminContactModal';
 
@@ -37,7 +38,11 @@ export const UniversityGuideAIChat: React.FC<UniversityGuideAIChatProps> = ({ is
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setUniversities(getStoredUniversities());
+    // Full site knowledge: admin-added records first, then the built-in verified
+    // database of all 20 universities (formulas, closing merits, fees, hostels).
+    const stored = getStoredUniversities();
+    const storedIds = new Set(stored.map((u) => u.id));
+    setUniversities([...stored, ...UNIVERSITIES_DATA.filter((u) => !storedIds.has(u.id))]);
   }, [isOpen]);
 
   useEffect(() => {
@@ -219,6 +224,34 @@ export const UniversityGuideAIChat: React.FC<UniversityGuideAIChatProps> = ({ is
           };
         }
       }
+    }
+
+    // Site knowledge: how to use AggreGate (beginner help)
+    if (
+      lowerQ.includes('how to use') ||
+      lowerQ.includes('how it works') ||
+      lowerQ.includes('how do i calculate') ||
+      lowerQ.includes('how do i use') ||
+      lowerQ.includes('guide me') ||
+      lowerQ.includes('help me calculate')
+    ) {
+      return {
+        id: Date.now().toString(),
+        sender: 'bot',
+        text: 'Using AggreGate is easy — just 3 steps:\n\n1\uFE0F\u20E3 Pick your university and program in the calculator above (e.g., NUST \u2192 Computing & IT).\n2\uFE0F\u20E3 Enter your obtained and total marks for Matric, Inter and your entry test.\n3\uFE0F\u20E3 Hit Calculate — you get your aggregate, a full marks breakdown, and the 2025 closing merit so you know exactly where you stand.\n\nTip: open any university page (e.g., "NUST Merit Calculator") for its official formula, a worked example, closing merits of 2024 vs 2025, and FAQs.',
+        timestamp: time,
+        isVerified: true,
+      };
+    }
+
+    if (lowerQ.includes('closing merit') && !lowerQ.includes('nust') && !lowerQ.includes('fast') && !lowerQ.includes('comsats') && !lowerQ.includes('uet') && !lowerQ.includes('giki')) {
+      return {
+        id: Date.now().toString(),
+        sender: 'bot',
+        text: 'Which university\'s closing merit do you want? For example, ask "NUST closing merit" or "FAST closing merit" and I\'ll show you the 2024 and 2025 figures from our verified database.',
+        timestamp: time,
+        isVerified: true,
+      };
     }
 
     // Match university from query

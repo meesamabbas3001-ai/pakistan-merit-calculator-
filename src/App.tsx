@@ -17,7 +17,10 @@ import { UniversityMatcherSection } from './components/UniversityMatcherSection'
 import { Footer } from './components/Footer';
 import { UniversityGuideAIChat } from './components/UniversityGuideAIChat';
 import { AdminLoginModal } from './components/AdminLoginModal';
-import { AdminPanel } from './components/AdminPanel';
+// AdminPanel is lazy-loaded so its 37KB never slows the public site (Core Web Vitals).
+const AdminPanel = React.lazy(() =>
+  import('./components/AdminPanel').then((m) => ({ default: m.AdminPanel }))
+);
 import { ScholarshipsPage } from './components/ScholarshipsPage';
 import { AdmissionDeadlinesPage } from './components/AdmissionDeadlinesPage';
 import { DegreesPage } from './components/DegreesPage';
@@ -179,13 +182,21 @@ export default function App() {
 
   if (isAdminLoggedIn) {
     return (
-      <AdminPanel
-        onLogout={() => {
-          localStorage.removeItem('pakistan_merit_admin_authenticated');
-          setIsAdminLoggedIn(false);
-        }}
-        onExit={() => setIsAdminLoggedIn(false)}
-      />
+      <React.Suspense
+        fallback={
+          <div className="min-h-screen bg-slate-50 flex items-center justify-center text-slate-500 text-sm">
+            Loading admin panel…
+          </div>
+        }
+      >
+        <AdminPanel
+          onLogout={() => {
+            localStorage.removeItem('pakistan_merit_admin_authenticated');
+            setIsAdminLoggedIn(false);
+          }}
+          onExit={() => setIsAdminLoggedIn(false)}
+        />
+      </React.Suspense>
     );
   }
 
