@@ -34,6 +34,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <li><button onClick={() => onNavigate('universities', 'uet')} className="hover:text-emerald-400 transition-colors">UET Lahore Merit Calculator</button></li>
               <li><button onClick={() => onNavigate('universities', 'air')} className="hover:text-emerald-400 transition-colors">Air University Calculator</button></li>
               <li><button onClick={() => onNavigate('universities', 'punjab')} className="hover:text-emerald-400 transition-colors">Punjab University Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'kemu')} className="hover:text-emerald-400 transition-colors">KEMU Merit Calculator</button></li>
+              <li><button onClick={() => onNavigate('universities', 'qau')} className="hover:text-emerald-400 transition-colors">QAU Merit Calculator</button></li>
             </ul>
           </div>
 

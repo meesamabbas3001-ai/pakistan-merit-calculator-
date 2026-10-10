@@ -35,6 +35,14 @@
 - [Inter Part-1 Provisional Merit](https://pakistan-merit-calculator.vercel.app/blog/inter-part1-provisional-merit)
 - [GIKI vs PIEAS Compared](https://pakistan-merit-calculator.vercel.app/blog/giki-vs-pieas-admission)
 
+
+## Medical universities (MDCAT / NUMS)
+
+- [KEMU merit calculator](https://pakistan-merit-calculator.vercel.app/kemu-merit-calculator): King Edward Medical University — Matric 10% + FSc 40% + MDCAT 50% (MDCAT out of 180). 2025 closing 94.88%.
+- [DUHS merit calculator](https://pakistan-merit-calculator.vercel.app/duhs-merit-calculator): Dow University of Health Sciences — same PMDC formula.
+- [NUMS merit calculator](https://pakistan-merit-calculator.vercel.app/nums-merit-calculator): NUMS Entry Test (out of 200, separate from MDCAT) — Matric 10% + FSc 40% + NUMS test 50%.
+- [QAU merit calculator](https://pakistan-merit-calculator.vercel.app/qau-merit-calculator): Quaid-i-Azam University BS — Matric 30% + FSc Part-1 70%, no entry test weighted.
+
 ## Data provenance
 
 Aggregate weightages are verified against each university's official admission portal (source links on every university page). Closing merits are compiled from official merit lists. Formulas can change between admission cycles; pages carry a "last verified" date.
