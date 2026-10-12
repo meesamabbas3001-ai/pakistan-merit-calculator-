@@ -109,6 +109,13 @@ export function UniversityDetailPage({ university, onNavigate, onCalculateForUni
   const exTCon = (exTPct * firstProgram.testWeight) / 100;
   const exAgg = exMCon + exICon + exTCon;
 
+  /* Score meaning: benchmark the worked example against the verified 2025 closing merit */
+  const closing25: number | undefined = firstProgram.closingMerit2025;
+  const gapAbs = closing25 !== undefined ? Math.abs(exAgg - closing25) : 0;
+  const exampleAboveClosing = closing25 !== undefined && exAgg >= closing25;
+  /* How many entry-test marks does 1 aggregate point cost? Pure math from verified weights. */
+  const marksPerAggPoint = (1 / firstProgram.testWeight) * firstProgram.maxTestMarks;
+
   const faqs = [
     {
       question: `What is the ${university.shortName} aggregate formula for 2026?`,
@@ -135,6 +142,16 @@ export function UniversityDetailPage({ university, onNavigate, onCalculateForUni
     {
       question: `How many marks do I need in ${firstProgram.testName}?`,
       answer: `It depends on your academic marks. Use the reverse calculator above: enter your target aggregate and your Matric/Inter marks, and it tells you the exact test score you need out of ${firstProgram.maxTestMarks}.`
+    },
+    {
+      question: `What aggregate is safe for ${university.shortName} admission in 2026?`,
+      answer: closing25 !== undefined
+        ? `Minimum eligibility${firstProgram.minEligibleAggregate ? ` of ${firstProgram.minEligibleAggregate}%` : ''} only lets you apply — the real target is the 2025 closing merit of ${fmt(closing25)}% for ${firstProgram.name}. A sensible, non-guaranteed aim is 1–2 points above last year's closing merit (${fmt(closing25 + 1)}–${fmt(closing25 + 2)}%), because closing merits shift every year with the strength of the applicant pool.`
+        : `There is no verified closing-merit benchmark for ${university.shortName} in our dataset yet, so no "safe" number can be stated honestly. Use the reverse calculator above with a target of your choice, and re-check this page once official merit lists are published.`
+    },
+    {
+      question: `Which part of the ${university.shortName} formula matters most?`,
+      answer: `The entry test: ${firstProgram.testName} carries ${firstProgram.testWeight}% of your aggregate, versus ${firstProgram.interPart1Weight}% for Intermediate and ${firstProgram.matricWeight}% for Matric. Every ${fmt(marksPerAggPoint, 1)} marks you gain in ${firstProgram.testName} is worth about 1 full aggregate point — so test preparation moves the needle more than any other component.`
     },
     {
       question: `Where is this ${university.shortName} formula verified from?`,
@@ -347,6 +364,51 @@ export function UniversityDetailPage({ university, onNavigate, onCalculateForUni
             </div>
             <p className="px-5 py-3 text-xs text-slate-500 border-t border-slate-100">
               Example only. Enter your own marks in the calculator above — a 10-mark improvement in the entry test moves this aggregate by {fmt((10 / exTTot) * firstProgram.testWeight)}%.
+            </p>
+          </div>
+        </div>
+
+        {/* Score meaning — benchmark the example against the 2025 closing merit */}
+        <div className="mb-10">
+          <div className="flex items-center gap-2 mb-4">
+            <Target className="w-5 h-5 text-emerald-600" />
+            <h2 className="text-xl font-bold text-slate-900">What does your aggregate mean for {university.shortName} admission?</h2>
+          </div>
+          <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
+            {closing25 !== undefined ? (
+              <p className="text-sm text-slate-700 leading-relaxed">
+                The worked example above scores <strong className="text-slate-900">{fmt(exAgg)}%</strong> — that's{' '}
+                <strong className={exampleAboveClosing ? 'text-emerald-700' : 'text-red-600'}>
+                  {fmt(gapAbs)} points {exampleAboveClosing ? 'above' : 'below'}
+                </strong>{' '}
+                the {firstProgram.name} 2025 closing merit of {fmt(closing25)}%. A score comfortably above last year's
+                closing merit was historically competitive; a score below it needed stronger test performance to close the gap.
+              </p>
+            ) : (
+              <p className="text-sm text-slate-700 leading-relaxed">
+                Verified 2025 closing merits for {university.shortName} are not in our dataset yet, so the example score
+                of <strong className="text-slate-900">{fmt(exAgg)}%</strong> has no official benchmark to measure against.
+                Use the reverse calculator above with your own target, and re-check this page once merit lists are published.
+              </p>
+            )}
+            <p className="text-sm text-slate-700 leading-relaxed">
+              <strong className="text-slate-900">How sensitive is your aggregate to the entry test?</strong> About{' '}
+              <strong className="text-slate-900">{fmt(marksPerAggPoint, 1)} marks</strong> in {firstProgram.testName}{' '}
+              (which carries {firstProgram.testWeight}% weight) equal 1 full aggregate point — so a 10-mark swing in the
+              test moves your final aggregate by {fmt((10 / exTTot) * firstProgram.testWeight)}%. The entry test is where
+              seats are won or lost.
+            </p>
+            {firstProgram.minEligibleAggregate !== undefined && closing25 !== undefined && (
+              <p className="text-sm text-slate-700 leading-relaxed">
+                <strong className="text-slate-900">Eligibility ≠ admission.</strong> The minimum eligibility for{' '}
+                {firstProgram.name} is {firstProgram.minEligibleAggregate}%, but the last admitted student in 2025 had{' '}
+                {fmt(closing25)}% — {fmt(closing25 - firstProgram.minEligibleAggregate)} points higher. Aim for the closing
+                merit, not the eligibility line.
+              </p>
+            )}
+            <p className="text-xs text-slate-500 border-t border-slate-100 pt-4">
+              Closing merits shift every admission cycle with applicant strength and seat counts — treat them as a benchmark,
+              never a guarantee.
             </p>
           </div>
         </div>
