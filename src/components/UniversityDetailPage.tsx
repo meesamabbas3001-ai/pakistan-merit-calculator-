@@ -4,6 +4,7 @@ import { UNIVERSITIES_DATA } from '../data/universities';
 import { Breadcrumbs } from './Breadcrumbs';
 import { Building2, ShieldCheck, CheckCircle2, Calendar, ExternalLink, MapPin, Calculator, AlertTriangle, Target, ChevronDown, Link2 } from 'lucide-react';
 import { updateDocumentSeo } from '../utils/seo';
+import { getRelatedUniversities } from '../utils/related';
 import { CustomCalculator } from './CustomCalculator';
 
 interface UniversityDetailPageProps {
@@ -141,7 +142,8 @@ export function UniversityDetailPage({ university, onNavigate, onCalculateForUni
     }
   ];
 
-  const related = UNIVERSITIES_DATA.filter((u) => u.id !== university.id).slice(0, 6);
+  /* Related universities ranked by real similarity (shared programs, city, type) */
+  const related = getRelatedUniversities(university, UNIVERSITIES_DATA, 6);
 
   React.useEffect(() => {
     updateDocumentSeo({
@@ -447,13 +449,19 @@ export function UniversityDetailPage({ university, onNavigate, onCalculateForUni
             <h2 className="text-xl font-bold text-slate-900">Related merit calculators</h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            {related.map((u) => (
+            {related.map(({ university: u, sharedCategories }) => (
               <button
                 key={u.id}
                 onClick={() => onNavigate('universities', u.id)}
                 className="px-4 py-3 bg-white border border-slate-200 rounded-xl text-sm font-semibold text-slate-700 hover:border-emerald-400 hover:text-emerald-700 transition-colors text-left cursor-pointer"
               >
-                {u.shortName} Merit Calculator →
+                <span className="block">{u.shortName} Merit Calculator →</span>
+                {sharedCategories.length > 0 && (
+                  <span className="block mt-1 text-xs font-normal text-slate-500">
+                    {sharedCategories.join(' · ')}
+                    {u.city === university.city ? ` · ${u.city}` : ''}
+                  </span>
+                )}
               </button>
             ))}
           </div>

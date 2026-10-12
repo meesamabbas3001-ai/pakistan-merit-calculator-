@@ -44,7 +44,11 @@ export function BlogPostPage({ slug, onNavigate }: BlogPostPageProps) {
     );
   }
 
-  const relatedPosts = ALL_BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3);
+  /* Related guides: same category first, so internal links stay topical */
+  const relatedPosts = ALL_BLOG_POSTS
+    .filter((p) => p.slug !== post.slug)
+    .sort((a, b) => Number(b.category === post.category) - Number(a.category === post.category))
+    .slice(0, 3);
   const relatedUnis = UNIVERSITIES_DATA.filter((u) => post.relatedCalculators.includes(u.id));
 
   return (

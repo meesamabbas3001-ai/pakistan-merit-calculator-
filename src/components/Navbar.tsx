@@ -1,9 +1,9 @@
 import React from 'react';
-import { GraduationCap, Calculator, Scale, BookOpen, HelpCircle, Sparkles } from 'lucide-react';
+import { GraduationCap, Calculator, Scale, BookOpen, HelpCircle, Sparkles, Newspaper } from 'lucide-react';
 
 interface NavbarProps {
-  activeTab: 'calculator' | 'compare' | 'directory' | 'faq' | 'matcher';
-  setActiveTab: (tab: 'calculator' | 'compare' | 'directory' | 'faq' | 'matcher') => void;
+  activeTab: 'calculator' | 'compare' | 'directory' | 'faq' | 'matcher' | 'blog' | 'blog-post';
+  setActiveTab: (tab: 'calculator' | 'compare' | 'directory' | 'faq' | 'matcher' | 'blog') => void;
   admissionYear: string;
   setAdmissionYear: (year: string) => void;
 }
@@ -91,6 +91,17 @@ export const Navbar: React.FC<NavbarProps> = ({
               <HelpCircle className="w-4 h-4" />
               FAQ
             </button>
+            <button
+              onClick={() => setActiveTab('blog')}
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all ${
+                activeTab === 'blog' || activeTab === 'blog-post'
+                  ? 'bg-white text-emerald-700 shadow-xs'
+                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200/60'
+              }`}
+            >
+              <Newspaper className="w-4 h-4" />
+              Blog
+            </button>
           </nav>
 
           {/* Admission Year Selector */}
@@ -155,6 +166,15 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <HelpCircle className="w-5 h-5 mb-0.5" />
             FAQ
+          </button>
+          <button
+            onClick={() => setActiveTab('blog')}
+            className={`flex flex-col items-center text-xs font-medium ${
+              activeTab === 'blog' || activeTab === 'blog-post' ? 'text-emerald-700' : 'text-slate-500'
+            }`}
+          >
+            <Newspaper className="w-5 h-5 mb-0.5" />
+            Blog
           </button>
         </div>
       </div>
