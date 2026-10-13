@@ -35,6 +35,7 @@
 - [Inter Part-1 Provisional Merit](https://pakistan-merit-calculator.vercel.app/blog/inter-part1-provisional-merit)
 - [GIKI vs PIEAS Compared](https://pakistan-merit-calculator.vercel.app/blog/giki-vs-pieas-admission)
 - [MDCAT Aggregate Formula 2026](https://pakistan-merit-calculator.vercel.app/blog/mdcat-aggregate-formula-2026): official PMDC 10/40/50 formula, worked example, passing scores.
+- [How to Calculate UET Lahore (ECAT) Aggregate 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-uet-aggregate): official 17/50/33 formula, ECAT pattern, worked example, closing merits.
 
 
 ## Medical universities (MDCAT / NUMS)

@@ -519,6 +519,101 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-calculate-uet-aggregate',
+    image: '/blog/how-to-calculate-uet-aggregate.svg',
+    imageAlt: 'UET Lahore ECAT aggregate formula 2026 — official 17/50/33 weight illustration',
+    title: 'How to Calculate UET Lahore (ECAT) Aggregate 2026: Step-by-Step Guide',
+    description:
+      'The official UET Lahore aggregate formula for 2026 (Matric 17% + Inter Part-1 50% + ECAT 33%, test out of 400) with a worked example, per-mark values, closing merits, and the mistakes that cost students seats.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'UET Lahore — Pakistan\'s oldest engineering university, founded in 1921 — ranks every applicant on a single aggregate number. Unlike NUST, where the entry test decides 75% of your merit, UET gives your board marks the majority: two-thirds of your aggregate comes from Matric and Inter, and only one-third from ECAT. This guide shows you the official 2026 formula, works through a full example, and flags the calculation errors that quietly push students off merit lists every year.',
+    sections: [
+      {
+        heading: 'The official UET aggregate formula (2026)',
+        paragraphs: [
+          'UET Lahore computes your aggregate from three components: Matric counts 17%, Intermediate Part-1 counts 50%, and ECAT counts 33%. In one line: Aggregate = (Matric obtained ÷ Matric total × 17) + (Inter Part-1 obtained ÷ Inter Part-1 total × 50) + (ECAT obtained ÷ 400 × 33).',
+          'Notice what is unusual here: your board marks carry 67% of the weight — more than most other engineering universities give them. A student with outstanding FSc marks enters ECAT with a built-in cushion, while a student with weak boards needs a much bigger ECAT score to compensate. And UET uses Inter Part-1 (not the complete Inter) for the provisional merit lists issued during the admission season — the same basis our calculator on this site uses.',
+        ],
+      },
+      {
+        heading: 'ECAT pattern: what the 400 marks look like',
+        paragraphs: [
+          'ECAT — the Engineering College Admission Test — is a single paper of 100 multiple-choice questions, scored out of 400 marks and completed in 100 minutes. Pre-Engineering students attempt Mathematics, Physics, Chemistry and English; ICS (Computer Science) students attempt Computer Science in place of Chemistry. Historically, UET awarded 4 marks per correct answer and deducted 1 per wrong answer.',
+          'One honest caveat: UET has changed the marking scheme between cycles, and admission guides for the 2026 session report no negative marking with a best-score rule across multiple ECAT attempts. Do not treat either rule as permanent — read the official admission advertisement on admission.uet.edu.pk for your session before deciding whether to guess or leave a question blank.',
+        ],
+      },
+      {
+        heading: 'Worked example, step by step',
+        paragraphs: [
+          'Take a student with 1000/1100 in Matric, 480/550 in Inter Part-1, and 300/400 in ECAT. Convert each part to its weighted contribution. Matric: 1000 ÷ 1100 × 17 = 15.4545. Inter Part-1: 480 ÷ 550 × 50 = 43.6364. ECAT: 300 ÷ 400 × 33 = 24.75.',
+          'Add them: 15.4545 + 43.6364 + 24.75 = 83.8409%, so about 83.84%. The verified 2025 closing merit for UET engineering programs was 67.50% — this student clears it by more than 16 points. The arithmetic also reveals the structure of the formula: the Part-1 column (50%) is the biggest single lever, and a 480/550 there already does most of the heavy lifting before ECAT is even counted.',
+        ],
+      },
+      {
+        heading: 'What each extra mark is actually worth',
+        paragraphs: [
+          'Because the weights differ, not all marks are equal. One extra Matric mark adds about 0.015% to your aggregate (17 ÷ 1100). One extra Inter Part-1 mark adds about 0.091% (50 ÷ 550). One extra ECAT mark adds about 0.083% (33 ÷ 400). So a single Part-1 mark is worth roughly six Matric marks, and an ECAT mark is worth roughly five.',
+          'That is the key strategic difference from NUST: at UET, your FSc Part-1 preparation IS your merit preparation. Students who split their effort evenly between boards and ECAT usually gain more aggregate from an extra Part-1 mark than from an extra ECAT mark — though ECAT still decides the ordering among students whose board marks are similar.',
+          'You can also run the formula backwards to set an ECAT target. Suppose your boards are 900/1100 in Matric (13.9091) and 420/550 in Part-1 (38.1818) — together 52.0909. To reach a 70% aggregate you need 17.9091 from ECAT, which means 17.9091 ÷ 33 × 400 ≈ 217 marks out of 400. A concrete number like that turns "do well in ECAT" into a testable target.',
+        ],
+      },
+      {
+        heading: 'Closing merits and the 60% eligibility floor',
+        paragraphs: [
+          'UET requires a minimum 60% aggregate to be eligible to apply — but eligibility is a floor, not a target. The verified closing merit for UET engineering programs was 67.50% in 2025 and 66.20% in 2024, and individual programs and campuses close higher or lower than that line. Always compare your aggregate against the closing merit of the specific program and campus you want, not the university average.',
+          'Closing merits move every year with the ECAT paper\'s difficulty, the applicant pool, and seat counts, so treat last year\'s number as a reference line and aim 1–2 aggregate points above it. We publish the verified 2024 and 2025 figures on the UET detail page on this site — the related calculators below also link NED and MUET, which run their own entry tests with different formulas, so never mix their numbers with UET\'s.',
+        ],
+      },
+      {
+        heading: 'Five mistakes that cost students seats',
+        paragraphs: [
+          'First, dividing ECAT by 100 instead of 400 — students take their number of correct MCQs and plug it straight into the formula, which under-reports their aggregate by a factor of four. Second, using complete Inter or Part-2 marks when UET\'s provisional merit asks for Part-1. Third, borrowing another university\'s formula: a "NUST aggregate" with 75% test weight tells you nothing about UET merit. Fourth, rounding each part to one decimal before adding — keep full precision and round only the final figure. Fifth, ignoring the session rules: if your ECAT cycle offers multiple attempts or no negative marking, your guessing strategy changes, so confirm the official advertisement first.',
+        ],
+        list: [
+          'Always divide ECAT by 400, never by 100 — the total is 400 marks.',
+          'Use Inter Part-1 marks for provisional merit, matching UET\'s basis.',
+          'Keep full precision through the calculation; round only the final aggregate.',
+          'Set your ECAT target 1–2 aggregate points above last year\'s closing merit.',
+          'Confirm the negative-marking and attempt rules in the official ad for your session.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the official UET Lahore aggregate formula for 2026?',
+        answer: 'Matric 17% + Inter Part-1 50% + ECAT 33%. Compute it as (Matric ÷ Matric total × 17) + (Inter Part-1 ÷ 550 × 50) + (ECAT ÷ 400 × 33). This is the formula in UET\'s admission statute and the one our UET calculator uses.',
+      },
+      {
+        question: 'Is ECAT scored out of 400 or 100?',
+        answer: 'ECAT is scored out of 400 marks (100 MCQs). Always divide your ECAT score by 400 in the aggregate formula — dividing by 100 under-reports your aggregate by a factor of four.',
+      },
+      {
+        question: 'Does UET use Inter Part-1 or the complete Inter result?',
+        answer: 'UET\'s provisional merit lists during the admission season are computed on Inter Part-1 marks. Once complete Inter results are available, final merit switches to the full Inter result. Calculate on the basis UET is currently using for your list.',
+      },
+      {
+        question: 'Is there negative marking in ECAT 2026?',
+        answer: 'It has varied between cycles — older sessions deducted 1 mark per wrong answer, while 2026 admission guides report no negative marking with a best-score rule. Confirm the marking scheme in the official admission advertisement on admission.uet.edu.pk before your test.',
+      },
+      {
+        question: 'What is the minimum aggregate to apply to UET Lahore?',
+        answer: 'You need at least a 60% aggregate to be eligible to apply. But eligibility is only the floor — recent closing merits for engineering programs (67.50% in 2025, 66.20% in 2024) sit well above it.',
+      },
+      {
+        question: 'Can A-Level students apply to UET Lahore?',
+        answer: 'Yes, through an IBCC equivalence certificate. Your O-Level and A-Level results are converted to the Pakistani marks scale, and the converted figures feed the same 17/50/33 formula. Check UET\'s prospectus for the exact equivalence procedure for your session.',
+      },
+      {
+        question: 'What was UET Lahore\'s closing merit in 2025?',
+        answer: 'The verified 2025 closing merit for UET BSc Engineering programs was 67.50% (66.20% in 2024). Closing merits vary by program and campus, so compare against the specific one you are targeting and aim a point or two above it.',
+      },
+    ],
+    relatedCalculators: ['uet', 'ned', 'muet'],
+  },
 ];
 
 // Combined export used by pages and sitemap tooling.
