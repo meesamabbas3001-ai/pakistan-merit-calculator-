@@ -137,6 +137,9 @@ export default function App() {
     } else if (pathname.includes('/qau-merit-calculator')) {
       setActiveTab('university-detail');
       setSelectedUniId('qau');
+    } else if (pathname.includes('/uet-taxila-merit-calculator')) {
+      setActiveTab('university-detail');
+      setSelectedUniId('uettaxila');
     } else if (pathname.includes('/compare')) {
       setActiveTab('compare');
     } else if (pathname.includes('/matcher')) {

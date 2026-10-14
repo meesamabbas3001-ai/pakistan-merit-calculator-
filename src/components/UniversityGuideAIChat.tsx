@@ -39,7 +39,7 @@ export const UniversityGuideAIChat: React.FC<UniversityGuideAIChatProps> = ({ is
 
   useEffect(() => {
     // Full site knowledge: admin-added records first, then the built-in verified
-    // database of all 20 universities (formulas, closing merits, fees, hostels).
+    // database of all 28 universities (formulas, closing merits, fees, hostels).
     const stored = getStoredUniversities();
     const storedIds = new Set(stored.map((u) => u.id));
     setUniversities([...stored, ...UNIVERSITIES_DATA.filter((u) => !storedIds.has(u.id))]);

@@ -1,10 +1,10 @@
 # AggreGate — Pakistan University Merit & Aggregate Calculator
 
-> Free interactive calculators for Pakistani university admission aggregates (merit), with official 2026 formulas, worked examples, program-wise closing merits for 2024 and 2025, a reverse "what test score do I need" calculator, and FAQs. Formulas last verified September 2026 against official university admission portals.
+> Free interactive calculators for Pakistani university admission aggregates (merit), with official 2026 formulas, worked examples, program-wise closing merits for 2024 and 2025, a reverse "what test score do I need" calculator, and FAQs. Formulas last verified September–October 2026 against official university admission portals.
 
 ## Main calculator
 
-- [All universities merit calculator](https://pakistan-merit-calculator.vercel.app/): calculate admission aggregate for NUST, FAST, COMSATS, UET, GIKI, PIEAS, LUMS and 13 more Pakistani universities.
+- [All universities merit calculator](https://pakistan-merit-calculator.vercel.app/): calculate admission aggregate for NUST, FAST, COMSATS, UET, GIKI, PIEAS, LUMS and 21 more Pakistani universities.
 
 ## University calculators (formula + closing merit 2024-2025 + FAQs each)
 
@@ -15,11 +15,12 @@
 - [Air University merit calculator](https://pakistan-merit-calculator.vercel.app/air-university-merit-calculator)
 - [UAF merit calculator](https://pakistan-merit-calculator.vercel.app/uaf-merit-calculator)
 - [Punjab University merit calculator](https://pakistan-merit-calculator.vercel.app/punjab-university-merit-calculator)
+- [UET Taxila merit calculator](https://pakistan-merit-calculator.vercel.app/uet-taxila-merit-calculator): University of Engineering and Technology Taxila — official formula HSSC-I 50% + TCAT/ECAT 33% + SSC/Matric 17%, with engineering eligibility and FAQs. Closing merits omitted pending verified publication.
 
 ## Tools and reference
 
 - [Compare universities](https://pakistan-merit-calculator.vercel.app/compare): side-by-side merit comparison.
-- [University directory](https://pakistan-merit-calculator.vercel.app/directory): all 20 universities with formulas.
+- [University directory](https://pakistan-merit-calculator.vercel.app/directory): all 28 universities with formulas.
 - [FAQs](https://pakistan-merit-calculator.vercel.app/faq): admission merit questions answered.
 
 

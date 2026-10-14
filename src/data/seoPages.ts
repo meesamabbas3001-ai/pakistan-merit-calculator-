@@ -74,9 +74,17 @@ export const SEO_PAGES: SeoPageConfig[] = [
     schemaType: 'WebPage',
   },
   {
+    path: '/uet-taxila-merit-calculator',
+    title: 'UET Taxila Merit Calculator 2026 | TCAT/ECAT Aggregate & Eligibility',
+    description: 'Calculate your UET Taxila admission aggregate for 2026 with the official formula: Matric 17% + HSSC-I 50% + TCAT/ECAT 33%. Includes engineering eligibility, fees, worked example and FAQs.',
+    tab: 'calculator',
+    universityId: 'uettaxila',
+    schemaType: 'WebPage',
+  },
+  {
     path: '/compare',
     title: 'Compare Pakistani Universities Side-by-Side | Fee, Merit & Programs 2026',
-    description: 'Compare top 20 universities in Pakistan side-by-side on merit percentages, fee structures, application deadlines, and admission requirements.',
+    description: 'Compare top 28 universities in Pakistan side-by-side on merit percentages, fee structures, application deadlines, and admission requirements.',
     tab: 'compare',
     schemaType: 'WebPage',
   },
