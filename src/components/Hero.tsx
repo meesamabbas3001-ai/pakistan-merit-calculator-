@@ -1,7 +1,7 @@
 import React from 'react';
 import { Award, ShieldCheck, Sparkles, ArrowRight, Calculator } from 'lucide-react';
 import { motion } from 'motion/react';
-import { getLocalCmsContent } from '../services/cmsStore';
+import { getLocalCmsContent } from '../services/cmsLocal';
 
 interface HeroProps {
   onStartClick: () => void;

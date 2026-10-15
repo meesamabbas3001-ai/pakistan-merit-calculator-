@@ -1,45 +1,11 @@
+// Supabase-backed CMS functions (admin use). The local-only helpers live in
+// cmsLocal.ts so public components never import supabase indirectly.
 import { supabase, isSupabaseConfigured } from './supabaseClient';
+import { getLocalCmsContent, saveLocalCmsContent, getDefaultCmsContent } from './cmsLocal';
+import type { SiteContentItem } from './cmsLocal';
 
-export interface SiteContentItem {
-  id: string;
-  section: string;
-  field_name: string;
-  field_value: string;
-  updated_at: string;
-}
-
-const DEFAULT_SITE_CONTENT: Record<string, string> = {
-  'hero_badge': 'Official Verified Admission Formulas for Top 20 Pakistani Universities',
-  'hero_title': 'Calculate Your University Merit',
-  'hero_subtitle': 'Enter your Matric, Intermediate Part-I, and entry-test marks once to accurately estimate your admission aggregate across Pakistan\'s leading engineering, medical, computing, and general universities.',
-  'primary_cta': 'Start Merit Calculation',
-  'secondary_cta': 'Compare Multiple Universities',
-  'contact_email': 'support@pakistanmeritcalculator.pk',
-  'contact_phone': '+92 51 111-222-333',
-  'announcement_banner': 'Fall 2026 Admissions & Entry Test merit criteria updated for all top universities.',
-};
-
-const CMS_STORAGE_KEY = 'pakistan_merit_cms_content_v1';
-
-export function getLocalCmsContent(): Record<string, string> {
-  try {
-    const saved = localStorage.getItem(CMS_STORAGE_KEY);
-    if (saved) {
-      return JSON.parse(saved);
-    }
-  } catch (e) {
-    console.error('Error loading local CMS content', e);
-  }
-  return DEFAULT_SITE_CONTENT;
-}
-
-export function saveLocalCmsContent(content: Record<string, string>): void {
-  try {
-    localStorage.setItem(CMS_STORAGE_KEY, JSON.stringify(content));
-  } catch (e) {
-    console.error('Error saving local CMS content', e);
-  }
-}
+export { getLocalCmsContent, saveLocalCmsContent };
+export type { SiteContentItem };
 
 export async function fetchCmsContentFromSupabase(): Promise<Record<string, string>> {
   if (!isSupabaseConfigured || !supabase) {
@@ -58,7 +24,7 @@ export async function fetchCmsContentFromSupabase(): Promise<Record<string, stri
     }
 
     if (data && data.length > 0) {
-      const mapped: Record<string, string> = { ...DEFAULT_SITE_CONTENT };
+      const mapped: Record<string, string> = { ...getDefaultCmsContent() };
       data.forEach((item: SiteContentItem) => {
         mapped[item.field_name] = item.field_value;
       });

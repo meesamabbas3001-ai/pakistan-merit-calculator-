@@ -16,7 +16,11 @@ import { UniversityDirectory } from './components/UniversityDirectory';
 import { UniversityMatcherSection } from './components/UniversityMatcherSection';
 import { Footer } from './components/Footer';
 import { UniversityGuideAIChat } from './components/UniversityGuideAIChat';
-import { AdminLoginModal } from './components/AdminLoginModal';
+// AdminLoginModal is lazy-loaded: it imports supabase and no public visitor
+// needs it in the initial bundle (Core Web Vitals).
+const AdminLoginModal = React.lazy(() =>
+  import('./components/AdminLoginModal').then((m) => ({ default: m.AdminLoginModal }))
+);
 // AdminPanel is lazy-loaded so its 37KB never slows the public site (Core Web Vitals).
 const AdminPanel = React.lazy(() =>
   import('./components/AdminPanel').then((m) => ({ default: m.AdminPanel }))
@@ -421,12 +425,14 @@ export default function App() {
       {/* Chatbot Window */}
       <UniversityGuideAIChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
 
-      {/* Admin Login Modal */}
-      <AdminLoginModal
-        isOpen={adminLoginOpen}
-        onClose={() => setAdminLoginOpen(false)}
-        onLoginSuccess={() => setIsAdminLoggedIn(true)}
-      />
+      {/* Admin Login Modal (lazy-loaded; never blocks the public page) */}
+      <React.Suspense fallback={null}>
+        <AdminLoginModal
+          isOpen={adminLoginOpen}
+          onClose={() => setAdminLoginOpen(false)}
+          onLoginSuccess={() => setIsAdminLoggedIn(true)}
+        />
+      </React.Suspense>
     </div>
   );
 }
