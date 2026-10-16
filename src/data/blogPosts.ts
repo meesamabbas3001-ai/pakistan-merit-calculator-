@@ -614,6 +614,124 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
     ],
     relatedCalculators: ['uet', 'ned', 'muet'],
   },
+  {
+    slug: 'how-to-check-mbbs-merit-list-2026',
+    image: '/blog/how-to-check-mbbs-merit-list-2026.svg',
+    imageAlt: 'MBBS and BDS merit list 2026 check guide for UHS, KMU, SZABMU, JSMU and NUMS',
+    title: 'How to Check Merit List 2026: MBBS/BDS Merit List Guide (UHS, KMU, SZABMU, JSMU, NUMS)',
+    description:
+      'The 2026-27 MBBS/BDS merit lists are coming out Nov–Dec 2026. Here is where each body publishes its lists (UHS, KMU, SZABMU, JSMU, NUMS), the official dates, and how to read and act on them.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '8 min read',
+    intro:
+      'Your MDCAT result is out and your aggregate is calculated — now the waiting begins. Between mid-November and December 2026, the admitting universities will publish merit lists that decide exactly who gets which medical college. This guide shows you where each list appears, the official dates already announced, what each type of list means, and what to do the moment your name is (or is not) on one. Every date below comes from an official admission notice issued this October — the 2026-27 lists themselves have not been published yet, and no cutoff numbers are given here because inventing them would only mislead you.',
+    sections: [
+      {
+        heading: 'Which "2026" merit list do you mean? Clear the confusion first',
+        paragraphs: [
+          'The single biggest source of panic every year is the session mix-up. Lists labeled "2026" that you find on result sites right now belong to the 2025-26 session — they were issued between late 2025 and early 2026 and are finished history. The lists you are waiting for belong to session 2026-27, for the students who sat the MDCAT on 20 September 2026. When a site shows you a list, check the session year first: only a list dated for the 2026-27 session matters to you now.',
+          'The old lists are not useless, though. They are your reference line — the last-closed aggregate of each college shows you roughly where merit settled last time. Just remember they describe a different applicant pool and a different MDCAT paper, so treat them as a benchmark, not a promise.',
+        ],
+      },
+      {
+        heading: 'Where each merit list is published (and only there)',
+        paragraphs: [
+          'Pakistan does not have one national merit list. Each admitting body publishes its own lists, on its own portal, for its own colleges. Checking the wrong portal wastes your time and breeds rumor. The map is:',
+          'UHS Lahore publishes for Punjab\'s public and private medical and dental colleges at uhs.edu.pk. KMU Peshawar publishes for Khyber Pakhtunkhwa through its Centralized Admission System portal, cas.kmu.edu.pk. SZABMU Islamabad publishes for the federal capital\'s public-sector colleges through its own online admission portal. Sindh runs through JSMU Karachi, but admissions are processed by the university your domicile is tagged to — JSMU for Karachi, SMBBMU Larkana, or LUMHS Jamshoro. NUMS Islamabad runs one centralized process for its constituent, affiliated, and Armed Forces-administered colleges at numspak.edu.pk.',
+          'Bookmark the portal of the body you actually applied to, and ignore screenshots forwarded on WhatsApp until you have verified them on the official portal. Fake and old lists circulate every season.',
+        ],
+      },
+      {
+        heading: 'UHS Punjab 2026-27: the full official schedule',
+        paragraphs: [
+          'UHS announced its complete 2026-27 admission schedule in October 2026, and it is the most detailed of all the bodies. For MBBS, online applications open on 16 October 2026 at 9:00 AM and close on 30 October at 5:00 PM. The provisional order of merit is scheduled for 13 November, followed by the final order of merit on 16 November.',
+          'College-wise selection lists then decide who actually gets a seat: the first is scheduled for 17 November, the second selection/upgradation list for 23 November, and the third for 1 December. MBBS classes are scheduled to commence on 1 February 2027. BDS runs on a separate, later calendar: applications 15–30 December 2026, provisional and final merit orders on 6 and 9 January 2027, selection lists from 11 January, and classes on 1 March 2027.',
+          'UHS cautions that this timetable remains subject to directions from the PMDC and the Punjab government, so treat each date as scheduled rather than guaranteed. The application processing fee is Rs. 2,000 (non-refundable), and missing the fee deadline forfeits the admission and the upgradation chance.',
+        ],
+      },
+      {
+        heading: 'KMU Peshawar, SZABMU Islamabad, JSMU Sindh, NUMS: verified dates',
+        paragraphs: [
+          'KMU runs admissions for KP public-sector colleges through its Centralized Admission System, with online applications closing on 21 October 2026 at 5:00 PM. KMU also handles private-sector admissions: forms opened on 6 October, with the provisional merit list scheduled for 11 November and the final merit list in late November, followed by placement rounds into December and January. The aggregate formula is the same national one everywhere: Matric 10% + FSc 40% + MDCAT 50%.',
+          'SZABMU Islamabad opened public-sector MBBS/BDS admissions with the online application deadline set for 30 October 2026. The application processing fee is Rs. 3,000 per program (separate for MBBS and BDS), and valid MDCAT scores from 2024, 2025, or 2026 count for eligibility — at least 55% for MBBS and 50% for BDS. Note that college preferences cannot be changed after submission, so rank them deliberately.',
+          'In Sindh, JSMU opened MBBS/BDS admissions for 2026-27 with the last date for submitting physical application files — via designated Leopards Courier Service centers — set for 26 October 2026. You apply through the processing university your domicile district is tagged to (JSMU, SMBBMU Larkana, or LUMHS Jamshoro), need at least 60% in FSc Pre-Medical, and need a valid MDCAT score (2024, 2025, or 2026, conducted by IBA Sukkur) with at least 55% for MBBS and 50% for BDS.',
+          'NUMS Islamabad opened centralized registration on 13 October 2026 for its constituent, affiliated, and Armed Forces-administered colleges. Regular-fee registration closes on 11 November, with late-fee registration open until 25 November. The provisional merit list is scheduled for 10 December 2026, the first MBBS selection list for 17 December, and the first BDS selection list for 21 January 2027. The regular open-merit application fee is Rs. 8,500. NUMS uses its own 200-mark entry test, then applies the same 10/40/50 weight structure.',
+        ],
+      },
+      {
+        heading: 'How the lists come out, in order',
+        paragraphs: [
+          'The sequence is the same everywhere, and understanding it tells you exactly what to do at each step. First comes the provisional merit list (UHS calls it the provisional order of merit) — your first look at your position. Check every detail on it immediately: your aggregate, your category, your preferences. Objection and correction windows can be extremely short — in one past Punjab cycle candidates had only 24 hours — so do not plan to check "tomorrow".',
+          'Second comes the final merit list, published after corrections and objections are processed. Third come the college-wise selection lists, which assign actual seats: in the 2025-26 cycle, UHS issued 13 selection lists according to one third-party dataset, so the process stretches for weeks. Fourth come upgradation lists, where students admitted to a lower preference move up as seats open, plus final placement rounds for vacant seats.',
+          'The practical meaning: the first selection list\'s cutoff is the highest merit of the season. Merits drop with each subsequent list as seats cascade down. If your aggregate is a point or two below the first list\'s cutoff, you are still very much in the game — keep checking every list.',
+        ],
+      },
+      {
+        heading: 'How to read a merit list like a strategist',
+        paragraphs: [
+          'A merit list is not just names — it is data. For each college and category, look at the last admitted aggregate: that is the closing merit for that list. Compare your own aggregate (calculated to full precision — UHS ranks merit lists to four decimal places) against it. If you sit within a point or two below it, you are in the upgradation zone.',
+          'Read the category column carefully. Open merit, quota seats (rural, disabled, children of faculty), and overseas/foreign categories are ranked separately — your name might be far down open merit but comfortably inside your quota. On the KMU portal in particular, your college preferences drive placement: the system fills seats in your stated preference order, so a careless preference list can cost you a better college. Preferences cannot be edited after submission at SZABMU and several other bodies.',
+          'Track the lists in a simple spreadsheet: body, list number, date, each college\'s last admitted aggregate, and your distance from it. This five-minute habit turns rumor season into a clear, personal picture — and it is exactly what students with weaker aggregates use to catch upgradation movement others miss.',
+        ],
+      },
+      {
+        heading: 'If your name is missing: the honest playbook',
+        paragraphs: [
+          'Missing the first selection list is normal for a large share of eventually admitted students — especially in Punjab, where the list cascade runs deep. Your job is to keep watching every subsequent list and every upgradation round, and to keep your phone and documents ready, because joining periods are short.',
+          'Check your category eligibility again: many students miss that they qualify for a quota they never applied under. For private-sector options, KMU\'s private admissions and the private colleges under UHS run on separate timelines with separate lists — a public-list miss is not the end. And if you are on the borderline, use the waiting period productively: compute your aggregate against the published closing merits of 2024 and 2025 on each university\'s page, set realistic preference expectations, and have your fee and documents ready so a late-round offer never slips because you were unprepared.',
+        ],
+      },
+      {
+        heading: 'Five mistakes that cost students seats every year',
+        paragraphs: [
+          'First, checking the wrong session\'s list and panicking over a number that does not apply to you. Second, trusting forwarded screenshots instead of the official portal — outdated or fabricated lists are routine. Third, missing the objection window on the provisional list because you checked a day late; a wrong aggregate printed there follows you into the final list. Fourth, a careless preference order that hands your seat to a lower-choice college. Fifth, waiting to arrange documents and fees until selection day — when the offer window is days, preparation is the whole game.',
+        ],
+        list: [
+          'Bookmark only the official portal of the body you applied to — ignore forwarded list images until verified.',
+          'Check the provisional list the hour it appears and file any objection within the stated window.',
+          'Rank college preferences in your true order of desire, not in the order you think you can "afford".',
+          'Track every list\'s closing aggregate in a spreadsheet so you can see merit dropping toward your number.',
+          'Never trust a cutoff number on this site or any site until it is verified against an official list — we publish only verified numbers, and so should you expect everywhere.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When will the 2026-27 MBBS merit lists be published?',
+        answer: 'Per official schedules announced in October 2026: UHS Punjab\'s provisional order of merit is scheduled for 13 November and the final on 16 November, with college-wise selection lists from 17 November. KMU private colleges show a provisional list on 11 November. NUMS shows its provisional merit list on 10 December. These dates are subject to change by PMDC or the admitting universities.',
+      },
+      {
+        question: 'Where do I check the UHS merit list?',
+        answer: 'On the official UHS website, uhs.edu.pk. UHS publishes the provisional and final orders of merit and then college-wise selection lists there. Do not rely on forwarded screenshots — verify everything on the official portal.',
+      },
+      {
+        question: 'What is the difference between a provisional and a final merit list?',
+        answer: 'The provisional list is your first look — it can contain errors, so check your aggregate and details and file objections within the (often very short) correction window. The final list is published after corrections are processed and is the basis for seat allocation.',
+      },
+      {
+        question: 'Why did the merit "drop" between the first and third selection lists?',
+        answer: 'Each selection list fills the seats students declined or upgraded from, so the last admitted aggregate falls with every round. The first list\'s cutoff is the highest merit of the season; later lists and upgradation rounds admit students with lower aggregates as seats cascade down.',
+      },
+      {
+        question: 'Can I change my college preferences after submitting the application?',
+        answer: 'No, at several bodies — including SZABMU Islamabad — preferences cannot be modified once submitted. KMU also uses your stated preference order during placement. Rank your colleges in your true order of desire before submitting.',
+      },
+      {
+        question: 'Do old MDCAT scores work for 2026-27 admissions?',
+        answer: 'MDCAT results remain valid for up to three years. SZABMU and JSMU explicitly accept valid 2024, 2025, or 2026 scores (55% minimum for MBBS, 50% for BDS). Always check your body\'s notice, since the accepted sessions can be stated differently.',
+      },
+      {
+        question: 'I am below the first selection list cutoff. Should I give up?',
+        answer: 'No. First-list cutoffs are the season\'s highest; merits drop across subsequent lists and upgradation rounds. Keep checking every list, verify your quota categories, and have documents and fees ready so a late offer never slips.',
+      },
+      {
+        question: 'How is my aggregate ranked so precisely?',
+        answer: 'UHS rounds the final aggregate to four decimal places and ranks lists at that precision — students with seemingly identical marks can sit dozens of ranks apart. Keep full precision in your own calculation and round only at the end.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
 
 // Combined export used by pages and sitemap tooling.
