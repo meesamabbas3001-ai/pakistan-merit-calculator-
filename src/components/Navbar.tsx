@@ -58,6 +58,13 @@ export const Navbar: React.FC<NavbarProps> = ({
               <Sparkles className="w-4 h-4" />
               Find My University
             </button>
+            <a
+              href="/results/"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-200/60"
+            >
+              <Newspaper className="w-4 h-4" />
+              Board Results
+            </a>
             <button
               onClick={() => setActiveTab('compare')}
               className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all ${
@@ -140,6 +147,13 @@ export const Navbar: React.FC<NavbarProps> = ({
             <Sparkles className="w-5 h-5 mb-0.5" />
             Find Uni
           </button>
+          <a
+            href="/results/"
+            className="flex flex-col items-center text-xs font-medium text-slate-500"
+          >
+            <Newspaper className="w-5 h-5 mb-0.5" />
+            Results
+          </a>
           <button
             onClick={() => setActiveTab('compare')}
             className={`flex flex-col items-center text-xs font-medium ${

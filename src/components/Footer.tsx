@@ -43,12 +43,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <h4 className="text-white font-semibold text-sm mb-3">Student Tools & SEO</h4>
             <ul className="space-y-2 text-xs">
               <li><button onClick={() => onNavigate('matcher')} className="hover:text-emerald-400 transition-colors">Find My Best University</button></li>
+              <li><a href="/results/" className="hover:text-emerald-400 transition-colors">Board Results 2026</a></li>
               <li><button onClick={() => onNavigate('compare')} className="hover:text-emerald-400 transition-colors">Compare Universities</button></li>
               <li><button onClick={() => onNavigate('directory')} className="hover:text-emerald-400 transition-colors">All Universities Directory</button></li>
               <li><button onClick={() => onNavigate('scholarships')} className="hover:text-emerald-400 transition-colors">Scholarship Finder 2026</button></li>
               <li><button onClick={() => onNavigate('admission-deadlines')} className="hover:text-emerald-400 transition-colors">Admission Deadlines 2026</button></li>
               <li><button onClick={() => onNavigate('blog')} className="hover:text-emerald-400 transition-colors">Admission Guides & Blog</button></li>
-              <li><a href="/results/" className="hover:text-emerald-400 transition-colors">Board Results 2026</a></li>
             </ul>
           </div>
 
