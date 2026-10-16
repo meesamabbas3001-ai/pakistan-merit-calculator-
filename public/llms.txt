@@ -49,3 +49,12 @@
 ## Data provenance
 
 Aggregate weightages are verified against each university's official admission portal (source links on every university page). Closing merits are compiled from official merit lists. Formulas can change between admission cycles; pages carry a "last verified" date.
+
+## Board results 2026 (dates, status, SMS codes, how to check)
+
+- [All board results 2026](https://pakistan-merit-calculator.vercel.app/results/): status of 9th, 10th, 11th and 12th class results for Punjab, Federal (FBISE), Karachi (BIEK) and KP boards, with SMS codes and checking methods.
+- [1st Year Result 2026](https://pakistan-merit-calculator.vercel.app/results/1st-year-result-2026/): Punjab boards announce 11th class result on 22 October 2026 at 10:00 AM; FBISE announced 9 September 2026; BIEK Karachi group-wise in October 2026; KP boards announced September 2026.
+- [Punjab board results](https://pakistan-merit-calculator.vercel.app/results/punjab-boards/): all 9 BISE boards — 10th class 6 Aug 2026, 9th class 2 Sep 2026, 12th class 23 Sep 2026, 11th class 22 Oct 2026; SMS codes (Lahore 800291, Gujranwala 800299, Multan 800293, Faisalabad 800240, Rawalpindi 800296, Sargodha 800290, DG Khan 800295, Bahawalpur 800298, Sahiwal 800292).
+- [Karachi board result (BIEK)](https://pakistan-merit-calculator.vercel.app/results/karachi-board/): HSC Part-II announced group-wise Aug–Sep 2026 (Commerce 14 Sep 2026); Part-I Pre-Engineering 2 Oct 2026, Pre-Medical Oct 2026; SMS roll number to 8583; biek.edu.pk.
+- [Federal board result (FBISE)](https://pakistan-merit-calculator.vercel.app/results/federal-board/): HSSC Part-I and Part-II announced 9 September 2026, 11:30 AM; SMS "FB <roll number>" to 5050; fbise.edu.pk.
+- [KP board results](https://pakistan-merit-calculator.vercel.app/results/kp-boards/): BISE Bannu and BISE Swat HSSC results announced September 2026; SMS roll number to 9818; new IBCC grading (40% passing, A++ to U).
