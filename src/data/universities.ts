@@ -777,7 +777,7 @@ export const UNIVERSITIES_DATA: University[] = [
     province: 'Punjab',
     universityType: 'Public',
     feeCategory: 'Budget',
-    feeCategoryLabel: 'Rs. 20,000–40,000 per year',
+    feeCategoryLabel: 'Rs. 50,000 per year',
     hasHostel: true,
     hasScholarships: true,
     logoBg: 'bg-red-900 text-white',
