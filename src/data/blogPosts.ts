@@ -429,6 +429,7 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
         paragraphs: [
           'The Pakistan Medical and Dental Council (PMDC) sets one national merit formula for MBBS and BDS admissions, written into its Medical and Dental Undergraduate Education (Admissions, Curriculum and Conduct) Policy and Regulations 2025. It applies to public and private medical colleges across Pakistan, and admitting universities like UHS Lahore repeat it in their own prospectuses (the UHS 2025-26 prospectus even prints a worked formula in its Annexure IV).',
           'The weightage is: Matric (or equivalent) counts 10%, FSc Pre-Medical (or equivalent) counts 40%, and the MDCAT counts 50%. As one line: Aggregate = (Matric obtained ÷ Matric total × 10) + (FSc obtained ÷ FSc total × 40) + (MDCAT obtained ÷ MDCAT total × 50). Half your merit comes from a single 3.5-hour test — that is why MDCAT preparation, not board marks alone, decides most admission outcomes.',
+          'Update for the 2026-27 cycle: Punjab notified the MBBS/BDS Admission Policy on 14 October 2026 — the 10/40/50 formula above is unchanged, and UHS Lahore runs the centralized admissions. Key details from the notification: application fee Rs. 2,000, public-sector tuition Rs. 50,000 per year, private-seat deposit Rs. 600,000 due within 3 working days of the merit list, no Hafiz-e-Quran bonus marks, and the public-college preference list locks after the deadline (a college left off your list cannot be considered later).',
         ],
       },
       {
@@ -728,6 +729,110 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
       {
         question: 'How is my aggregate ranked so precisely?',
         answer: 'UHS rounds the final aggregate to four decimal places and ranks lists at that precision — students with seemingly identical marks can sit dozens of ranks apart. Keep full precision in your own calculation and round only at the end.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
+  {
+    slug: 'mbbs-closing-merit-2026-punjab',
+    image: '/blog/mbbs-closing-merit-2026-punjab.svg',
+    imageAlt: 'MBBS closing merit 2026 Punjab — last-year cutoff bars with KEMU at 94.9 and UHS merit list dates',
+    title: 'MBBS Closing Merit 2026: Punjab Cutoffs, UHS Merit List Dates & Safe Aggregates',
+    description:
+      'Punjab MBBS closing merit 2026: verified UHS merit-list dates (applications open 16–30 Oct), last-year college cutoffs with KEMU at ~94.9%, and what aggregate is actually safe — honest benchmarks, no invented numbers.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '8 min read',
+    intro:
+      'Every MBBS applicant in Punjab asks one question after the MDCAT: "closing merit kitna hoga?" Here is the honest answer for the 2026-27 session: UHS applications are open RIGHT NOW (16–30 October 2026), the first selection list is scheduled for 17 November — and no 2026 closing merit exists yet, because no list has been published. What does exist: a verified official schedule, verified last-year cutoffs, and the maths to judge your own position against them. This guide gives you all three, and tells you plainly where every number comes from. We refuse to invent 2026 cutoffs — a guessed number here could cost a student their college choice.',
+    sections: [
+      {
+        heading: 'The 2026-27 cycle is live right now: the verified UHS schedule',
+        paragraphs: [
+          'UHS Lahore announced its complete 2026-27 public-sector admission schedule in October 2026, and the window is open as you read this. For MBBS: online applications opened on 16 October 2026 at 9:00 AM and close on 30 October at 5:00 PM. The provisional order of merit is scheduled for 13 November, followed by the final order of merit on 16 November. These two lists rank every applicant by aggregate before any seat is assigned.',
+          'College-wise selection lists then decide who actually gets a seat: the first is scheduled for 17 November, with the second selection/upgradation list on 23 November and the third on 1 December. MBBS classes are scheduled to commence on 1 February 2027. BDS runs on a separate, later calendar: applications from 15 to 30 December 2026, provisional and final merit orders on 6 and 9 January 2027, selection lists starting 11 January (then 15 and 21 January), and classes on 1 March 2027.',
+          'One caution: UHS states that this timetable remains subject to directions from the PMDC and the Punjab government, including changes in how many selection lists are issued. Treat every date as scheduled rather than guaranteed, and never miss the application deadline of 30 October — there is no late fix for it.',
+        ],
+      },
+      {
+        heading: 'First-list cutoff vs final closing: the number that actually matters',
+        paragraphs: [
+          'Students mix up two very different numbers. The first selection list\'s cutoff is the HIGHEST merit of the season — it fills only the top of the applicant pool. The "closing merit" of a college is the last admitted aggregate on the FINAL list, after every upgradation round has cascaded seats down to lower aggregates. In the 2025-26 cycle, UHS issued selection lists over many weeks, and merit kept dropping with each round.',
+          'So when you compare your aggregate against last year, always compare against final closings, never against a first list. And always check the session year: lists labeled "2026" floating around result sites right now mostly belong to the 2025-26 session — issued between late 2025 and early 2026, finished history. Only lists dated for session 2026-27 (starting 13 November) apply to you.',
+          'Be equally careful with "expected closing merit 2026" tables and videos circulating now. Those are predictions made by creators, not official figures — some even carry disclaimers that they may vary. Use them as scenarios if you like, but never as targets to plan your college preferences around.',
+        ],
+      },
+      {
+        heading: 'What Punjab MBBS closed at last time (verified history)',
+        paragraphs: [
+          'Now the benchmarks. Two independent education sources agree on the headline number: King Edward Medical University\'s 2025 final open-merit close sat at about 94.9% (one reports 94.87% on the final list). KEMU is the ceiling of Punjab MBBS merit — the most competitive open-merit seat in Pakistan — and its 2025 close is the single most useful reference number of the season.',
+          'Reported recent open-merit closing ranges, compiled from published merit lists by education guides, put the rest of the picture in place: Allama Iqbal Medical College roughly 91.5–93.0%, Nishtar Medical University roughly 90.5–92.4%, Khyber Medical College (KP) roughly 89.6–91.9%, and Dow University of Health Sciences (Sindh) roughly 89.0–91.6%. These are reported ranges across recent sessions — a benchmark neighbourhood, not an official promise. We publish verified per-university closing merits on the KEMU, DUHS, and NUMS calculator pages of this site, taken from official lists.',
+          'How to use these: a range tells you which colleges live in your aggregate\'s orbit. If your aggregate sits 1–2 points above a college\'s historical band, you are in a strong position for it; if you sit inside the band, it is a genuine contest; below it, you are depending on merit dropping in later rounds. None of this replaces the 2026 lists — it only tells you how to read them when they arrive.',
+        ],
+      },
+      {
+        heading: 'What moves closing merit in 2026 (and why we will not guess a number)',
+        paragraphs: [
+          'Four forces will decide where 2026 closings land, and none of them is knowable in advance. First, the difficulty of the MDCAT 2026 paper — its result was declared on 24 September 2026, and a tougher paper compresses the top of the aggregate distribution downward while an easier one pushes it up. Second, the applicant volume: more applicants above the 55% MBBS eligibility line means fiercer competition at the top. Third, seat counts — and note the PMDC admission policy states that any increase in approved seats or new institutions after the policy\'s issuance counts for the following session, not this one. Fourth, repeaters: MDCAT scores stay valid for up to three years, so strong older scores keep competing in this cycle.',
+          'This is exactly why we will not publish an "expected closing merit 2026" number. The direction of each force can be reasoned about, but the final number is an output of the applicant pool — nobody, including us, can compute it before the lists publish. Any site handing you a precise 2026 cutoff today is inventing it. The honest move is to benchmark against verified history and set your target a point or two above last year\'s close.',
+        ],
+      },
+      {
+        heading: 'Worked example: where do YOU actually stand?',
+        paragraphs: [
+          'Take a student with 1050/1100 in Matric, 1040/1100 in FSc, and 165/180 in MDCAT. Apply the official formula — Matric 10% + FSc 40% + MDCAT 50%: Matric contributes 1050 ÷ 1100 × 10 = 9.5455; FSc contributes 1040 ÷ 1100 × 40 = 37.8182; MDCAT contributes 165 ÷ 180 × 50 = 45.8333. The final aggregate is 93.1970%.',
+          'Read it against the benchmarks: about 1.7 points below KEMU\'s 2025 final close of ~94.9% — KEMU is out of reach on 2025 terms. At the top edge of AIMC\'s historical band (91.5–93.0%), and comfortably inside the historical bands for Nishtar and KMC. Now run it backwards for a target: to reach 94.9 with those boards, the boards supply 47.3637, so the MDCAT must supply 47.5363 — that means 47.5363 ÷ 50 × 180 = 171.13, i.e. 172 marks out of 180. This is the exact target-setting our MDCAT aggregate formula guide teaches step by step.',
+          'The arithmetic exposes the leverage: one MDCAT mark is worth roughly 0.278% of aggregate, about eight times one FSc mark. If you are still appearing for a test, or holding a valid older MDCAT score, that is where merit is won or lost — the boards, for all their weight, move far more slowly.',
+        ],
+      },
+      {
+        heading: 'Your closing-merit strategy for this season',
+        paragraphs: [
+          'First, apply on time — the UHS portal closes on 30 October at 5:00 PM and a missed deadline ends the season before it starts. Second, rank your college preferences in your true order of desire, not in the order you think you can "afford": the system fills seats down your stated preference list, and a careless order can hand your seat to a lower-choice college.',
+          'Third, do not judge your chances by the first selection list on 17 November — its cutoff is the season\'s highest, and merit drops across the 23 November and 1 December upgradation rounds. Missing the first list is normal for a large share of eventually admitted students. Fourth, track every list\'s last admitted aggregate per college in a simple spreadsheet; watching merit move toward your number turns rumor season into a clear personal picture.',
+          'Fifth, keep your documents and fee ready — joining windows after selection are short, and late-round offers are lost by the unprepared, not the unqualified. Sixth, keep a private-sector backup plan: private colleges under UHS run on separate timelines with separate lists. Our "How to Check Merit List 2026" guide walks through every portal, list type, and objection window step by step — read it alongside this one.',
+        ],
+      },
+      {
+        heading: 'Page notes: what we know, what we refuse to guess',
+        paragraphs: [
+          'Known and verified: the 2026-27 UHS schedule, the official 10/40/50 formula, and the 2025 closing benchmarks quoted above with their sources. Unknown and therefore unpublished here: every single 2026 closing merit — because UHS has not published any 2026-27 list yet. The moment the 13 November provisional list and the 17 November selection list appear, we will update this page with the real, verified numbers.',
+          'If you arrived here looking for a single "expected" number to plan around, take this instead: compute your aggregate to full precision, set your target 1–2 points above last year\'s final close for your dream college, and let the verified lists — not a prediction — decide your preferences. A missing number on this page is honesty; a guessed number anywhere would be a disservice to every student reading it.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When will the first UHS MBBS merit list 2026 come out?',
+        answer: 'Per the official 2026-27 schedule: the provisional order of merit on 13 November 2026, the final order of merit on 16 November, and the first college-wise selection list on 17 November, with upgradation lists on 23 November and 1 December. Dates remain subject to PMDC and Punjab government directions.',
+      },
+      {
+        question: 'What was the closing merit of MBBS in Punjab in 2025?',
+        answer: 'KEMU closed the 2025 session at about 94.9% on the final open-merit list (reported by two independent education sources). Reported recent ranges for other colleges: AIMC roughly 91.5–93.0%, Nishtar roughly 90.5–92.4%, KMC Peshawar roughly 89.6–91.9%, DUHS Karachi roughly 89.0–91.6%. Always verify against the official UHS lists.',
+      },
+      {
+        question: 'What aggregate is safe for MBBS in Punjab 2026?',
+        answer: 'Honestly: historically, an aggregate around 92% or above has secured a public-sector MBBS seat somewhere in Punjab, while KEMU territory starts around 94.9%. The exact 2026 line will move with this year\'s MDCAT paper and applicant pool, so set your target 1–2 points above last year\'s close for your chosen college.',
+      },
+      {
+        question: 'Is the first selection list cutoff the same as closing merit?',
+        answer: 'No. The first selection list cutoff is the highest merit of the season. "Closing merit" means the last admitted aggregate on the final list after all upgradation rounds — it is always lower than the first list\'s cutoff.',
+      },
+      {
+        question: 'Why is KEMU\'s closing merit always the highest?',
+        answer: 'KEMU is the first preference of nearly every Punjab applicant and has a limited number of open-merit seats, so the top of the applicant pool concentrates there first. Its closing merit is effectively the ceiling of the whole province\'s merit.',
+      },
+      {
+        question: 'Does merit really drop after the first list?',
+        answer: 'Yes. Each selection and upgradation round fills seats that students declined or upgraded from, so the last admitted aggregate falls with every round. Missing the first list is normal for many eventually admitted students — keep checking every list.',
+      },
+      {
+        question: 'Is BDS closing merit lower than MBBS?',
+        answer: 'Yes, BDS historically closes below MBBS at the same admitting bodies. For 2026-27, BDS applications run 15–30 December 2026, with selection lists from 11 January 2027 — a completely separate calendar from MBBS.',
+      },
+      {
+        question: 'Where are official closing merits published?',
+        answer: 'On the official UHS merit lists at uhs.edu.pk. Each college-wise selection list shows the admitted aggregates; the last aggregate on the final list is that college\'s closing merit. Verify any cutoff number against these official lists before acting on it.',
       },
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],

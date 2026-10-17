@@ -38,6 +38,7 @@
 - [MDCAT Aggregate Formula 2026](https://pakistan-merit-calculator.vercel.app/blog/mdcat-aggregate-formula-2026): official PMDC 10/40/50 formula, worked example, passing scores.
 - [How to Calculate UET Lahore (ECAT) Aggregate 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-uet-aggregate): official 17/50/33 formula, ECAT pattern, worked example, closing merits.
 - [How to Check MBBS/BDS Merit List 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-check-mbbs-merit-list-2026): where each body publishes lists (UHS, KMU, SZABMU, JSMU, NUMS), official 2026-27 dates, and how to read them.
+- [MBBS Closing Merit 2026: Punjab](https://pakistan-merit-calculator.vercel.app/blog/mbbs-closing-merit-2026-punjab): verified UHS 2026-27 dates, last-year college cutoffs (KEMU ~94.9%), what moves 2026 merit, and safe aggregates — no invented numbers.
 
 
 ## Medical universities (MDCAT / NUMS)

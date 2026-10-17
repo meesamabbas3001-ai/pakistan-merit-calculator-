@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.15" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1080" cy="80" r="170" fill="#ffffff" opacity="0.06"/>
+  <circle cx="120" cy="580" r="200" fill="#fbbf24" opacity="0.08"/>
+  <!-- Closing-merit bar chart motif -->
+  <g opacity="0.9">
+    <rect x="830" y="420" width="52" height="120" rx="10" fill="#ffffff" opacity="0.22"/>
+    <rect x="896" y="380" width="52" height="160" rx="10" fill="#ffffff" opacity="0.30"/>
+    <rect x="962" y="340" width="52" height="200" rx="10" fill="url(#bar)" opacity="0.95"/>
+    <rect x="1028" y="300" width="52" height="240" rx="10" fill="#fbbf24" opacity="0.85"/>
+    <text x="856" y="566" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0.75">92%</text>
+    <text x="922" y="566" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0.75">93%</text>
+    <text x="988" y="566" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">94%</text>
+    <text x="1054" y="566" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">95%</text>
+    <!-- dashed cutoff line -->
+    <line x1="800" y1="320" x2="1110" y2="320" stroke="#ffffff" stroke-width="3" stroke-dasharray="12 10" opacity="0.7"/>
+    <rect x="990" y="270" width="130" height="36" rx="18" fill="#ffffff"/>
+    <text x="1055" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#1e3a8a">KEMU 94.9</text>
+  </g>
+  <!-- Stethoscope accent -->
+  <g opacity="0.85">
+    <circle cx="700" cy="180" r="40" fill="none" stroke="#fbbf24" stroke-width="9"/>
+    <path d="M700 220 C700 280 655 300 655 340 C655 372 676 382 700 382 C724 382 745 372 745 340" fill="none" stroke="#fbbf24" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="745" cy="332" r="11" fill="#fbbf24"/>
+  </g>
+  <text x="70" y="80" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="3">PAKISTAN MERIT CALCULATOR</text>
+  <text x="70" y="205" font-family="Georgia, serif" font-size="74" font-weight="bold" fill="#ffffff">MBBS Closing Merit</text>
+  <text x="70" y="295" font-family="Georgia, serif" font-size="74" font-weight="bold" fill="#fbbf24">2026 — Punjab</text>
+  <text x="70" y="355" font-family="Arial, sans-serif" font-size="30" fill="#ffffff" opacity="0.85">Last-year cutoffs, UHS dates &amp; safe aggregates</text>
+  <rect x="70" y="388" width="120" height="8" rx="4" fill="#fbbf24"/>
+  <!-- Calendar chip -->
+  <g font-family="Arial, sans-serif" font-weight="700">
+    <rect x="70" y="430" width="330" height="60" rx="30" fill="#ffffff" opacity="0.16" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2"/>
+    <text x="235" y="468" text-anchor="middle" font-size="24" fill="#ffffff">1st list: 17 Nov</text>
+    <rect x="420" y="430" width="300" height="60" rx="30" fill="#fbbf24"/>
+    <text x="570" y="468" text-anchor="middle" font-size="24" fill="#1e3a8a">Apply by 30 Oct</text>
+  </g>
+</svg>
