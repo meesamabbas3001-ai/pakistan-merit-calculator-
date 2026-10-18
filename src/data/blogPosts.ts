@@ -837,6 +837,116 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-calculate-kmu-aggregate',
+    image: '/blog/how-to-calculate-kmu-aggregate.svg',
+    imageAlt: 'KMU aggregate 2026 guide: SSC 10%, HSSC 40%, MDCAT 50% formula for Khyber Medical University MBBS/BDS merit',
+    title: 'How to Calculate KMU Aggregate 2026: Khyber Medical University MBBS/BDS Merit Guide',
+    description:
+      'Calculate your KMU aggregate for 2026-27 with the official formula (SSC 10% + HSSC 40% + MDCAT 50%), a worked example, the 21 October deadline, fee and eligibility — all verified from KMU\'s official admission portal.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '8 min read',
+    intro:
+      'Khyber Medical University (KMU) runs the centralized admission system for all public-sector medical and dental colleges of Khyber Pakhtunkhwa — and the online application window for 2026-27 closes on 21 October 2026 at 5:00 PM. If your aggregate maths is wrong, your college preferences are built on sand. This guide gives you KMU\'s official merit formula, works through a real example, and lays out every verified deadline, fee and eligibility rule — plainly sourced from KMU\'s official portal.',
+    sections: [
+      {
+        heading: 'The KMU aggregate formula (2026-27)',
+        paragraphs: [
+          'KMU follows the national PMDC merit structure: your aggregate is a weighted sum of three components — SSC (Matric) counts 10%, HSSC (FSc Pre-Medical) counts 40%, and your MDCAT score counts 50%. This is the same formula UHS Punjab uses, so the number you calculated for Punjab applies directly to KP as well.',
+          'The formula is: Aggregate = (SSC obtained ÷ SSC total × 10) + (HSSC obtained ÷ HSSC total × 40) + (MDCAT obtained ÷ 180 × 50). The MDCAT is scored out of 180 in the current cycle, not 200 — dividing by the wrong total is the single most common error students make, and it always makes your aggregate look worse than it is.',
+          'If you sat the NUMS test for NUMS colleges, stop here — NUMS uses its own 200-mark test and a separate process. The formula above is only for MDCAT-based KMU admissions. Never blend the two.',
+        ],
+      },
+      {
+        heading: 'Worked example: a real calculation',
+        paragraphs: [
+          'Take a student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc, and 150 out of 180 in MDCAT. Convert each part to its weighted contribution. SSC: 1050 ÷ 1100 × 10 = 9.5455. HSSC: 1000 ÷ 1100 × 40 = 36.3636. MDCAT: 150 ÷ 180 × 50 = 41.6667.',
+          'Add them: 9.5455 + 36.3636 + 41.6667 = 87.5758%. That is the final KMU aggregate. KMU ranks merit lists to four decimal places, exactly like UHS — so do not round anything until the very last step. Two students who both "have 87.6%" can sit dozens of ranks apart once the decimals are compared.',
+          'Notice the structure of the arithmetic: the MDCAT column is the only place where a realistic score swing moves your total by several full percentage points. Ten extra MDCAT marks add about 2.78% to your aggregate (10 ÷ 180 × 50), while ten extra FSc marks add about 0.36% and ten extra Matric marks add about 0.09%. One MDCAT mark is worth roughly eight FSc marks.',
+        ],
+      },
+      {
+        heading: 'Run the formula backwards to set your target',
+        paragraphs: [
+          'The formula also works in reverse — and this is how toppers plan. Suppose your target is a 92% aggregate, with 1020 out of 1100 in Matric (which contributes 9.2727) and 980 out of 1100 in FSc (which contributes 35.6364). Your boards give you 44.9091 combined, so the MDCAT must supply the remaining 47.0909.',
+          'That means your MDCAT marks must be 47.0909 ÷ 50 × 180 = about 170 out of 180. Knowing the exact number turns a vague goal like "do well in MDCAT" into a concrete, testable target — and tells you honestly whether your target is reachable from your board marks at all. If the backwards maths says you need 178 out of 180 and your practice tests are at 150, it is time to add private colleges to your plan, not hope.',
+        ],
+      },
+      {
+        heading: 'The 2026-27 deadline you cannot miss',
+        paragraphs: [
+          'KMU takes online applications only, through cas.kmu.edu.pk — no hard copies, no forms by post, and no physical documents are accepted at KMU. The online form for public-sector MBBS and BDS seats closes on Wednesday, 21 October 2026 at 5:00 PM. A form that is wrong or incomplete is simply not considered, so do not leave it for the last evening.',
+          'The processing fee is Rs. 3,000 per program — MBBS, BDS, KIMS MBBS and KIDS BDS are charged separately. You download the auto-generated challan after submitting the form and pay it at any Bank of Khyber branch; KMU advises checking your payment status on the portal 72 hours after paying, because admission is only allotted to candidates whose payment status is verified.',
+          'Eligibility per the official portal: KP or newly-merged-districts domicile, and a valid MDCAT score from 2024, 2025 or 2026 — at least 55% for MBBS and 50% for BDS. PM&DC\'s national minimum is 60% in FSc Pre-Medical; KMU\'s portal carries the session\'s exact eligibility wording, so confirm it there rather than from a WhatsApp forward.',
+        ],
+      },
+      {
+        heading: 'Public vs private: two separate KMU processes',
+        paragraphs: [
+          'This is where many KPK students lose a cycle: KMU runs public and private admissions on completely separate portals and timelines. The public-sector process above runs at cas.kmu.edu.pk. Private-sector MBBS/BDS admissions for all of KP\'s private medical and dental colleges run on a different portal — caspr.kmu.edu.pk — where forms opened on 6 October 2026 and close on 9 November 2026, with the provisional merit list scheduled for 11 November.',
+          'The steps on the private portal mirror the public one: create an account on your own CNIC (applying on someone else\'s CNIC is not acceptable), complete your profile, select your college priorities in the order you actually want them, upload documents, download the challan, and verify your payment status. Once submitted, the form cannot be changed — so your preference order is final.',
+          'A public-sector miss is not the end. Plenty of students who miss the 21 October public window, or who sit below the public closing line, still secure seats through the private process running into November. Plan for both from the start.',
+        ],
+      },
+      {
+        heading: 'The full KMU 2026-27 public-sector schedule',
+        paragraphs: [
+          'For the public-sector process, KMU\'s official notice lays out the following schedule after the 21 October deadline: provisional merit list on 30 October 2026, online objections from 1 to 3 November, final merit list on 12 November, placement in MBBS and BDS categories from 16 to 21 November, placement at KIMS and KIDS Kohat on 23 November, and a second round on vacant seats from 1 to 4 December, with a third round from 15 to 17 December.',
+          'The provisional list matters more than students think: this is your only chance to catch an error in your printed aggregate or category before it follows you into the final list. Check it on the day it appears, file objections inside the window if anything is wrong, and then track every placement round — upgradation movement is how borderline students get in.',
+          'Every date above comes from KMU\'s official admission notice and portal, read in October 2026. Dates can shift; verify against cas.kmu.edu.pk rather than screenshots circulating on social media.',
+        ],
+      },
+      {
+        heading: 'Four mistakes that cost KPK students their seat',
+        paragraphs: [
+          'First, dividing the MDCAT by 200 instead of 180 — the classic error, inherited from the old test pattern. Second, applying on the wrong portal or confusing the public and private processes: cas.kmu.edu.pk for public, caspr.kmu.edu.pk for private, different deadlines, different forms. Third, submitting the form but never verifying the challan payment 72 hours later — an unverified payment means no admission allotment, however strong your aggregate.',
+          'Fourth, a careless college preference order. KMU\'s system fills seats in your stated preference order, so a college you listed casually can claim you before the college you actually wanted gets a chance. Rank preferences deliberately, and remember: once submitted, the form cannot be edited.',
+        ],
+        list: [
+          'Divide MDCAT by 180 for KMU (current cycle) — never 200.',
+          'Apply on cas.kmu.edu.pk for public seats before 21 October, 5:00 PM; use caspr.kmu.edu.pk for private seats before 9 November.',
+          'Verify your Bank of Khyber challan payment on the portal 72 hours after paying.',
+          'Set your college preferences in the exact order you want them — submission is final.',
+          'Check the provisional merit list on 30 October and file objections within the 1–3 November window if your aggregate is wrong.',
+        ],
+      },
+      {
+        heading: 'Closing merits: the honest note',
+        paragraphs: [
+          'No 2026-27 KMU closing merit exists yet — the provisional merit list appears on 30 October 2026, and only published official lists create real cutoffs. Any "predicted" KMU cutoff number you see before then is a guess dressed as data; we refuse to invent one here, because a guessed number could cost a student their college choice.',
+          'Use last session\'s official KMU merit lists as your reference line (remembering that cutoffs swing every year with paper difficulty and applicant numbers), compute your aggregate honestly with the formula above, and set your preferences a point or two below your comfort line. The related calculators below run the same 10/40/50 maths for KEMU, Dow and NUMS so you can compare across bodies.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the KMU aggregate formula for 2026?',
+        answer: 'KMU uses SSC 10% + HSSC 40% + MDCAT 50%. Formula: (SSC obtained ÷ SSC total × 10) + (HSSC obtained ÷ HSSC total × 40) + (MDCAT obtained ÷ 180 × 50). The MDCAT is scored out of 180 in the current cycle.',
+      },
+      {
+        question: 'What is the last date for KMU MBBS/BDS admission 2026?',
+        answer: 'For public-sector seats, the online form at cas.kmu.edu.pk closes on 21 October 2026 at 5:00 PM. For private-sector seats, forms at caspr.kmu.edu.pk are open from 6 October to 9 November 2026.',
+      },
+      {
+        question: 'What are the eligibility requirements for KMU admission?',
+        answer: 'Per KMU\'s official portal: KP or newly-merged-districts domicile, and a valid MDCAT score from 2024, 2025 or 2026 — at least 55% for MBBS and 50% for BDS. Confirm the session\'s exact eligibility on cas.kmu.edu.pk before applying.',
+      },
+      {
+        question: 'How much is the KMU application fee?',
+        answer: 'Rs. 3,000 per program (MBBS, BDS, KIMS MBBS, KIDS BDS separately), paid via the auto-generated challan at any Bank of Khyber branch. Verify your payment status on the portal 72 hours after paying — admission is allotted only to verified payments.',
+      },
+      {
+        question: 'Does KMU accept hard copies or physical documents?',
+        answer: 'No. KMU accepts no hard copies, no forms by post, and no physical documents at the university. Everything is online; an incomplete or wrong online form is simply not considered.',
+      },
+      {
+        question: 'When will the KMU merit lists be published?',
+        answer: 'For the 2026-27 public-sector process: provisional merit list on 30 October 2026 (objections 1–3 November), final merit list on 12 November, and placement rounds from 16 November. The private-sector provisional list is scheduled for 11 November.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
 
 // Combined export used by pages and sitemap tooling.
