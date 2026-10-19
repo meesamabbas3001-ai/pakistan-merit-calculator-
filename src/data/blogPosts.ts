@@ -947,6 +947,119 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-calculate-nums-aggregate',
+    image: '/blog/how-to-calculate-nums-aggregate.svg',
+    imageAlt: 'NUMS aggregate 2026 guide: Matric 10%, FSc 40%, NUMS Entry Test 50% (out of 200) formula for NUMS MBBS/BDS merit',
+    title: 'How to Calculate NUMS Aggregate 2026: NUMS Entry Test Merit Guide',
+    description:
+      'Calculate your NUMS aggregate for 2026-27 with the official formula (Matric 10% + FSc 40% + NUMS Entry Test 50%, test out of 200), a worked example, the 11 November registration deadline, fees and eligibility — all verified.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '8 min read',
+    intro:
+      'The National University of Medical Sciences (NUMS) does not use your MDCAT score at all. If you are aiming for Army Medical College or any of NUMS\'s affiliated and Armed Forces-administered medical colleges, your merit is decided by a separate 200-mark NUMS entry test — and the registration window for 2026-27 is open right now, closing on 11 November 2026 for the regular fee. This guide gives you NUMS\'s official aggregate formula, works through a real example, explains why your MDCAT aggregate is irrelevant here, and lays out every verified deadline, fee and eligibility rule.',
+    sections: [
+      {
+        heading: 'The NUMS aggregate formula (2026-27)',
+        paragraphs: [
+          'NUMS follows the same national weight structure as the rest of Pakistan\'s medical admissions, but with its own test plugged in: Matric (or equivalent) counts 10%, FSc Pre-Medical (or equivalent) counts 40%, and the NUMS Entry Test counts 50%. This 10/40/50 split is published in NUMS\'s own admission documents and repeated by every official guide to the process.',
+          'The formula is: Aggregate = (Matric obtained ÷ Matric total × 10) + (FSc obtained ÷ FSc total × 40) + (NUMS Entry Test obtained ÷ 200 × 50). The one detail that decides everything: the NUMS test is scored out of 200, not 180. It is a completely different paper from the PMDC MDCAT — different syllabus emphasis, different total, different admitting body. Never substitute one score for the other.',
+          'As with the MDCAT formula, half your merit comes from a single test. The arithmetic in the next section shows exactly what that means in practice.',
+        ],
+      },
+      {
+        heading: 'Worked example: a real calculation',
+        paragraphs: [
+          'Take a student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc, and 170 out of 200 in the NUMS entry test. Convert each part to its weighted contribution. Matric: 1050 ÷ 1100 × 10 = 9.5455. FSc: 1000 ÷ 1100 × 40 = 36.3636. NUMS test: 170 ÷ 200 × 50 = 42.5.',
+          'Add them: 9.5455 + 36.3636 + 42.5 = 88.4091%. That is the final NUMS aggregate. Keep full precision through the whole calculation and round only at the end — NUMS ranks applicants by aggregate, and at the top of the merit list a few hundredths of a point can separate dozens of candidates.',
+          'Notice where the leverage is: every single NUMS test mark is worth 0.25% of your aggregate (50 ÷ 200). Ten test marks move the total by 2.5 full points. Compare that with board marks: ten extra FSc marks add about 0.36% (40 ÷ 1100), and ten extra Matric marks add about 0.09% (10 ÷ 1100). One NUMS test mark is worth roughly seven FSc marks and twenty-seven Matric marks. The test column is where merit is won and lost.',
+        ],
+      },
+      {
+        heading: 'Run the formula backwards to set your target',
+        paragraphs: [
+          'The formula works in reverse, and this is how serious candidates plan. Suppose your target is a 93% aggregate, with 1020 out of 1100 in Matric (which contributes 9.2727) and 980 out of 1100 in FSc (which contributes 35.6364). Your boards give you 44.9091 combined, so the NUMS test must supply the remaining 48.0909.',
+          'That means your test score must be 48.0909 ÷ 50 × 200 = about 193 out of 200. Knowing the exact number turns a vague goal like "do well in the NUMS test" into a concrete, testable target — and it tells you honestly whether your target is reachable from your board marks at all. If the backwards maths says you need 195+ and your practice tests are sitting at 160, your honest options are: a dramatic jump in test preparation, or parallel applications through the MDCAT route where your profile may fit differently. Decide that now, in October — not after the provisional merit list in December.',
+        ],
+      },
+      {
+        heading: 'Why your MDCAT aggregate is useless here',
+        paragraphs: [
+          'This is the error that wastes entire admission cycles: students compute their MDCAT aggregate (test out of 180) and assume it tells them something about NUMS. It does not. The NUMS entry test is a different paper with a different total, a different syllabus pattern, and a different scoring scale — a 150 on the NUMS test and a 150 on the MDCAT are not the same achievement, and plugging one into the other\'s formula produces a meaningless number.',
+          'The formulas cannot be mixed, either. A NUMS aggregate (NUMS test ÷ 200) is only valid for NUMS colleges, and a UHS/KMU aggregate (MDCAT ÷ 180) is only valid for MDCAT-route colleges. If you are applying through both routes — which many students sensibly do — compute and track the two aggregates as completely separate numbers, with separate targets and separate closing-merit benchmarks.',
+          'One more common mix-up to kill early: Army Medical College (AMC) Rawalpindi admits through NUMS, not through UHS Punjab. An AMC aspirant needs the NUMS test, the NUMS registration, and the NUMS merit lists — the Punjab UHS process will not get you into AMC.',
+        ],
+      },
+      {
+        heading: 'The 2026-27 deadline you cannot miss',
+        paragraphs: [
+          'NUMS runs one centralized online registration for MBBS and BDS across all its constituent, affiliated and Armed Forces-administered colleges, at the official admission portal mbbsbdsadmissions.numspak.edu.pk. Registration opened on 13 October 2026. The regular-fee window closes on 11 November 2026 (by 4:00 PM); late-fee registration stays open until 25 November 2026 (by 4:00 PM).',
+          'The application fee is Rs. 8,500 for open-merit seats and Rs. 50,000 for foreign seats; with the late fee these become Rs. 9,500 and Rs. 55,000 respectively. The fee is non-refundable. These dates and fees come from the official NUMS 2026-27 admission notice — verify them on the portal rather than from forwarded screenshots, but do not wait: there is no late fix for a missed registration window.',
+          'Eligibility follows the national PMDC frame: at least 60% in FSc Pre-Medical (or equivalent), and the national minimum on the qualifying test is 55% for MBBS and 50% for BDS — for the NUMS 200-mark test that means 110 and 100 marks respectively. The PMDC minimums are only the floor for eligibility; actual NUMS closing merits sit far above them, as the closing-merit section below explains. Confirm the session\'s exact eligibility wording on the NUMS portal before you apply.',
+        ],
+      },
+      {
+        heading: 'Which colleges this one process covers',
+        paragraphs: [
+          'One NUMS registration puts you in the running for the whole NUMS network, which is exactly why the process is so competitive. The network has three tiers. The constituent college is Army Medical College (AMC) Rawalpindi — NUMS\'s own flagship. The affiliated medical colleges include the CMH institutes at Lahore, Multan, Bahawalpur and Kharian, HITEC Institute of Medical Sciences Taxila, Karachi Institute of Medical Sciences (Malir), Quetta Institute of Medical Sciences, and Wah Medical College.',
+          'The third tier is the Armed Forces-administered colleges: Bahria University\'s medical and dental colleges in Islamabad and Karachi, Fazaia Medical College Islamabad and Fazaia Ruth Pfau Medical College Karachi, Foundation University Medical College Islamabad, and the NUST School of Health Sciences. This list follows the published 2026-27 admission notice; the exact college lineup and seat split are confirmed in the official NUMS prospectus for the session.',
+          'Practical point: this is a single centralized merit process, so your one NUMS aggregate is ranked once across the network — unlike Punjab\'s UHS system, where you list college preferences college-by-college. Read the prospectus on how preferences and categories (open merit vs foreign seats) are handled before you register.',
+        ],
+      },
+      {
+        heading: 'The full NUMS 2026-27 schedule',
+        paragraphs: [
+          'After registration closes, NUMS\'s official 2026-27 calendar runs as follows: the provisional merit list for MBBS and BDS is scheduled for 10 December 2026, the first MBBS selection list for 17 December 2026, and the first BDS selection list for 21 January 2027. Commencement of classes is tentatively scheduled for 15 February 2027 for MBBS and 15 March 2027 for BDS.',
+          'The provisional merit list on 10 December deserves your full attention: it is the list where errors in your printed aggregate or category surface, and the window to get them corrected is short. Check it the day it appears. Then track every selection list — merit moves between rounds as candidates above you accept or decline, and borderline students get in on later movement, not on the first list.',
+          'Every date above comes from NUMS\'s official 2026-27 admission notice, read in October 2026. Admission calendars can shift on PMDC or university directions; treat each date as scheduled and verify against the official portal as it approaches.',
+        ],
+      },
+      {
+        heading: 'Closing merits: the honest note',
+        paragraphs: [
+          'No 2026-27 NUMS closing merit exists yet — the provisional merit list appears on 10 December 2026, and only published official lists create real cutoffs. Any "predicted" NUMS cutoff number you see before then is a guess dressed as data; we refuse to invent one here, because a guessed number could cost a student their college choice.',
+          'What can honestly be said: NUMS publishes no single official cutoff figure, but education guides reporting on published merit lists consistently place recent open-merit closing in the 93–94% neighbourhood — among the highest in Pakistan\'s medical admissions. Treat that as an indicative benchmark, not a promise: cutoffs swing every year with test difficulty, applicant strength and seat counts.',
+          'The practical use of that benchmark: set your NUMS test target a point or two above the neighbourhood, run the backwards maths from your actual board marks, and — this matters — keep the MDCAT route alive in parallel. NUMS is a reach for almost everyone; the MDCAT-route colleges are where most successful candidates actually land. The related calculators below run the same 10/40/50 maths for NUMS, KEMU and Dow so you can compare across routes honestly.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the NUMS aggregate formula for 2026?',
+        answer: 'Matric 10% + FSc 40% + NUMS Entry Test 50%. Compute it as (Matric ÷ Matric total × 10) + (FSc ÷ FSc total × 40) + (NUMS test ÷ 200 × 50). The 10/40/50 structure matches the national PMDC formula, but the test is NUMS\'s own 200-mark paper — not the MDCAT.',
+      },
+      {
+        question: 'Is the NUMS entry test out of 200 or 180?',
+        answer: 'The NUMS entry test is out of 200. Always divide by 200 — dividing a NUMS score by 180 inflates your aggregate by about 4 points and gives you a dangerously optimistic reading of your merit position.',
+      },
+      {
+        question: 'Can I use my MDCAT score for NUMS admission?',
+        answer: 'No. NUMS requires its own 200-mark entry test; MDCAT scores cannot be used for NUMS, and NUMS test scores cannot be used for MDCAT-route colleges like UHS Punjab or KMU. The two aggregates are completely separate numbers.',
+      },
+      {
+        question: 'Can I apply to both NUMS and UHS Punjab?',
+        answer: 'Yes — they are separate processes with separate registrations, tests and merit lists. Compute both aggregates independently: NUMS uses (Matric × 10) + (FSc × 40) + (NUMS test ÷ 200 × 50), while UHS uses the same structure with the MDCAT ÷ 180. Never blend the two scores.',
+      },
+      {
+        question: 'What is the last date for NUMS MBBS/BDS registration 2026?',
+        answer: 'For session 2026-27, regular-fee registration closes on 11 November 2026 (by 4:00 PM) and late-fee registration stays open until 25 November 2026, through mbbsbdsadmissions.numspak.edu.pk. The fee is non-refundable.',
+      },
+      {
+        question: 'How much is the NUMS application fee?',
+        answer: 'Rs. 8,500 for open-merit seats and Rs. 50,000 for foreign seats, rising to Rs. 9,500 and Rs. 55,000 with the late fee. The fee is non-refundable.',
+      },
+      {
+        question: 'When is the NUMS merit list for 2026-27 published?',
+        answer: 'The provisional merit list for MBBS and BDS is scheduled for 10 December 2026, the first MBBS selection list for 17 December 2026, and the first BDS selection list for 21 January 2027. Check the provisional list the day it appears — that is your window to correct any aggregate error.',
+      },
+      {
+        question: 'What aggregate is safe for NUMS MBBS?',
+        answer: 'NUMS publishes no official cutoff, but reported recent open-merit closings sit in the 93–94% neighbourhood — among Pakistan\'s highest. Set your target a point or two above that benchmark and run the backwards maths from your actual board marks to find the NUMS test score you need.',
+      },
+    ],
+    relatedCalculators: ['nums', 'kemu', 'duhs'],
+  },
 ];
 
 // Combined export used by pages and sitemap tooling.

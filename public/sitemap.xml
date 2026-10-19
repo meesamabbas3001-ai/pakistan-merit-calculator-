@@ -331,6 +331,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-nums-aggregate</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://pakistan-merit-calculator.vercel.app/compare</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>

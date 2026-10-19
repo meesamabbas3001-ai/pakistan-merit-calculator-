@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="120" cy="80" r="190" fill="#ffffff" opacity="0.05"/>
+  <!-- Star field motif -->
+  <g fill="#fde68a" opacity="0.5">
+    <circle cx="980" cy="120" r="4"/>
+    <circle cx="1050" cy="200" r="3"/>
+    <circle cx="920" cy="260" r="3"/>
+    <circle cx="1120" cy="300" r="4"/>
+    <circle cx="1010" cy="380" r="3"/>
+    <circle cx="1140" cy="130" r="3"/>
+    <circle cx="880" cy="420" r="4"/>
+  </g>
+  <!-- Military star + shield accent -->
+  <g opacity="0.9">
+    <path d="M1050 470 l18.6 38.4 42.2 5.6 -30.9 29.2 7.9 41.8 -37.8 -20.6 -37.8 20.6 7.9 -41.8 -30.9 -29.2 42.2 -5.6 Z" fill="url(#gold)" opacity="0.9"/>
+    <circle cx="1050" cy="530" r="72" fill="none" stroke="#fde68a" stroke-width="4" opacity="0.35"/>
+  </g>
+  <!-- Stethoscope accent -->
+  <g opacity="0.85">
+    <circle cx="180" cy="500" r="30" fill="none" stroke="#fde68a" stroke-width="8"/>
+    <path d="M180 530 C180 570 152 582 152 608 C152 626 165 632 180 632 C195 632 208 626 208 608" fill="none" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="208" cy="602" r="9" fill="#fde68a"/>
+  </g>
+  <!-- Title -->
+  <text x="80" y="140" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#a5b4fc" letter-spacing="3">NATIONAL UNIVERSITY OF MEDICAL SCIENCES</text>
+  <text x="80" y="228" font-family="Arial, sans-serif" font-size="74" font-weight="800" fill="#ffffff">NUMS Aggregate 2026</text>
+  <text x="80" y="288" font-family="Arial, sans-serif" font-size="31" fill="#e0e7ff">MBBS / BDS Merit Guide — Own 200-Mark Entry Test</text>
+  <!-- Formula badges -->
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="80" y="348" width="200" height="118" rx="20" fill="url(#gold)"/>
+    <text x="180" y="396" font-size="38" font-weight="800" fill="#451a03">Matric</text>
+    <text x="180" y="441" font-size="42" font-weight="800" fill="#451a03">10%</text>
+    <rect x="300" y="348" width="200" height="118" rx="20" fill="#ffffff" opacity="0.16"/>
+    <rect x="300" y="348" width="200" height="118" rx="20" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <text x="400" y="396" font-size="38" font-weight="800" fill="#ffffff">FSc</text>
+    <text x="400" y="441" font-size="42" font-weight="800" fill="#ffffff">40%</text>
+    <rect x="520" y="348" width="240" height="118" rx="20" fill="#ffffff"/>
+    <text x="640" y="396" font-size="34" font-weight="800" fill="#1e3a8a">NUMS Test</text>
+    <text x="640" y="441" font-size="42" font-weight="800" fill="#1e3a8a">50%</text>
+  </g>
+  <!-- Deadline pill -->
+  <rect x="80" y="516" width="590" height="56" rx="28" fill="#dc2626"/>
+  <text x="375" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="29" font-weight="800" fill="#ffffff">Register by 11 November 2026</text>
+</svg>
