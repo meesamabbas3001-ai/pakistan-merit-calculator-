@@ -1060,6 +1060,120 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
     ],
     relatedCalculators: ['nums', 'kemu', 'duhs'],
   },
+  {
+    slug: 'how-to-calculate-duhs-aggregate',
+    image: '/blog/how-to-calculate-duhs-aggregate.svg',
+    imageAlt: 'DUHS aggregate 2026 guide: SSC 10%, HSSC 40%, MDCAT 50% (out of 180) formula for Dow University MBBS/BDS merit, Sindh deadline 26 October 2026',
+    title: 'How to Calculate DUHS Aggregate 2026: Dow University MBBS/BDS Merit Guide',
+    description:
+      'Calculate your DUHS aggregate for 2026-27 with the official formula (SSC 10% + HSSC 40% + MDCAT 50%, MDCAT out of 180), a worked example, the 26 October Sindh deadline, eligibility, processing fee and merit-list dates — all verified.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '8 min read',
+    intro:
+      'For generations of Sindh students, Dow Medical College has been the dream — and it admits through Dow University of Health Sciences (DUHS), Karachi. If Karachi is your domicile\'s processing zone, your DUHS aggregate is the number that decides whether Dow is in reach. The good news: DUHS uses the national PMDC weight structure — 10% Matric, 40% Inter, 50% MDCAT. The urgent news: Sindh\'s 2026-27 admission process closes on 26 October 2026, and Sindh still takes physical application files, not just an online form. This guide gives you DUHS\'s official formula, works through a real calculation, and lays out every verified deadline, eligibility rule and fee — because in Sindh, a perfect aggregate means nothing if the file never reaches the right courier center.',
+    sections: [
+      {
+        heading: 'The DUHS aggregate formula (2026-27)',
+        paragraphs: [
+          'DUHS follows the national PMDC weight structure, published in the official admission prospectus: your SSC (Matric or equivalent) counts 10%, your HSSC (Inter Pre-Medical or equivalent) counts 40%, and the MDCAT counts 50%. This 10/40/50 split is the same national standard UHS Punjab and KMU use for MDCAT-route admissions.',
+          'The formula is: Aggregate = (SSC obtained ÷ SSC total × 10) + (HSSC obtained ÷ HSSC total × 40) + (MDCAT obtained ÷ 180 × 50). One detail first: for Sindh, the qualifying MDCAT is the one conducted by IBA Sukkur — scores from 2024, 2025 or 2026 all count for this cycle — and it is scored out of 180 MCQs. Divide by 180, never by 200.',
+          'Half your merit comes from a single test. The arithmetic in the next section shows exactly what that means in practice.',
+        ],
+      },
+      {
+        heading: 'Worked example: a real calculation',
+        paragraphs: [
+          'Take a student with 1050 out of 1100 in Matric, 1000 out of 1100 in Inter, and 150 out of 180 in the MDCAT. Convert each part to its weighted contribution. Matric: 1050 ÷ 1100 × 10 = 9.5455. Inter: 1000 ÷ 1100 × 40 = 36.3636. MDCAT: 150 ÷ 180 × 50 = 41.6667.',
+          'Add them: 9.5455 + 36.3636 + 41.6667 = 87.5758%. That is the final DUHS aggregate. Keep full precision through the whole calculation and round only at the end — Sindh\'s merit lists rank to several decimal places, and a few hundredths of a point can separate dozens of candidates around the cutoff.',
+          'Notice where the leverage is: every single MDCAT mark is worth 0.2778% of your aggregate (50 ÷ 180). Ten MDCAT marks move the total by 2.78 full points. Compare that with board marks: ten extra Inter marks add about 0.36% (40 ÷ 1100), and ten extra Matric marks add about 0.09% (10 ÷ 1100). One MDCAT mark is worth roughly 7.6 Inter marks and more than 30 Matric marks. The test column is where DUHS merit is won and lost.',
+        ],
+      },
+      {
+        heading: 'Run the formula backwards to set your target',
+        paragraphs: [
+          'The formula works in reverse, and this is how serious Dow aspirants plan. Suppose your target is a 90% aggregate, with 1050 out of 1100 in Matric (contributing 9.5455) and 1000 out of 1100 in Inter (contributing 36.3636). Your boards give you 45.9091 combined, so the MDCAT must supply the remaining 44.0909.',
+          'That means your MDCAT score must be 44.0909 ÷ 50 × 180 = about 159 out of 180. Knowing the exact number turns a vague goal like "do well in the MDCAT" into a concrete, testable target — and it tells you honestly whether your target is reachable from your board marks at all. If the backwards maths says you need 170+ and your practice tests are sitting at 150, your honest options are: a serious jump in test preparation, or parallel applications through routes where your profile fits differently. Decide that this week — the Sindh deadline is 26 October, not December.',
+        ],
+      },
+      {
+        heading: 'The deadline you cannot miss (26 October 2026)',
+        paragraphs: [
+          'Sindh\'s 2026-27 public-sector MBBS/BDS admissions run through three processing universities, assigned by domicile district: JSMU Karachi for Karachi-domicile districts, SMBBMU Larkana and LUMHS Jamshoro for their zones. You file with the processing university your domicile district is tagged to — not with DUHS directly.',
+          'The critical detail, and the one that sinks students every year: Sindh requires physical application files. You fill the form from the processing university\'s website and submit the file at designated Leopard Courier Service centers — separate forms and separate receipts for MBBS and BDS. The last date for submission is 26 October 2026. An online-only submission is not enough.',
+          'Prepare the file now: domicile/PRC of the tagged district, Matric and Inter documents, the MDCAT result, photographs, and the processing fee of Rs. 3,500 per program (inclusive of courier charges — separate for MBBS and BDS). Do not discover on 25 October that your domicile certificate has a spelling error — corrections take days you no longer have.',
+        ],
+      },
+      {
+        heading: 'Eligibility: the verified rules',
+        paragraphs: [
+          'The official 2026-27 frame, from the admission prospectus: at least 60% in FSc Pre-Medical or equivalent (660 out of 1100, unadjusted — grace marks do not count), plus a valid MDCAT from 2024, 2025 or 2026 conducted by IBA Sukkur, with at least 55% (99 out of 180) for MBBS and at least 50% (90 out of 180) for BDS. You also need the Sindh domicile/PRC of your tagged district.',
+          'A warning about third-party pages: some education portals quote a 65% FSc minimum for Sindh, but both official sources — the prospectus and the processing university\'s admissions page — say 60%. Trust the official figure, and confirm the session\'s exact eligibility wording on your processing university\'s website rather than from forwarded screenshots.',
+          'The PMDC minimums are only the floor for eligibility; actual closing merits for Dow Medical College sit far above them, as the closing-merit section below explains.',
+        ],
+      },
+      {
+        heading: 'The 2026-27 merit-list dates (official)',
+        paragraphs: [
+          'The official schedule published with the 2026-27 admission cycle is unusually fast: the MBBS provisional merit list is due on 2 November 2026, with objections accepted 2–4 November, and the MBBS final merit list on 6 November 2026. For BDS: the provisional list on 11 November, objections 11–12 November, and the final list on 14 November 2026. Interviews and the start of classes are announced by each processing university.',
+          'The provisional list on 2 November deserves your full attention: it is the list where errors in your printed aggregate, category or domicile tag surface, and the objection window is only two days. Check it the day it appears — a correction filed on 5 November is a correction refused.',
+          'These dates come from the official 2026-27 admission schedule read in October 2026. Admission calendars can shift on PMDC or university directions; treat each date as scheduled and verify against your processing university\'s website as it approaches.',
+        ],
+      },
+      {
+        heading: 'Closing merit: the honest note',
+        paragraphs: [
+          'No 2026-27 Sindh closing merit exists yet — the first provisional list appears on 2 November 2026, and only published official lists create real cutoffs. Any "predicted Dow cutoff" you see before then is a guess dressed as data; we refuse to invent one here, because a guessed number could cost a student their college choice.',
+          'What can honestly be said: Dow Medical College consistently closes among the highest in Sindh\'s public sector. Secondary sources report recent open-merit closings around 87.1–87.7% — but neither figure comes from an official DUHS or processing-university publication, so treat the range as indicative from single sources, not as an official cutoff. Verify against the published merit lists.',
+          'The practical use of that benchmark: set your target a point or two above the indicative range, run the backwards maths from your actual board marks, and get your physical file to the courier center well before 26 October. An aggregate above the benchmark still needs the file in the right hands.',
+        ],
+      },
+      {
+        heading: 'Four mistakes that cost students Dow every year',
+        paragraphs: [
+          'First, dividing the MDCAT by the wrong total — for the Sindh/PMDC MDCAT the denominator is 180, not 200. The 200-mark total belongs to NUMS\'s separate entry test; plugging it into the DUHS formula produces a meaningless number.',
+          'Second, filing with the wrong processing university. Your domicile district decides whether your file goes to JSMU, SMBBMU or LUMHS — file with the wrong body and your application is dead on arrival.',
+          'Third, submitting online and skipping the physical file. Sindh\'s 2026-27 process needs the courier-center file by 26 October, with separate forms, receipts and Rs. 3,500 fees for MBBS and BDS. Fourth, using last year\'s dates or a third-party site\'s 65% FSc figure — the official 60% minimum and the 26 October deadline are this cycle\'s figures.',
+          'The related calculators below run the same 10/40/50 maths for DUHS, KMU and NUMS, so you can compare across routes honestly — remembering that the MDCAT and NUMS numbers can never be blended.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the DUHS aggregate formula for 2026?',
+        answer: 'SSC 10% + HSSC 40% + MDCAT 50%. Compute it as (Matric ÷ Matric total × 10) + (Inter ÷ Inter total × 40) + (MDCAT ÷ 180 × 50). This is the national PMDC weight structure in the official admission prospectus; the qualifying MDCAT (IBA Sukkur, 2024/2025/2026) is scored out of 180.',
+      },
+      {
+        question: 'Is the MDCAT out of 180 or 200 for DUHS?',
+        answer: 'Out of 180 — always divide by 180 for DUHS and every other MDCAT-route college. The 200-mark total belongs to NUMS\'s separate entry test. Mixing the denominators is the single most common calculation error.',
+      },
+      {
+        question: 'What is the last date for Sindh MBBS/BDS admissions 2026?',
+        answer: 'For 2026-27, physical application files must be submitted at the designated Leopard Courier Service centers by 26 October 2026, filed with the processing university your domicile district is tagged to (JSMU Karachi, SMBBMU Larkana, or LUMHS Jamshoro). Online submission alone is not enough.',
+      },
+      {
+        question: 'How much is the Sindh MBBS/BDS application fee?',
+        answer: 'Rs. 3,500 per program, inclusive of courier charges, paid at the designated Leopard Courier Service centers. MBBS and BDS need separate forms, separate receipts, and separate fees.',
+      },
+      {
+        question: 'What FSc percentage is required for DUHS admission?',
+        answer: 'At least 60% in FSc Pre-Medical or equivalent (660/1100, unadjusted) — the official 2026-27 figure. Some third-party sites quote 65%, but both official sources say 60%. That is only the eligibility floor; actual Dow closing merits sit far above it.',
+      },
+      {
+        question: 'Do I apply to DUHS directly or through JSMU?',
+        answer: 'Through the centralized Sindh process: your domicile district is tagged to a processing university — JSMU Karachi, SMBBMU Larkana, or LUMHS Jamshoro — and you file with that body, including the physical file at the designated courier centers.',
+      },
+      {
+        question: 'When are the Sindh merit lists for 2026-27 published?',
+        answer: 'Per the official 2026-27 schedule: MBBS provisional list 2 November 2026 (objections 2–4 Nov, final list 6 Nov); BDS provisional list 11 November (objections 11–12 Nov, final list 14 Nov). Check the provisional list the day it appears — the objection window is only two days.',
+      },
+      {
+        question: 'What aggregate is safe for Dow Medical College MBBS?',
+        answer: 'No official 2026-27 cutoff exists yet. Secondary sources report recent closings around 87.1–87.7%, but neither figure is from an official publication. Set your target a point or two above that indicative range and run the backwards maths from your actual board marks to find the MDCAT score you need.',
+      },
+    ],
+    relatedCalculators: ['duhs', 'kemu', 'nums'],
+  },
 ];
 
 // Combined export used by pages and sitemap tooling.
