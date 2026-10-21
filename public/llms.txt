@@ -42,6 +42,7 @@
 - [How to Calculate KMU Aggregate 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-kmu-aggregate): official KMU 10/40/50 formula, worked example, 21 October deadline, fee, eligibility, and public vs private portals — no invented numbers.
 - [How to Calculate NUMS Aggregate 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-nums-aggregate): official NUMS 10/40/50 formula with own 200-mark entry test (not MDCAT), worked example, 11 November registration deadline, fees, college network, and verified 2026-27 schedule — no invented numbers.
 - [How to Calculate DUHS Aggregate 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-duhs-aggregate): official DUHS 10/40/50 formula (MDCAT out of 180), worked example, 26 October Sindh deadline, eligibility, processing fee and merit-list dates — no invented numbers.
+- [How to Calculate SZABMU Aggregate 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-szabmu-aggregate): official SZABMU 10/40/50 formula (MDCAT out of 180, 2024–26 accepted), worked example, the three federal colleges, 30 October deadline, Rs 3,000 fee, eligibility and preference rules — no invented numbers.
 
 
 ## Medical universities (MDCAT / NUMS)

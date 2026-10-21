@@ -1174,6 +1174,124 @@ export const BLOG_POSTS_PART3: BlogPost[] = [
     ],
     relatedCalculators: ['duhs', 'kemu', 'nums'],
   },
+  {
+    slug: 'how-to-calculate-szabmu-aggregate',
+    image: '/blog/how-to-calculate-szabmu-aggregate.svg',
+    imageAlt: 'SZABMU aggregate formula 2026 — official 10/40/50 weight illustration with federal Islamabad motif',
+    title: 'How to Calculate SZABMU Aggregate 2026: Islamabad Federal Colleges MBBS/BDS Merit Guide',
+    description:
+      'The official SZABMU aggregate formula for 2026-27 (SSC 10% + HSSC 40% + MDCAT 50%, test out of 180): worked example, the three federal colleges, the 30 October 2026 deadline, Rs 3,000 fee, eligibility and preference rules — no invented numbers.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '8 min read',
+    intro:
+      'Shaheed Zulfiqar Ali Bhutto Medical University (SZABMU), Islamabad, runs admissions for the federal capital\'s public medical and dental colleges — and the online application window closes on 30 October 2026, so the clock is genuinely ticking. Your rank in this process comes from a single aggregate number: SSC 10% + HSSC 40% + MDCAT 50%. This guide gives you the official formula, works through a full example, explains the three colleges and the quota system, walks through the portal application, and states the honesty line up front: the 2026-27 merit lists have not been published, so no closing-merit numbers appear below — only verified, current-cycle facts.',
+    sections: [
+      {
+        heading: 'The official SZABMU aggregate formula (2026-27)',
+        paragraphs: [
+          'SZABMU uses the national PMDC merit weightage for its MBBS and BDS admissions: Aggregate = (SSC obtained ÷ SSC total × 10) + (HSSC obtained ÷ HSSC total × 40) + (MDCAT obtained ÷ MDCAT total × 50). Half of your merit comes from the MDCAT — a single test — while your two board results together supply the other half. The formula is printed in the university\'s admission instructions, and it matches what UHS and KMU use, so one calculation serves all three bodies.',
+          'The MDCAT total that goes into the divisor is the total of the session you sat. For the current cycle the test is scored out of 180 marks — dividing by 200, the total of older sessions, under-reports your aggregate by several percentage points, the single most common calculation error every year. SZABMU accepts valid MDCAT scores from 2024, 2025, or 2026, but only if the test was conducted by SZABMU, UHS, KMU, BUMHS, or IBA Sukkur — a score from any other body does not count.',
+          'Two minimums act as eligibility floors, not targets: at least 55% in the MDCAT for MBBS (99 out of 180) and at least 50% for BDS (90 out of 180). Clearing them only lets you apply; actual admissions close far above them, as the closing-merit section below explains.',
+        ],
+      },
+      {
+        heading: 'The three colleges you are competing for',
+        paragraphs: [
+          'SZABMU\'s centralized process covers three institutions with 250 seats in total: Federal Medical College, Islamabad — MBBS, 100 seats; Shaikh Khalifa Bin Zayed Al-Nahyan Medical and Dental College, Lahore — MBBS, 100 seats; and the School of Dentistry, Islamabad — BDS, 50 seats. Yes, one of them is in Lahore: SKZMDC falls under SZABMU\'s admission process despite the university\'s Islamabad name, so Lahore-based applicants should take it seriously.',
+          'Seats are split between open merit and quotas. Every Pakistani citizen — including AJK and Gilgit-Baltistan — competes for the open-merit seats and is also considered under their own domicile quota. The quota categories include Islamabad Capital Territory, Punjab, Sindh (Rural), Sindh (Urban), Khyber Pakhtunkhwa, Balochistan, Gilgit-Baltistan, Ex-FATA, AJK, Federal Government Employees, disabled students, and foreign seats (at SKZMDC). The exact seat split per quota is published in the university\'s revised seats allocation on szabmu.edu.pk — check the official portal for your category\'s numbers rather than relying on any third-party table.',
+          'The practical consequence: your domicile decides which quota line you are ranked in, and the closing merit of your quota can differ sharply from open merit. Keep your domicile certificate and proof of residence or education in that region ready, because quota claims need documentary proof — and category certificates (disability board certificate, parent\'s federal-government employment certificate) where applicable.',
+        ],
+      },
+      {
+        heading: 'Worked example, step by step',
+        paragraphs: [
+          'Take a student with 1000/1100 in SSC, 950/1100 in HSSC, and 160/180 in the MDCAT. Convert each part to its weighted contribution. SSC: 1000 ÷ 1100 × 10 = 9.0909. HSSC: 950 ÷ 1100 × 40 = 34.5455. MDCAT: 160 ÷ 180 × 50 = 44.4444.',
+          'Add them: 9.0909 + 34.5455 + 44.4444 = 88.0808%, so about 88.08%. The structure is visible in the arithmetic: the HSSC column is the biggest board component, but the MDCAT column alone is larger than both board columns combined — which is why the test, not the boards, decides most admission outcomes in this formula.',
+          'One bookkeeping rule that protects you: keep full precision through the whole calculation and round only the final figure. Merit lists are ranked at fine decimal precision, and rounding each part to one decimal before adding can shift your result enough to misrank you by positions that matter.',
+        ],
+      },
+      {
+        heading: 'What each extra mark is actually worth',
+        paragraphs: [
+          'Because the weights differ, not all marks are equal. One extra MDCAT mark adds about 0.278% to your aggregate (1 ÷ 180 × 50). One extra HSSC mark adds about 0.036% (1 ÷ 1100 × 40). One extra SSC mark adds about 0.009% (1 ÷ 1100 × 10). A single MDCAT mark is worth roughly eight HSSC marks and thirty SSC marks — that is the entire admission game in one sentence.',
+          'You can also run the formula backwards to set a concrete target. Suppose you want a 90% aggregate with 1000/1100 in SSC (9.0909) and 950/1100 in HSSC (34.5455) — your boards contribute 43.6364, so the MDCAT must supply the remaining 46.3636. That means 46.3636 ÷ 50 × 180 ≈ 167 marks out of 180. "Score 167" is a testable target; "do well in MDCAT" is a wish.',
+          'There is no negative marking in the current MDCAT, so every question is worth attempting — a blank and a wrong answer both score zero, while a guess can add the full mark. With each mark worth roughly 0.28% of your aggregate, even a handful of correct guesses can move your merit position.',
+        ],
+      },
+      {
+        heading: 'Eligibility: the 60% line and the three-year MDCAT window',
+        paragraphs: [
+          'To apply you need at least 60% in HSSC Pre-Medical or equivalent (660/1100, unadjusted) — Biology and Chemistry plus Physics or Mathematics — and IBCC attestation of your certificates is mandatory at the time of admission, so start that process early if your equivalence is not already attested.',
+          'The three-year MDCAT validity window is the friendliest part of this process: a valid 2024 or 2025 score from SZABMU, UHS, KMU, BUMHS, or IBA Sukkur counts exactly like a 2026 score, provided it meets the 55%-MBBS / 50%-BDS minimums. If you are reusing an older score, divide by that session\'s MDCAT total, not the current one — the total must match the session you sat.',
+          'Remember the distinction the whole guide keeps making: eligibility is a floor. The 60% FSc line and the MDCAT minimums only open the application portal to you. Admission is decided by the closing merit of your college and quota, which the next section explains honestly.',
+        ],
+      },
+      {
+        heading: 'How to apply on the official portal (deadline 30 October 2026)',
+        paragraphs: [
+          'The entire application is online at the university\'s admission portal (admission.szabmu.edu.pk) — no hard copy is submitted anywhere, and registration for 2026-27 opened on 11 October. The portal\'s own instructions lay out the steps in order:',
+        ],
+        list: [
+          'Register as a Local or Foreign applicant with a valid email, password, and CNIC details (date of issue; a Form-B/CRC number is accepted if you do not have a CNIC yet).',
+          'Log in and add your personal information, MDCAT information, and academic information, then upload scanned original documents in JPEG/JPG format within the portal\'s size limit.',
+          'Apply SEPARATELY for MBBS and BDS — then print the processing-fee challan: Rs 3,000 per programme, non-refundable and non-adjustable (both programmes cost Rs 6,000), paid and uploaded separately.',
+          'Give your order of preference for the public-sector medical and dental colleges — a college you leave off your list will not be considered for your admission, full stop.',
+          'Submit before 30 October 2026. A submitted application cannot be changed by the applicant — so review every field before the final click.',
+        ],
+      },
+      {
+        heading: 'The preference-list rules that decide your seat',
+        paragraphs: [
+          'Your preference order is not decoration — it is the mechanism that assigns your college. The system considers you for colleges in the order you list them, and a college left off your list cannot admit you later, even if your aggregate would have cleared its cutoff. Rank your colleges in your true order of desire, and do not include any college you would refuse to join.',
+          'Because the submitted form cannot be edited, triple-check three things before submitting: your MDCAT roll/session details (one wrong digit misreports your test component), your preference order, and your uploaded documents and fee challan. A second application for a programme you missed — MBBS vs BDS — is a separate form with a separate fee, and it is easy to forget in the last-day rush.',
+          'Prepare your documents before the deadline week, not during it: a blue-background passport photo, valid CNIC/CRC/NICOP, SSC and HSSC certificates and transcripts (or IBCC equivalence), domicile certificate, proof of residence or education in your domicile region, your MDCAT result certificate, and the paid fee challan. Category applicants add the disability certificate or the parent\'s federal-government employment certificate.',
+        ],
+      },
+      {
+        heading: 'Closing merits: the honest line',
+        paragraphs: [
+          'Here is what we will not do: invent a closing-merit number for 2026. The 2026-27 merit lists have not been published yet — the application window is still open — so any "expected cutoff" you see online right now is speculation. A guessed number does not help you; it misleads you into either false comfort or false panic.',
+          'What you can do instead is practical. First, compute your aggregate exactly with the formula above — that is the one number fully in your control. Second, submit the application before the 30 October deadline; merit strategy is worthless without an application in the system. Third, once lists appear, check them only on the official SZABMU portal, and compare your aggregate against your own quota column, not someone else\'s open-merit screenshot. We publish verified closing merits on the KEMU, DUHS, and NUMS calculator pages linked below — the formula mechanics are identical, so those pages show you how to read a closing-merit line once your own lists are out.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the official SZABMU aggregate formula for 2026?',
+        answer: 'SSC 10% + HSSC 40% + MDCAT 50%. Compute it as (SSC ÷ SSC total × 10) + (HSSC ÷ HSSC total × 40) + (MDCAT ÷ MDCAT total × 50). This is the PMDC national weightage, identical to the UHS and KMU formulas.',
+      },
+      {
+        question: 'Is the MDCAT out of 180 or 200 for SZABMU?',
+        answer: 'Out of 180 for the current cycle. Divide your MDCAT score by the total of the session you sat — dividing a current-session 180-mark score by 200 under-reports your aggregate by several percentage points.',
+      },
+      {
+        question: 'Which MDCAT sessions does SZABMU accept?',
+        answer: 'Valid scores from 2024, 2025, or 2026, conducted by SZABMU, UHS, KMU, BUMHS, or IBA Sukkur, with at least 55% for MBBS and 50% for BDS. Scores from other bodies do not count.',
+      },
+      {
+        question: 'What is the last date to apply for SZABMU MBBS/BDS 2026-27?',
+        answer: '30 October 2026, through the online admission portal only. Registration opened on 11 October. Do not plan for the last day — the process is fully online and a submitted form cannot be edited.',
+      },
+      {
+        question: 'How much is the SZABMU application fee?',
+        answer: 'Rs 3,000 per programme — non-refundable and non-adjustable. MBBS and BDS need separate applications, so applying for both costs Rs 6,000, with a separate paid challan uploaded for each.',
+      },
+      {
+        question: 'Can I change my SZABMU application after submitting it?',
+        answer: 'No. The portal states clearly that a submitted application cannot be changed by the applicant. Review your MDCAT details, preference order, documents, and fee challan before the final click.',
+      },
+      {
+        question: 'Which colleges are covered by the SZABMU admission process?',
+        answer: 'Three: Federal Medical College Islamabad (MBBS, 100 seats), Shaikh Khalifa Bin Zayed Al-Nahyan Medical and Dental College Lahore (MBBS, 100 seats), and the School of Dentistry Islamabad (BDS, 50 seats).',
+      },
+      {
+        question: 'Do I need an Islamabad domicile to apply to SZABMU?',
+        answer: 'No. All Pakistani citizens — including AJK and Gilgit-Baltistan — compete for open-merit seats and are also considered under their own domicile quota (ICT, Punjab, Sindh Rural/Urban, KP, Balochistan, GB, Ex-FATA, AJK, FGE, disabled, foreign). Your domicile decides your quota line, not your eligibility to apply.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
 
 // Combined export used by pages and sitemap tooling.

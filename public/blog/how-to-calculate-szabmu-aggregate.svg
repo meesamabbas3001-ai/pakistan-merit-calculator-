@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1e4b"/>
+      <stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1090" cy="90" r="180" fill="#ffffff" opacity="0.05"/>
+  <circle cx="70" cy="560" r="150" fill="#ffffff" opacity="0.04"/>
+  <!-- subtle dot pattern -->
+  <g fill="#ffffff" opacity="0.07">
+    <circle cx="640" cy="120" r="4"/><circle cx="710" cy="170" r="3"/><circle cx="780" cy="120" r="4"/>
+    <circle cx="850" cy="180" r="3"/><circle cx="920" cy="130" r="4"/><circle cx="990" cy="190" r="3"/>
+  </g>
+  <!-- Margalla-hills-inspired federal skyline accent -->
+  <g opacity="0.9">
+    <path d="M940 560 L1000 380 L1052 500 L1105 330 L1160 560 Z" fill="#ffffff" opacity="0.10"/>
+    <circle cx="1010" cy="230" r="46" fill="none" stroke="#fde68a" stroke-width="6" opacity="0.55"/>
+    <path d="M1010 196 l12 26 27 4 -20 18 5 27 -24 -14 -24 14 5 -27 -20 -18 27 -4 Z" fill="#fde68a" opacity="0.75"/>
+  </g>
+  <!-- stethoscope-ish circular badge accent -->
+  <g opacity="0.85">
+    <circle cx="1050" cy="470" r="66" fill="none" stroke="#93c5fd" stroke-width="6" opacity="0.5"/>
+    <path d="M1050 424 v60 M1020 444 h60" stroke="#93c5fd" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <!-- graduation-cap accent -->
+  <g opacity="0.85">
+    <path d="M150 480 L260 440 L370 480 L260 520 Z" fill="url(#badge)" opacity="0.85"/>
+    <path d="M320 495 v55 c0 18 -110 38 -110 38 s-110 -20 -110 -38 v-55" fill="none" stroke="#fde68a" stroke-width="7" opacity="0.7"/>
+    <circle cx="370" cy="490" r="8" fill="#fde68a"/>
+  </g>
+  <!-- deadline pill -->
+  <g>
+    <rect x="60" y="58" width="600" height="52" rx="26" fill="#b91c1c" opacity="0.95"/>
+    <text x="360" y="92" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">SZABMU Deadline: 30 October 2026</text>
+  </g>
+  <!-- title -->
+  <text x="60" y="210" font-family="Verdana, Arial, sans-serif" font-size="60" font-weight="bold" fill="#ffffff">SZABMU Aggregate 2026</text>
+  <text x="60" y="268" font-family="Verdana, Arial, sans-serif" font-size="36" fill="#bfdbfe">Islamabad Federal Colleges MBBS/BDS Merit Guide</text>
+  <text x="60" y="322" font-family="Verdana, Arial, sans-serif" font-size="28" fill="#dbeafe">Official formula, worked example, eligibility,</text>
+  <text x="60" y="358" font-family="Verdana, Arial, sans-serif" font-size="28" fill="#dbeafe">fees &amp; the 30 October portal deadline</text>
+  <!-- formula badges -->
+  <g font-family="Verdana, Arial, sans-serif" text-anchor="middle">
+    <rect x="60" y="420" width="300" height="120" rx="18" fill="#ffffff" opacity="0.12"/>
+    <text x="210" y="468" font-size="40" font-weight="bold" fill="#fde68a">10%</text>
+    <text x="210" y="504" font-size="24" fill="#ffffff">SSC (Matric)</text>
+    <rect x="400" y="420" width="300" height="120" rx="18" fill="#ffffff" opacity="0.12"/>
+    <text x="550" y="468" font-size="40" font-weight="bold" fill="#fde68a">40%</text>
+    <text x="550" y="504" font-size="24" fill="#ffffff">HSSC (Inter)</text>
+    <rect x="740" y="420" width="300" height="120" rx="18" fill="url(#badge)" opacity="0.95"/>
+    <text x="890" y="468" font-size="40" font-weight="bold" fill="#0b1e4b">50%</text>
+    <text x="890" y="504" font-size="24" font-weight="bold" fill="#0b1e4b">MDCAT (of 180)</text>
+  </g>
+  <!-- site tag -->
+  <text x="60" y="600" font-family="Verdana, Arial, sans-serif" font-size="22" fill="#bfdbfe" opacity="0.9">pakistan-merit-calculator.vercel.app</text>
+</svg>
