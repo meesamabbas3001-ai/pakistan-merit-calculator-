@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.15" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#e0f2fe" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1080" cy="80" r="170" fill="#ffffff" opacity="0.06"/>
+  <circle cx="120" cy="580" r="200" fill="#fbbf24" opacity="0.08"/>
+  <!-- Application form card motif -->
+  <g>
+    <rect x="800" y="130" width="330" height="400" rx="18" fill="url(#card)"/>
+    <rect x="800" y="130" width="330" height="400" rx="18" fill="none" stroke="#fbbf24" stroke-width="3" opacity="0.7"/>
+    <rect x="800" y="130" width="330" height="64" rx="18" fill="#1e3a8a"/>
+    <rect x="800" y="170" width="330" height="24" fill="#1e3a8a"/>
+    <circle cx="828" cy="162" r="7" fill="#f87171"/>
+    <circle cx="852" cy="162" r="7" fill="#fbbf24"/>
+    <circle cx="876" cy="162" r="7" fill="#34d399"/>
+    <text x="960" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">UHS Portal</text>
+    <!-- form rows with checkmarks -->
+    <g font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#1e3a8a">
+      <rect x="828" y="222" width="274" height="44" rx="10" fill="#e0f2fe"/>
+      <text x="846" y="251">Personal info</text>
+      <circle cx="1072" cy="244" r="14" fill="#16a34a"/>
+      <path d="M1065 244 l5 5 l10 -10" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="828" y="280" width="274" height="44" rx="10" fill="#e0f2fe"/>
+      <text x="846" y="309">Academics + MDCAT</text>
+      <circle cx="1072" cy="302" r="14" fill="#16a34a"/>
+      <path d="M1065 302 l5 5 l10 -10" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="828" y="338" width="274" height="44" rx="10" fill="#e0f2fe"/>
+      <text x="846" y="367">Documents</text>
+      <circle cx="1072" cy="360" r="14" fill="#16a34a"/>
+      <path d="M1065 360 l5 5 l10 -10" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="828" y="396" width="274" height="44" rx="10" fill="#fef3c7" stroke="#fbbf24" stroke-width="2"/>
+      <text x="846" y="425">Preference list</text>
+      <circle cx="1072" cy="418" r="14" fill="none" stroke="#f59e0b" stroke-width="3"/>
+      <rect x="828" y="454" width="274" height="44" rx="10" fill="#e0f2fe"/>
+      <text x="846" y="483">Rs. 2,000 challan</text>
+      <circle cx="1072" cy="476" r="14" fill="none" stroke="#94a3b8" stroke-width="3"/>
+    </g>
+  </g>
+  <!-- Pen accent -->
+  <g opacity="0.9" transform="rotate(35 770 320)">
+    <rect x="762" y="230" width="16" height="180" rx="8" fill="#fbbf24"/>
+    <polygon points="762,410 770,436 778,410" fill="#1e3a8a"/>
+    <rect x="762" y="230" width="16" height="26" rx="8" fill="#f59e0b"/>
+  </g>
+  <text x="70" y="80" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="3">PAKISTAN MERIT CALCULATOR</text>
+  <text x="70" y="205" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#ffffff">UHS MBBS Application</text>
+  <text x="70" y="292" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#fbbf24">2026 — Step by Step</text>
+  <text x="70" y="352" font-family="Arial, sans-serif" font-size="30" fill="#ffffff" opacity="0.85">Portal, documents, fee &amp; preference strategy</text>
+  <rect x="70" y="384" width="120" height="8" rx="4" fill="#fbbf24"/>
+  <!-- Chips -->
+  <g font-family="Arial, sans-serif" font-weight="700">
+    <rect x="70" y="428" width="300" height="60" rx="30" fill="#fbbf24"/>
+    <text x="220" y="466" text-anchor="middle" font-size="24" fill="#1e3a8a">Deadline: 30 Oct</text>
+    <rect x="392" y="428" width="330" height="60" rx="30" fill="#ffffff" opacity="0.16" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2"/>
+    <text x="557" y="466" text-anchor="middle" font-size="24" fill="#ffffff">Fee: Rs. 2,000</text>
+  </g>
+</svg>
