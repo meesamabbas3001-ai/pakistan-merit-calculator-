@@ -600,4 +600,122 @@ export const BLOG_POSTS_PART4: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'mbbs-vs-bds-2026-which-to-choose',
+    image: '/blog/mbbs-vs-bds-2026-which-to-choose.svg',
+    imageAlt: 'MBBS vs BDS 2026 comparison illustration: merit, fees and career scope',
+    title: 'MBBS vs BDS 2026: Which Should You Choose? (Merit, Fees & Scope)',
+    description:
+      'MBBS vs BDS in Pakistan for 2026 admissions: how merit works for both under the 10/40/50 formula, verified UHS fees and timelines, an honest career-scope comparison, and a 5-question decision framework.',
+    category: 'Comparisons',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'Every October, "MBBS ya BDS?" splits thousands of Pakistani households into two camps — and most of the advice flying around is either prestige-talk ("BDS me scope nahi hai") or panic-talk ("jo mil jaye le lo"). The honest answer is less dramatic: neither degree is universally better, but one of them is clearly better for YOUR aggregate, YOUR temperament, and YOUR budget in this admission cycle. This guide compares MBBS and BDS on the facts that matter for 2026 — how merit is actually computed, the verified UHS fees and timelines, and what each career really looks like — and ends with a decision framework you can use today.',
+    sections: [
+      {
+        heading: 'The two degrees, side by side',
+        paragraphs: [
+          'MBBS is a 5-year degree followed by a 1-year house job, after which the PMDC registers you as a medical practitioner. The standard road after that is long: specialization through FCPS, MS or MD takes another 4 to 6 years, and the well-trodden abroad routes (USMLE, PLAB) each demand years of dedicated preparation. Medicine is a ladder — a long one — and its best rewards sit near the top of it.',
+          'BDS is a 4-year degree followed by a 1-year house job, after which the PMDC registers you as a dental practitioner. Postgraduate options exist — MDS and FCPS in dental specialties like orthodontics, operative dentistry and oral & maxillofacial surgery — but here is the structural difference: dentistry is the one medical field where a fresh graduate can realistically open their own clinic and start earning early. The career starts sooner; it just starts in your own chair rather than in a hospital hierarchy.',
+        ],
+        list: [
+          'MBBS: 5 years + 1-year house job → specialization ladder (FCPS/MS/MD) or general practice.',
+          'BDS: 4 years + 1-year house job → clinic ownership realistic early, or MDS/FCPS specialization.',
+          'Same regulator (PMDC), same house-job requirement, very different career shapes.',
+        ],
+      },
+      {
+        heading: 'How merit works for MBBS and BDS in 2026-27',
+        paragraphs: [
+          'Both programs use the same aggregate formula under the Punjab 2026-27 admission policy: Matric 10% + FSc 40% + MDCAT 50%. Your aggregate is one number — but it enters two completely separate competitions. MBBS and BDS have separate application portals, separate merit lists, and separate timelines, so one aggregate gives you two independent shots.',
+          'The MBBS cycle is running right now: applications on publicmbbs.uhs.edu.pk from 16 to 30 October 2026 (closing 5:00 PM), the provisional order of merit on 13 November, the final order on 16 November, and college-wise selection lists on 17 November, 23 November and 1 December. BDS runs later on its own portal, publicbds.uhs.edu.pk: applications 15–30 December 2026, merit orders on 6 and 9 January 2027, selection lists from 11 January, and classes commencing 1 March 2027.',
+          'Two things follow. First, the BDS lists publish after the MBBS lists — you will know your MBBS fate before the BDS portal even closes, so you can decide with data instead of panic. Second, on cutoffs: public MBBS seats close at the very top (King Edward touched roughly 94.9% last cycle — see our Punjab closing-merit guide), and public BDS seats close below that. We deliberately publish no 2026-27 BDS cutoff numbers here, because the official lists are not out yet — see the page notes at the end.',
+        ],
+      },
+      {
+        heading: 'What it actually costs',
+        paragraphs: [
+          'Under the 2026-27 policy, public-sector tuition is Rs. 50,000 per year — for both MBBS and BDS. That single fact reshapes the whole debate: a public BDS seat costs a family roughly Rs. 200,000 in total tuition, while a private MBBS seat runs into lakhs per year plus a Rs. 600,000 deposit due within 3 working days of the merit list. The application fee is Rs. 2,000 per program, so applying to both costs Rs. 4,000 — the cheapest insurance in this entire process.',
+          'Private colleges set their own fee schedules within PMDC regulation, so always check the individual college prospectus rather than trusting forwarded fee charts on WhatsApp. The financial question to ask is not "MBBS vs BDS" in the abstract — it is "public BDS vs private MBBS", because for thousands of families that is the actual fork in the road.',
+        ],
+        list: [
+          'Public tuition (both programs): Rs. 50,000/year under the 2026-27 policy.',
+          'Application fee: Rs. 2,000 per program — apply to both for Rs. 4,000.',
+          'Private seat deposit: Rs. 600,000 within 3 working days of the merit list.',
+          'Private yearly fees: check each college\'s own prospectus; do not trust forwarded charts.',
+        ],
+      },
+      {
+        heading: 'Scope, honestly: both sides',
+        paragraphs: [
+          'The MBBS case is straightforward: the largest peer network, the most specialization options, regular government medical-officer posts, and abroad routes that thousands have walked before you. The honest costs: competition at every single step, a decade or more before consultant-level earning, and house-job years that are famously punishing. Medicine rewards the climber — someone willing to stay in the system for the long haul.',
+          'The BDS case needs its myth cleared first. "BDS me scope nahi hai" is something people say who have never watched a well-run dental clinic. Dentistry rewards the builder: shorter road to independent earning, realistic clinic ownership within a few years of graduation, less saturation at the top specialties, and a growing cosmetic and implant market in every major city. The honest costs: fewer government dental-surgeon posts than MO posts, a real prestige gap in desi drawing-room culture (say it plainly — it exists), and the fact that private practice demands business sense nobody teaches you in dental college.',
+        ],
+      },
+      {
+        heading: 'Who should pick which: five questions',
+        paragraphs: [
+          'Forget "passion" speeches for a minute and answer these five questions on paper. First, the aggregate test: compare your aggregate against last year\'s official closing merits for your target colleges (our merit-list guide shows exactly where each body publishes them). If you sit near last year\'s top public MBBS closings, apply MBBS with BDS as backup. If you sit clearly below them, a public BDS seat is your realistic public-sector shot — and the real decision becomes public BDS vs private MBBS, which is a money question, not a prestige question.',
+          'Second, hands or wards? If you love precise, hands-on craft work — the idea of shaping, fixing and building with your hands — dentistry will suit your temperament. If you are drawn to diagnosis, emergency rooms and hospital wards, medicine is your habitat. Third, the timeline test: dentistry starts paying sooner; medicine pays bigger but a decade later. Fourth, the money test, from the previous section. Fifth, the temperament test: the entrepreneur thrives in dentistry; the institution-builder thrives in medicine.',
+        ],
+        list: [
+          'Aggregate near last year\'s top MBBS closings → MBBS first, BDS as genuine backup.',
+          'Aggregate clearly below → public BDS is the realistic public seat; weigh it against private MBBS on money.',
+          'Hands-on craft lover → BDS. Diagnosis and wards lover → MBBS.',
+          'Want to earn sooner → BDS. Willing to study 10+ years → MBBS.',
+          'Entrepreneur at heart → dentistry. Ladder-climber → medicine.',
+        ],
+      },
+      {
+        heading: 'The smart strategy: apply to both, rank honestly',
+        paragraphs: [
+          'There is no rule against applying to both programs — they are separate portals, separate applications and separate merit lists. The Rs. 4,000 total fee is trivial next to what a wrong decision costs. Fill the MBBS application before 30 October 2026 (remember: preferences lock permanently after the deadline — a college left off your list can never consider you later), then fill the BDS application in its 15–30 December window.',
+          'Rank every preference list by your true preference, not by "safe" ordering — gaming the order only loses you the better college. And stop treating BDS as failure: a public BDS seat at Rs. 50,000 a year beats a forced private MBBS seat financially for most families, and a repeat MDCAT year costs twelve months of your life plus another full preparation cycle. Because the BDS portal closes after the MBBS selection lists, you get to make this call with your actual MBBS result in hand.',
+        ],
+      },
+      {
+        heading: 'Page notes: what is verified here, and what is not',
+        paragraphs: [
+          'Verified against the official UHS admission notice and the Punjab 2026-27 admission policy: the 10/40/50 aggregate formula; the MBBS window (16–30 October 2026, closing 5:00 PM) and the BDS window (15–30 December 2026); the two portals (publicmbbs.uhs.edu.pk and publicbds.uhs.edu.pk); the merit-list and class-commencement dates; the Rs. 2,000 application fee, Rs. 50,000/year public tuition, Rs. 600,000 private-seat deposit, and the preference-lock rule. Degree lengths, house-job requirement and PMDC registration are the standard regulatory structure for both programs.',
+          'Deliberately omitted: any 2026-27 closing merit for BDS or college-wise BDS cutoffs — the official lists publish in January 2027, and anything printed before that would be a guess. Career descriptions above are structural (degree shape, registration, specialization routes), not promises about jobs or income. When the official lists publish, check your name and aggregate on them directly — our merit-list guide shows where each admitting body posts its lists.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is BDS easier to get into than MBBS in Punjab?',
+        answer: 'Yes, in merit terms: public BDS seats close below public MBBS seats because the applicant pool competing for them is smaller. But "easier" still means a high aggregate — check last year\'s official UHS lists for the exact gap rather than trusting rumors.',
+      },
+      {
+        question: 'Can I apply for both MBBS and BDS in the same year?',
+        answer: 'Yes. They are separate applications on separate portals — publicmbbs.uhs.edu.pk (16–30 October 2026) and publicbds.uhs.edu.pk (15–30 December 2026) — each with its own Rs. 2,000 fee and its own merit lists.',
+      },
+      {
+        question: 'What was the BDS closing merit in Punjab last year?',
+        answer: 'College-wise BDS closings are published in UHS\'s official merit lists each cycle; the 2026-27 lists come out in January 2027. We do not print cutoff numbers we cannot verify — use our merit-list guide to find the official lists when they publish.',
+      },
+      {
+        question: 'Does BDS have scope in Pakistan?',
+        answer: 'Dentistry\'s scope is entrepreneurial: clinic ownership is realistic within a few years of graduation, top specialties are less saturated than medical ones, and cosmetic dentistry is growing. It has fewer government posts than MBBS, so it suits builders more than job-seekers.',
+      },
+      {
+        question: 'Is BDS cheaper than MBBS?',
+        answer: 'In the public sector, both cost Rs. 50,000/year under the 2026-27 policy. The real cost gap appears in private colleges — compare each college\'s own prospectus, and remember the Rs. 600,000 private-seat deposit applies under the same policy.',
+      },
+      {
+        question: 'Can a BDS graduate specialize?',
+        answer: 'Yes — through MDS or FCPS in dental specialties such as orthodontics, operative dentistry and oral & maxillofacial surgery. Specialization exists in dentistry; the ladder is just shorter and less crowded than the MBBS one.',
+      },
+      {
+        question: 'My aggregate missed MBBS merit — is BDS worth it or should I repeat MDCAT?',
+        answer: 'Compare three real options: a public BDS seat (Rs. 50,000/year, earning sooner), a private MBBS seat (heavy fees plus Rs. 600,000 deposit), or a repeat year (twelve months plus another full MDCAT cycle). For most families, public BDS beats both a forced private seat and a repeat year — decide with your actual merit-list result, which you will have before the BDS portal closes.',
+      },
+      {
+        question: 'Do MBBS and BDS use the same aggregate formula?',
+        answer: 'Yes — Matric 10% + FSc 40% + MDCAT 50% under the Punjab 2026-27 policy. One aggregate, two separate merit competitions with separate lists and timelines.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
