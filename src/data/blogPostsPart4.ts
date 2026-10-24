@@ -718,4 +718,126 @@ export const BLOG_POSTS_PART4: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'private-medical-college-admissions-punjab-2026',
+    image: '/blog/private-medical-college-admissions-punjab-2026.svg',
+    imageAlt: 'Private medical college admissions Punjab 2026-27 — 4,500 MBBS seats, 6 November deadline, UHS centralized merit',
+    title: 'Private Medical College Admissions Punjab 2026-27: UHS Schedule, Merit, Fees & Seats',
+    description:
+      'Private MBBS admissions Punjab 2026-27: UHS announced the centralized schedule — apply 23 Oct to 6 Nov 2026, first list 18 Nov, 4,500 MBBS seats across 34 colleges, same 10/40/50 merit formula, eligibility floors, the 3-day fee rule and honest fee guidance.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '8 min read',
+    intro:
+      'On 22 October 2026, the University of Health Sciences (UHS) Lahore announced the admission schedule for private medical and dental colleges in Punjab for the 2026-27 session — and the MBBS application window is open RIGHT NOW (23 October to 6 November 2026). Around 4,500 MBBS seats across 34 private colleges will be filled through one centralized UHS system on the same 10/40/50 merit formula as the public sector. This guide gives you the verified schedule, eligibility floors, the fee rule that forfeits your seat if you miss it, and an honest map of what the official announcements do and do not tell you. No invented cutoffs anywhere: private college-wise closing merits are not published in any verifiable single source, so this page refuses to print guesses.',
+    sections: [
+      {
+        heading: 'The verified private-sector schedule (2026-27)',
+        paragraphs: [
+          'UHS is conducting private-sector admissions through a centralized system under the Punjab government\u2019s admission policy — one portal, one merit, for every private medical and dental college in the province. For MBBS: online applications opened on 23 October 2026 and close on 6 November 2026, and the first selection list is scheduled for 18 November 2026. For BDS: applications run from 18 December 2026 to 1 January 2027, with the first selection list scheduled for 13 January 2027.',
+          'Applications go through two dedicated portals: privatembbs.uhs.edu.pk for MBBS and privatebds.uhs.edu.pk for BDS. All merit and selection lists are published on the UHS website. Note the overlap with the public cycle: the public-sector MBBS first selection list is scheduled for 17 November — one day before the private first list. You may therefore hold a public-sector offer before the private lists even publish, which changes how you plan your deposits.',
+          'One standing caution from UHS itself: the admission timetable remains subject to directives from the PMDC and the Punjab government, including changes to the number of selection lists issued. Treat every date as scheduled rather than guaranteed — but never miss the 6 November application deadline, because there is no late fix for it.',
+        ],
+        list: [
+          'Private MBBS: apply 23 Oct – 6 Nov 2026; first selection list 18 Nov 2026.',
+          'Private BDS: apply 18 Dec 2026 – 1 Jan 2027; first selection list 13 Jan 2027.',
+          'Portals: privatembbs.uhs.edu.pk and privatebds.uhs.edu.pk; lists on uhs.edu.pk.',
+          'Centralized system — one application covers all participating private colleges.',
+        ],
+      },
+      {
+        heading: 'What is on the table: seats and colleges',
+        paragraphs: [
+          'The scale of the private sector is what makes this announcement matter: Punjab has 34 private medical colleges offering around 4,500 MBBS seats, plus 18 private dental colleges with 1,100 BDS seats. That is a very large second chance for everyone whose aggregate falls below the public-sector bands — for reference, the public ceiling at King Edward Medical University closed around 94.88% last cycle.',
+          'Eligibility is deliberately wide: candidates from all provinces of Pakistan, as well as overseas Pakistanis, may apply, subject to the prescribed criteria. There is no Punjab-domicile wall around the private seats the way quota logic works in parts of the public system.',
+          'What the announcement does NOT give you is a private college-wise closing merit table. Unlike the public lists, private closings are not compiled into one official, verifiable document each year — so anyone handing you a precise "last year this college closed at X%" number is quoting an estimate, not a record. When the first selection list publishes on 18 November, read it as the season\u2019s highest cutoff (first lists always are) and wait for the upgradation lists before judging where merit actually settles.',
+        ],
+      },
+      {
+        heading: 'Eligibility and the merit formula',
+        paragraphs: [
+          'Private colleges use the exact same merit machinery as the public sector: Matric (or equivalent) counts 10%, FSc Pre-Medical (or equivalent) counts 40%, and the MDCAT counts 50%. As one line: Aggregate = (Matric obtained \u00f7 Matric total \u00d7 10) + (FSc obtained \u00f7 FSc total \u00d7 40) + (MDCAT obtained \u00f7 MDCAT total \u00d7 50). The MDCAT is scored out of 180 — dividing by 200 is the classic error that understates your aggregate by several points.',
+          'The eligibility floors are minimums, not admission cutoffs: at least 55% in the MDCAT for MBBS and 50% for BDS, plus a minimum of 60% in FSc Pre-Medical or equivalent. Clearing the floor only buys you a ticket into the competition; the actual seat goes to the highest aggregates in the applicant pool.',
+          'A quick worked example so the arithmetic is concrete. Take a student with 1020/1100 in Matric, 980/1100 in FSc, and 158/180 in MDCAT. Matric contributes 1020 \u00f7 1100 \u00d7 10 = 9.2727. FSc contributes 980 \u00f7 1100 \u00d7 40 = 35.6364. MDCAT contributes 158 \u00f7 180 \u00d7 50 = 43.8889. Total aggregate: 88.7980%. UHS ranks applicants to four decimal places, so keep full precision until the final number — two students who both "have 88.8" can sit ranks apart.',
+        ],
+        list: [
+          'Formula: Matric 10% + FSc 40% + MDCAT 50% (MDCAT out of 180).',
+          'Floors: MDCAT \u226555% for MBBS, \u226550% for BDS; FSc \u226560%. Floors \u2260 cutoffs.',
+          'Ranking precision: four decimal places — never round early.',
+        ],
+      },
+      {
+        heading: 'The 3-day rule: the deadline that actually forfeits seats',
+        paragraphs: [
+          'This is the single most consequential line in the whole announcement: selected candidates get three days to deposit their fees and join their respective colleges. UHS\u2019s own admission notices state the consequence plainly — failure to pay the fee within the specified period results in forfeiture of the admission AND the opportunity for upgradation.',
+          'Under the 2026-27 admission policy, the private-seat deposit is Rs. 600,000, due within 3 working days of the merit list. Read those two facts together: the moment your name appears on a list, the clock is running and the amount is large. Families should have the deposit arranged and documents ready BEFORE the lists publish, not after.',
+          'Practical checklist for list day: your CNIC, photographs, board result cards and MDCAT result card ready to upload; the deposit funds accessible; and a decision rule agreed with your family in advance about which colleges you will accept at which list. Hesitation on list day is how seats slip to the next candidate.',
+        ],
+      },
+      {
+        heading: 'What it costs: verified numbers and honest gaps',
+        paragraphs: [
+          'Here is what is verifiable. The private-seat deposit is Rs. 600,000 under the 2026-27 policy. For overseas Pakistani quota seats, the PMDC notification of 21 March 2025 sets US$ 10,000. UHS has explicitly advised candidates to check the fee structures, locations and available facilities of colleges before applying — which is the official way of saying fee schedules differ by college.',
+          'What is NOT verifiable centrally is any single "private MBBS fee 2026" figure. Private colleges set their own yearly fee schedules within PMDC regulation, and forwarded WhatsApp fee charts are the least reliable source in this entire process. The only number that matters is the one printed in the individual college\u2019s own prospectus — read it before you rank that college in your preferences, not after your name appears on its list.',
+          'Frame the money question the way our MBBS vs BDS guide does: for thousands of families the real fork is "public BDS vs private MBBS", because a public BDS seat costs Rs. 50,000 a year in tuition while a private MBBS seat carries the deposit plus lakhs per year. That is a money decision, not a prestige decision.',
+        ],
+        list: [
+          'Verified: Rs. 600,000 private-seat deposit within 3 working days of the list.',
+          'Verified: US$ 10,000 for overseas Pakistani quota seats (PMDC notification 21-03-2025).',
+          'Not verifiable centrally: per-college yearly tuition — read each college\u2019s own prospectus.',
+          'Never trust forwarded WhatsApp fee charts.',
+        ],
+      },
+      {
+        heading: 'Strategy: one portal, your preferences, both sectors',
+        paragraphs: [
+          'Because the system is centralized, you file one private application and it covers every participating college — but your preference order decides which college you land in. Rank colleges by your TRUE preference, not by where you think you are "safe": the system allots you the highest-preference college your aggregate reaches, and gaming the order only costs you the better seat.',
+          'Apply to both sectors. The public MBBS window (16–30 October) is still open as you read this, and the private window runs to 6 November — there is no rule forcing you to pick one. The timelines even cooperate: the public first list (17 November) publishes a day before the private first list (18 November), so you may know your public outcome before committing a private deposit.',
+          'Finally, keep perspective on the numbers. Around 4,500 private MBBS seats is a deep pool, but the 55% MDCAT floor is an eligibility gate, not a promise — the actual competition is decided by the aggregate distribution of everyone who applies. Calculate your aggregate honestly (our free calculator does it in under a minute), compare it against last cycle\u2019s public closings to calibrate, and apply early rather than on the last day.',
+        ],
+      },
+      {
+        heading: 'Page notes: what is verified here, and what is not',
+        paragraphs: [
+          'Verified against UHS\u2019s announced schedule as reported by The News (22 October 2026) and the commerce press: the private MBBS window (23 October – 6 November 2026) and first list (18 November 2026); the private BDS window (18 December 2026 – 1 January 2027) and first list (13 January 2027); the two portals (privatembbs.uhs.edu.pk, privatebds.uhs.edu.pk); the centralized system; the 10/40/50 formula; the eligibility floors (MDCAT 55% MBBS / 50% BDS, FSc 60%); the 3-day fee-deposit rule with forfeiture; the seat counts (4,500 MBBS / 34 colleges, 1,100 BDS / 18 colleges); and all-provinces-plus-overseas eligibility. Deposit and fee figures (Rs. 600,000; US$ 10,000 overseas quota) come from the 2026-27 admission policy and the PMDC notification of 21-03-2025.',
+          'Deliberately omitted: any private college-wise closing merit for 2025-26 or "expected" 2026-27 cutoffs — no verifiable official compilation exists, and printing estimates would mislead. Also omitted: per-college yearly tuition figures — check each college\u2019s own prospectus. If UHS revises any date under PMDC or Punjab government directives, the UHS website is the authority, not this page.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When is the last date to apply for private MBBS in Punjab 2026?',
+        answer: '6 November 2026. Online applications opened on 23 October 2026 through privatembbs.uhs.edu.pk, and the first selection list is scheduled for 18 November 2026.',
+      },
+      {
+        question: 'Is the merit formula for private medical colleges the same as public?',
+        answer: 'Yes — Matric 10% + FSc 40% + MDCAT 50%, with the MDCAT scored out of 180 and ranking to four decimal places. The formula does not change between sectors.',
+      },
+      {
+        question: 'What MDCAT score is needed for private MBBS admission?',
+        answer: 'You need at least 55% in the MDCAT (50% for BDS) plus 60% in FSc just to be eligible. Actual admission depends on the applicant pool\u2019s aggregates — no official private college-wise cutoffs are published, so treat any precise "last year closed at" number as an estimate.',
+      },
+      {
+        question: 'How much is the fee for private MBBS in Punjab 2026-27?',
+        answer: 'The verified figure is the Rs. 600,000 private-seat deposit due within 3 working days of the merit list. Yearly tuition varies by college within PMDC regulation — read each college\u2019s own prospectus and ignore forwarded fee charts.',
+      },
+      {
+        question: 'Can students from other provinces apply to Punjab private medical colleges?',
+        answer: 'Yes. UHS states that eligible candidates from all provinces of Pakistan, as well as overseas Pakistanis, may apply through the centralized system, subject to the prescribed criteria.',
+      },
+      {
+        question: 'My name came on the selection list — how long do I have to pay the fee?',
+        answer: 'Three days to deposit the fee and join the college. Missing the window forfeits both the admission and the chance of upgradation, so keep funds and documents ready before the lists publish.',
+      },
+      {
+        question: 'Should I apply to both public and private medical colleges?',
+        answer: 'Yes — they are separate applications and separate lists. The public window (16–30 October 2026) overlaps the private one (23 October – 6 November), and the public first list (17 November) publishes a day before the private first list (18 November), so you can decide with data.',
+      },
+      {
+        question: 'When do private BDS admissions open in Punjab?',
+        answer: 'Applications run 18 December 2026 to 1 January 2027 through privatebds.uhs.edu.pk, with the first selection list scheduled for 13 January 2027.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
