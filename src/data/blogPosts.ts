@@ -180,13 +180,15 @@ export const BLOG_POSTS: BlogPost[] = [
 import { BLOG_POSTS_PART2 } from './blogPostsPart2';
 import { BLOG_POSTS_PART3 } from './blogPostsPart3';
 import { BLOG_POSTS_PART4 } from './blogPostsPart4';
+import { BLOG_POSTS_PART5 } from './blogPostsPart5';
 
 // Combined export used by pages and sitemap tooling.
 // NOTE for future runs: the github push_files tool rejects any single file
 // larger than ~128 KB, so blog posts live in split part files. Append new
-// posts to the LAST part file; when it nears ~110 KB, start a new
-// blogPostsPartN.ts and add it to ALL_BLOG_POSTS below.
-export const ALL_BLOG_POSTS: BlogPost[] = [...BLOG_POSTS, ...BLOG_POSTS_PART2, ...BLOG_POSTS_PART3, ...BLOG_POSTS_PART4];
+// posts to the LAST part file (currently blogPostsPart5.ts, started 2026-10-24
+// because blogPostsPart4.ts reached ~96 KB); when it nears ~110 KB, start a
+// new blogPostsPartN.ts and add it to ALL_BLOG_POSTS below.
+export const ALL_BLOG_POSTS: BlogPost[] = [...BLOG_POSTS, ...BLOG_POSTS_PART2, ...BLOG_POSTS_PART3, ...BLOG_POSTS_PART4, ...BLOG_POSTS_PART5];
 
 export function getBlogPost(slug: string | undefined): BlogPost | undefined {
   return ALL_BLOG_POSTS.find((p) => p.slug === slug);
