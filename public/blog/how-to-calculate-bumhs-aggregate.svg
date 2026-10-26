@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#052e2b"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1090" cy="90" r="180" fill="#ffffff" opacity="0.05"/>
+  <circle cx="70" cy="560" r="150" fill="#ffffff" opacity="0.04"/>
+  <!-- Balochistan mountain silhouette -->
+  <g opacity="0.9">
+    <path d="M880 560 L960 340 L1010 470 L1075 300 L1140 560 Z" fill="#ffffff" opacity="0.10"/>
+    <path d="M700 560 L800 420 L880 560 Z" fill="#ffffff" opacity="0.07"/>
+    <circle cx="1040" cy="210" r="42" fill="none" stroke="#fde68a" stroke-width="6" opacity="0.55"/>
+    <path d="M1040 178 l11 24 25 4 -18 17 5 25 -23 -13 -23 13 5 -25 -18 -17 25 -4 Z" fill="#fde68a" opacity="0.75"/>
+  </g>
+  <!-- formula badges -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="bold">
+    <rect x="70" y="440" width="180" height="64" rx="14" fill="#ffffff" opacity="0.12"/>
+    <text x="160" y="482" text-anchor="middle" font-size="30" fill="#ffffff">SSC 10%</text>
+    <rect x="270" y="440" width="180" height="64" rx="14" fill="#ffffff" opacity="0.12"/>
+    <text x="360" y="482" text-anchor="middle" font-size="30" fill="#ffffff">FSc 40%</text>
+    <rect x="470" y="440" width="210" height="64" rx="14" fill="url(#badge)"/>
+    <text x="575" y="482" text-anchor="middle" font-size="30" fill="#052e2b">MDCAT 50%</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="70" width="300" height="52" rx="26" fill="#f59e0b"/>
+    <text x="220" y="105" text-anchor="middle" font-size="26" font-weight="bold" fill="#052e2b">BUMHS • QUETTA</text>
+    <text x="70" y="200" font-size="72" font-weight="bold" fill="#ffffff">BUMHS Aggregate 2026</text>
+    <text x="70" y="270" font-size="40" fill="#ccfbf1">Balochistan MBBS / BDS Merit Guide</text>
+    <text x="70" y="330" font-size="30" fill="#99f6e4">MDCAT out of 180 • District quotas decide seats</text>
+    <text x="70" y="385" font-size="28" fill="#ffffff" opacity="0.85">Worked example • Target scores • Closing-merit reality check</text>
+  </g>
+</svg>

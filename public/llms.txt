@@ -47,6 +47,7 @@
 - [MBBS vs BDS 2026: Which Should You Choose?](https://pakistan-merit-calculator.vercel.app/blog/mbbs-vs-bds-2026-which-to-choose): how merit works for both under 10/40/50, verified UHS fees and timelines, honest scope comparison, 5-question decision framework — no invented numbers.
 - [Private Medical College Admissions Punjab 2026-27](https://pakistan-merit-calculator.vercel.app/blog/private-medical-college-admissions-punjab-2026): UHS centralized schedule (apply 23 Oct–6 Nov 2026, first list 18 Nov), 4,500 MBBS seats across 34 colleges, same 10/40/50 formula, eligibility floors, the 3-day fee-deposit rule — no invented cutoffs.
 - [How to Apply for MBBS/BDS in Sindh 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-apply-sindh-mbbs-bds-2026): JSMU/LUMHS/SMBBMU domicile-tagged processing universities, printed file + cover label, Rs. 3,500 Leopards Courier submission per programme, 26 October 2026 deadline, November merit-list dates — no invented cutoffs.
+- [How to Calculate BUMHS Aggregate 2026](https://pakistan-merit-calculator.vercel.app/blog/how-to-calculate-bumhs-aggregate): official BUMHS 10/40/50 formula (MDCAT out of 180), worked example, backward target scores, verified 2026 MDCAT facts (20 Sep, 9,596 candidates, top 164/180, 55%/50% floors), district-quota merit picture with attributed previous-cycle closings — no invented 2026 cutoffs.
 
 
 ## Medical universities (MDCAT / NUMS)

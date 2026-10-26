@@ -129,4 +129,103 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
     ],
     relatedCalculators: ['duhs', 'kemu', 'nums'],
   },
+  {
+    slug: 'how-to-calculate-bumhs-aggregate',
+    image: '/blog/how-to-calculate-bumhs-aggregate.svg',
+    imageAlt: 'BUMHS aggregate guide 2026: SSC 10%, FSc 40%, MDCAT 50% formula badges for Balochistan MBBS and BDS admissions',
+    title: 'How to Calculate BUMHS Aggregate 2026: Balochistan MBBS/BDS Merit Guide',
+    description:
+      'Bolan University of Medical and Health Sciences (BUMHS) Quetta runs Balochistan MBBS/BDS admissions on the official 10/40/50 formula (SSC 10% + FSc 40% + MDCAT 50%, MDCAT out of 180). Worked example, backward target scores, the 2026 MDCAT facts, and why your district quota matters more than the provincial merit — no invented 2026 cutoffs.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'Balochistan plays medical admissions by different rules from Punjab, Sindh and KP — and the difference is not the formula, it is the quota. BUMHS Quetta admits students district by district, so the aggregate that wins a seat in Quetta city can be fifteen points higher than the aggregate that wins one in Turbat or Khuzdar. This guide gives you the official BUMHS formula, a worked example you can check against your own marks, the verified 2026 MDCAT facts, and an honest picture of what counts as a competitive aggregate in each part of the province — without inventing a single 2026 closing merit, because none has been published yet.',
+    sections: [
+      {
+        heading: 'The official BUMHS aggregate formula (2026)',
+        paragraphs: [
+          'Bolan University of Medical and Health Sciences (BUMHS), Quetta is the admitting university for public-sector MBBS and BDS seats in Balochistan, and it uses the Pakistan Medical and Dental Council (PMDC) merit formula: SSC (Matric) counts 10%, HSSC (FSc Pre-Medical) counts 40%, and the provincial MDCAT counts 50%. The formula is: Aggregate = (Matric obtained ÷ Matric total × 10) + (FSc obtained ÷ FSc total × 40) + (MDCAT obtained ÷ 180 × 50).',
+          'Two details trip students up every year. First, the BUMHS MDCAT is scored out of 180 — not 200. NUMS runs its own test out of 200, and dividing a BUMHS MDCAT score by 200 silently destroys your aggregate. Second, BUMHS conducts its own provincial MDCAT: the 2026 test was held on Sunday 20 September 2026, with 9,596 candidates registered. Do not assume another province\'s MDCAT automatically counts for a BUMHS seat — the session\'s admission notice states which tests it accepts, and that notice governs.',
+        ],
+      },
+      {
+        heading: 'Worked example: check your own numbers against this',
+        paragraphs: [
+          'Take a student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc, and 150 out of 180 in the BUMHS MDCAT. Matric contributes (1050 ÷ 1100 × 10) = 9.5455. FSc contributes (1000 ÷ 1100 × 40) = 36.3636. MDCAT contributes (150 ÷ 180 × 50) = 41.6667. Final aggregate: 87.5758%.',
+          'Now read that number the Balochistan way. Against a Quetta-city seat, 87.58% is competitive but not comfortable (see the district picture below). Against a divisional seat in Makran, Jhalawan or Loralai, the same aggregate is far above the reported previous-cycle closings. Your aggregate has no meaning until you attach it to a district — that is the single most important sentence in this guide.',
+        ],
+      },
+      {
+        heading: 'Backward calculation: what MDCAT score does your target need?',
+        paragraphs: [
+          'Work backward from the aggregate you want. With the same board marks as above, your locked academic contribution is 9.5455 + 36.3636 = 45.9091 points. For a target of 88%, you need 42.0909 more points from the MDCAT: (42.0909 ÷ 50 × 180) = 151.5, so 152 out of 180 (151 gives 87.8535%, just short). For a target of 90%, you need (44.0909 ÷ 50 × 180) = 158.7, so 159 out of 180.',
+          'The per-mark values explain why MDCAT prep dominates everything else. One MDCAT mark is worth 0.2778 aggregate points (50 ÷ 180). One FSc mark is worth only 0.0364 points (40 ÷ 1100), and one Matric mark just 0.0091 points (10 ÷ 1100). In other words, one MDCAT mark is worth about 7.6 FSc marks and about 30.5 Matric marks. Once your board marks are fixed, the MDCAT is the only lever that still moves — every mark there counts roughly eight times as much as a mark you can no longer change.',
+        ],
+      },
+      {
+        heading: 'The 2026 BUMHS MDCAT: verified facts',
+        paragraphs: [
+          'The 2026 provincial MDCAT was conducted by BUMHS on 20 September 2026, with 9,596 candidates registered and screened. The highest score in the province was 164 out of 180 (91.11%), shared by two candidates. The PMDC eligibility floors for this cycle are 55% in the MDCAT for MBBS (99 out of 180) and 50% for BDS (90 out of 180) — passing the test makes you eligible to apply, it does not guarantee a seat, and in Quetta city the real competition starts far above the floor.',
+          'On the FSc floor, read the session\'s admission notice, not old guides: some older pages still quote 65% in FSc and 65% in the entry test, which reflects the old PMC-era rules, not the current PMDC framework. The 55% MBBS and 50% BDS MDCAT floors above are the current regulatory thresholds. If the BUMHS notice for your session sets an additional FSc requirement, that notice governs your application.',
+        ],
+      },
+      {
+        heading: 'The colleges — and why your district decides your merit',
+        paragraphs: [
+          'Public MBBS seats in Balochistan sit at Bolan Medical College Quetta, Loralai Medical College, Jhalawan Medical College Khuzdar, and Makran Medical College Turbat, with BDS at the Bolan dental college; Quetta Institute of Medical Sciences is the province\'s private medical college. Seats are distributed by district and divisional quotas, so you compete against applicants from your own district, not against the whole province — which is why Balochistan has no single meaningful "closing merit".',
+          'To show the spread honestly, here are district closings reported by one preparation platform for a previous cycle — reported, not official, and useful only as a shape of the competition: Quetta Provincial around 88.43%, Quetta Divisional 87.14%, Quetta Urban 85.64%, Sibi 81.48%, Kalat 78.98%, Ziarat 78.74%, Quetta Rural 77.16%, Gwadar 75.70%, Lasbela 72.91%, Loralai Medical College 69.30%, Jhalawan Medical College 68.36%, and Mekran Medical College 70.75%. The lesson is the gap, not any single figure: a Quetta-city applicant and a Khuzdar applicant are effectively playing different merit lists. No 2026-27 closing merits exist yet — the 2026-27 merit lists follow the admission round, and any site giving you a 2026 closing merit today is guessing.',
+        ],
+      },
+      {
+        heading: 'What to do now: admissions, documents, and the merit-list wait',
+        paragraphs: [
+          'In past cycles, BUMHS MBBS/BDS admissions have opened after the MDCAT result — typically in November — through the university\'s online admission portal, with a hard copy of the generated form, a paid bank challan, and attested documents submitted to the BUMHS Admission Branch. No firm 2026-27 MBBS/BDS admission schedule was published as a dated notice at the time of writing, so treat any deadline you see on a third-party page as unconfirmed until it appears on bumhs.edu.pk itself.',
+          'Get the document set ready now, because the window after a notice is usually short: your Balochistan local/domicile certificate, CNIC or B-Form, Matric and FSc certificates and mark sheets, the paid fee challan, and recent passport-size photographs. If two candidates tie on aggregate, the prospectus tie-break ranks the higher entry-test scorer first, then the higher FSc scorer, then the older candidate — one more reason the MDCAT, not the board marks, decides close calls.',
+        ],
+      },
+      {
+        heading: 'Page notes: what we verified, and what we did not invent',
+        paragraphs: [
+          'Verified for this guide: the 10/40/50 PMDC formula (prospectus formula and multiple current sources agree), the BUMHS MDCAT out of 180, the 20 September 2026 test date, 9,596 registered candidates, the 164/180 top score, and the 55% MBBS / 50% BDS MDCAT floors. The district closing figures in this guide are attributed to a single preparation platform for a previous cycle — they illustrate the district spread, they are not official, and they are not 2026 numbers.',
+          'Not published here because they do not exist yet: any 2026-27 BUMHS closing merit, a dated 2026-27 admission schedule, and a confirmed seat matrix for this session. When BUMHS publishes its 2026-27 merit lists, this guide will be updated with the official figures. Until then, calculate your aggregate with the formula above, attach it to your district, and check bumhs.edu.pk — not a guide site — for the admission notice.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the BUMHS aggregate formula for 2026?',
+        answer: 'Aggregate = (Matric ÷ total × 10) + (FSc ÷ total × 40) + (BUMHS MDCAT ÷ 180 × 50). The MDCAT carries 50% weight and is scored out of 180, not 200.',
+      },
+      {
+        question: 'Is the BUMHS MDCAT out of 180 or 200?',
+        answer: 'Out of 180. The 200-mark test belongs to NUMS, a different exam. Dividing a BUMHS MDCAT score by 200 gives a wrong aggregate — always divide by 180.',
+      },
+      {
+        question: 'What MDCAT score is needed for MBBS and BDS eligibility in Balochistan?',
+        answer: 'At least 55% (99 out of 180) for MBBS and 50% (90 out of 180) for BDS under the current PMDC thresholds. Passing makes you eligible to apply; it does not guarantee a seat.',
+      },
+      {
+        question: 'Can I apply to BUMHS with a UHS, KMU or SZABMU MDCAT score?',
+        answer: 'BUMHS conducts its own provincial MDCAT, and the session\'s admission notice states which tests it accepts. Do not assume another province\'s MDCAT counts — check the BUMHS notice for your session.',
+      },
+      {
+        question: 'Why does my district matter so much for BUMHS merit?',
+        answer: 'Seats are distributed by district and divisional quotas, so you compete against applicants from your own district. Reported previous-cycle closings ranged from about 88% for Quetta Provincial down to about 68–70% for Jhalawan, Loralai and Mekran colleges — the same aggregate means very different things in different districts.',
+      },
+      {
+        question: 'What aggregate is safe for Bolan Medical College Quetta?',
+        answer: 'There is no official 2026-27 figure yet. Reported previous-cycle Quetta closings were around 85–88% depending on the quota (Provincial about 88.43%, Urban about 85.64%). Treat those as attributed benchmarks, not guarantees, and aim above them if Quetta city is your target.',
+      },
+      {
+        question: 'When do BUMHS MBBS/BDS admissions open for 2026-27?',
+        answer: 'In past cycles admissions opened after the MDCAT result, typically in November, through the BUMHS online portal. No firm dated 2026-27 schedule was published at the time of writing — check bumhs.edu.pk for the official notice.',
+      },
+      {
+        question: 'What documents do I need for a BUMHS application?',
+        answer: 'Typically: your Balochistan local/domicile certificate, CNIC or B-Form, Matric and FSc certificates and mark sheets, the paid bank challan, and recent passport-size photographs, submitted with a hard copy of the online-generated form to the BUMHS Admission Branch.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
