@@ -228,4 +228,129 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-check-kmu-merit-list-2026',
+    image: '/blog/how-to-check-kmu-merit-list-2026.svg',
+    imageAlt: 'KMU merit list 2026 guide: provisional list 30 October, objections 1-3 November, final list 12 November, placement 16-21 November',
+    title: 'How to Check KMU Merit List 2026: Khyber Medical University MBBS/BDS Merit List Guide',
+    description:
+      'KMU publishes its provisional MBBS/BDS merit list on 30 October 2026. Step-by-step guide: where the lists appear (cas.kmu.edu.pk for public, caspr.kmu.edu.pk for private), how to read your row and remarks, the 1-3 November objection window, the 12 November final list, and the 16-21 November placement round — all verified from the official 2026-27 schedule.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'If you applied to a public medical or dental college in Khyber Pakhtunkhwa, the next two weeks decide your admission. Khyber Medical University (KMU) publishes the provisional merit list on 30 October 2026, takes objections from 1 to 3 November, and publishes the final merit list on 12 November 2026, with placement running from 16 to 21 November. This guide tells you exactly where to look, how to read your row, what to do if your row carries a remark against it, and what happens after the final list — so a small fixable problem does not cost you a seat.',
+    sections: [
+      {
+        heading: 'The dates first: the full KMU 2026-27 list calendar',
+        paragraphs: [
+          'Public-sector timeline, from the official 2026-27 admission notice: applications closed on 21 October 2026 at 5:00 PM. The provisional merit list is due on 30 October 2026. Objections are received from 1 to 3 November 2026. The final merit list follows on 12 November 2026. Placement and interviews run from 16 to 21 November 2026. KIMS MBBS and KIDS BDS placement is scheduled for 23 November 2026. Then come the upgradation rounds: the second round runs 1 to 4 December 2026 and the third round 15 to 17 December 2026.',
+          'Private-sector timeline runs separately: private applications are open from 6 October to 9 November 2026 on the private portal, and the private provisional merit list is due on 11 November 2026. If you applied to both sectors, track both portals — a public list and a private list are different documents, and missing one does not excuse missing the other.',
+        ],
+        list: [
+          'Public: provisional list 30 October — objections 1-3 November — final list 12 November.',
+          'Public placement: 16-21 November; KIMS/KIDS placement 23 November.',
+          'Upgradation rounds: second round 1-4 December; third round 15-17 December.',
+          'Private: applications to 9 November; provisional list 11 November.',
+        ],
+      },
+      {
+        heading: 'Where the lists actually appear (and the two portals to bookmark)',
+        paragraphs: [
+          'Public-sector lists appear on the public admission portal, cas.kmu.edu.pk. Private-sector lists appear on the private portal, caspr.kmu.edu.pk. KMU publishes the lists as category-wise documents — open merit, general self-finance, and the reserved categories (minority, disabled, Army Public School seats, OPF seats, and others) each get their own list. Do not look for a single combined list: find the list for YOUR category, because your rank exists only inside your category.',
+          'There is a second way to check your own position: log in to the portal with your CNIC number and password, the same credentials you used to apply. KMU\'s published list instructions direct candidates to log in this way to see deficiencies noted against their application. The login view and the published PDF list show the same merit — use whichever you can reach first, and cross-check the other if anything looks wrong.',
+        ],
+      },
+      {
+        heading: 'Step by step: checking your name on the provisional list',
+        paragraphs: [
+          'Step 1: go to cas.kmu.edu.pk (public) or caspr.kmu.edu.pk (private) and open the merit-list section for session 2026-27. Step 2: pick your programme (MBBS or BDS) and your category (open merit first, then any reserved category you applied under). Step 3: open the list and search for your form number — form numbers are more reliable than names, because names repeat and spellings vary. Step 4: read across your full row: your SSC and HSSC marks, your MDCAT marks and year, your computed aggregate, and — most importantly — the remarks column.',
+          'If you applied under more than one category, check every one of them. A candidate can appear on the open-merit list and also on a reserved-category list, and the remarks on one list can differ from the remarks on another. KMU\'s own published guidance says a remark recorded against a candidate in one category applies to the other relevant categories too, so a problem flagged anywhere needs fixing everywhere.',
+        ],
+      },
+      {
+        heading: 'How to read your row: aggregate, rank, and the remarks column',
+        paragraphs: [
+          'Your aggregate is shown to four decimal places — KMU\'s published lists show figures like 95.2748, not rounded percentages. That precision matters: two candidates who both look like 87.6% can be separated by hundredths of a point, and the list order follows the exact figure. If your own calculation differs from the published figure, recheck the formula first: SSC 10% + HSSC 40% + MDCAT 50%, with the MDCAT divided by 180, never by 200. A wrong divisor is the most common cause of a mismatch, and it is your error, not KMU\'s.',
+          'The remarks column is where the provisional list does its real work. A clean row with no remark means your documents and marks passed the first check. A remark means something needs your attention — typically a document to verify, a proof to provide for a reserved seat, or a mark to correct. Read the remark word for word before assuming the worst: many remarks are fixable inside the objection window, and a remark is not a rejection. What it is, is a deadline: unaddressed remarks can turn into ineligibility on the final list.',
+        ],
+      },
+      {
+        heading: 'The provisional list is not an admission (read this before celebrating)',
+        paragraphs: [
+          'KMU states this plainly in its published list instructions: merely figuring in the order of merit does not confer any right of admission if the candidate is found ineligible on detection of any error, mistake, fraud, or misrepresentation at any stage. Every admission is provisional until verification is complete. That is why the provisional list exists at all — it is a public draft that candidates and KMU check together before anyone is placed.',
+          'So treat 30 October as a verification deadline, not a result day. Check your row, check your category lists, check the marks KMU recorded for you against your own certificates, and note anything that needs correcting. Students who celebrate on the provisional list and only read the remarks on the final list have already lost the only window in which corrections were possible.',
+        ],
+      },
+      {
+        heading: 'The objection window (1-3 November): how to fix your row',
+        paragraphs: [
+          'Objections for the public lists are received from 1 to 3 November 2026. Log in to cas.kmu.edu.pk with your CNIC and password and address the deficiency noted against your application, with the evidence the remark asks for — a certificate, a proof of eligibility for a reserved seat, or a corrected mark sheet. Submit inside the window, and keep a screenshot or receipt of your submission: it is your proof that you acted in time.',
+          'Two disciplines matter here. First, do not wait until 3 November: a portal slowdown, a missing document, or a wrong file format on the last day leaves no recovery time. Second, know that KMU\'s published rule is that no complaints are accepted after the stated deadline time — the exact cutoff hour for 2026 is in the official notice, so read it rather than assuming midnight. An objection filed late is not a late objection; it is no objection at all.',
+        ],
+      },
+      {
+        heading: 'After the final list (12 November): placement, fees, and the 3-day rule',
+        paragraphs: [
+          'The final merit list is published on 12 November 2026, and placement runs from 16 to 21 November 2026. Candidates are directed to appear before the placement and interview committee as per the schedule uploaded on cas.kmu.edu.pk — check the schedule for your merit position and category rather than assuming a date. On placement in a college, you are given a fee deposit slip for your admission category.',
+          'Here is the rule that ends more admissions than any other: if the admission fee is not deposited within three working days, your right to admission stands cancelled, and the vacant seat is offered to the next candidate on merit. After depositing the fee, you must also report to the office of the Dean or Principal of the concerned college for the remaining formalities within three days. Have the fee money ready before placement week, not after — a seat lost to a missed deposit deadline does not come back in the next round for you.',
+        ],
+      },
+      {
+        heading: 'Upgradation rounds and the waiting game (December)',
+        paragraphs: [
+          'If you are placed but hoping for a better college, or if you narrowly missed the first placement, the upgradation rounds are your second and third chances: the second round runs 1 to 4 December 2026 and the third round 15 to 17 December 2026. Vacant seats — from fee defaults, withdrawals, and ineligibilities found late — are offered to the next candidates on merit in each round. Your position can improve as candidates above you move or drop out, which is why staying reachable and keeping your documents ready through December matters.',
+          'While you wait, keep both portals in your weekly routine and keep your phone number and email active — KMU communicates placement schedules through the portal, and a missed schedule is a missed seat. Also keep the private track alive if you applied privately: the private provisional list on 11 November 2026 is a separate opportunity, and private placement follows its own schedule on caspr.kmu.edu.pk.',
+        ],
+      },
+      {
+        heading: 'Worked check: verify your own aggregate before the list lands',
+        paragraphs: [
+          'Do this now, while corrections are still possible. Take a student with 1050 out of 1100 in SSC, 1000 out of 1100 in HSSC, and 150 out of 180 in the MDCAT. SSC contributes (1050 ÷ 1100 × 10) = 9.5455. HSSC contributes (1000 ÷ 1100 × 40) = 36.3636. MDCAT contributes (150 ÷ 180 × 50) = 41.6667. Total aggregate: 87.5758%. If KMU\'s published row for you shows a different figure, work backwards through the three components — one of them was recorded differently, and the objection window is where you prove which one.',
+          'For context on scale, not as a cutoff: KMU\'s 2026 MDCAT saw about 26,108 candidates qualify for MBBS from roughly 38,845 who sat the test, according to news reports of the result — and KP\'s public colleges hold a reported 1,754 MBBS/BDS seats across 10 medical and 4 dental colleges. Those seat figures are reported, not official, and the official seat matrix sits in KMU\'s own notice. The point of the numbers is not to predict your fate; it is to explain why a hundredth of a point moves ranks, and why checking your row carefully is worth an hour of your week.',
+        ],
+      },
+      {
+        heading: 'Page notes: what this guide does not claim',
+        paragraphs: [
+          'At the time of writing (26 October 2026), the 2026-27 provisional list has not been published yet — it is due on 30 October — so this guide contains no 2026 closing merits, and any site showing you a KMU 2026 closing merit today is guessing. The schedule above comes from the official 2026-27 admission notice as reported by the KMU admission portal coverage; the exact objection cutoff hour, the placement schedule by merit position, and the final seat matrix must be read from cas.kmu.edu.pk itself when they are posted. Eligibility floors are 55% in MDCAT for MBBS and 50% for BDS, with MDCAT sessions 2024, 2025 and 2026 accepted; the FSc threshold is stated as 60% in the printed notice but 65% on the portal in some KMU sources — if the two differ for your category, KMU\'s own helpdesk (091-9217703) is the authority, not this page.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When will the KMU merit list 2026 come out?',
+        answer: 'The public provisional merit list is due on 30 October 2026, and the final merit list on 12 November 2026. The private provisional list is due on 11 November 2026. Placement runs 16-21 November, with upgradation rounds 1-4 December and 15-17 December.',
+      },
+      {
+        question: 'Where can I check the KMU merit list 2026?',
+        answer: 'Public-sector lists are published on cas.kmu.edu.pk and private-sector lists on caspr.kmu.edu.pk. You can also log in to the portal with your CNIC number and password to see deficiencies noted against your own application.',
+      },
+      {
+        question: 'What login do I need to check my KMU merit position?',
+        answer: 'Your CNIC number and the password you set when applying on cas.kmu.edu.pk (or caspr.kmu.edu.pk for private). KMU\'s published instructions direct candidates to log in this way to address deficiencies in the provisional list.',
+      },
+      {
+        question: 'What is the difference between the provisional and final KMU merit lists?',
+        answer: 'The provisional list (30 October) is a draft for checking: it shows your marks, aggregate and any remarks, and you can object from 1-3 November. The final list (12 November) is the corrected list that placement is based on. Appearing on the provisional list does not guarantee admission.',
+      },
+      {
+        question: 'What should I do if my KMU provisional list row has a remark against it?',
+        answer: 'Read the remark exactly, gather the evidence it asks for (a certificate, reserved-seat proof, or corrected mark), and submit it through your portal login inside the 1-3 November objection window. Keep proof of submission. Unaddressed remarks can become ineligibility on the final list.',
+      },
+      {
+        question: 'Can my merit position change between the provisional and final lists?',
+        answer: 'Yes, in both directions. Corrections to marks, removal of ineligible candidates, and verified objections all move ranks. That is why checking your own row on 30 October and acting inside the objection window matters more than your provisional rank alone.',
+      },
+      {
+        question: 'What happens after the KMU final merit list?',
+        answer: 'You appear before the placement/interview committee as per the schedule on cas.kmu.edu.pk (16-21 November), receive a fee deposit slip on placement, and must deposit the fee within three working days — otherwise the seat is cancelled and offered to the next candidate. Then report to the college Dean/Principal within three days.',
+      },
+      {
+        question: 'What if I miss my KMU placement or fee deadline?',
+        answer: 'The seat is offered to the next candidate on merit, and you cannot reclaim it in a later round for that same placement. If you are still on the merit order, you may still be considered in the upgradation rounds (1-4 December and 15-17 December) for seats that fall vacant — but do not rely on that; treat the three-day fee rule as absolute.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
