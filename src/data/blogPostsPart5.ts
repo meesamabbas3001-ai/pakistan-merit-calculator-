@@ -353,4 +353,143 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-check-uhs-merit-list-2026',
+    image: '/blog/how-to-check-uhs-merit-list-2026.svg',
+    imageAlt: 'UHS merit list 2026 guide: Punjab MBBS provisional list 13 November, final list 16 November, first selection list 17 November',
+    title: 'How to Check UHS Merit List 2026: Punjab MBBS/BDS Merit List Guide (Public, Private & Quota Dates)',
+    description:
+      'UHS Punjab MBBS provisional merit list on 13 November 2026, final list 16 November, first selection list 17 November. Step-by-step guide: where the lists appear, how to read your row, how to object, upgradation rounds, and what to do after selection — plus the different private and reserved-quota dates, so you never check the wrong list.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'The UHS merit list season for Punjab MBBS 2026-27 starts on 13 November 2026, and the single biggest mistake students make is checking the wrong list. UHS Lahore runs three separate admission tracks at the same time — public colleges, private colleges, and reserved quota seats — and each track has its own application window, its own final list date, and its own selection lists. A date that is correct for a private applicant is wrong for a public applicant, and a quota-seat list means nothing to an open-merit applicant. This guide walks the public track step by step, flags the other two tracks wherever they differ, and tells you exactly what to do at each stage — including what no 2026 list can tell you yet, because no 2026 list has been published.',
+    sections: [
+      {
+        heading: 'First, the trap: three UHS tracks, three different calendars',
+        paragraphs: [
+          'Before any date, identify your track. The public track covers open-merit and quota seats in Punjab public medical and dental colleges; applications ran from 16 to 30 October 2026 through the public portal. The private track covers MBBS in 34 private medical colleges; applications ran from 23 October to 6 November 2026 through a separate private portal. The reserved track covers 252 seats (214 MBBS and 38 BDS) for candidates from Islamabad, Azad Kashmir, Gilgit-Baltistan, Balochistan and former FATA; applications ran from 26 October to 9 November 2026.',
+          'The three tracks share one coincidence that causes most of the confusion: all three publish a provisional order of merit on 13 November 2026. After that they diverge completely. The public final list is 16 November, the private final list is also 16 November, but the reserved final list is 17 November. The public first selection list is 17 November, the private first selection list is 18 November, and the reserved first selection list is 27 November. If a friend tells you a list date, ask which track before you believe it — and if a website gives one date without naming the track, treat it as unreliable.',
+        ],
+        list: [
+          'Public track: applications 16-30 October 2026; final list 16 November; first selection list 17 November.',
+          'Private track: applications 23 October-6 November 2026; final list 16 November; first selection list 18 November.',
+          'Reserved quota track: applications 26 October-9 November 2026; final list 17 November; first selection list 27 November.',
+          'All three tracks publish a provisional list on 13 November — that shared date is the trap, not the answer.',
+        ],
+      },
+      {
+        heading: 'The public MBBS calendar, step by step',
+        paragraphs: [
+          'For the public track, the 2026-27 schedule announced by UHS Lahore runs as follows. Online applications opened on 16 October 2026 at 9:00 AM and closed on 30 October at 5:00 PM. The provisional order of merit is scheduled for 13 November. The final order of merit follows on 16 November. College-wise selection lists are scheduled for 17 November (first), 23 November (second, with upgradation), and 1 December (third, with upgradation). MBBS classes are scheduled to commence on 1 February 2027.',
+          'BDS runs on a separate, later calendar. Public BDS applications open on 15 December 2026 and close on 30 December 2026. The BDS provisional merit order is scheduled for 6 January 2027 and the final merit order for 9 January 2027. BDS selection lists follow on 11, 15 and 21 January 2027, and BDS classes begin on 1 March 2027. Private BDS is different again: applications from 18 December 2026 to 1 January 2027, with the first selection list on 13 January 2027.',
+          'One caution applies to every date in this guide: UHS states that the timetable remains subject to directions from the Pakistan Medical and Dental Council and the Punjab government, including changes in how many selection lists are issued. Treat every date as scheduled rather than guaranteed, and check the UHS website itself on the day a list is due — aggregator sites and social media posts routinely carry last season dates as if they were this season.',
+        ],
+      },
+      {
+        heading: 'Where the lists actually appear (and where they do not)',
+        paragraphs: [
+          'All UHS merit and selection lists are published on the UHS website, and public-track applicants check through the public admissions portal at publicmbbs.uhs.edu.pk, where they applied. That portal is your source of truth. When a list is due, open the UHS website and the public portal directly, and ignore screenshots circulating in WhatsApp groups until you have matched them against the official publication — screenshots are easy to crop, mislabel, and recycle from previous sessions.',
+          'UHS publishes two different kinds of document, and knowing which one you are looking at prevents false hope and false panic. The order of merit (provisional, then final) is a ranking of applicants by aggregate — it tells you your position, not your college. The selection lists are college-wise: they assign named applicants to named colleges, and only a selection list gives you a seat. Appearing on the provisional or final merit order does not mean admission, and missing the first selection list does not mean rejection. Keep those two kinds of list separate in your head at every stage.',
+        ],
+      },
+      {
+        heading: 'Step 1: check your provisional row on 13 November',
+        paragraphs: [
+          'On 13 November, open the provisional order of merit and find your own row first — not your friends, not the topper, not the cutoff. Check four things, in order: your name and identity details are correct; your Matric, FSc and MDCAT marks are the marks you actually obtained; your aggregate matches your own calculation under the official formula (Matric 10 percent plus FSc 40 percent plus MDCAT 50 percent, with MDCAT out of 180); and your category and quota, if any, are recorded correctly. A wrong mark here is not a rounding difference — one MDCAT mark is worth about 0.278 percent of aggregate, so a small error moves your rank visibly.',
+          'Also check your merit position against your expectations, but do not treat the provisional position as final. Corrections, verified objections, and the removal of ineligible candidates all move ranks between the provisional and final lists, in both directions. Your job on 13 November is accuracy, not celebration or despair: verify your row, note any error with evidence, and move immediately to the objection step if anything is wrong.',
+        ],
+      },
+      {
+        heading: 'Step 2: object fast if anything is wrong',
+        paragraphs: [
+          'If your provisional row contains an error, object through the UHS online complaint portal, with supporting documentary evidence attached. That is the established UHS process: objections go through the online portal, not through phone calls, visits, or social media posts, and an objection without evidence is an objection that cannot be verified.',
+          'Speed matters more than students expect. The objection window for the 2026-27 cycle will be stated in the provisional-list notice itself, and you must read that notice on 13 November — do not assume a window length. As a warning about how short these windows can be: in the 2024-25 cycle, UHS gave candidates only 24 hours to submit objections to the provisional list. Prepare your documents before 13 November so that, if you need to object, you can file the same day with evidence already in hand. An unaddressed error on the provisional list can harden into ineligibility or a wrong rank on the final list, and there is no later stage designed to fix it.',
+        ],
+        list: [
+          'Object only through the UHS online complaint portal, with documentary evidence.',
+          'Read the 2026-27 provisional-list notice on 13 November for the exact window — never assume it.',
+          'Past cycles gave as little as 24 hours, so have your evidence ready before 13 November.',
+          'Common valid objections: wrong marks, wrong aggregate, missing or wrong category or quota.',
+        ],
+      },
+      {
+        heading: 'Step 3: read the final list on 16 November correctly',
+        paragraphs: [
+          'The final order of merit on 16 November is the corrected ranking that selection is based on. If you objected, check whether your correction was applied. If you did not object, check that your row is unchanged. Either way, the final list still does not assign you a college — it only fixes your rank. The question the final list answers is where you stand; the question the selection lists answer is where you go.',
+          'This is also the moment to stop comparing yourself to rumoured cutoffs. No 2026-27 closing merit exists on 16 November, because no selection list has been published yet. The only verified benchmark available is last season: King Edward Medical University closed at about 94.9 percent on the 2025 final open-merit list, the highest public MBBS close in Punjab. Use that as a reference point for how competitive the top is, not as a prediction for 2026 — the 2026 closings will be whatever the 17 November, 23 November and 1 December selection lists actually show.',
+        ],
+      },
+      {
+        heading: 'Step 4: selection lists and upgradation — why missing the first list is normal',
+        paragraphs: [
+          'The first college-wise selection list on 17 November fills seats from the top of the merit order down, following each applicant stated college preferences in order. Its cutoff is the highest of the season, because it takes only the top slice of applicants. Missing it is normal for a large share of students who are eventually admitted — it means your aggregate sits below the first-round cutoff for the colleges on your preference list, not that you are out.',
+          'The second list on 23 November and the third on 1 December are upgradation lists: as selected candidates join, decline, or move, seats cascade to the next applicants in line, and merit drops with each round. That is why the closing merit of a college is its last admitted aggregate on the final list, not its first-list cutoff. Track each list college by college: note the last admitted aggregate for the colleges on your preference list, and watch whether the line is moving toward your number. If your aggregate sits just below a college last-list figure, the next upgradation round is exactly where your chance lives.',
+          'One preference-list rule deserves repeating, because it decides outcomes silently: the system fills seats down your stated preference order, and a college you left off your list can never be offered to you, no matter how far merit drops. If you ranked colleges in an order you did not truly want, no selection list can fix that. The preference lock after the 30 October deadline is why the application stage mattered as much as the merit lists do now.',
+        ],
+      },
+      {
+        heading: 'Step 5: after selection — join fast, or lose the seat',
+        paragraphs: [
+          'When your name appears on a selection list, the clock starts immediately. Read that list notice the same day: it states the fee to deposit, the bank or challan route, the documents to present, and the deadline to report to the allotted college. Treat the deadline as absolute. Selection notices in the private track have specified three days to deposit the fee and join, and public notices carry their own joining deadline in the same way — a seat not claimed inside its window is offered to the next candidate on merit, and you cannot reclaim that same placement in a later round.',
+          'Have everything ready before 17 November, not after your name appears: your original documents, your CNIC, your fee arrangement, and a plan for travelling to the college. Public-sector tuition under the 2026-27 Punjab admission policy is Rs. 50,000 per year, and the policy sets no Hafiz-e-Quran bonus marks — two facts worth knowing before you reach the joining counter, so no surprise demand or expectation slows you down. Keep copies and receipts of everything you submit; your joining proof is the only thing that stands between you and a disputed seat.',
+          'If you are selected for a lower-preference college and still hope for upgradation, follow the notice instructions for that situation exactly — including any consent or stay option it describes — rather than assuming you can hold a seat passively while waiting for a better one. The notice for your list governs your case; general advice, including this guide, never overrides it.',
+        ],
+      },
+      {
+        heading: 'Worked example: reading your own position before the lists arrive',
+        paragraphs: [
+          'Take a student with 1050 out of 1100 in Matric, 1040 out of 1100 in FSc, and 165 out of 180 in MDCAT. Under the official formula, Matric contributes 1050 divided by 1100 times 10, which is 9.5455. FSc contributes 1040 divided by 1100 times 40, which is 37.8182. MDCAT contributes 165 divided by 180 times 50, which is 45.8333. The final aggregate is 93.1970 percent.',
+          'Read that number the way the lists will read it. Against the verified 2025 benchmark, 93.1970 percent sits about 1.7 points below KEMU final close of about 94.9 percent — KEMU is out of reach on 2025 terms. It sits near the top of the historically reported band for Allama Iqbal Medical College (about 91.5 to 93.0 percent) and comfortably inside the reported bands for Nishtar and other public colleges. That means: expect to miss the 17 November first list for the very top colleges, watch the 23 November and 1 December upgradation lists closely, and have your joining documents ready, because a late-round offer gives you days, not weeks, to act. Run your own numbers through the KEMU merit calculator on this site and apply the same reading to your aggregate.',
+        ],
+      },
+      {
+        heading: 'Page notes: verified, hedged, and not yet published',
+        paragraphs: [
+          'Verified for this guide: the public, private and reserved track schedules quoted above, as announced by UHS Lahore under the Punjab admission policy notified on 14 October 2026; the official 10/40/50 formula with MDCAT out of 180; the eligibility floors of 55 percent MDCAT for MBBS and 50 percent for BDS, with 60 percent in FSc; public tuition of Rs. 50,000 per year; and the 2025 KEMU final close of about 94.9 percent. The UHS practice of objections through an online complaint portal with documentary evidence is established from past cycles.',
+          'Hedged, not hidden: the exact 2026-27 objection window is not stated here, because it will be set in the 13 November provisional-list notice — the 24-hour figure quoted is from the 2024-25 cycle, given only as a warning about how short the window can be. Public-track joining deadlines are likewise per-notice; the three-day figure quoted is from private-track notices. Not yet published, and therefore not invented here: every single 2026-27 closing merit, every college-wise cutoff, and the final seat matrix. When the 13 November provisional list and the 17 November selection list appear, this page will be updated with the real, verified numbers — and until then, any site handing you a precise 2026 cutoff is guessing.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When will the UHS provisional merit list 2026 be announced?',
+        answer: 'The public MBBS provisional order of merit is scheduled for 13 November 2026. The private and reserved tracks also publish provisional lists on 13 November, but their final and selection lists differ — check your own track.',
+      },
+      {
+        question: 'Where can I check the UHS merit list online?',
+        answer: 'All UHS merit and selection lists are published on the UHS website. Public-track applicants check through the public admissions portal at publicmbbs.uhs.edu.pk. Verify any screenshot against the official publication before acting on it.',
+      },
+      {
+        question: 'What is the difference between the provisional, final and selection lists?',
+        answer: 'The provisional list (13 November) is a draft ranking you can object to. The final list (16 November) is the corrected ranking that selection is based on. The selection lists (17 November, 23 November, 1 December) are college-wise: they assign named applicants to named colleges, and only a selection list gives you a seat.',
+      },
+      {
+        question: 'What should I do if my name is missing or my marks are wrong on the provisional list?',
+        answer: 'Object immediately through the UHS online complaint portal, with supporting documentary evidence. Read the 13 November notice for the exact objection window — past cycles gave as little as 24 hours, so file the same day with evidence ready.',
+      },
+      {
+        question: 'Can my merit position change between the provisional and final lists?',
+        answer: 'Yes, in both directions. Corrections to marks, verified objections, and the removal of ineligible candidates all move ranks. That is why verifying your own row on 13 November matters more than your provisional rank alone.',
+      },
+      {
+        question: 'What if I am not selected in the first selection list on 17 November?',
+        answer: 'That is normal for most eventually admitted students: the first list cutoff is the highest of the season. Watch the upgradation lists on 23 November and 1 December, when merit drops as seats cascade down your preference list.',
+      },
+      {
+        question: 'Are private college merit lists announced on the same dates as public lists?',
+        answer: 'No. Private MBBS applications ran 23 October to 6 November 2026, with the final list on 16 November and selection lists on 18, 23 and 27 November. The reserved quota track (252 seats) has its final list on 17 November and selection lists on 27 November, 4 December and 10 December. Never use another track dates for your own case.',
+      },
+      {
+        question: 'What aggregate is safe for UHS MBBS admission in 2026?',
+        answer: 'No 2026 closing merit exists yet, because no 2026-27 selection list has been published. The verified 2025 benchmark is KEMU at about 94.9 percent on the final open-merit list. Use last season closings as reference points and let the November and December lists decide, not a prediction.',
+      },
+      {
+        question: 'When do UHS BDS merit lists come out?',
+        answer: 'Public BDS applications run 15 to 30 December 2026, with the provisional merit order on 6 January 2027, the final order on 9 January, selection lists on 11, 15 and 21 January, and classes from 1 March 2027. Private BDS applications run 18 December 2026 to 1 January 2027, with the first selection list on 13 January 2027.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
