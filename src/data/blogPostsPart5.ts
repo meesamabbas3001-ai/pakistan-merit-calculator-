@@ -492,4 +492,152 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-check-sindh-merit-list-2026',
+    image: '/blog/how-to-check-sindh-merit-list-2026.svg',
+    imageAlt: 'Sindh merit list 2026 guide: MBBS provisional list 2 November, final list 6 November, BDS final list 14 November, published by JSMU, LUMHS and SMBBMU',
+    title: 'How to Check Sindh Merit List 2026: JSMU, LUMHS & SMBBMU MBBS/BDS Merit List Guide',
+    description:
+      'Sindh MBBS provisional merit list on 2 November 2026, final list 6 November, BDS provisional 11 November and final 14 November. Step-by-step guide: which processing university publishes your list (JSMU, LUMHS or SMBBMU), how to read your row, how to object in the 2-4 November window, why district quota means there is no single Sindh cutoff, and what happens after the final list — no invented 2026 cutoffs.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'Sindh MBBS/BDS applications closed on Monday 26 October 2026, and the next event is the one every Sindh applicant is waiting for: the MBBS provisional merit list on 2 November 2026. But Sindh does not publish one merit list. Unlike Punjab, where UHS Lahore runs a single centralized portal, Sindh admissions run through three processing universities, each publishing its own lists for the districts tagged to it. If you check the wrong university website, you will not find your name — even if your merit is excellent. This guide tells you which list is yours, the exact official calendar for MBBS and BDS, how to read your row, how to object inside the window, and what the final list does and does not decide.',
+    sections: [
+      {
+        heading: 'Sindh has no single merit list — your processing university is your list',
+        paragraphs: [
+          'Sindh public MBBS/BDS admissions for session 2026-27 are centralized in policy but decentralized in publication. You applied through one of three processing universities, determined by your district of domicile, and that same university publishes your merit list. Jinnah Sindh Medical University (JSMU), Karachi, handles all districts of Karachi. Liaquat University of Medical and Health Sciences (LUMHS), Jamshoro, handles the Hyderabad-region districts, including Hyderabad, Tharparkar, Sanghar, Umerkot, Shaheed Benazirabad, Jamshoro, Thatta, Matiari, Sujawal, Tando Allahyar, Badin, Tando Mohammad Khan and Mirpurkhas. Shaheed Mohtarma Benazir Bhutto Medical University (SMBBMU), Larkana, handles the Larkana and Sukkur-region districts, including Larkana, Kashmore, Shikarpur, Naushahro Feroze, Jacobabad, Sukkur, Dadu, Ghotki, Kamber-Shahdadkot and Khairpur.',
+          'This is the first and most common mistake to avoid. You did not apply to Dow University or Gambat Medical College directly, so do not expect your name on a Dow or Gambat list. Your college preferences were recorded inside your processing university form, and your merit is computed and ranked by that processing university. Bookmark your processing university website now — jsmu.edu.pk, lumhs.edu.pk, or admissions.smbbmu.edu.pk — and check that site on list days, not a general education portal and not a WhatsApp screenshot.',
+          'One more confusion to clear up before 2 November: the Sindh MDCAT provisional merit list published in late September 2026 by SIBA Testing Services (STS), Sukkur IBA University, was the entry-test result ranking. It is not the admission merit list. The admission merit list combines your MDCAT score with your Matric and FSc marks under the official formula, ranks you within your district quota, and is published by your processing university on the dates in this guide. A high position on the September test list is encouraging; it is not a seat.',
+        ],
+      },
+      {
+        heading: 'The full 2026-27 calendar: MBBS first, BDS second',
+        paragraphs: [
+          'The official prospectus schedule for session 2026-27 runs as follows. The prospectus and application form became available on 12 October 2026, and the last date for submission of MBBS and BDS forms was Monday 26 October 2026. For MBBS, the provisional merit list is displayed on 2 November 2026, objections on the provisional list are accepted from 2 to 4 November 2026, and the final merit list is displayed on 6 November 2026. For BDS, the provisional merit list is displayed on 11 November 2026, objections are accepted from 11 to 12 November 2026, and the final merit list is displayed on 14 November 2026.',
+          'Everything after the final lists is announced by each processing university separately: the special medical board for disabled candidates, interviews for MBBS and BDS, the self-finance MBBS/BDS advertisement, and the start of MBBS and BDS classes are all listed in the prospectus schedule as to be announced by the respective processing university. Do not accept a single province-wide interview or class date from an aggregator site — your processing university notice governs your case, and the three universities need not announce on the same day.',
+        ],
+        list: [
+          'MBBS provisional merit list: 2 November 2026.',
+          'MBBS objections: 2 to 4 November 2026 (three days only).',
+          'MBBS final merit list: 6 November 2026.',
+          'BDS provisional merit list: 11 November 2026.',
+          'BDS objections: 11 to 12 November 2026 (two days only).',
+          'BDS final merit list: 14 November 2026.',
+          'Interviews, self-finance advertisement and class dates: announced later by each processing university.',
+        ],
+      },
+      {
+        heading: 'Where the lists actually appear (and where they do not)',
+        paragraphs: [
+          'On list day, open your processing university website directly: JSMU at jsmu.edu.pk if your domicile district is in Karachi, LUMHS at lumhs.edu.pk if it is in the Hyderabad region, or SMBBMU at admissions.smbbmu.edu.pk if it is in the Larkana or Sukkur region. Lists are typically published as downloadable documents on the admissions section of that site. Download the document, save a copy, and search it for your own name and form or roll details — do not rely on a cropped screenshot forwarded in a group, because screenshots are easy to mislabel, crop out of context, or recycle from a previous session.',
+          'If your name does not appear where you expected, stop and check three things before panicking: you are on the right processing university site for your domicile district; you are looking at the right programme list (MBBS lists and BDS lists are separate, on different dates); and you are looking at the right stage (provisional, not final). Most missing-name panics on list day turn out to be one of those three errors. If all three check out and your name is still absent, that is a genuine case to raise with your processing university — quickly, because the objection window is only three days for MBBS and two days for BDS.',
+        ],
+      },
+      {
+        heading: 'Step 1: check your provisional row on 2 November',
+        paragraphs: [
+          'When the MBBS provisional list appears on 2 November, find your own row first and check five things, in order: your name and identity details are correct; your district of domicile is recorded correctly, because your district decides which quota you compete in; your Matric, FSc and MDCAT marks are the marks you actually obtained; your aggregate matches your own calculation under the official formula (Matric 10 percent plus FSc 40 percent plus MDCAT 50 percent, with MDCAT out of 180); and your category or quota, if any, is recorded correctly. A wrong mark here is not a rounding difference — one MDCAT mark is worth about 0.278 percent of aggregate, so a small error moves your rank visibly within your district list.',
+          'Also check your merit position, but do not treat the provisional position as final. Corrections, verified objections, and the removal of ineligible candidates all move ranks between the provisional and final lists, in both directions. Your job on 2 November is accuracy, not celebration or despair: verify your row, note any error with evidence, and move immediately to the objection step if anything is wrong. And remember that the provisional list is a ranking, not a college allotment — it tells you where you stand, and the final list and the interviews that follow decide where you go.',
+        ],
+      },
+      {
+        heading: 'Step 2: object inside the window, with evidence',
+        paragraphs: [
+          'If your provisional row contains an error, object to your processing university inside the official window: 2 to 4 November 2026 for MBBS, and 11 to 12 November 2026 for BDS. The window is short by design, and there is no reason to assume it will be extended — the BDS window is only two days. File your objection with documentary evidence for the correction you are claiming, such as the mark sheet or result card that proves the correct figure, and keep a copy and a receipt or reference of everything you submit.',
+          'Read the provisional-list notice itself on 2 November for the exact objection channel your processing university specifies, and follow that notice rather than general advice — including this guide. An objection without evidence cannot be verified, and an objection filed after the window closes is an objection the process is not designed to accept. Prepare your documents before 2 November so that, if you need to object, you can file on the first day of the window instead of discovering a missing document on the last day. Common valid objections are wrong marks, a wrong aggregate, a wrong domicile district, or a missing or wrong category or quota.',
+        ],
+        list: [
+          'MBBS objection window: 2 to 4 November 2026 — file early, do not wait for day three.',
+          'BDS objection window: 11 to 12 November 2026 — only two days.',
+          'Attach documentary evidence; an unsupported claim cannot be verified.',
+          'Follow the channel stated in your processing university provisional-list notice.',
+          'Keep a copy and a receipt or reference of your objection.',
+        ],
+      },
+      {
+        heading: 'Step 3: read the final list on 6 November correctly',
+        paragraphs: [
+          'The final merit list on 6 November is the corrected ranking that the rest of the process is based on. If you objected, check whether your correction was applied. If you did not object, check that your row is unchanged. Either way, the final list still does not by itself hand you a college seat — interviews and college-wise allotment follow on dates your processing university announces separately, and the self-finance advertisement is a separate announcement again. The question the final list answers is where you stand in your district merit order; the later notices answer where you go and when you report.',
+          'This is also the moment to stop comparing yourself to rumoured province-wide cutoffs. No 2026-27 closing merit exists on 6 November, because no college-wise allotment has happened yet. Any site handing you a precise 2026 Sindh cutoff on or before 6 November is guessing. What you can do on 6 November is honest: note your final district position, compare it with the number of seats your district quota realistically covers, and prepare your original documents and fee arrangement so that an interview or joining call gives you days to act, not a scramble.',
+        ],
+      },
+      {
+        heading: 'Why district quota means there is no single Sindh cutoff',
+        paragraphs: [
+          'Sindh merit is district-wise: candidates compete only within their own district quota, not against the whole province. That single fact makes every province-wide Sindh cutoff you see online misleading. The same aggregate can be comfortably inside the merit in one district and outside it in another, because each district list has its own applicant pool, its own seat allocation, and its own last admitted aggregate. Comparing your aggregate with a friend from another district tells you nothing about either of your chances.',
+          'It also means the right question is never what is the Sindh closing merit, but what was the last admitted aggregate in my district, for my category, in the last completed cycle — and even that is only a reference point, because district merit moves every year with applicant strength. Seat totals sometimes quoted for Sindh — around 2,550 MBBS seats across 13 colleges and 500 BDS seats across 7 colleges — are reported figures, not official prospectus figures, and are given here only as scale, not as a promise. The participating public colleges include JSMU, DUHS, LUMHS, SMBBMU, Peoples University of Medical and Health Sciences for Women, Karachi Metropolitan University (KMDC), Shaheed Mohtarma Benazir Bhutto Medical College Lyari, Khairpur Medical College and Gambat Medical College, but your allotment runs through your processing university preference list, not through a direct application to any of them.',
+        ],
+      },
+      {
+        heading: 'The BDS track: separate list, separate dates',
+        paragraphs: [
+          'If you applied for both MBBS and BDS, you have two lists to track, not one — and the BDS dates are a week behind MBBS. The BDS provisional list is 11 November 2026, objections run 11 to 12 November, and the BDS final list is 14 November 2026. Your MBBS position says nothing about your BDS position, because the two programmes have different applicant pools, different eligibility floors (MDCAT 55 percent for MBBS, 50 percent for BDS), and different lists. Check both lists on their own dates, object on each list separately if either row is wrong, and remember that you paid a separate Rs. 3,500 processing fee per programme — the two applications were always independent.',
+          'The eligibility floors themselves are worth restating, because older pages still circulate outdated figures. For session 2026-27, the official position is MDCAT 55 percent for MBBS (99 out of 180) and 50 percent for BDS (90 out of 180), with 60 percent in FSc Pre-Medical (660 out of 1100), and MDCAT sessions 2024, 2025 and 2026 accepted. Some third-party pages still show 65 percent FSc figures from an older PMC-era regime — if a page contradicts the current prospectus, the prospectus wins. Eligibility, note, only gets you onto the list; admission depends on your district merit position against the seats available.',
+        ],
+      },
+      {
+        heading: 'After the final list: interviews, self-finance, and joining',
+        paragraphs: [
+          'After the 6 November MBBS final list (and the 14 November BDS final list), watch your processing university for three separate announcements: interviews, the self-finance advertisement, and class commencement. None of these dates is fixed in the prospectus schedule — each is to be announced by the respective processing university — so a date quoted for one university does not bind the other two. When an interview notice appears, read it the same day: it states the venue, the documents to bring in original, and the reporting window, and a missed interview is routinely treated as a forfeited claim.',
+          'Have everything ready before the final list, not after a call arrives: original Matric and FSc certificates and mark sheets, MDCAT result card, CNIC, domicile and PRC documents, and the fee arrangement for the college you may join. Public-sector tuition in Sindh is reported at around Rs. 48,000 per year at most public colleges (with higher first-year totals once one-time charges are added, and different figures at SMBBMU and KMDC) — reported, not prospectus-fixed, so confirm the exact demand from your allotted college notice. Keep copies and receipts of everything you submit; your joining proof is the only thing that stands between you and a disputed seat. If you are also considering self-finance seats, wait for the separate self-finance advertisement rather than assuming the open-merit list covers them.',
+        ],
+      },
+      {
+        heading: 'Worked example: reading your own aggregate before 2 November',
+        paragraphs: [
+          'Take a student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc, and 150 out of 180 in MDCAT. Under the official formula, Matric contributes 1050 divided by 1100 times 10, which is 9.5455. FSc contributes 1000 divided by 1100 times 40, which is 36.3636. MDCAT contributes 150 divided by 180 times 50, which is 41.6667. The final aggregate is 87.5758 percent.',
+          'Read that number the way the Sindh lists will read it: as a district rank, not a province rank. Run your own numbers through the DUHS merit calculator on this site, which uses the same 10/40/50 formula, and then ask the district question — where does 87.5758 percent sit in my district list, not in Sindh as a whole? As a backward check, the same student aiming for 90 percent would need (90 minus 45.9091) divided by 50 times 180, which is about 159 out of 180 in MDCAT — roughly nine more MDCAT marks than the 150 in the example, because each MDCAT mark is worth about 0.278 percent while each FSc mark is worth only about 0.036 percent. That is why, with board marks already fixed, the test score is the lever that moves Sindh merit most — and why verifying that your MDCAT marks are recorded correctly on 2 November matters more than any other single check.',
+        ],
+      },
+      {
+        heading: 'Page notes: verified, hedged, and not yet published',
+        paragraphs: [
+          'Verified for this guide: the full 2026-27 schedule quoted above, from the official LUMHS prospectus for session 2026-27 (prospectus 12 October, last date 26 October, MBBS provisional 2 November, objections 2 to 4 November, final 6 November, BDS provisional 11 November, objections 11 to 12 November, final 14 November, with interviews, self-finance advertisement and class dates to be announced by each processing university); the three processing universities and their tagged districts; the official 10/40/50 formula with MDCAT out of 180 and MDCAT sessions 2024 to 2026 accepted; the eligibility floors of 55 percent MDCAT for MBBS and 50 percent for BDS with 60 percent in FSc; and the Rs. 3,500 per-programme processing fee including courier charges.',
+          'Hedged, not hidden: the seat totals quoted (around 2,550 MBBS and 500 BDS) and the public tuition figures are reported figures from secondary guides, not official prospectus figures, and are given only as scale. The exact objection channel is not stated here, because it is set in each processing university provisional-list notice — read that notice on 2 November. Not yet published, and therefore not invented here: every single 2026-27 closing merit, every district-wise cutoff, every interview date, and every class commencement date. When the 2 November provisional list and the 6 November final list appear, this page will be updated with the real, verified numbers — and until then, any site handing you a precise 2026 Sindh cutoff is guessing.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When will the Sindh MBBS merit list 2026 be announced?',
+        answer: 'The MBBS provisional merit list is scheduled for 2 November 2026 and the final merit list for 6 November 2026. The BDS provisional list follows on 11 November and the BDS final list on 14 November 2026, under the official 2026-27 prospectus schedule.',
+      },
+      {
+        question: 'Where can I check the Sindh merit list online?',
+        answer: 'On your processing university website: JSMU (jsmu.edu.pk) for Karachi districts, LUMHS (lumhs.edu.pk) for Hyderabad-region districts, or SMBBMU (admissions.smbbmu.edu.pk) for Larkana and Sukkur-region districts. Check the university tagged to your domicile district — the other two sites will not list you.',
+      },
+      {
+        question: 'What is the difference between the provisional and final merit lists?',
+        answer: 'The provisional list (2 November MBBS, 11 November BDS) is a draft ranking you can object to. The final list (6 November MBBS, 14 November BDS) is the corrected ranking the rest of the process is based on. Neither list by itself assigns you a college — interviews and allotment follow on dates your processing university announces separately.',
+      },
+      {
+        question: 'How do I object if my marks or aggregate are wrong on the provisional list?',
+        answer: 'Object to your processing university inside the official window — 2 to 4 November 2026 for MBBS, 11 to 12 November 2026 for BDS — with documentary evidence for the correction. Read the provisional-list notice on the day it appears for the exact channel, and keep a copy and receipt of your objection.',
+      },
+      {
+        question: 'Why is there no single Sindh closing merit?',
+        answer: 'Because Sindh merit is district-wise: you compete only within your own district quota. The same aggregate can be inside the merit in one district and outside it in another, so a province-wide cutoff is meaningless. Ask for your district last admitted aggregate, not a Sindh-wide figure.',
+      },
+      {
+        question: 'Is the Sindh MDCAT result list the same as the merit list?',
+        answer: 'No. The September 2026 STS/IBA list was the entry-test result ranking. The admission merit list combines MDCAT (50 percent) with FSc (40 percent) and Matric (10 percent), ranks you within your district quota, and is published by your processing university from 2 November 2026.',
+      },
+      {
+        question: 'What aggregate do I need for MBBS in Sindh in 2026?',
+        answer: 'No 2026-27 closing merit exists yet, because no final allotment has happened. Eligibility requires MDCAT 55 percent for MBBS and 60 percent in FSc, but admission depends on your district merit position. Use the DUHS merit calculator on this site to compute your aggregate, then judge it district by district.',
+      },
+      {
+        question: 'I applied for both MBBS and BDS. Do I check one list or two?',
+        answer: 'Two, on different dates: MBBS provisional 2 November and final 6 November; BDS provisional 11 November and final 14 November. The programmes have separate applicant pools, separate fees, and separate lists — check and, if needed, object on each one separately.',
+      },
+      {
+        question: 'When do Sindh MBBS interviews and classes start?',
+        answer: 'The prospectus schedule lists interviews, the self-finance advertisement, and class commencement as to be announced by each processing university. No province-wide date exists yet — watch your processing university (JSMU, LUMHS or SMBBMU) after the final list, and do not trust a single date quoted for all three.',
+      },
+    ],
+    relatedCalculators: ['duhs', 'kemu', 'nums'],
+  },
 ];
