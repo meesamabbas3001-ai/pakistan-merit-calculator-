@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#042f2e"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1090" cy="90" r="180" fill="#ffffff" opacity="0.05"/>
+  <circle cx="70" cy="560" r="150" fill="#ffffff" opacity="0.04"/>
+  <!-- merit-list document motif -->
+  <g opacity="0.95">
+    <rect x="860" y="100" width="270" height="380" rx="18" fill="#ffffff" opacity="0.10"/>
+    <rect x="890" y="130" width="210" height="22" rx="11" fill="#fde68a" opacity="0.9"/>
+    <rect x="890" y="175" width="150" height="14" rx="7" fill="#ffffff" opacity="0.55"/>
+    <rect x="890" y="200" width="110" height="12" rx="6" fill="#ffffff" opacity="0.30"/>
+    <rect x="890" y="235" width="34" height="34" rx="8" fill="none" stroke="#fde68a" stroke-width="5"/>
+    <path d="M897 252 l10 10 20 -22" fill="none" stroke="#fde68a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="938" y="240" width="160" height="12" rx="6" fill="#ffffff" opacity="0.55"/>
+    <rect x="938" y="258" width="110" height="10" rx="5" fill="#ffffff" opacity="0.30"/>
+    <rect x="890" y="290" width="34" height="34" rx="8" fill="none" stroke="#fde68a" stroke-width="5"/>
+    <path d="M897 307 l10 10 20 -22" fill="none" stroke="#fde68a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="938" y="295" width="160" height="12" rx="6" fill="#ffffff" opacity="0.55"/>
+    <rect x="938" y="313" width="110" height="10" rx="5" fill="#ffffff" opacity="0.30"/>
+    <rect x="890" y="345" width="210" height="14" rx="7" fill="#ffffff" opacity="0.35"/>
+    <rect x="890" y="375" width="170" height="14" rx="7" fill="#ffffff" opacity="0.25"/>
+    <rect x="890" y="415" width="210" height="34" rx="17" fill="url(#badge)"/>
+    <text x="995" y="438" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="20" font-weight="bold" fill="#042f2e">1st &#183; 2nd &#183; 3rd ...</text>
+  </g>
+  <!-- checklist accent -->
+  <g opacity="0.85">
+    <path d="M150 480 L260 440 L370 480 L260 520 Z" fill="url(#badge)" opacity="0.85"/>
+    <path d="M320 495 v55 c0 18 -110 38 -110 38 s-110 -20 -110 -38 v-55" fill="none" stroke="#fde68a" stroke-width="7" opacity="0.7"/>
+    <circle cx="370" cy="490" r="8" fill="#fde68a"/>
+  </g>
+  <!-- status pill -->
+  <g>
+    <rect x="60" y="58" width="640" height="52" rx="26" fill="#b91c1c" opacity="0.95"/>
+    <text x="380" y="92" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">Applications closed: 30 October 2026</text>
+  </g>
+  <!-- title -->
+  <text x="60" y="210" font-family="Verdana, Arial, sans-serif" font-size="60" font-weight="bold" fill="#ffffff">SZABMU Merit List 2026</text>
+  <text x="60" y="268" font-family="Verdana, Arial, sans-serif" font-size="36" fill="#ccfbf1">Federal colleges MBBS/BDS — how the lists work</text>
+  <text x="60" y="322" font-family="Verdana, Arial, sans-serif" font-size="28" fill="#d1fae5">Numbered college-wise lists, quota columns,</text>
+  <text x="60" y="358" font-family="Verdana, Arial, sans-serif" font-size="28" fill="#d1fae5">objections &amp; what to do when your name appears</text>
+  <!-- college pills -->
+  <g font-family="Verdana, Arial, sans-serif" text-anchor="middle">
+    <rect x="60" y="420" width="240" height="64" rx="32" fill="#ffffff" opacity="0.14"/>
+    <text x="180" y="460" font-size="24" font-weight="bold" fill="#ffffff">FMC &#183; 100</text>
+    <rect x="320" y="420" width="240" height="64" rx="32" fill="#ffffff" opacity="0.14"/>
+    <text x="440" y="460" font-size="24" font-weight="bold" fill="#ffffff">SKZMDC &#183; 100</text>
+    <rect x="580" y="420" width="240" height="64" rx="32" fill="url(#badge)" opacity="0.95"/>
+    <text x="700" y="460" font-size="24" font-weight="bold" fill="#042f2e">Dentistry &#183; 50</text>
+  </g>
+  <!-- site tag -->
+  <text x="60" y="600" font-family="Verdana, Arial, sans-serif" font-size="22" fill="#ccfbf1" opacity="0.9">pakistan-merit-calculator.vercel.app</text>
+</svg>
