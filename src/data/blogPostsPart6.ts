@@ -171,4 +171,124 @@ export const BLOG_POSTS_PART6: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'pmdc-admission-rules-2026-27-explained',
+    image: '/blog/pmdc-admission-rules-2026-27-explained.svg',
+    imageAlt: 'PMDC Admission Rules 2026-27 explained: 60% HSSC eligibility, 10/40/50 merit formula, and merit lists by 15 December',
+    title: 'PMDC Admission Rules 2026-27 Explained: What Changed for MBBS/BDS Applicants',
+    description:
+      'The PMDC approved new Medical and Dental (Admissions, Curriculum and Conduct) Policy and Regulations 2026 on 7 October 2026 (notified 12 October). The 60% HSSC rule and 10/40/50 formula stay, seat categories and outer deadlines are set, and late merit lists now carry heavy fines — what every MBBS/BDS applicant needs to know, with no invented numbers.',
+    category: 'Guides',
+    date: 'October 2026',
+    readTime: '7 min read',
+    intro:
+      'In the middle of the 2026-27 admission season, Pakistan\'s medical regulator rewrote the rulebook. The Pakistan Medical and Dental Council (PMDC) approved the Medical and Dental (Admissions, Curriculum and Conduct) Policy and Regulations 2026 on 7 October 2026, notified them on 12 October, and the new framework was reported nationally on 26-27 October. It applies to admissions for the 2026-27 session and thereafter, and it repeals the 2025 regulations — although actions already taken or started under the old rules continue to be governed by them. If you are applying right now, this is not a new form to fill in. It is the rulebook your admitting university must follow, and it answers three questions students keep asking this month: has the eligibility bar moved, has the merit formula changed, and who is responsible when a merit list is late? The short answers are no, no, and now, clearly, the college.',
+    sections: [
+      {
+        heading: 'The new rules at a glance',
+        paragraphs: [
+          'The 2026 regulations cover every PMDC-recognised undergraduate medical and dental programme, every registered college, every accredited teaching hospital, and house jobs. They set, in one national framework, the eligibility requirements, the merit formula, the seat categories, and the outer deadlines for public and private medical and dental colleges. They also set fresh entry and exit criteria for foreign postgraduate trainees, which do not affect undergraduate MBBS/BDS applicants and are not covered further in this guide.',
+          'Two features matter most for applicants. First, the framework is deliberately boring where students feared change: the headline eligibility bar and the merit formula are the same as the ones already in use this cycle. Second, it is strict where students have historically been powerless: colleges that publish merit lists late, admit students beyond their allocated seats, or make irregular admissions now face defined financial penalties, imposed only after notice and an opportunity of hearing. Read the rest of this guide with that split in mind — continuity on merit, new teeth on process.',
+        ],
+      },
+      {
+        heading: 'Eligibility: the 60% line is confirmed, not relaxed',
+        paragraphs: [
+          'For open-merit admission, a candidate must pass the Medical and Dental College Admission Test (MDCAT), secure at least 60% marks in the Higher Secondary School Certificate (HSSC) or an equivalent qualification, and pass Biology and Chemistry along with either Physics or Mathematics. Candidates with equivalent foreign qualifications need an equivalence certificate from the Inter Boards Coordination Commission (IBCC). The 60% HSSC figure is worth stating plainly because rumours of a relaxation circulated on social media this month: on 23 October 2026 PMDC publicly clarified that the minimum 60% requirement at intermediate level remains unchanged for both public and private medical and dental colleges, and that meeting the minimum does not by itself guarantee admission.',
+          'The MDCAT pass floors themselves are stated in the admitting universities\' notices for this cycle: at least 55% in the MDCAT for MBBS and 50% for BDS, as set out in the Punjab admission policy notified on 14 October 2026 and the UHS notices that follow it. Passing the test makes you eligible to apply; it does not guarantee a seat, and in competitive colleges the real competition starts far above the floor. One more eligibility point from the Punjab policy, stated to follow the PMDC regulations and a court decision: no additional marks are awarded to Hafiz-e-Quran candidates. If a guide, academy, or agent promises you bonus marks for Hifz in 2026-27, do not believe it — check the admitting university\'s notice.',
+        ],
+      },
+      {
+        heading: 'The merit formula is unchanged: 10/40/50',
+        paragraphs: [
+          'The merit formula assigns 50% weight to the MDCAT, 40% to HSSC or an equivalent qualification, and 10% to Matriculation or an equivalent qualification. Private colleges must follow the same weightage and publicly announce their admission criteria. This is the same 10/40/50 formula already used by UHS Punjab, KMU, the Sindh admitting universities, SZABMU, and BUMHS this cycle, with the test divided by the total of the session you sat — 180 for the provincial MDCATs and 200 for the NUMS entry test. Nothing in the 2026 regulations re-weights your marks, so every aggregate you have already calculated with the 10/40/50 formula still stands.',
+          'Check it with the worked example used across this site\'s guides. A student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc, and 150 out of 180 in the MDCAT scores (1050 / 1100 x 10) = 9.5455 from Matric, (1000 / 1100 x 40) = 36.3636 from FSc, and (150 / 180 x 50) = 41.6667 from the MDCAT — a final aggregate of 87.5758%. Working backward with the same board marks, a 90% target needs (90 - 45.9091) / 50 x 180 = 158.7, so 159 out of 180. One MDCAT mark is worth 0.2778 aggregate points (50 / 180), about 7.6 FSc marks — which is why, once your board marks are fixed, the test score is the only lever that still moves. Use the calculator for your own university on this site rather than trusting a screenshot of someone else\'s aggregate.',
+        ],
+      },
+      {
+        heading: 'Seat categories: open merit, self-finance, foreign, and reserved seats',
+        paragraphs: [
+          'Under the revised policy, admissions are offered through three categories: open merit; self-finance and overseas Pakistanis or dual nationals (expatriates); and foreign students. As reported, self-finance and expatriate seats will account for 15% of a college\'s approved seat allocation, while foreign-student seats will constitute 10%, divided equally between public and private institutions. These seats are additional to the approved allocation, and unused seats cannot be carried forward to subsequent admission years. Read that last point carefully alongside the provincial notices: the Punjab policy, for example, lets private colleges reserve up to 15% of seats for overseas Pakistani and foreign candidates, and moves vacant seats in that category to open merit within the same cycle, with the student paying the open-merit fee. The two statements govern different things — within-cycle transfer to open merit under your admitting university\'s notice, versus carrying unused seats into a later year under the PMDC framework. Your college\'s notice states the split that applies to you; do not assume a percentage you read here is your college\'s percentage.',
+          'Public colleges may also allocate up to 5% of their seats to candidates with disabilities, alongside other legally permissible categories including applicants from underdeveloped areas and reciprocal or goodwill seats. Applicants in these categories must still meet the prescribed academic requirements, and candidates with disabilities undergo medical assessments to determine their ability to perform the essential functions of medical or dental training. If you are applying under a reserved or special category, the category\'s own notice — its documents, its deadline, and its list — governs you, and its dates are usually different from the open-merit dates. Our UHS merit-list guide explains how Punjab runs its public, private, and reserved-quota tracks on separate timetables in the same weeks.',
+        ],
+      },
+      {
+        heading: 'Deadlines: outer limits from PMDC, real dates from your university',
+        paragraphs: [
+          'The regulations set final outer deadlines that no admission may cross unless PMDC announces otherwise: 31 December 2026 for public medical colleges, 31 January 2027 for private medical colleges, 15 February 2027 for public dental colleges, and 28 February 2027 for private dental colleges. Merit lists must be published by 15 December for public medical colleges, with special-category admissions completed by 10 January; public dental colleges must publish merit lists by 10 February and complete special-category admissions by 28 February. These are ceilings, not appointment dates. They do not replace your admitting university\'s schedule — they cap it.',
+          'That distinction resolves what looks like a contradiction. UHS Punjab\'s public MBBS provisional list is due 13 November with the final list on 16 November and selection lists on 17 November, 23 November, and 1 December — well before the 15 December outer limit, and entirely consistent with it. KMU\'s public provisional list is due 30 October, its final list 12 November, and its placement and upgradation rounds run 16-21 November, 1-4 December, and 15-17 December — all inside the 31 December final deadline. Sindh\'s MBBS provisional list is due 2 November with the final list on 6 November. SZABMU closed applications on 30 October with no list date announced yet. NUMS registration runs to 11 November at the regular fee (25 November late), with a provisional list on 10 December, first MBBS selection on 17 December, and BDS selection on 21 January 2027 — the last of those is a dental selection, inside the dental outer limits. If your university\'s published date is earlier than the PMDC ceiling, the university\'s date governs you. A PMDC deadline never gives you extra days beyond your own notice.',
+        ],
+      },
+      {
+        heading: 'One test per jurisdiction, one portal, criteria fixed in advance',
+        paragraphs: [
+          'Provincial governments, Gilgit-Baltistan, and the Islamabad Capital Territory must conduct a single admission test for public and private institutions within their jurisdiction, on dates approved by PMDC. The National University of Medical Sciences (NUMS) oversees admissions to medical and dental colleges administered by the armed forces. All admissions must be processed through online portals. In practice this is why you cannot mix and match tests freely: BUMHS runs its own provincial MDCAT, NUMS runs its own entry test out of 200, and each admitting university\'s notice states which test it accepts. Do not assume another province\'s MDCAT counts for your seat.',
+          'Institutions must announce their final merit and admission criteria by 1 September each year and submit them to PMDC, and final merit and admission lists must also be provided to the council on the date of issuance. Separately, the regulations require universities, colleges, and students to submit all certificates, results, verifications, applications, and other communications through the PMDC online portal in the prescribed format — submissions through any other channel will not be entertained, and failure to comply may also attract a penalty. For students, the practical meaning is simple: keep every submission inside the official portal named in your notice, keep the receipt or screenshot, and do not hand documents to an agent or a WhatsApp number and assume you have applied.',
+        ],
+      },
+      {
+        heading: 'Enforcement: the fines that protect applicants',
+        paragraphs: [
+          'This is the part of the new framework students feel most directly. A college that delays publishing or reporting its merit and admission list faces a fine of Rs. 500,000 plus Rs. 50,000 for each additional day of delay. A college that admits students beyond its allocated seats must pay 100% of the actual annual fee charged from each excess student for every year of the MBBS or BDS programme, and its seats in the next session will be cut by twice the number of excess admissions; irregular admissions carry the same fee-based penalty along with a seat reduction. Other fines include Rs. 50,000 per student for delayed registration, Rs. 75,000 for delayed reporting of graduation, Rs. 30,000 per student for delayed reporting of annual examination results, Rs. 100,000 for failing to report a student\'s transfer or departure on time, and Rs. 200,000 per violation for breaching permitted student fees and charges. Late registration also incurs a monthly fee of Rs. 150 per student at public institutions and Rs. 300 at private colleges.',
+          'Three safeguards keep these penalties fair, and students should know them before quoting a fine at a college office. Penalties are imposed only after notice and an opportunity of hearing. A penalty will not, by itself, amount to suspension or withdrawal of recognition. And repeated violations established after due process may be considered when deciding whether to stop further admissions or start proceedings under Section 33 of the PMDC Act. What this means for you is narrower and more useful than any slogan: if a list is late, the college — not you — carries the regulatory risk, and your job is to preserve evidence (screenshots with dates, portal receipts, the notice itself) and follow the objection channel in the notice. Do not pay anyone who claims to speed up a list.',
+        ],
+      },
+      {
+        heading: 'House job and foreign graduates: two lines worth knowing',
+        paragraphs: [
+          'The regulations make a house job of at least one year mandatory for a full licence. It must be full-time structured training specified by the National Medical and Dental Academic Board and approved by the council, conducted by faculty with the prescribed qualifications. The teaching hospital must issue a completion certificate confirming the modules and rotations completed and the grades obtained, and submit it to the council within 10 days. Graduates whose final professional examination results and programme completion have been verified by their universities may obtain a provisional licence and undertake a house job at a PMDC-recognised teaching hospital.',
+          'Foreign nationals who obtain Pakistani MBBS or BDS degrees through the foreigners\' quota will not be eligible for a provisional licence or permitted to undertake a house job, internship, compulsory clinical training, or clinical practice in Pakistan. If you are applying as a foreign or overseas candidate, read the foreign-category conditions in the college notice before you choose a seat category — the category that admits you also decides what you can do with the degree afterwards.',
+        ],
+      },
+      {
+        heading: 'What to do this week: a checklist by track',
+        paragraphs: [
+          'Punjab private MBBS: the UHS private-sector window runs 23 October to 6 November 2026 — if you have not applied, this week is the window, and the first private selection list follows on 18 November. Punjab public MBBS applicants: the application window closed 30 October; the provisional list is due 13 November, so use this week to re-check your preference order (a college left off the list cannot be considered later) and to verify that your aggregate, domicile, and category details are exactly as submitted. KMU applicants: the public provisional list was due 30 October, with objections 1-3 November — check the portal the day the list appears and object with documentary evidence inside the stated window, not after it. Sindh applicants: the MBBS provisional list is due 2 November, with objections 2-4 November and the final list on 6 November; know which processing university publishes your list — JSMU for Karachi districts, LUMHS for the Hyderabad region, SMBBMU for the Larkana-Sukkur region.',
+          'NUMS applicants: registration is open to 11 November at the regular fee, so complete the form and fee well before the last day; the provisional list follows on 10 December. SZABMU applicants: applications closed 30 October and no 2026-27 list date had been announced when checked on 30 October — watch the SZABMU admission portal, not guide sites, for the first list notice. Balochistan applicants: BUMHS had published no dated 2026-27 MBBS/BDS admission schedule when checked in October — keep your domicile, CNIC or B-Form, Matric and FSc documents, and challan ready, and treat any deadline on a third-party page as unconfirmed until it appears on bumhs.edu.pk. Whatever your track, the rule from the new framework applies to all of them: the admitting university\'s notice governs your dates, your category, and your documents, and the PMDC ceilings in this guide are the backstop, not the schedule.',
+        ],
+      },
+      {
+        heading: 'Page notes: what we verified, and what we did not invent',
+        paragraphs: [
+          'Verified for this guide from press reporting of the PMDC notification (The News, 26-27 October 2026; The Global Times, updated 31 October 2026) and corroborating coverage: approval on 7 October 2026, notification issued 12 October, application to the 2026-27 session and thereafter, repeal of the 2025 regulations with prior actions governed by the old rules, the 60% HSSC requirement with Biology and Chemistry plus Physics or Mathematics, the 10/40/50 merit formula, the three seat categories with the reported 15% self-finance/expatriate and 10% foreign shares, the single-test-per-jurisdiction and NUMS armed-forces provisions, the 1 September criteria deadline, the four final outer deadlines and the two merit-list ceilings, the full fine schedule, and the one-year house-job requirement. The 55% MBBS and 50% BDS MDCAT floors and the no-Hafiz-bonus rule are stated in the Punjab admission policy notified 14 October 2026 and the UHS notices following it, and are attributed as such above. The per-track dates in the checklist are the published admitting-university schedules already verified in this site\'s earlier guides.',
+          'Not published here because they do not exist yet: any 2026-27 closing merit for any college, any BUMHS or SZABMU 2026-27 merit-list date, and the full text of the PMDC regulation itself, which this guide reports from notification coverage rather than quoting from the gazette. No merit number in this guide is a prediction. When PMDC publishes the regulation text on its own portal, or an admitting university issues a notice that changes a date above, the notice governs and this guide will be updated. Until then, calculate your aggregate with the 10/40/50 formula, follow your own university\'s notice for dates, and keep every receipt.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'Did the PMDC change the MBBS merit formula for 2026-27?',
+        answer: 'No. The 2026 regulations keep the 10/40/50 formula: Matric 10%, HSSC 40%, MDCAT 50%. Private colleges must use the same weightage and announce their criteria publicly. Aggregates calculated with 10/40/50 this cycle still stand.',
+      },
+      {
+        question: 'Is 60% in FSc really required for MBBS/BDS in 2026-27?',
+        answer: 'Yes. Open-merit applicants need at least 60% in HSSC or an equivalent qualification, with Biology and Chemistry plus Physics or Mathematics. PMDC clarified on 23 October 2026 that reports of a relaxation were wrong and the 60% requirement is unchanged.',
+      },
+      {
+        question: 'Do the PMDC deadlines override my university\'s merit-list dates?',
+        answer: 'No. The PMDC dates are outer limits: public medical lists by 15 December 2026, final public medical admissions by 31 December, private medical by 31 January 2027, public dental lists by 10 February and final admissions by 15 February, private dental by 28 February. Your admitting university\'s earlier published date governs you.',
+      },
+      {
+        question: 'What are the self-finance, expatriate, and foreign seat categories?',
+        answer: 'Three admission categories sit alongside open merit: self-finance/overseas Pakistanis/dual nationals, reported at 15% of a college\'s approved allocation, and foreign students, reported at 10% divided equally between public and private institutions and additional to the approved allocation. The college notice states the exact split and fee for your college — check it before choosing a category.',
+      },
+      {
+        question: 'Is there any Hafiz-e-Quran bonus in MBBS admissions for 2026-27?',
+        answer: 'No. The Punjab admission policy notified on 14 October 2026 states that no additional marks are awarded to Hafiz-e-Quran candidates, in line with the PMDC regulations and a court decision. Do not accept any promise of bonus marks.',
+      },
+      {
+        question: 'What happens if a college publishes its merit list late?',
+        answer: 'Under the 2026 regulations the college faces a fine of Rs. 500,000 plus Rs. 50,000 for each additional day, imposed only after notice and an opportunity of hearing. Keep dated screenshots and portal receipts, and follow the objection channel in the list notice.',
+      },
+      {
+        question: 'Can a college admit more students than its allocated seats?',
+        answer: 'Not without penalty. Over-admission costs 100% of the actual annual fee charged from each excess student for every year of the programme, plus a seat cut in the next session equal to twice the number of excess admissions. Irregular admissions carry the same fee penalty with a seat reduction.',
+      },
+      {
+        question: 'Where can I read the official PMDC rules myself?',
+        answer: 'Start with the PMDC notification of 12 October 2026 (Medical and Dental Admissions, Curriculum and Conduct Policy and Regulations 2026) on the PMDC portal, and then read your admitting university\'s notice — UHS, KMU, Sindh processing universities, SZABMU, NUMS, or BUMHS — because the notice states the dates, categories, and documents that govern your application.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
