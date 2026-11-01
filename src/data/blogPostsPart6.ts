@@ -291,4 +291,136 @@ export const BLOG_POSTS_PART6: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-apply-nums-mbbs-bds-2026',
+    image: '/blog/how-to-apply-nums-mbbs-bds-2026.svg',
+    imageAlt: 'NUMS MBBS/BDS 2026 application guide: online form, 11 November 2026 deadline and Rs. 8,500 fee',
+    title: 'How to Apply for NUMS MBBS/BDS 2026: Centralized Registration Guide (Deadline 11 November)',
+    description:
+      'NUMS centralized MBBS/BDS registration for 2026-27 runs 13 October to 11 November 2026 (4 PM), late to 25 November. Portal, fees Rs. 8,500/50,000, eligibility, college preferences that lock on submission, and the NUMS MDCAT you must already have passed.',
+    category: 'Guides',
+    date: 'November 2026',
+    readTime: '7 min read',
+    intro:
+      'If you sat the NUMS MDCAT and are waiting to apply to Army Medical College, a CMH college, or one of the Armed Forces-administered medical and dental colleges, this is the step you have been waiting for — and it is not the test registration. The National University of Medical Sciences (NUMS) opened centralized registration for MBBS/BDS admissions for session 2026-27 on 13 October 2026. It closes with the regular fee on Wednesday, 11 November 2026 at 4:00 PM, and with a late fee on 25 November 2026 at 4:00 PM. One online form covers the constituent, affiliated, and Armed Forces-administered colleges. This guide walks through the portal, the fees, who is eligible, the college list you are choosing from, and the one rule that catches students every year: your college preferences cannot be changed after you submit.',
+    sections: [
+      {
+        heading: 'The deadline that matters — and the test that already happened',
+        paragraphs: [
+          'Two different NUMS processes share the same name, and confusing them is the most common reason students miss this admission. The NUMS MDCAT 2026 — the entry test itself — was held on Sunday, 13 September 2026 (originally scheduled for 23 August and then postponed), and its registration closed in August. That process is finished. What is open now is the second process: centralized applications for admission to the colleges, using the test result you already hold. Sitting the test did not submit a college application, and submitting a college application now does not let you sit a test you missed.',
+          'The national MDCAT conducted for PMDC does not substitute here either. For open-merit seats, NUMS requires a passing score in the NUMS MDCAT 2026 specifically — 55% for MBBS and 50% for BDS. A strong score in the UHS, KMU, SZABMU, or Sindh MDCAT does not qualify you for a NUMS open-merit seat, however high it is. Foreign-seat applicants have the alternatives described in the eligibility section below. If you do not hold a qualifying NUMS result (or a foreign-seat alternative), do not pay the application fee: the fee buys a place in the merit calculation, not a place in a college, and it cannot convert an ineligible application into an eligible one.',
+          'The schedule to plan around is short. Online registration started on Tuesday, 13 October 2026. The regular-fee window ends on Wednesday, 11 November 2026 at 4:00 PM. The late-fee window ends on Wednesday, 25 November 2026 at 4:00 PM. After that, the published sequence is a provisional merit list on 10 December 2026, the first MBBS selection list on 17 December 2026, and the first BDS selection list on 21 January 2027. Treat 11 November at 4:00 PM as your real deadline and the late window as insurance against a genuine emergency, not as extra time to decide — the late fee is higher, and nothing about the late window improves your merit position.',
+        ],
+        list: [
+          'Regular-fee registration: 13 October to 11 November 2026, 4:00 PM.',
+          'Late-fee registration: to 25 November 2026, 4:00 PM — same portal, higher fee.',
+          'NUMS MDCAT 2026 was held on 13 September 2026; its registration is closed.',
+        ],
+      },
+      {
+        heading: 'Are you eligible? Open merit and foreign seats',
+        paragraphs: [
+          'Open-merit applicants must be Pakistani citizens — including Azad Jammu and Kashmir and Gilgit-Baltistan — dual nationals, or Overseas Pakistanis. Academically, you need at least 60% aggregate marks in FSc Pre-Medical or an equivalent IBCC-attested qualification, with Biology and Chemistry plus Physics or Mathematics. PMDC clarified on 23 October 2026 that reports of a relaxation of the 60% requirement were wrong and the requirement is unchanged, so do not plan around a lower figure you saw in an old post. On top of the academic floor, you need the NUMS MDCAT 2026 pass: 55% for MBBS and 50% for BDS. Both floors must be met — a qualifying test score does not waive the 60% in HSSC, and 60% in HSSC does not waive the test pass.',
+          'Foreign seats work differently. They are for foreign nationals, Overseas Pakistanis, Green Card holders, and Iqama holders, and the fee is far higher (see the fees section). For the test requirement, foreign-seat applicants may qualify through the NUMS MDCAT 2026 at the same 55%/50% floors, or through a valid SAT-II score of at least 550 per subject, or through MCAT/UCAT with a minimum 50% aggregate score. That alternative route is reported from the NUMS centralized-admissions notice as covered in the press; because it is a category decision with real money attached, confirm the exact accepted tests and score thresholds on the official portal before you choose the foreign-seat category and pay its fee.',
+          'One college needs a warning of its own. Army Medical College, Rawalpindi — the NUMS constituent medical college — is listed for medical cadets only for MBBS. Civilian applicants reading the college list as "AMC is open to everyone" will misunderstand their own application. The Dental Section of Army Medical College is the constituent dental college. If you are a civilian applicant, your MBBS choices sit among the affiliated and Armed Forces-administered colleges listed in the next section, not AMC Rawalpindi. Check the seat-category column on the portal for your own case before you rank anything.',
+        ],
+      },
+      {
+        heading: 'The colleges you are actually choosing',
+        paragraphs: [
+          'NUMS runs one centralized process, but the colleges in it are not interchangeable: they sit in different cities, under different managements, and with different fee structures that the portal and each college notice will state. For MBBS, the affiliated colleges are CMH Institute of Medical Sciences Bahawalpur Cantt, CMH Kharian Medical College, CMH Lahore Medical College and Institute of Dentistry, CIMS Multan, HITEC Institute of Medical Sciences Taxila Cantt, Karachi Institute of Medical Sciences Malir Cantt, Quetta Institute of Medical Sciences, and Wah Medical College. The Armed Forces-administered medical colleges are Bahria University College of Medicine Islamabad, Bahria University Medical and Dental College Karachi, Fazaia Medical College Islamabad, Fazaia Ruth Pfau Medical College Karachi, Foundation University Medical College Islamabad, and NUST School of Health Sciences Islamabad.',
+          'For BDS, the constituent and affiliated dental colleges are the Dental Section of Army Medical College Rawalpindi, Dental College HITEC Institute of Medical Sciences, CIMS Dental College Multan Cantt, CMH Lahore Medical College and Institute of Dentistry, and Quetta College of Dentistry; the Armed Forces-administered dental colleges are Bahria University Medical and Dental College Karachi and Foundation University College of Dentistry Islamabad. Read that list against your own priorities — city, hostel, fee, and how far your aggregate realistically reaches — before you open the form, because the preference order you submit is the order NUMS will use, and it cannot be edited afterwards. Rank by what you would genuinely accept, not by reputation alone: a first preference you would refuse wastes the round, and a college left off your list can never select you.',
+          'No closing merit for 2026-27 exists yet for any of these colleges, and this guide invents none. The provisional merit list on 10 December is the first official evidence of where this year\'s merit stands. If a page today offers you a "NUMS 2026 closing merit" for a named college, it is either last year\'s figure relabelled or a guess. Use the aggregate calculator on this site with your real marks to see where you stand against the formula, and use the merit-list guide linked at the end of this post to prepare for 10 December — but do not let an invented cutoff decide your preference order.',
+        ],
+      },
+      {
+        heading: 'Step by step: the application itself',
+        paragraphs: [
+          'Everything happens online through the official admission portal at mbbsbdsadmissions.numspak.edu.pk, reached from the NUMS website at numspak.edu.pk. NUMS does not accept paper applications for this process, and no hard-copy file needs to be couriered — that is a Sindh-process requirement, not a NUMS one, and students who mix the two systems up lose days. Use a desktop or laptop browser if you can, keep your CNIC and result documents beside you, and do not start the form on a phone with a weak connection at the deadline hour.',
+          'First, register an account on the portal with your CNIC, NICOP, or passport number and an active email address you actually check — the portal, not a friend\'s inbox, is where your confirmation and any correction notice will go. Select your seat category (open merit or foreign seat) at this stage, because the category drives the fee and the test evidence you will be asked for. Then fill in your personal, contact, and academic details exactly as they appear on your documents: names, CNIC number, board marks, and test score must match the certificates, because a mismatch between the form and the documents is the kind of error that surfaces at verification, when it is hardest to fix.',
+          'Next, upload the documents the portal asks for: scanned copies of your CNIC or B-Form, your Matric and FSc transcripts, and a passport-size photograph. O-Level and A-Level candidates must upload the IBCC equivalence certificate at the time of submitting the online application — without it, the application can be denied, so do not assume equivalence can be sorted out later. Then set your college preferences in the order you genuinely want them, double-check every entry, and only then generate the fee challan from the portal, deposit the fee, and upload the paid receipt to complete the submission. Save the confirmation receipt the portal issues. That receipt, plus the email address on the account, is your proof of submission — keep both until the admission cycle ends.',
+        ],
+        list: [
+          'Register with CNIC/NICOP/passport + an active email address you check.',
+          'Fill scores exactly as on the documents; upload CNIC/B-Form, transcripts, photo, and IBCC equivalence if applicable.',
+          'Rank college preferences before paying — they cannot be changed after submission.',
+          'Generate the challan on the portal, pay, upload the paid receipt, and save the confirmation.',
+        ],
+      },
+      {
+        heading: 'Fees: what you pay, and what the late window costs',
+        paragraphs: [
+          'The regular-fee registration fee is Rs. 8,500 for open-merit seats and Rs. 50,000 for foreign seats. With the late fee, it rises to Rs. 9,500 for open merit and Rs. 55,000 for foreign seats. That is a Rs. 1,000 late penalty on an open-merit application and Rs. 5,000 on a foreign-seat application — small against the foreign fee, but a pointless cost on an open-merit application if you simply left the form to the last week. The fee is generated as a challan from the portal itself; pay through the channel the challan states and upload the paid receipt to complete the submission, rather than paying through any agent, shop, or link sent to you on WhatsApp. NUMS has not published a refund promise for this fee in the material checked for this guide, so treat the fee as spent the moment you pay it and apply only when you are sure of your category and eligibility.',
+          'Do not confuse this application fee with college tuition. The Rs. 8,500 or Rs. 50,000 is the centralized registration fee for the NUMS process. Tuition, hostel, and other charges are set by each college and are payable only if you are selected and accept a seat. Before you rank a college first, check its own fee structure — a college you cannot afford is a preference that helps nobody, and the preference lock means you cannot quietly swap it out after seeing the first list. The same caution applies to the foreign-seat category: its Rs. 50,000 registration fee is only the entry ticket, and foreign-seat tuition at the colleges is set separately.',
+        ],
+      },
+      {
+        heading: 'Before you apply: work out your aggregate honestly',
+        paragraphs: [
+          'NUMS merit uses Matric 10% + FSc 40% + NUMS entry test 50%, with the test scored out of 200. Take a student with 1050/1100 in Matric, 1000/1100 in FSc, and 170/200 in the NUMS test. Matric contributes (1050 ÷ 1100 × 10) = 9.5455. FSc contributes (1000 ÷ 1100 × 40) = 36.3636. The test contributes (170 ÷ 200 × 50) = 42.50. The aggregate is 88.4091%. Worked backwards, the same student targeting 93% would need (93 − 45.9091) ÷ 50 × 200 = 189 marks out of 200 in the test — a reminder of how much of the merit is already fixed by board marks before the test is even counted.',
+          'Two cautions belong with that arithmetic. First, use the test score exactly as printed on your NUMS result. The NUMS MDCAT has two parts — Part A, a 150-MCQ subject test in Biology (55), Chemistry (40), Physics (40), and English (15) over 2 hours 45 minutes, carrying 95% of the test weight, and Part B, a 50-MCQ psychological test over 15 minutes, carrying 5% — with no negative marking. Because the two parts are not weighted equally, do not rebuild a test score by adding raw MCQ counts yourself; the result NUMS issued is the score the merit formula uses. Second, one test mark is worth 0.25 aggregate points, which is roughly seven FSc marks — but that leverage is spent now. The test is over. What the aggregate tells you today is which colleges are realistic targets for your preference order, not what to study next.',
+        ],
+        list: [
+          'Formula: Matric 10% + FSc 40% + NUMS test 50% (test out of 200).',
+          'Example: 1050/1100 + 1000/1100 + 170/200 = 88.4091%.',
+          'Use the score printed on your NUMS result; do not recompute it from Part A and Part B raw counts.',
+        ],
+      },
+      {
+        heading: 'Five mistakes that waste a NUMS application',
+        paragraphs: [
+          'First, applying with the wrong test. The PMDC national MDCAT, a UHS/KMU/SZABMU/Sindh MDCAT result, and the NUMS MDCAT are separate examinations with separate results. Only the NUMS MDCAT 2026 qualifies an open-merit applicant here. Second, ranking preferences casually. The portal does not allow changes to college preferences once the form is submitted, so a careless order — reputation first, affordability and distance never considered — becomes permanent. Third, choosing the wrong seat category. Open-merit and foreign-seat applications carry different fees, different test evidence, and different merit pools; picking foreign because it sounds safer, without checking the fee and the tuition behind it, is an expensive misunderstanding.',
+          'Fourth, leaving the equivalence certificate for later. O-Level and A-Level applicants who submit without the IBCC equivalence certificate risk having the application denied outright. Fifth, trusting a deadline you heard in a group chat. The only dates that govern you are the ones on the NUMS portal and notice: 11 November 2026 at 4:00 PM regular, 25 November 2026 at 4:00 PM late. A forwarded message saying the deadline "has been extended" is not an extension until numspak.edu.pk or the admission portal says so. Screenshot the portal notice and your confirmation receipt on the day you submit, with the date visible, and keep both.',
+        ],
+      },
+      {
+        heading: 'What happens after you submit',
+        paragraphs: [
+          'After the late window closes on 25 November, NUMS compiles the centralized merit and displays the provisional merit list on 10 December 2026. Check that list the way the NUMS merit-list guide on this site describes: find your name and CNIC, verify your aggregate and category, and raise any discrepancy through the objection channel the list notice states, within the window it states — provisional means correctable, but only inside the window. The first MBBS selection list follows on 17 December 2026 and the first BDS selection list on 21 January 2027. Selection lists name the college you have been selected for, and the notice with each list states the fee-deposit and reporting steps and deadlines. Those steps are per-notice; do not assume a deadline from another university\'s process, and do not wait for a call letter that the centralized process does not promise.',
+          'If your name is not on the first selection list, that is not the end of the process: centralized admissions run through successive selection and upgradation rounds as selected candidates decline or fail to deposit fees, and your preference order keeps working for you in each round. Keep your documents, your confirmation receipt, and the fee-deposit evidence ready, keep checking the portal on the published dates, and do not pay any person who offers to "confirm" your seat. The process is the list, the notice, and the portal — anything else is someone selling you your own admission.',
+        ],
+      },
+      {
+        heading: 'Page notes: what this guide does not claim',
+        paragraphs: [
+          'This guide states no 2026-27 closing merit for any NUMS college, because none has been published — the provisional list appears on 10 December 2026. It states no seat total for any college, because the seat matrix in the material checked for this guide was not presented as an official, college-by-college figure, and a guessed seat count would mislead preference decisions. The foreign-seat test alternatives (SAT-II, MCAT/UCAT) are stated as reported from the centralized-admissions notice and should be confirmed on the official portal before a foreign-seat fee is paid. The NUMS MDCAT subject split for Part A (Biology 55, Chemistry 40, Physics 40, English 15) follows the 2026 specification as reported by two preparation sources; the totals, durations, and no-negative-marking rule follow the official NUMS test notice. Dates, fees, and the preference-lock rule were checked against the NUMS centralized-admissions coverage on 1 November 2026 and should be re-checked on mbbsbdsadmissions.numspak.edu.pk before you submit, because a university notice can change them.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for NUMS MBBS/BDS admissions 2026-27?',
+        answer: 'Regular-fee registration closes on Wednesday, 11 November 2026 at 4:00 PM. Late-fee registration stays open until Wednesday, 25 November 2026 at 4:00 PM, on the same portal: mbbsbdsadmissions.numspak.edu.pk.',
+      },
+      {
+        question: 'Can I apply to NUMS with my PMDC/UHS MDCAT result?',
+        answer: 'No, not for open-merit seats. NUMS requires a passing score in the NUMS MDCAT 2026 itself — 55% for MBBS and 50% for BDS. Foreign-seat applicants may alternatively qualify through SAT-II or MCAT/UCAT; confirm the accepted tests on the official portal before applying in that category.',
+      },
+      {
+        question: 'Is NUMS MDCAT registration still open? Can I still sit the test?',
+        answer: 'No. The NUMS MDCAT 2026 was held on 13 September 2026 and its registration closed in August. The registration open now is for college admissions using the result you already hold — it is a different process, and it does not include a test sitting.',
+      },
+      {
+        question: 'What is the NUMS application fee for 2026-27?',
+        answer: 'Rs. 8,500 for open-merit seats and Rs. 50,000 for foreign seats with the regular fee; Rs. 9,500 and Rs. 55,000 respectively with the late fee. The challan is generated on the portal, and the paid receipt must be uploaded to complete the submission.',
+      },
+      {
+        question: 'Can I change my college preferences after submitting the NUMS form?',
+        answer: 'No. NUMS does not allow changes to college preferences or edits to the form once it has been submitted. Finalize your preference order — by colleges you would genuinely accept, in the order you want them — before you pay and submit.',
+      },
+      {
+        question: 'Can civilian students apply to Army Medical College Rawalpindi for MBBS through NUMS?',
+        answer: 'Army Medical College Rawalpindi is listed as the NUMS constituent medical college for medical cadets only for MBBS. Civilian MBBS applicants choose among the affiliated and Armed Forces-administered colleges; the Dental Section of Army Medical College is the constituent dental college for BDS.',
+      },
+      {
+        question: 'What is the NUMS aggregate formula for 2026-27?',
+        answer: 'Matric 10% + FSc 40% + NUMS entry test 50%, with the test scored out of 200. Use the test score exactly as printed on your NUMS result — Part A (150 MCQs, 95%) and Part B (50 psychological MCQs, 5%) are not weighted equally, so do not rebuild the score from raw MCQ counts.',
+      },
+      {
+        question: 'When will the NUMS provisional merit list and first selection lists appear?',
+        answer: 'The provisional merit list is due on 10 December 2026, the first MBBS selection list on 17 December 2026, and the first BDS selection list on 21 January 2027. Check the official portal on those dates and raise any discrepancy through the objection channel in the list notice, inside its stated window.',
+      },
+    ],
+    relatedCalculators: ['nums', 'kemu', 'duhs'],
+  },
 ];

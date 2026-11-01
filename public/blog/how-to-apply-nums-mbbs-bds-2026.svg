@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082f49"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1090" cy="90" r="180" fill="#ffffff" opacity="0.05"/>
+  <circle cx="70" cy="560" r="150" fill="#ffffff" opacity="0.04"/>
+  <!-- application form motif -->
+  <g opacity="0.95">
+    <rect x="850" y="95" width="280" height="400" rx="18" fill="#ffffff" opacity="0.10"/>
+    <rect x="880" y="125" width="220" height="24" rx="12" fill="#fde68a" opacity="0.9"/>
+    <rect x="880" y="172" width="160" height="14" rx="7" fill="#ffffff" opacity="0.55"/>
+    <rect x="880" y="198" width="120" height="12" rx="6" fill="#ffffff" opacity="0.30"/>
+    <rect x="880" y="232" width="220" height="40" rx="10" fill="#ffffff" opacity="0.14"/>
+    <rect x="880" y="288" width="220" height="40" rx="10" fill="#ffffff" opacity="0.14"/>
+    <rect x="880" y="344" width="220" height="40" rx="10" fill="#ffffff" opacity="0.14"/>
+    <rect x="880" y="420" width="220" height="46" rx="23" fill="url(#badge)"/>
+    <text x="990" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#082f49">SUBMIT</text>
+  </g>
+  <!-- medical cross -->
+  <g opacity="0.9">
+    <circle cx="180" cy="130" r="52" fill="#ffffff" opacity="0.12"/>
+    <rect x="168" y="96" width="24" height="68" rx="6" fill="#fde68a"/>
+    <rect x="146" y="118" width="68" height="24" rx="6" fill="#fde68a"/>
+  </g>
+  <text x="70" y="245" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#a5f3fc" letter-spacing="3">NUMS MBBS / BDS 2026-27</text>
+  <text x="70" y="320" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">How to Apply for</text>
+  <text x="70" y="395" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">NUMS Admissions</text>
+  <text x="70" y="455" font-family="Arial, sans-serif" font-size="28" fill="#e0f2fe">Centralized registration, fees, colleges</text>
+  <text x="70" y="495" font-family="Arial, sans-serif" font-size="28" fill="#e0f2fe">and the preference-lock rule — step by step.</text>
+  <g>
+    <rect x="70" y="525" width="330" height="48" rx="24" fill="url(#badge)"/>
+    <text x="235" y="556" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#082f49">Deadline: 11 Nov 2026, 4 PM</text>
+    <rect x="420" y="525" width="220" height="48" rx="24" fill="#ffffff" opacity="0.16"/>
+    <text x="530" y="556" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Fee: Rs. 8,500</text>
+  </g>
+  <text x="70" y="610" font-family="Arial, sans-serif" font-size="18" fill="#bae6fd">pakistan-merit-calculator.vercel.app</text>
+</svg>
