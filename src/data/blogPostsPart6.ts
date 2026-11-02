@@ -423,4 +423,163 @@ export const BLOG_POSTS_PART6: BlogPost[] = [
     ],
     relatedCalculators: ['nums', 'kemu', 'duhs'],
   },
+  {
+    slug: 'how-to-check-private-merit-list-punjab-2026',
+    image: '/blog/how-to-check-private-merit-list-punjab-2026.svg',
+    imageAlt: 'Private medical college merit list Punjab 2026 — provisional 12 November, first selection list 18 November, Rs 600,000 deposit in 3 working days',
+    title: 'How to Check Private Medical College Merit List 2026: UHS Punjab Private MBBS/BDS Lists Guide',
+    description:
+      'How to check the UHS private medical college merit list 2026 in Punjab: provisional list 12 Nov, final list 16 Nov, selection lists 18/23/27 Nov (MBBS) and 13/18/22 Jan (BDS), how to read your row, correct an error, and survive the Rs 600,000 deposit deadline.',
+    category: 'Guides',
+    date: 'November 2026',
+    readTime: '8 min read',
+    intro:
+      'Private MBBS applications in Punjab close on 6 November 2026 — and six days later, on 12 November, the first list of the private cycle appears. But it is not the list that gives you a seat. The private cycle runs through three different kinds of list — provisional, final, and college-wise selection lists — and students who treat the first document they see as the final answer make the two costliest mistakes of the season: missing an error in their own aggregate while it can still be fixed, and missing the three-working-day deposit window after selection. This guide walks the whole private list calendar step by step, shows you exactly how to read your row, and tells you plainly what is verified and what is not yet published.',
+    sections: [
+      {
+        heading: 'The private list calendar for 2026-27 (verified)',
+        paragraphs: [
+          'The University of Health Sciences (UHS) Lahore runs private-sector admissions in Punjab through one centralized system under the Punjab government admission policy notified on 14 October 2026. One application covers every participating private college, one merit formula ranks every applicant, and every list is published on the UHS website. The schedule below is the one UHS issued for the private sector, corroborated by The News and by two independent education portals reporting the same notice — all three agree on every date.',
+          'For MBBS: online applications ran from 23 October to 6 November 2026 through privatembbs.uhs.edu.pk. The provisional order of merit is scheduled for 12 November, the final order of merit for 16 November, and the college-wise selection lists for 18 November (first), 23 November (second) and 27 November (third). For BDS: applications run from 18 December 2026 to 1 January 2027 through privatebds.uhs.edu.pk, with the provisional list on 8 January 2027, the final list on 11 January, and selection lists on 13, 18 and 22 January 2027.',
+          'As with every UHS timetable this cycle, the schedule remains subject to directives from the PMDC and the Punjab government, including changes to the number of selection lists. Treat each date as scheduled rather than guaranteed — but treat the pattern as fixed: provisional first, final second, selection lists last. If a date moves, UHS announces it on its own website; no WhatsApp forward moves a date.',
+        ],
+        list: [
+          'Private MBBS: provisional 12 Nov 2026 · final 16 Nov · selections 18, 23, 27 Nov 2026.',
+          'Private BDS: provisional 8 Jan 2027 · final 11 Jan · selections 13, 18, 22 Jan 2027.',
+          'Portals: privatembbs.uhs.edu.pk (MBBS) and privatebds.uhs.edu.pk (BDS); lists on uhs.edu.pk.',
+          'Scale: 34 private medical colleges with around 4,500 MBBS seats, and 18 private dental colleges with 1,100 BDS seats (The News, reporting the UHS schedule).',
+        ],
+      },
+      {
+        heading: 'Three kinds of list — and why confusing them costs seats',
+        paragraphs: [
+          'The provisional order of merit is a draft ranking of all applicants by aggregate. It gives you a seat in nothing. Its whole purpose is checking: your name, your marks, your aggregate, your category. If anything is wrong, this is the only stage designed for fixing it.',
+          'The final order of merit is the corrected ranking after objections are decided. It still assigns no college. It is the ranking the selection lists are built from, so an error that survives into the final list follows you through the rest of the cycle.',
+          'The selection lists are the ones that matter. They are college-wise: each college gets the names selected for its seats, in merit order, down to the last admitted aggregate for that round. Your name on a selection list, at a named college, is an offer — and it starts a clock (see the deposit section below). A name absent from the first selection list is not a rejection: the second and third lists exist precisely because seats vacate when selected candidates do not join, and merit drops with each round.',
+        ],
+      },
+      {
+        heading: 'Step by step: finding your name on the day',
+        paragraphs: [
+          'First, go to the source. Lists are published on the UHS website (uhs.edu.pk) — the same site that hosts the admission notices. On list day, ignore screenshots and forwarded PDFs until you have checked the UHS original: a screenshot can be last year, another province, or cropped. If the UHS site is slow under list-day traffic, wait and retry rather than trusting a re-upload.',
+          'Second, open the right document. UHS publishes the provisional and final orders of merit as ranked lists, and the selection lists college-wise. Open the MBBS document for MBBS and the BDS document for BDS — the two programmes run on separate portals and separate calendars, and the BDS lists do not appear until January. Check the session year and the list title on the document itself before you search it: lists labelled 2026 that belong to the 2025-26 session are already circulating, and they finished months ago.',
+          'Third, search inside the document rather than scrolling. In a PDF, use Ctrl+F (or Cmd+F on a Mac) and search your full name exactly as you entered it on the form, then your CNIC number if the list carries one. Names repeat — two applicants named Ahmed Khan are routine — so confirm the match with a second identifier: your aggregate, your father name, or your form number, whichever the list prints. Save or screenshot the page with your row visible the moment you find it; lists are sometimes re-uploaded after corrections, and your own record of what was published matters if anything changes.',
+        ],
+        list: [
+          'Check uhs.edu.pk first; treat screenshots and forwards as unverified until confirmed there.',
+          'Confirm the session (2026-27), programme (MBBS or BDS) and list type (provisional, final, or selection) on the document itself.',
+          'Search by name, then confirm with a second identifier — aggregate, father name, or form number.',
+          'Save a copy of the page showing your row as soon as you find it.',
+        ],
+      },
+      {
+        heading: 'How to read your row: aggregate, rank, college, preference',
+        paragraphs: [
+          'A merit-list row is a small set of facts, and each one does a different job. Your aggregate is printed to four decimal places, computed as Matric 10% + FSc Pre-Medical 40% + MDCAT 50%, with the MDCAT scored out of 180. Recompute it yourself from your result cards before you trust it — the worked example below shows the arithmetic, and a single wrongly entered mark moves your rank past dozens of candidates.',
+          'Your rank in the provisional and final orders is your position in the whole applicant pool. On a selection list, the number that matters more is the last admitted aggregate for each college: that is the closing merit of that college for that round. Compare your own aggregate against the last admitted aggregate of the colleges on your preference list, not against a single headline number. A college whose first-list close sits 2 points above you may still reach you by the third list; a college whose close sits below you was never a contest.',
+          'On a selection list, check three things beyond your name: the college named against it, the category or quota column, and any instruction printed with the list about joining and fee deposit. The college named is the offer. Your preference order decided it — a college you left off your preference list cannot select you, and a higher-preference college that reaches your aggregate in a later round is how upgradation happens. If the category shown is wrong (for example, an overseas or reserved category you did not apply under), raise it through the notice channel at once; category errors change which pool you compete in.',
+        ],
+      },
+      {
+        heading: 'The provisional list is your correction window — use it',
+        paragraphs: [
+          'When the provisional list publishes on 12 November (MBBS) or 8 January (BDS), do not celebrate or despair — audit. Check your Matric marks, your FSc marks, your MDCAT score, and the aggregate computed from them, line by line against your result cards. The most common errors are the boring ones: a transposed digit in entered marks, an MDCAT score taken from the wrong session, or an equivalence case (O/A-Level) converted on the wrong basis. Any of them is fixable at the provisional stage and almost none is fixable after the final list.',
+          'If you find an error, raise it exactly the way the list notice says: the notice that publishes the list states the objection channel and the window, and that window is the only one that counts. This guide deliberately does not print an objection deadline for the private lists, because no verified window has been published for this track at the time of writing — do not borrow a window from another body (SZABMU past-cycle notices used 24 hours; that is SZABMU history, not a UHS private rule). File with evidence: the result card, the form acknowledgement, and a clear statement of what is wrong and what the correct figure is. Then re-check the final list on 16 November (or 11 January for BDS) to confirm the correction actually landed. An objection filed is not an objection granted.',
+        ],
+        list: [
+          'Audit all three inputs (Matric, FSc, MDCAT) and the aggregate arithmetic against your result cards.',
+          'File objections only through the channel and inside the window stated in the list notice itself.',
+          'Attach evidence: result cards and form acknowledgement, with the correct figure stated plainly.',
+          'Verify the correction in the final list — never assume it was applied.',
+        ],
+      },
+      {
+        heading: 'Worked example: where does an 86.9647% aggregate stand?',
+        paragraphs: [
+          'Take a student with 990/1100 in Matric, 960/1100 in FSc, and 155/180 in the MDCAT. Matric contributes 990 ÷ 1100 × 10 = 9.0000. FSc contributes 960 ÷ 1100 × 40 = 34.9091. MDCAT contributes 155 ÷ 180 × 50 = 43.0556. Final aggregate: 86.9647%. The arithmetic exposes the leverage: one MDCAT mark is worth 50 ÷ 180 = 0.2778 aggregate points, while one FSc mark is worth 40 ÷ 1100 = 0.0364 — so a single MDCAT mark is worth about 7.6 FSc marks. Running the example backwards, the same boards need 166/180 in the MDCAT to reach a 90% aggregate (boards supply 43.9091, leaving 46.0909 for the test: 46.0909 ÷ 50 × 180 = 165.93).',
+          'Now set that 86.9647% against the only verified private picture available: the previous cycle first selection list, reported by Academia Magazine, where the top private college (Al Aleem Medical College, Lahore) closed its first list at 92.7136%, followed by Sharif at 91.6586%, Shalamar at 90.6364% and FMH at 90.1348%, while the lowest first-list close in the province was 75.9465% (Queens Medical College for Women, Kasur). Those are first-list numbers from the previous session — the highest cutoff of that season, before upgradation dragged merit down — and they are benchmarks, not targets. An 86.9647% aggregate would have missed the Lahore flagships on that first list and sat comfortably inside the range of many other private colleges. No 2026-27 private closing merit exists yet, because no 2026-27 selection list has published; when the 18 November list appears, read its last-admitted aggregates college by college and compare those, not last year headlines.',
+        ],
+      },
+      {
+        heading: 'After selection: the 3-working-day, Rs 600,000 deadline',
+        paragraphs: [
+          'This is the rule that forfeits seats. Under the 2026-27 admission policy, a candidate selected in the private sector must deposit Rs 600,000 into the designated UHS account within three working days of the display of the relevant merit list. UHS admission notices state the consequence plainly: failure to pay the fee within the specified period results in forfeiture of the admission and of the opportunity for upgradation. The deposit is a token/securing payment within the college fee structure — the remaining dues and their instalment options follow the individual college prospectus — but the three-working-day clock is the same for everyone on the list.',
+          'Arrange the money and the documents before the lists publish, not after your name appears. The practical checklist: the deposit funds accessible in an account that can transfer the full amount at once, your CNIC, photographs, board result cards and MDCAT result card ready, and a decision rule agreed with your family in advance about which colleges you will accept at which list. The overlap with the public cycle makes that decision rule essential: the public MBBS first selection list is scheduled for 17 November, one day before the private first list on 18 November. You may hold a public-sector offer — Rs 50,000 a year in tuition — before the private lists even publish. Paying a Rs 600,000 private deposit while holding a public offer you would rather take is a decision to make deliberately, with the refund and transfer terms read first: this guide does not invent refund rules, and the notice and the college prospectus are the only sources that state them. If you are unsure, call UHS before you pay, not after.',
+        ],
+        list: [
+          'Deposit: Rs 600,000 to the designated UHS account within 3 working days of the list.',
+          'Miss it and you forfeit both the seat and the upgradation opportunity (per UHS notices).',
+          'Have funds, documents and a family decision rule ready BEFORE list day.',
+          'Holding a public offer (17 Nov) when the private list lands (18 Nov) is normal — decide deliberately, refund terms first.',
+        ],
+      },
+      {
+        heading: 'Upgradation: how the second and third lists move you',
+        paragraphs: [
+          'Upgradation is the mechanism that makes patience pay. When a selected candidate does not deposit or does not join, that seat returns to the pool, and the next selection list fills it from the final order of merit — which is how merit drops round by round and how candidates move to colleges higher on their own preference lists. The private MBBS second list is scheduled for 23 November and the third for 27 November; the BDS equivalents are 18 and 22 January 2027. If you joined a lower-preference college after the first list, check every later list for your name at a higher preference: upgradation only helps candidates who secured their earlier offer properly, which is why the deposit rule and the upgradation opportunity are tied together in the same notice.',
+          'Two cautions. First, a later list can only offer you a college that was on your preference list — preferences lock at application, and the system cannot invent a choice you never made. Second, do not treat the third list as guaranteed: the PMDC outer deadlines for the session (public medical lists by 15 December under the 2026-27 regulations, with final admissions by 31 December for public medical colleges) bound how long any cycle can run, and UHS may issue fewer lists than scheduled if seats fill. Check each list on its date, act on it the same day, and keep checking until UHS closes the cycle.',
+        ],
+      },
+      {
+        heading: 'The BDS private track: same machinery, separate calendar',
+        paragraphs: [
+          'Private BDS admissions run on the same centralized machinery — same 10/40/50 formula, same Rs 600,000 deposit rule in the same policy notice, same three-list pattern — but on a wholly separate calendar and portal. Applications open on 18 December 2026 at 9:00 AM and close on 1 January 2027 at 5:00 PM through privatebds.uhs.edu.pk. The provisional order of merit is scheduled for 8 January 2027, the final order for 11 January, and the selection lists for 13, 18 and 22 January 2027. The eligibility floor differs: at least 50% in the MDCAT for BDS, against 55% for MBBS, with the same 60% FSc minimum.',
+          'The separation matters for planning. A student who misses the private MBBS lists, or who decides dentistry is the better fit, still has a full BDS cycle ahead — and the public BDS cycle runs alongside it (applications 15–30 December, first selection list 11 January 2027). Do not confuse the two: private BDS lists come from the private portal and the UHS private notice, public BDS lists from the public portal. If you apply to both tracks, track both calendars separately, and remember that each application carries its own Rs 2,000 processing fee.',
+        ],
+      },
+      {
+        heading: 'Page notes: what we know, what we refuse to guess',
+        paragraphs: [
+          'Verified for this guide: the full private MBBS and BDS schedule (application windows, provisional and final lists, all three selection lists) as issued by UHS and corroborated across The News and two education portals; the two portals (privatembbs.uhs.edu.pk, privatebds.uhs.edu.pk); the 10/40/50 formula with the MDCAT out of 180; the eligibility floors (MDCAT 55% MBBS / 50% BDS, FSc 60%); the Rs 600,000 deposit within 3 working days with forfeiture; the Rs 2,000 processing fee; the seat scale (34 medical colleges / around 4,500 MBBS seats, 18 dental colleges / 1,100 BDS seats) as reported by The News; and the previous-cycle first-list closes quoted above, attributed to Academia Magazine reporting that cycle list.',
+          'Not verified, and therefore not printed as fact: any 2026-27 private closing merit (no list has published); the objection window for the private provisional lists (it will be stated in the list notice — do not borrow another body window); refund or transfer terms for the Rs 600,000 deposit (read the notice and college prospectus); any single private yearly tuition figure (colleges set their own schedules within PMDC regulation — read each college prospectus before ranking it); and the exact college count, on which reports differ slightly (one portal reports 33 colleges and around 4,400 seats against The News 34 / 4,500 — the difference does not change how you check a list, and the portal college list governs). The moment the 12 November provisional list and the 18 November first selection list publish, this page should be re-checked against the real documents.',
+        ],
+        list: [
+          'No 2026-27 private cutoff is published anywhere yet — any precise figure you see before 18 November is a prediction.',
+          'Objection window: only the list notice states it. Check the notice, not a forwarded message.',
+          'Fees beyond the verified deposit: read the individual college prospectus, never a forwarded fee chart.',
+        ],
+      },
+      {
+        heading: 'Your list-day checklist',
+        paragraphs: [
+          'Before 12 November: recompute your aggregate to four decimal places and keep the working with your result cards. On 12 November: audit the provisional list, file any objection through the notice channel with evidence, and note the final-list date. On 16 November: confirm the final ranking. On 18, 23 and 27 November: check each selection list the day it publishes, and if selected, deposit within three working days and join. Keep the same discipline for the BDS dates in December and January. A missing number on this page is honesty; a guessed number would be a disservice to every student reading it.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When is the UHS private MBBS provisional merit list 2026 published?',
+        answer: '12 November 2026, on the UHS website. The final order of merit follows on 16 November, and the first college-wise selection list on 18 November 2026.',
+      },
+      {
+        question: 'How do I check my name in the private merit list?',
+        answer: 'Open the list PDF on uhs.edu.pk, confirm it is the 2026-27 private list for your programme, then search (Ctrl+F) your name and confirm the match with a second identifier such as your aggregate, father name, or form number. Save a copy of the page showing your row.',
+      },
+      {
+        question: 'What is the difference between the provisional list, final list and selection list?',
+        answer: 'The provisional list is a draft ranking for checking and correction. The final list is the corrected ranking. The selection lists are college-wise offers — only a selection list gives you a seat, and it starts the 3-working-day deposit clock.',
+      },
+      {
+        question: 'What if my aggregate or marks are wrong on the provisional list?',
+        answer: 'Raise it through the objection channel stated in the list notice, inside its stated window, with evidence (result cards and form acknowledgement). Then verify the correction in the final list. Do not borrow an objection window from another admission body.',
+      },
+      {
+        question: 'How much do I pay after selection in a private college, and by when?',
+        answer: 'Rs 600,000 into the designated UHS account within three working days of the display of the relevant merit list. Missing the deadline forfeits the admission and the upgradation opportunity, per UHS notices.',
+      },
+      {
+        question: 'My name is not on the first selection list. Am I rejected?',
+        answer: 'No. The second list (23 November) and third list (27 November) fill vacated seats and move merit down. Keep checking each list on its date — but only colleges on your preference list can select you.',
+      },
+      {
+        question: 'When are the private BDS merit lists published?',
+        answer: 'Provisional list 8 January 2027, final list 11 January, and selection lists 13, 18 and 22 January 2027. BDS applications run 18 December 2026 to 1 January 2027 through privatebds.uhs.edu.pk, with a 50% MDCAT floor.',
+      },
+      {
+        question: 'What was the private closing merit last year?',
+        answer: 'No single official closing table exists. On the previous cycle first selection list, reported closes ranged from 92.7136% (Al Aleem, Lahore) down to 75.9465% (Queens, Kasur) — first-list numbers, not final closings. No 2026-27 private cutoff exists yet; the first selection list publishes 18 November 2026.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
