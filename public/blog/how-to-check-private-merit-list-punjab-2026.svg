@@ -43,10 +43,10 @@
   </g>
   <!-- date badges -->
   <g font-family="Arial, Helvetica, sans-serif" font-weight="bold">
-    <rect x="70" y="380" width="250" height="64" rx="14" fill="url(#badge)"/>
-    <text x="195" y="422" text-anchor="middle" font-size="27" fill="#1e1b4b">12 NOV: PROVISIONAL</text>
-    <rect x="340" y="380" width="250" height="64" rx="14" fill="#ffffff" opacity="0.92"/>
-    <text x="465" y="422" text-anchor="middle" font-size="27" fill="#1e1b4b">18 NOV: 1ST LIST</text>
+    <rect x="70" y="380" width="310" height="64" rx="14" fill="url(#badge)"/>
+    <text x="225" y="422" text-anchor="middle" font-size="22" fill="#1e1b4b">12 NOV: PROVISIONAL</text>
+    <rect x="400" y="380" width="250" height="64" rx="14" fill="#ffffff" opacity="0.92"/>
+    <text x="525" y="422" text-anchor="middle" font-size="22" fill="#1e1b4b">18 NOV: 1ST LIST</text>
     <rect x="70" y="470" width="520" height="64" rx="14" fill="none" stroke="#fde68a" stroke-width="3"/>
     <text x="330" y="512" text-anchor="middle" font-size="27" fill="#fde68a">RS 600,000 IN 3 WORKING DAYS</text>
   </g>
