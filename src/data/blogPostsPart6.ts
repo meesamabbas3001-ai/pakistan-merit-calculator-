@@ -582,4 +582,140 @@ export const BLOG_POSTS_PART6: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'kmu-merit-list-objection-complaint-2026',
+    image: '/blog/kmu-merit-list-objection-complaint-2026.svg',
+    imageAlt: 'KMU merit list objection 2026 illustration with 3 November 4 PM deadline',
+    title: 'How to File a Complaint on the KMU Provisional Merit List 2026: Objection Guide (Deadline 3 November, 4 PM)',
+    description:
+      'KMU provisional merit list complaints close on Tuesday 3 November 2026 before 4:00 PM — online only at cas.kmu.edu.pk/complaint.php, with your registered CNIC and documentary proof. Audit your row, recompute your aggregate, and file before the window closes.',
+    category: 'Guides',
+    date: 'November 2026',
+    readTime: '6 min read',
+    intro:
+      'The Khyber Medical University provisional merit lists for session 2026-27 were published on 30 October 2026, and the window to challenge them is short: complaints close on Tuesday 3 November 2026 before 4:00 PM. This guide explains the exact route KMU itself printed on the lists — online only, through your registered CNIC, with documentary proof — and shows you how to audit every field in your row before you file, so a data error does not cost you a seat.',
+    sections: [
+      {
+        heading: 'The deadline: Tuesday 3 November 2026, before 4:00 PM',
+        paragraphs: [
+          'KMU published the provisional lists on 30 October 2026 and allowed online objections from 1 to 3 November 2026. The notes printed on every provisional list state the cutoff in the same words: complaints must reach KMU by Tuesday 3 November 2026 before 4:00 PM, and no complaints or applications will be accepted after 4:00 PM on 3 November 2026.',
+          'Treat 4:00 PM as a hard cutoff, not a target. File early in the day: if your proof scan is unreadable, if you mistype your CNIC, or if the portal is slow, you need time to redo the submission. A complaint filed at 4:05 PM is a complaint KMU has already said it will not accept, and there is no second objection window before the final list on 12 November.',
+          'If you are reading this after the deadline, do not file a late complaint and hope. Check the final list on 12 November instead, and read the last section of this guide for what to do if an error survived into the final list.',
+        ],
+      },
+      {
+        heading: 'What a provisional list is — and what it is not',
+        paragraphs: [
+          'Every KMU provisional list carries the same opening notes, and they matter. The list is purely provisional and is based on the data provided by candidates as submitted. The final merit lists will be published after thorough verification. Inclusion in the provisional list does not guarantee admission in a medical or dental college.',
+          'In plain terms: the provisional list is a draft ranking built from your own form data, published so that errors can be found and fixed before the ranking becomes final. It is not a selection list, it does not offer you a seat, and a high provisional position is not an admission. The final list on 12 November 2026 is the verified ranking, and placement in colleges runs from 16 to 21 November 2026, with KIMS and KIDS placement on 23 November.',
+          'The lists also carry a warning with real teeth. Under Clause 38 of the Admission Policy 2026-27, all admissions are provisional and all certificates and documents are subject to verification by the respective colleges. Any candidate whose documents are found incorrect, false or forged in any way, or whose authentication is doubtful, will be struck off the college roll, and legal action may follow. Check your own row honestly, and if you spot another candidate with clearly false data, report it only with proof — a baseless accusation helps nobody and the proof rule applies to every complaint.',
+        ],
+      },
+      {
+        heading: 'The exact complaint route: online only, registered CNIC, proof attached',
+        paragraphs: [
+          'KMU states the route on the provisional lists themselves: candidates may file complaints online at cas.kmu.edu.pk/complaint.php regarding any errors, omissions, lapses, mistakes, fraud, or misrepresentation in the list. That single page is the channel. Hard copy complaints will NOT be accepted, and there is no need to visit the university for this purpose — do not spend deadline day travelling to Peshawar with a paper application.',
+          'Three conditions apply to every complaint. First, it can only be submitted using the registered CNIC number entered during account creation on the online portal — the CNIC on your application account, not a parent CNIC and not a new number. Second, it must include documentary proof to support the claim, with the result card given as the example. Complaints without valid proof will be rejected. Third, it must arrive before 4:00 PM on 3 November 2026.',
+          'Separately, the list notes tell candidates to log in at cas.kmu.edu.pk using their CNIC number and password to address deficiencies mentioned in the provisional merit list. Read that as two different jobs: the complaint page challenges wrong data in the ranking, while the portal login is where you fix a deficiency flagged against your own entry, such as a missing document. Do both if both apply to you, and do not assume that fixing a deficiency in the portal also files a complaint about a wrong aggregate — the complaint is a separate submission.',
+        ],
+      },
+      {
+        heading: 'Audit your row: the seven-point check before you file',
+        paragraphs: [
+          'Open the correct provisional list for your category — open merit, general self-finance, minority, FATA, army public seats, foreign self-finance, and the other category lists are separate files — and find your row by CNIC or form number, not by name alone, since names repeat. Then check each item below against the documents you actually submitted.',
+          'Most complaints are about one of these fields, and each one is fixable only if you can prove the correct value with a document.',
+        ],
+        list: [
+          'Identity: your name, father name, date of birth, gender, and CNIC number exactly as on your CNIC and form. A CNIC digit error can detach your row from your account.',
+          'Domicile and district: your district and domicile category, which decide quota eligibility. A wrong district can place you in the wrong merit pool entirely.',
+          'SSC marks: obtained marks, total marks, board, and year. A wrong total is as damaging as wrong obtained marks, because the formula divides by the total.',
+          'HSSC marks: obtained marks, total marks, board, and year, including whether the correct session was used. For most candidates the HSSC total is 1100, but equivalence cases differ — check the total first.',
+          'MDCAT marks: obtained marks out of 180, the MDCAT year (2024, 2025 or 2026), and the testing body. A 2026 score entered as a different year, or a score out of the wrong total, breaks the aggregate.',
+          'Aggregate arithmetic: recompute your aggregate from the printed marks with the official formula (next section). If the printed aggregate does not match your recomputation, the error is in the data or the calculation, and your complaint should show both numbers.',
+          'Category, preferences and remarks: your category, your college preference order, and any remark printed against your name. Remarks matter: the list notes state that a remark against a candidate in one category, such as open merit, will apply to other relevant categories like general self-finance, so one remark can follow you across lists.',
+        ],
+      },
+      {
+        heading: 'Worked example: how a small marks error costs real aggregate points',
+        paragraphs: [
+          'KMU computes aggregate as SSC 10% + HSSC 40% + MDCAT 50%, with the MDCAT taken out of 180. Take a candidate with 1050 out of 1100 in SSC, 1000 out of 1100 in HSSC, and 150 out of 180 in MDCAT. SSC contributes 1050 divided by 1100 multiplied by 10, which is 9.5455. HSSC contributes 1000 divided by 1100 multiplied by 40, which is 36.3636. MDCAT contributes 150 divided by 180 multiplied by 50, which is 41.6667. The correct aggregate is 87.5758%.',
+          'Now suppose the list wrongly shows HSSC as 950 instead of 1000. HSSC then contributes 950 divided by 1100 multiplied by 40, which is 34.5455, and the aggregate falls to 85.7577% — a loss of 1.8181 points from a single 50-mark typing error. In a merit list where neighbours sit hundredths of a point apart, 1.82 points can move you past dozens of candidates or out of a college entirely.',
+          'That is why the complaint must show your working, not just a demand. State the printed value, state the correct value, attach the result card that proves it, and show the recomputed aggregate. The per-mark values explain where to look hardest: one MDCAT mark is worth 50 divided by 180, or 0.2778 aggregate points, while one HSSC mark is worth 40 divided by 1100, or 0.0364 points. One MDCAT mark is worth about 7.6 HSSC marks, so an MDCAT error of even 5 marks (1.39 points) deserves a complaint just as much as a large HSSC error.',
+        ],
+      },
+      {
+        heading: 'Your evidence pack: what to attach, and how to write the complaint',
+        paragraphs: [
+          'KMU requires documentary proof, and the result card is the named example. Build your pack before you open the complaint page, so the deadline does not catch you mid-scan. Keep every file legible: a blurred result card is the same as no proof.',
+          'Write the complaint itself as a correction, not as a story. One error per complaint point, each with the printed value, the correct value, and the document that proves it. Vague complaints such as asking KMU to recheck everything, or claiming a higher aggregate without showing the marks, invite rejection under the proof rule.',
+        ],
+        list: [
+          'SSC and HSSC result cards (DMCs) showing obtained marks, total marks, board, and year — the proof for every marks correction.',
+          'MDCAT result card showing marks out of 180, the MDCAT year, and the testing body — the proof for every test-score correction.',
+          'CNIC or B-Form, and your domicile certificate — the proof for identity and district corrections.',
+          'Your application acknowledgement or fee challan, if the dispute is about whether you applied, paid, or chose a category or preference.',
+          'A screenshot or saved copy of your provisional-list row showing the printed value you are challenging, kept for your own record alongside the complaint.',
+        ],
+      },
+      {
+        heading: 'Deficiencies, remarks, and the eligibility floors you cannot complain past',
+        paragraphs: [
+          'If the list prints a remark or deficiency against your name, act on it through the portal login with your CNIC and password, as the list notes direct. A deficiency is usually a missing or unverified document, and the portal is where you address it. Do not ignore a remark because your aggregate looks right: a remark in one category applies to your other relevant categories too, so it can affect every list you appear on.',
+          'Know the floors before you complain. Under the PMDC regulations and the KMU Admission Policy 2026-27 as printed on the lists, candidates with less than 60% marks in HSSC or equivalent, or less than 55% in MDCAT 2024, 2025 or 2026, are ineligible for MBBS. Candidates with less than 50% in MDCAT are ineligible for BDS. A complaint cannot waive these floors: if your HSSC is genuinely below 60%, or your MDCAT below the programme floor, the correction to seek is a data error that wrongly shows you below a floor you actually meet — proved with the result card — not an exception to the floor itself.',
+          'The same honesty applies to the MDCAT score itself. A complaint can fix a score that was entered wrongly on the list. It cannot change the score KMU or the testing body awarded you, and it cannot turn a failed MDCAT into a pass. If the printed MDCAT marks differ from your result card, that is exactly the data-entry error the complaint window exists for — file it with the card attached.',
+        ],
+      },
+      {
+        heading: 'After you file: the final list, placement, and the private track',
+        paragraphs: [
+          'After the complaint window closes, KMU verifies the lists and publishes the final merit list on 12 November 2026. Your first job after filing is to re-check the final list on that date and confirm that your correction actually appears: the corrected marks, the corrected aggregate, and no lingering remark. Keep your complaint record and your proof scans until placement is complete, because a correction that shows in the final list is what placement will use.',
+          'Placement in the various MBBS and BDS categories runs from 16 to 21 November 2026, with placement for KIMS Kohat and KIDS Kohat on 23 November, a second round from 1 to 4 December, and a third round from 15 to 17 December. The three-working-day fee-deposit rule and the three-day college-reporting rule from our KMU merit-list guide still apply once placement starts, so have your fee and documents ready while you wait for the final list rather than starting after it.',
+          'Do not confuse this window with the private-sector track. Private MBBS and BDS applications run on the separate portal caspr.kmu.edu.pk, with applications open until 9 November 2026 and a private provisional list due on 11 November. The 3 November complaint deadline covers the public provisional lists published on 30 October. If you applied privately, your list — and any correction window for it — comes later, on the private schedule.',
+          'If an error survives into the final list despite a timely complaint with proof, do not re-file the same complaint after the window. Contact KMU through the contact details on the official portal, with your CNIC, form number, complaint record, and proof in one message, and keep a copy of everything you send. And if the final list shows a closing aggregate for a college, remember that no 2026 closing merit existed before the lists: any cutoff quoted before 12 November was a prediction, not a fact.',
+        ],
+      },
+      {
+        heading: 'Page notes: what we know, what we refuse to guess',
+        paragraphs: [
+          'Verified from the notes printed on the KMU provisional lists themselves (read 3 November 2026): the 30 October publication, the complaint page cas.kmu.edu.pk/complaint.php, the 3 November 4:00 PM cutoff, the registered-CNIC and documentary-proof conditions, the rejection of complaints without valid proof, the refusal of hard-copy complaints, the portal-login route for deficiencies, the cross-category effect of remarks, the 60% HSSC and 55% or 50% MDCAT floors, and the Clause 38 verification warning. The schedule dates — final list 12 November, placement 16 to 21 November, KIMS and KIDS 23 November — come from the published KMU 2026-27 schedule used across our KMU guides.',
+          'Not stated in the list notes, and therefore not claimed here: any complaint fee, any confirmation or tracking number for a filed complaint, the exact fields on the complaint form, and any appeal stage after the final list. No 2026 closing merit for any KMU college is published in this guide, because no final list exists yet. If a number cannot be verified, this site leaves it out — a missing number is honest, and a guessed number harms students.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to file a complaint on the KMU provisional merit list 2026?',
+        answer: 'Tuesday 3 November 2026, before 4:00 PM. The notes on the provisional lists state that no complaints or applications will be accepted after 4:00 PM on 3 November 2026. File early in the day to leave room for a failed upload or a mistyped CNIC.',
+      },
+      {
+        question: 'Where do I file a KMU merit list complaint?',
+        answer: 'Online only, at cas.kmu.edu.pk/complaint.php. Hard copy complaints are not accepted, and KMU states there is no need to visit the university for this purpose. The complaint must use the registered CNIC number from your portal account and include documentary proof.',
+      },
+      {
+        question: 'What proof must I attach to a KMU complaint?',
+        answer: 'Documentary proof for the exact error you are reporting — KMU names the result card as the example. Complaints without valid proof will be rejected. Attach the result card for marks corrections, and your CNIC and domicile certificate for identity or district corrections.',
+      },
+      {
+        question: 'Can I file a complaint with a paper application at KMU?',
+        answer: 'No. The provisional list notes state plainly that hard copy complaints will NOT be accepted and there is no need to visit the university. Only the online complaint page counts, and only before the 4:00 PM deadline on 3 November 2026.',
+      },
+      {
+        question: 'What happens if I miss the 3 November deadline?',
+        answer: 'KMU will not accept complaints after 4:00 PM on 3 November 2026. Your next step is the final merit list on 12 November 2026: check whether your row is correct there, and if an error survived, contact KMU through the official portal contact details with your CNIC, form number, and proof. Do not rely on a late complaint being considered.',
+      },
+      {
+        question: 'Can a complaint change my MDCAT score or waive the eligibility floors?',
+        answer: 'No. A complaint fixes data entered wrongly on the list, proved with your result card. It cannot change the MDCAT score awarded to you, and it cannot waive the floors: 60% in HSSC and 55% in MDCAT for MBBS, or 50% in MDCAT for BDS. The floors apply to MDCAT 2024, 2025 and 2026.',
+      },
+      {
+        question: 'Does filing a complaint guarantee me a seat?',
+        answer: 'No. A complaint only corrects the data used to rank you. The final list on 12 November 2026 is the verified ranking, and seats are offered through placement from 16 to 21 November 2026. Inclusion in the provisional list itself does not guarantee admission.',
+      },
+      {
+        question: 'Does the 3 November deadline apply to KMU private college applicants?',
+        answer: 'No. This deadline covers the public-sector provisional lists published on 30 October 2026. Private applications run on caspr.kmu.edu.pk until 9 November 2026, with a private provisional list due on 11 November 2026, on a separate schedule.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];

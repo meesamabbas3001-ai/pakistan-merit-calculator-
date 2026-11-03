@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#022c22"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1090" cy="90" r="180" fill="#ffffff" opacity="0.05"/>
+  <circle cx="70" cy="560" r="150" fill="#ffffff" opacity="0.04"/>
+  <!-- complaint / correction motif: document with alert mark -->
+  <g opacity="0.95">
+    <rect x="860" y="120" width="270" height="350" rx="18" fill="#ffffff" opacity="0.10"/>
+    <rect x="890" y="150" width="210" height="16" rx="8" fill="#ffffff" opacity="0.55"/>
+    <rect x="890" y="180" width="150" height="12" rx="6" fill="#ffffff" opacity="0.30"/>
+    <rect x="890" y="230" width="210" height="16" rx="8" fill="#ffffff" opacity="0.55"/>
+    <rect x="890" y="255" width="110" height="12" rx="6" fill="#ffffff" opacity="0.30"/>
+    <rect x="890" y="305" width="210" height="16" rx="8" fill="#ffffff" opacity="0.55"/>
+    <rect x="890" y="330" width="170" height="12" rx="6" fill="#ffffff" opacity="0.30"/>
+    <circle cx="995" cy="415" r="34" fill="#f59e0b"/>
+    <text x="995" y="430" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#022c22">!</text>
+  </g>
+  <!-- deadline badges -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="bold">
+    <rect x="70" y="440" width="330" height="64" rx="14" fill="url(#badge)"/>
+    <text x="235" y="482" text-anchor="middle" font-size="30" fill="#022c22">3 NOV • BEFORE 4 PM</text>
+    <rect x="420" y="440" width="330" height="64" rx="14" fill="#ffffff" opacity="0.12"/>
+    <text x="585" y="482" text-anchor="middle" font-size="30" fill="#ffffff">12 NOV: FINAL LIST</text>
+    <rect x="770" y="440" width="330" height="64" rx="14" fill="#ffffff" opacity="0.12"/>
+    <text x="935" y="482" text-anchor="middle" font-size="30" fill="#ffffff">ONLINE ONLY</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="70" width="330" height="52" rx="26" fill="#f59e0b"/>
+    <text x="235" y="105" text-anchor="middle" font-size="26" font-weight="bold" fill="#022c22">KMU • PESHAWAR</text>
+    <text x="70" y="200" font-size="70" font-weight="bold" fill="#ffffff">KMU Merit List Objection</text>
+    <text x="70" y="268" font-size="40" fill="#d1fae5">How to file a complaint &amp; fix your row</text>
+    <text x="70" y="328" font-size="30" fill="#a7f3d0">Provisional list • Complaints • Evidence • Final list</text>
+    <text x="70" y="385" font-size="28" fill="#ffffff" opacity="0.85">Complaints at cas.kmu.edu.pk/complaint.php</text>
+  </g>
+</svg>
