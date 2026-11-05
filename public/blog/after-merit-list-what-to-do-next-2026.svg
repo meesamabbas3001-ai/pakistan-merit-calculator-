@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.55" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="80" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="110" cy="560" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="980" cy="520" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- checklist card -->
+  <g transform="translate(90,120)">
+    <rect x="0" y="0" width="330" height="390" rx="22" fill="url(#card)"/>
+    <rect x="28" y="30" width="150" height="16" rx="8" fill="#1e3a8a"/>
+    <g font-family="Arial, sans-serif" font-size="15" fill="#1e3a8a">
+      <g>
+        <rect x="28" y="72" width="30" height="30" rx="8" fill="#0d9488"/>
+        <text x="36" y="94" font-size="18" fill="#ffffff" font-weight="bold">✓</text>
+        <text x="72" y="93">Fee deposited</text>
+      </g>
+      <g>
+        <rect x="28" y="122" width="30" height="30" rx="8" fill="#0d9488"/>
+        <text x="36" y="144" font-size="18" fill="#ffffff" font-weight="bold">✓</text>
+        <text x="72" y="143">Documents ready</text>
+      </g>
+      <g>
+        <rect x="28" y="172" width="30" height="30" rx="8" fill="#0d9488"/>
+        <text x="36" y="194" font-size="18" fill="#ffffff" font-weight="bold">✓</text>
+        <text x="72" y="193">College reported</text>
+      </g>
+      <g>
+        <rect x="28" y="222" width="30" height="30" rx="8" fill="#f59e0b"/>
+        <text x="36" y="244" font-size="18" fill="#ffffff" font-weight="bold">!</text>
+        <text x="72" y="243">Upgradation choice</text>
+      </g>
+    </g>
+    <rect x="28" y="290" width="274" height="64" rx="12" fill="#1e3a8a"/>
+    <text x="165" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#bfdbfe">DON'T MISS THE DEADLINE</text>
+    <text x="165" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">3 WORKING DAYS</text>
+  </g>
+
+  <!-- headline -->
+  <text x="470" y="180" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">After the</text>
+  <text x="470" y="252" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">Merit List</text>
+  <text x="470" y="316" font-family="Arial, sans-serif" font-size="30" fill="#bfdbfe">Fee deposit, documents &amp;</text>
+  <text x="470" y="356" font-family="Arial, sans-serif" font-size="30" fill="#bfdbfe">joining — step by step</text>
+
+  <!-- fee pills -->
+  <g font-family="Arial, sans-serif">
+    <rect x="470" y="400" width="300" height="74" rx="14" fill="#ffffff" opacity="0.95"/>
+    <text x="620" y="428" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">PUBLIC COLLEGES</text>
+    <text x="620" y="458" text-anchor="middle" font-size="22" font-weight="bold" fill="#0d9488">Rs 50,000 / year</text>
+    <rect x="800" y="400" width="310" height="74" rx="14" fill="#fbbf24"/>
+    <text x="955" y="428" text-anchor="middle" font-size="15" font-weight="bold" fill="#451a03">PRIVATE TOKEN FEE</text>
+    <text x="955" y="458" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e3a8a">Rs 600,000</text>
+  </g>
+
+  <text x="470" y="540" font-family="Arial, sans-serif" font-size="22" fill="#e0f2fe">MBBS / BDS 2026-27  •  UHS  •  KMU  •  Sindh  •  NUMS  •  SZABMU</text>
+  <text x="470" y="580" font-family="Arial, sans-serif" font-size="18" fill="#93c5fd">pakistan-merit-calculator.vercel.app</text>
+</svg>

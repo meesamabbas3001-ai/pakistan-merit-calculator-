@@ -173,4 +173,157 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
     ],
     relatedCalculators: ['duhs', 'kemu', 'nums'],
   },
+  {
+    slug: 'after-merit-list-what-to-do-next-2026',
+    image: '/blog/after-merit-list-what-to-do-next-2026.svg',
+    imageAlt: 'After the merit list guide: fee deposit within three working days, documents checklist, and joining steps for MBBS and BDS 2026-27',
+    title: 'After the Merit List: What to Do Next — Fee Deposit, Documents & Joining Guide (MBBS/BDS 2026-27)',
+    description:
+      'Your name is on the MBBS/BDS merit list — now what? Deposit the fee within three working days (Rs 50,000 a year at public colleges in Punjab, Rs 600,000 token fee at private colleges), report to your allotted college with your documents, and understand STAY vs upgradation before the next list.',
+    category: 'Guides',
+    date: 'November 2026',
+    readTime: '7 min read',
+    intro:
+      'Seeing your name on a merit list is only the halfway point. A selection is not an admission until you deposit the fee on time and report to the college with your documents — and the deadlines are brutally short. In Punjab, selected candidates must deposit the fee within three working days of the merit list. In Khyber Pakhtunkhwa the same three-working-day rule applies, and you must then report to the college within three days of placement. Miss either step and the seat is cancelled and offered to the next candidate. This guide walks you through the exact sequence — reading your selection row, paying the fee, joining the college, and handling upgradation — for UHS Punjab (public, private and quota), KMU, Sindh, NUMS and SZABMU, with the dates that are verified for the 2026-27 cycle and an honest list of the ones that are not published yet.',
+    sections: [
+      {
+        heading: '“Selected” is not the same as “admitted” — three different lists',
+        paragraphs: [
+          'Students lose seats every year because they confuse three different documents. The provisional merit list is a draft: it shows your aggregate and your position so you can object to errors. The final merit list is the corrected order of merit. The selection list is the one that matters for joining — it names the college allotted to you. You do nothing with the fee until your name appears on a selection list, and then you move fast.',
+          'The sequence is the same in every province, even though the dates differ: provisional list, objections, final list, then one or more selection lists. Each selection list gives the newly selected candidates a few days to pay and join; the seats left vacant by candidates who do not pay or do not join are filled in the next selection list. That is why a second or third list can still select you even if the first one did not.',
+        ],
+        list: [
+          'Provisional merit list — check your row and object to errors; no fee yet.',
+          'Final merit list — the corrected order of merit; still no fee yet.',
+          'Selection list — your college is named here; the fee and joining clock starts now.',
+        ],
+      },
+      {
+        heading: 'Step 1: Read your selection row properly',
+        paragraphs: [
+          'Open the selection list on the official portal — UHS publishes college-wise selection lists at uhs.edu.pk, KMU at cas.kmu.edu.pk, Sindh lists come from your processing university (JSMU, LUMHS or SMBBMU), NUMS at mbbsbdsadmissions.numspak.edu.pk, and SZABMU at admission.szabmu.edu.pk. Find your row by CNIC or application number and check four things: the college allotted to you, the seat category (open merit, quota, self-finance or foreign), your aggregate as printed, and any instruction printed with the list about the fee deadline and the joining date.',
+          'Before you pay anything, recompute your aggregate from your own documents and compare it with the printed figure. The formula for UHS, KMU, Sindh and SZABMU admissions is the same: SSC 10% + HSSC 40% + MDCAT 50%, with MDCAT out of 180. A student with 1050/1100 in Matric, 1000/1100 in FSc and 150/180 in MDCAT has (1050 ÷ 1100 × 10) + (1000 ÷ 1100 × 40) + (150 ÷ 180 × 50) = 9.5455 + 36.3636 + 41.6667 = 87.5758%. If the printed aggregate differs from your recomputation, raise it with the admitting university the same day — after you have paid, correcting a wrong aggregate is far harder.',
+          'Also confirm that the college named is one you actually listed in your preferences. In Punjab, preferences are frozen after the application deadline and no admission or upgradation happens outside the submitted list, so a college you never listed cannot be allotted to you — if it appears, that is an error to report immediately.',
+        ],
+      },
+      {
+        heading: 'Step 2: Deposit the fee within three working days',
+        paragraphs: [
+          'This is the step where seats are lost. The Punjab MBBS/BDS Admission Policy 2026-27 requires selected candidates to deposit the fee within three working days of the merit list. Three working days is a tight turnaround: if a list is published on a Friday, the weekend eats into your time, so keep the money ready before the list is published rather than arranging it afterwards.',
+          'At public medical and dental colleges in Punjab, the annual tuition fee for open-merit seats is fixed at Rs 50,000 per year, and overseas Pakistanis admitted on open merit pay the same as local students. At private medical colleges in Punjab, selected candidates must deposit a token admission fee of Rs 600,000 into the designated UHS account within three working days of selection. The token fee is the initial admission fee — the remaining dues are paid at the college when you join, and the exact remaining amount is set by the college, so do not assume a single private tuition figure.',
+          'In Khyber Pakhtunkhwa the rule is the same shape: selected candidates deposit the fee within three working days and then report to the allotted college within three days of placement. Pay only through the channel named in the selection notice — a generated bank challan at the designated bank, or the portal payment route — and keep the paid challan or receipt. It is your proof of payment, and you will upload it or present it at joining. Never pay a fee to a personal account, an agent, or anyone who contacts you claiming to hold a seat.',
+        ],
+        list: [
+          'Punjab public colleges: Rs 50,000 per year (open merit), within three working days of the merit list.',
+          'Punjab private colleges: Rs 600,000 token admission fee, within three working days of selection.',
+          'KMU (Khyber Pakhtunkhwa): fee within three working days, then report to the college within three days of placement.',
+          'Pay only through the challan or portal route named in the official selection notice, and keep the receipt.',
+        ],
+      },
+      {
+        heading: 'Step 3: Report to your allotted college with your documents',
+        paragraphs: [
+          'Paying the fee holds the seat; reporting to the college completes the admission. In the 2025-26 cycle, UHS required selected candidates to physically report to their allotted college by the time stated in the selection notice — 5:00 PM on the joining date — and failure to comply with any of the requirements resulted in cancellation of admission without any further notice. Treat the joining date in your own selection notice the same way: it is a hard deadline, not a suggestion.',
+          'Take originals and photocopies. The standard set is: your CNIC or B-Form and your father’s CNIC, your Matric and FSc original certificates and transcripts, your MDCAT result card, your domicile certificate and PRC, recent passport-size photographs, and the paid fee challan or receipt. O-Level and A-Level students must also carry IBCC equivalence. If any document was deficient in your online application — KMU, for example, lets candidates clear deficiencies through a CNIC-and-password login — clear it before the joining date, because a college can refuse to enrol you over a missing original.',
+          'At the college you will sign the joining and consent form, submit your documents for verification, and complete the remaining fee payment. Verification is real: the PMDC admission regulations for 2026-27 require verification of documents, and a forged document can end an admission even after joining. Do not let anyone submit documents on your behalf unless the notice expressly allows it.',
+        ],
+      },
+      {
+        heading: 'Upgradation: how you move to a better college in the next list',
+        paragraphs: [
+          'If the college allotted to you is not your first preference, you are not stuck with it — but only if you handle the choice correctly. In Punjab, after you accept the offer by paying the fee, you can opt for automated upgradation, which means later selection lists can move you to a higher-preference college if a seat opens there. If you choose to forgo upgradation at a private college, that decision is final — you keep the college you have and no later list will move you.',
+          'The practical rule: pay the fee for the college you have been allotted, even if you are hoping for an upgrade. An unpaid seat is cancelled, and a cancelled seat cannot be upgraded. Then choose the upgradation option on the portal if you want to be considered for a higher preference, and keep watching every subsequent selection list — UHS Punjab publishes three public selection lists (17 November, 23 November and 1 December 2026) and three private ones (18, 23 and 27 November 2026). Each list can change your college, so check every one until the process closes.',
+          'Note that upgradation only moves you within the preferences you submitted. It cannot move you to a college you never listed, and it cannot move you between the public and private tracks. The BDS track is also separate: in Punjab, BDS applications run 15–30 December 2026, with selection lists from 11 January 2027, so an MBBS upgradation never turns into a BDS seat.',
+        ],
+      },
+      {
+        heading: 'What happens if you miss the fee deadline',
+        paragraphs: [
+          'The seat is cancelled and offered to the next candidate on merit. That is the rule as stated in past-cycle UHS selection notices — admission is cancelled without any further notice if a selected candidate fails to pay or report within the stipulated time — and it is the reason the three-working-day window is the most dangerous part of the whole process. There is no grace period published anywhere, and no late fee can buy the seat back.',
+          'If you miss it, do not panic and do not pay anyone who promises to restore the seat. Check the next selection list for your name — if your aggregate is high enough and seats remain, you may still be selected in a later round, but that is not guaranteed and you cannot rely on it. The only reliable protection is preparation: keep the fee money ready, keep your documents in one folder, and check the official portal every day from the provisional list onwards so a selection never catches you unprepared.',
+        ],
+      },
+      {
+        heading: 'Your name is not on the list — what now?',
+        paragraphs: [
+          'Not being selected in the first list does not mean you are out. Selection lists are published in rounds precisely because seats open up when selected candidates do not pay or do not join. In Punjab, three public MBBS selection lists run through 1 December 2026 and three private ones through 27 November, and the PMDC regulations require public medical colleges to complete their lists by 15 December 2026 — so there is real movement after the first list. Keep checking every list, and keep your fee money and documents ready so you can act within three working days if your name appears.',
+          'Meanwhile, check the tracks that are still open. In Punjab, private MBBS applications close on 6 November 2026 and the reserved-quota MBBS applications close on 9 November 2026 — if you qualify for either, those are live options, not consolation prizes. In Khyber Pakhtunkhwa, the private track at caspr.kmu.edu.pk is open until 9 November 2026, with its provisional list on 11 November. NUMS centralised registration closes on 11 November 2026 (late registration to 25 November), with its provisional merit list on 10 December and the first MBBS selection list on 17 December — a completely separate process with its own test. And if you are open to BDS, the Punjab BDS application window (15–30 December 2026) and the Sindh BDS lists (provisional 11 November, final 14 November 2026) are separate tracks with their own seats.',
+          'If no list selects you this cycle, the honest next step is to plan the retake rather than chase a shortcut. No agent, no donation and no “management seat” can create a seat in the public merit system — the lists are published, the aggregates are printed, and any offer to sell you a place is a scam. Note your aggregate, compare it with the closing merits of the colleges you wanted, and work out exactly how many more MDCAT marks you need: at 10/40/50, one MDCAT mark is worth 0.2778 aggregate points, so ten more MDCAT marks are worth about 2.78 points.',
+        ],
+      },
+      {
+        heading: 'The documents checklist — keep these ready today',
+        paragraphs: [
+          'Do not wait for your name to appear before gathering these. The fee window is three working days, and a missing document on joining day is a problem you cannot fix from a bank queue.',
+        ],
+        list: [
+          'CNIC or B-Form (yours) and your father’s CNIC — originals plus photocopies.',
+          'Matric (SSC) and FSc (HSSC) original certificates and transcripts — plus IBCC equivalence if you did O/A-Levels.',
+          'MDCAT 2026 result card (2024, 2025 and 2026 MDCAT results are accepted in most provinces — confirm your track’s rule).',
+          'Domicile certificate and PRC for your district — Sindh admissions are processed by domicile-tagged universities, so this decides where your file goes.',
+          'Recent passport-size photographs (at least 8 — colleges, hostel and registration all ask for them).',
+          'Paid fee challan or receipt — the proof that you deposited the fee on time.',
+          'Your application number, portal login (CNIC and password) and a printed copy of your submitted application and preference list.',
+        ],
+      },
+      {
+        heading: 'Key dates by province and track (2026-27, verified)',
+        paragraphs: [
+          'Dates below are the ones published for this cycle. Where a date is not published yet, this guide says so instead of guessing.',
+        ],
+        list: [
+          'UHS Punjab public MBBS: provisional list 13 November, final list 16 November, selection lists 17 November, 23 November and 1 December 2026; classes 1 February 2027.',
+          'UHS Punjab private MBBS: applications close 6 November, provisional list 12 November, final list 16 November, selection lists 18, 23 and 27 November 2026; classes 1 February 2027.',
+          'UHS Punjab reserved quota MBBS: applications close 9 November, provisional list 13 November, final list 17 November, first selection list 27 November 2026.',
+          'UHS Punjab BDS (public): applications 15–30 December 2026, provisional list 6 January 2027, final list 9 January, selection lists 11, 15 and 21 January 2027; classes 1 March 2027.',
+          'KMU Khyber Pakhtunkhwa: public final list 12 November, placement 16–21 November, KIMS-KIDS placement 23 November, second round 1–4 December, third round 15–17 December 2026; private applications close 9 November, provisional list 11 November.',
+          'Sindh MBBS: final list 6 November 2026; BDS provisional list 11 November, objections 11–12 November, final list 14 November 2026; interview and class dates not published yet.',
+          'NUMS: centralised registration closes 11 November 2026 (late to 25 November), provisional merit list 10 December, first MBBS selection list 17 December 2026, BDS selection 21 January 2027.',
+          'SZABMU Islamabad: applications closed 30 October 2026; no 2026-27 merit list date has been announced yet (checked 30 October 2026).',
+        ],
+      },
+      {
+        heading: 'What this guide does not know yet — read before you act',
+        paragraphs: [
+          'This guide is written on 5 November 2026, while most selection lists are still to be published. Four things are deliberately not stated here because no verified source states them. First, the exact joining deadline for each UHS public selection list is set in that list’s own notice — the three-working-day fee rule is the policy, but the joining time and date come from the notice, so read it the day your list appears. Second, the remaining private-college dues after the Rs 600,000 token fee are set by each college and are not a single published figure — confirm yours from the college, not from a social-media post. Third, Sindh interview dates and class commencement dates have not been published — they are announced by the processing universities after the final lists. Fourth, SZABMU has announced no 2026-27 list date at all; its fee deadline and joining instructions will come with that announcement. If any of these appear after this guide is published, the figures on this site’s per-university pages are the place to check — and if a number here and a number on an official notice disagree, the official notice wins.',
+          'One more caution: the weeks after a merit list are peak season for scams. Nobody from UHS, KMU, JSMU, LUMHS, SMBBMU, NUMS or SZABMU will call you to offer a seat, ask for a fee on a personal account, or ask for your portal password. Every real instruction is published on the official portal and printed in the list notice. If someone offers you a seat for money, it is fraud — report it to the university and move on.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'How many days do I have to deposit the fee after my name appears on the merit list?',
+        answer: 'Three working days. The Punjab MBBS/BDS Admission Policy 2026-27 requires selected candidates to deposit the fee within three working days of the merit list, and KMU applies the same three-working-day rule. Keep the money ready before the list is published — a list published on a Friday leaves you almost no working time.',
+      },
+      {
+        question: 'How much fee do I pay — public college or private college?',
+        answer: 'At public medical and dental colleges in Punjab, the open-merit tuition fee is fixed at Rs 50,000 per year. At private medical colleges in Punjab, selected candidates deposit a Rs 600,000 token admission fee within three working days of selection, and the remaining dues are paid at the college when you join. The remaining private dues are set by each college and are not a single published figure.',
+      },
+      {
+        question: 'What does STAY versus upgradation mean on the UHS portal?',
+        answer: 'After you pay the fee and accept the allotted college, you can opt for automated upgradation: later selection lists can move you to a higher-preference college if a seat opens there. If you forgo upgradation at a private college, that decision is final and no later list will move you. Pay the fee first either way — an unpaid seat is cancelled and cannot be upgraded.',
+      },
+      {
+        question: 'What documents do I need when I report to the college?',
+        answer: 'Your CNIC or B-Form and your father’s CNIC, original Matric and FSc certificates and transcripts (plus IBCC equivalence for O/A-Levels), your MDCAT result card, domicile certificate and PRC, passport-size photographs, and the paid fee challan or receipt. Take originals and photocopies, and clear any deficiency flagged in your online application before the joining date.',
+      },
+      {
+        question: 'What happens if I miss the fee deposit deadline?',
+        answer: 'Your seat is cancelled and offered to the next candidate on merit, without any further notice — that is the rule in past-cycle UHS selection notices. There is no published grace period and no late fee that restores the seat. Check the next selection list for your name, but do not rely on being selected again.',
+      },
+      {
+        question: 'Can I change my college after I have joined?',
+        answer: 'Only through upgradation in the later selection lists, and only to a college you listed in your preferences. You cannot move to a college you never listed, and you cannot move between the public and private tracks. If you forgo upgradation, the college you joined is final.',
+      },
+      {
+        question: 'When do MBBS and BDS classes start for the 2026-27 session?',
+        answer: 'In Punjab, MBBS classes commence on 1 February 2027 (public and private) and BDS classes on 1 March 2027. In Khyber Pakhtunkhwa, placement runs 16–21 November 2026 with KIMS-KIDS placement on 23 November. Sindh class dates have not been published yet. NUMS MBBS selection is 17 December 2026, so its classes follow later.',
+      },
+      {
+        question: 'My name is on the provisional list but not the first selection list. Why?',
+        answer: 'The provisional list is the order of merit; the selection list is the list of candidates actually allotted a college in that round. If your aggregate is below the closing merit of every college you listed, you are not selected in that round — but later rounds fill vacated seats, so keep checking the second and third selection lists. In Punjab, public lists run to 1 December and private lists to 27 November 2026.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
