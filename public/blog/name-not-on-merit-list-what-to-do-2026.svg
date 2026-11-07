@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2a5c"/>
+      <stop offset="0.55" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="70" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="100" cy="570" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="990" cy="530" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- merit list card -->
+  <g transform="translate(80,110)">
+    <rect x="0" y="0" width="360" height="410" rx="22" fill="url(#card)"/>
+    <rect x="28" y="28" width="180" height="16" rx="8" fill="#1e3a8a"/>
+    <rect x="28" y="56" width="120" height="10" rx="5" fill="#94a3b8"/>
+    <g font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      <g>
+        <rect x="28" y="92" width="26" height="26" rx="7" fill="#0d9488"/>
+        <text x="35" y="111" font-size="15" fill="#ffffff" font-weight="bold">✓</text>
+        <text x="66" y="111">Ayesha Khan</text>
+        <text x="250" y="111" fill="#0d9488" font-weight="bold">92.4%</text>
+      </g>
+      <g>
+        <rect x="28" y="138" width="26" height="26" rx="7" fill="#0d9488"/>
+        <text x="35" y="157" font-size="15" fill="#ffffff" font-weight="bold">✓</text>
+        <text x="66" y="157">Bilal Ahmed</text>
+        <text x="250" y="157" fill="#0d9488" font-weight="bold">91.8%</text>
+      </g>
+      <g>
+        <rect x="28" y="184" width="26" height="26" rx="7" fill="#f59e0b"/>
+        <text x="35" y="203" font-size="15" fill="#ffffff" font-weight="bold">?</text>
+        <text x="66" y="203">Your name…</text>
+        <text x="250" y="203" fill="#f59e0b" font-weight="bold">—</text>
+      </g>
+      <g>
+        <rect x="28" y="230" width="26" height="26" rx="7" fill="#cbd5e1"/>
+        <text x="35" y="249" font-size="15" fill="#ffffff" font-weight="bold">·</text>
+        <text x="66" y="249">Next list…</text>
+        <text x="250" y="249" fill="#64748b">soon</text>
+      </g>
+    </g>
+    <rect x="28" y="300" width="304" height="58" rx="12" fill="#1e3a8a"/>
+    <text x="180" y="336" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff">Check the next list</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Arial, sans-serif">
+    <text x="500" y="210" font-size="62" font-weight="bold" fill="#ffffff">NOT ON THE</text>
+    <text x="500" y="282" font-size="62" font-weight="bold" fill="#ffffff">MERIT LIST?</text>
+    <text x="500" y="350" font-size="30" fill="#bfdbfe">Don't panic — the first list is</text>
+    <text x="500" y="392" font-size="30" fill="#bfdbfe">rarely the last one.</text>
+    <g transform="translate(500,440)">
+      <rect x="0" y="0" width="230" height="52" rx="26" fill="#f59e0b"/>
+      <text x="115" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e293b">MBBS / BDS 2026-27</text>
+    </g>
+  </g>
+</svg>

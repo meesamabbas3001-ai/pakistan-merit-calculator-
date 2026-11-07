@@ -326,4 +326,138 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'name-not-on-merit-list-what-to-do-2026',
+    image: '/blog/name-not-on-merit-list-what-to-do-2026.svg',
+    imageAlt: 'Merit list illustration — name not on the first MBBS/BDS merit list, what to do next',
+    title: 'Name Not on the Merit List? What to Do Next — MBBS/BDS 2026-27',
+    description:
+      'Your name is not on the first MBBS/BDS merit list for 2026-27. Here is what it actually means, which selection lists are still to come (UHS, KMU, Sindh, NUMS — verified dates), and your real backup options.',
+    category: 'Guides',
+    date: 'November 2026',
+    readTime: '7 min read',
+    intro:
+      'You refreshed the merit list page, searched your name twice, and it is not there. It feels final — but in Pakistan\'s MBBS/BDS admissions, the first list is almost never the last one. Seats are filled over three or more selection rounds, students withdraw, upgradation moves people up, and entirely separate tracks (BDS, private colleges, NUMS) run on their own calendars. This guide explains why your name can be missing, which lists are still to come with their verified dates, and what to do this week instead of waiting in panic.',
+    sections: [
+      {
+        heading: 'First, breathe: the first list is rarely the last list',
+        paragraphs: [
+          'Every MBBS/BDS admission cycle in Pakistan runs in rounds. The provisional merit list is only the order of merit — it is not a seat. Then come the selection lists, usually three rounds per track, and each round fills the seats vacated by students who did not pay the fee, chose another college, or were upgraded to a higher preference. A candidate ranked just below the first round\'s closing merit very often appears in the second or third round.',
+          'That is why this guide exists: missing the first selection list is a delay, not a rejection — unless you stop checking. The single most common way students lose a seat they would have gotten is simple: they stop opening the portal after the first list and miss their name on the second or third.',
+        ],
+      },
+      {
+        heading: 'Why your name can be missing — the five usual reasons',
+        paragraphs: [
+          'Before assuming the worst, work out which of these applies to you. Each one has a different fix.',
+        ],
+        list: [
+          'Your aggregate is below the closing merit of every college on your preference list — but only for this round. Later rounds close lower as seats vacate.',
+          'You are on the provisional list but not the selection list. The provisional list ranks everyone; the selection list only allots seats. Being on the provisional list and missing the first selection list is normal.',
+          'Your preference list is too narrow. If you listed only two or three top colleges, there is nowhere for the system to place you. You cannot add colleges later — but the lesson matters for your BDS or private-college application, where you choose preferences again.',
+          'A document deficiency or a wrong entry. If your application was flagged — a missing domicile, an unverified result, a wrong CNIC digit — your name may be held from the list. Check your portal status, not just the PDF.',
+          'You miscalculated your own aggregate. The most common self-error is the MDCAT total: MDCAT 2026 is scored out of 180, not 200. Recalculate with the official 10/40/50 formula (Matric 10% + FSc 40% + MDCAT 50%) on this site\'s calculator before concluding your merit was too low.',
+        ],
+      },
+      {
+        heading: 'The lists still to come — verified dates for 2026-27',
+        paragraphs: [
+          'Dates below are the ones published for this cycle. Where a date is not published yet, this guide says so instead of guessing. Check the official portal on each date — list notices, not social-media screenshots, are the source of truth.',
+        ],
+        list: [
+          'UHS Punjab public MBBS: provisional list 13 November, final list 16 November, selection lists 17 November, 23 November and 1 December 2026; classes 1 February 2027.',
+          'UHS Punjab private MBBS: applications close 6 November, provisional list 12 November, final list 16 November, selection lists 18, 23 and 27 November 2026; classes 1 February 2027.',
+          'UHS Punjab BDS (public): applications 15–30 December 2026, provisional list 6 January 2027, final list 9 January, selection lists 11, 15 and 21 January 2027; classes 1 March 2027.',
+          'KMU Khyber Pakhtunkhwa: public final list 12 November, placement 16–21 November, KIMS-KIDS placement 23 November, second round 1–4 December, third round 15–17 December 2026; private applications close 9 November, provisional list 11 November.',
+          'Sindh MBBS: final list 6 November 2026; BDS provisional list 11 November, objections 11–12 November, final list 14 November 2026; interview and class dates not published yet.',
+          'NUMS: centralised registration closes 11 November 2026 (late registration to 25 November), provisional merit list 10 December, first MBBS selection list 17 December 2026, BDS selection 21 January 2027.',
+          'SZABMU Islamabad: applications closed 30 October 2026; no 2026-27 merit list date has been announced yet.',
+        ],
+      },
+      {
+        heading: 'If you think there is a mistake — objections and complaints',
+        paragraphs: [
+          'A wrong aggregate on the list is fixable, but only inside the objection window for that list — and the windows are short. For this cycle, the KMU complaint window closed on 3 November at 4 PM and the Sindh claim window closed on 4 November at noon, so if your issue is with either of those lists, the published window has passed and your route is the university\'s admission office directly, with your documents in hand.',
+          'For the lists still to come — the UHS Punjab provisional lists on 12 and 13 November, the KMU private provisional list on 11 November, and the Sindh BDS provisional list on 11 November — the objection procedure and deadline will be printed in each list\'s own notice. Read the notice the day the list appears: it states where to file, what proof to attach, and the exact closing time. A screenshot of your result card and your paid challan are the two proofs most often asked for.',
+          'One caution: do not trust a forwarded message that claims a new objection date. If the date is not in a list notice on the official portal, treat it as unverified.',
+        ],
+      },
+      {
+        heading: 'Your backup routes if MBBS merit misses this year',
+        paragraphs: [
+          'Missing MBBS merit in one province or one round does not end your medical career. These are the real alternatives, in the order most students use them.',
+        ],
+        list: [
+          'BDS in the same cycle. In Punjab, public BDS applications open 15–30 December 2026 — a full second chance in the same admission year, with its own merit lists in January 2027. Sindh BDS lists run 11–14 November. BDS closing merits run lower than MBBS, and dentistry is a complete, respected career, not a consolation prize.',
+          'Private medical colleges. Punjab private MBBS applications close 6 November 2026 — today — so if you have not applied, do it now, not tomorrow. KMU private applications close 9 November. Private merit runs lower than public, and the fee is the real barrier: a Rs 600,000 token fee is due within three working days of selection in Punjab private colleges, with the remaining dues set by each college.',
+          'NUMS colleges. Centralised registration closes 11 November 2026 (late to 25 November), with the provisional merit list on 10 December and the first MBBS selection on 17 December. NUMS uses its own entry test, so your MDCAT aggregate is not the deciding number here.',
+          'Allied health and other degrees. DPT, Pharm-D, BS Nursing, medical laboratory technology and other allied health programs admit on FSc merit without MDCAT, and their applications are still open at many universities. A year spent in a real degree beats a year spent only waiting.',
+          'Repeat MDCAT in 2027 — deliberately. If your aggregate missed by a wide margin, a planned repeat with a full year of focused preparation is a legitimate route. Decide it now, not in June: join a test session, keep your FSc books, and treat the repeat as a plan, not a fallback you drift into.',
+        ],
+      },
+      {
+        heading: 'What NOT to do in the next two weeks',
+        paragraphs: [
+          'The weeks after a merit list are peak season for fraud and for expensive mistakes. Three rules cover almost all of it.',
+        ],
+        list: [
+          'Never pay anyone who offers you a seat. Nobody from UHS, KMU, JSMU, LUMHS, SMBBMU, NUMS or SZABMU will call you to offer admission, ask for a fee on a personal account, or ask for your portal password. Every real instruction is published on the official portal and printed in the list notice. A seat offered for money is fraud — report it to the university.',
+          'Do not trust closing-merit screenshots on social media. Only the official list notice states the closing merit of a round. Forwarded lists are edited, outdated, or from another province more often than students expect.',
+          'Do not miss a fee deadline on a later list. Selection means three working days to deposit the fee — in Punjab public colleges Rs 50,000 a year, in private colleges the Rs 600,000 token fee. Keep the money ready before the list is published; a list published on a Friday leaves almost no working time, and an unpaid seat is cancelled without further notice.',
+        ],
+      },
+      {
+        heading: 'Your checklist for the next four weeks',
+        paragraphs: [
+          'Print this and work through it. Each item takes minutes and each one protects a real option.',
+        ],
+        list: [
+          'Today (6 November): if you want a Punjab private college, submit the application before it closes today. Check your portal for any deficiency flag.',
+          'By 9 November: KMU private applications close — apply if Khyber Pakhtunkhwa is an option.',
+          'By 11 November: NUMS centralised registration closes — register if you took the NUMS test.',
+          '11–14 November: check the Sindh BDS provisional list (11 November), file any objection by 12 November, and check the final list on 14 November.',
+          '12–17 November: check the UHS private provisional list (12 November), the UHS public provisional list (13 November), and the first selection lists (private 18 November, public 17 November). Read each notice for its objection window and fee deadline.',
+          '23 November – 1 December: check the second and third UHS selection lists even if you missed the first. This is where most late selections happen.',
+          '15–30 December: apply for Punjab public BDS if MBBS did not work out.',
+        ],
+      },
+      {
+        heading: 'What this guide does not know yet — read before you act',
+        paragraphs: [
+          'This guide is written on 6 November 2026, while most selection lists are still to be published. Two things are deliberately not stated here because no verified source states them. First, the 2026 closing merit of each college in each round will only be known when that round\'s list is published — anyone quoting a 2026 closing merit today is guessing, so this guide quotes no 2026 closing figure at all; use the 2025 closing merits in this site\'s closing-merit guide only as a rough benchmark. Second, the exact joining deadline for each UHS selection list is set in that list\'s own notice — the three-working-day fee rule is the policy, but the joining time and date come from the notice, so read it the day your list appears. If a number here and a number on an official notice disagree, the official notice wins.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'My name is not on the first selection list. Am I out of MBBS for 2026-27?',
+        answer: 'No. UHS Punjab publishes three public selection lists (17 November, 23 November, 1 December 2026) and three private lists (18, 23, 27 November). KMU runs a second round 1–4 December and a third 15–17 December. Seats vacate every round when students do not pay or get upgraded, so keep checking every list until the last round of your track.',
+      },
+      {
+        question: 'What is the difference between the provisional list and the selection list?',
+        answer: 'The provisional list is the order of merit — everyone ranked. The selection list is the smaller list of candidates actually allotted a college in that round. Being on the provisional list and missing the first selection list is normal; it means your aggregate was below that round\'s closing merit for the colleges you listed.',
+      },
+      {
+        question: 'Can I still apply to a private medical college in Punjab?',
+        answer: 'Punjab private MBBS applications close on 6 November 2026 — today. If you have not applied, do it now. KMU private applications close 9 November, and NUMS registration closes 11 November (late to 25 November). After those dates, the next route is Punjab public BDS, applications 15–30 December 2026.',
+      },
+      {
+        question: 'Should I apply for BDS if MBBS does not work out?',
+        answer: 'Yes, if you want a dental career — BDS is a full professional degree, not a failed-MBBS fallback. In Punjab, public BDS applications run 15–30 December 2026 with selection lists in January 2027, and BDS closing merits run lower than MBBS. In Sindh, the BDS provisional list is published 11 November 2026.',
+      },
+      {
+        question: 'How do I know if my aggregate on the list is wrong?',
+        answer: 'Recalculate it yourself first with the official formula — Matric 10% + FSc 40% + MDCAT 50%, with MDCAT scored out of 180 — using this site\'s calculator. If your calculation differs from the list, file an objection inside the window printed in that list\'s notice, attaching your result card as proof. The KMU and Sindh windows for the current lists have already closed (3 and 4 November); the UHS windows open with the provisional lists on 12–13 November.',
+      },
+      {
+        question: 'Someone is offering me an MBBS seat for money. Is it real?',
+        answer: 'No. It is fraud. No university official will call you to offer a seat, ask for a fee on a personal bank account or wallet, or ask for your portal password. Admissions happen only through the official portal and the published merit lists. Report the offer to the university and do not pay anything.',
+      },
+      {
+        question: 'Is repeating MDCAT next year worth it?',
+        answer: 'It can be, if your aggregate missed by a clear margin and you commit to a full year of preparation rather than drifting. But first use every route in this cycle — later selection lists, BDS, private colleges, NUMS — because a seat this year is worth more than a hoped-for seat next year. Decide on a repeat deliberately and early, not in June.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
