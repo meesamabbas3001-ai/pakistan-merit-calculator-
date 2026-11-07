@@ -460,4 +460,149 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-apply-bds-punjab-2026',
+    image: '/blog/how-to-apply-bds-punjab-2026.svg',
+    imageAlt: 'BDS application illustration — apply for BDS in Punjab public dental colleges, 15-30 December 2026',
+    title: 'How to Apply for BDS in Punjab 2026-27: UHS Public BDS Application Guide (15–30 December)',
+    description:
+      'UHS Punjab public BDS applications open 15–30 December 2026 on publicbds.uhs.edu.pk. Eligibility (MDCAT 50%, FSc 60%), Rs 2,000 fee, documents, the five public dental colleges, and the full merit-list schedule to classes on 1 March 2027.',
+    category: 'Guides',
+    date: 'November 2026',
+    readTime: '7 min read',
+    intro:
+      'The MBBS lists come out in November — but BDS is a second, separate door that opens in December, and many students miss it because they assume their MBBS application already covers BDS. It does not. UHS runs BDS admissions on its own portal, with its own Rs 2,000 fee, its own merit lists in January, and classes starting 1 March 2027. If your MDCAT score sits between 50% and 55%, BDS is not just an option — it is the only public-sector door open to you. This guide gives you the full verified schedule, the eligibility rules, the five public dental colleges, the step-by-step application, and a worked aggregate example.',
+    sections: [
+      {
+        heading: 'BDS is a separate application — your MBBS form does not cover it',
+        paragraphs: [
+          'UHS Lahore runs MBBS and BDS as two separate admissions. There are separate portals — publicmbbs.uhs.edu.pk for MBBS and publicbds.uhs.edu.pk for BDS — a separate Rs 2,000 fee for each, and separate merit lists. If you applied for MBBS in October, you must apply again for BDS in December; nothing carries over automatically.',
+          'The timing is deliberate. The BDS portal opens on 15 December, seven weeks after the MBBS portal opened, and after the MBBS provisional list (13 November) and the first MBBS selection lists. By then you know where you stand in MBBS, and you can still pivot to dentistry. Applying for both doubles your chance of a public-sector seat in the 2026-27 session — and for students whose MDCAT score is below the 55% MBBS floor but at or above 50%, BDS is the only public route available.',
+        ],
+      },
+      {
+        heading: 'The full BDS calendar: 15 December to 1 March',
+        paragraphs: [
+          'The whole BDS cycle takes eleven weeks from the first day of applications to the first day of class. Every date below comes from the official UHS public-sector admission notice for session 2026-27. UHS notes the schedule remains subject to directions from PMDC and the Punjab government, including the number of selection lists.',
+        ],
+        list: [
+          'Tuesday 15 December 2026, 9:00 am — online applications open on publicbds.uhs.edu.pk.',
+          'Wednesday 30 December 2026, 5:00 pm — applications close. The portal locks at 5 pm sharp; the notice gives no late window.',
+          '3–5 January 2027 — medical board for students with disabilities, UHS City Campus, Lahore.',
+          'Wednesday 6 January 2027 — provisional order of merit.',
+          'Saturday 9 January 2027 — final order of merit.',
+          'Monday 11 January 2027 — first college-wise selection list.',
+          'Friday 15 January 2027 — second selection and upgradation list.',
+          'Thursday 21 January 2027 — third selection and upgradation list.',
+          'Monday 1 March 2027 — classes begin.',
+        ],
+      },
+      {
+        heading: 'Are you eligible? The three checks',
+        paragraphs: [
+          'Eligibility has three parts, and all three must hold. First, MDCAT: you must have passed MDCAT 2026, 2025 or 2024 with at least 50% — that is 90 marks out of 180. The 55% floor you keep hearing is the MBBS floor, not the BDS floor. A 52% MDCAT score is eligible for BDS and ineligible for MBBS — do not rule yourself out with the wrong number.',
+          'Second, FSc pre-medical: at least 60%, which is 660 out of 1100, in the pre-medical group. Third, Punjab domicile: the public-sector BDS seats are for Punjab-domiciled candidates. Students from other provinces and regions have a separate reserved-quota track with 38 BDS seats — see the tracks section below.',
+        ],
+      },
+      {
+        heading: 'The five public dental colleges',
+        paragraphs: [
+          'Three colleges are confirmed on the UHS list: de\'Montmorency College of Dentistry in Lahore, Nishtar Institute of Dentistry in Multan, and the Dental Institute at Punjab Medical College in Faisalabad. Two more are listed subject to PMDC approval: Fatima Jinnah Institute of Dental Sciences in Lahore and Quaid-e-Azam Medical and Dental College in Bahawalpur. The Punjab admission policy of 14 October 2026 puts public BDS seats at 340, subject to PMDC approval.',
+          'Your preference order matters as much as your aggregate. You list the colleges in the order you prefer, and the selection list allots you the highest-preference college your merit reaches. A college you leave off your list can never be allotted to you — so list every college you would genuinely accept, in your true order of preference, and do not leave a college off the list because you assume you will not get it.',
+        ],
+      },
+      {
+        heading: 'How to apply, step by step',
+        paragraphs: [
+          'The application is fully online. The portal had not opened when this guide was written, so the steps below follow the UHS notice itself — if the live portal shows an extra step, follow the portal.',
+        ],
+        list: [
+          'Read the prospectus and the Punjab admission policy 2026-27 on uhs.edu.pk before you start — the policy is the authority, not this guide.',
+          'Register on publicbds.uhs.edu.pk with your name, email, CNIC or passport number and phone number. The portal opens 15 December at 9:00 am and will not accept applications before then.',
+          'Fill your profile and choose your seat categories.',
+          'Enter your Matric, FSc and MDCAT marks exactly as printed on your result cards.',
+          'Upload your documents as PNG or JPG files under 500 KB each.',
+          'Order your college preferences carefully — highest preference first.',
+          'Pay the Rs 2,000 processing fee at Bank of Punjab or National Bank of Pakistan, upload the paid receipt, and submit before 5:00 pm on 30 December.',
+          'Save or print your submitted application and fee receipt. If the portal flags a deficiency, fix it before the deadline — after 30 December the portal closes.',
+        ],
+      },
+      {
+        heading: 'Worked example: your BDS aggregate',
+        paragraphs: [
+          'BDS merit uses the same PMDC formula as MBBS: Matric 10% + FSc 40% + MDCAT 50%, with MDCAT scored out of 180. Take a student with 1050/1100 in Matric, 1000/1100 in FSc and 150/180 in MDCAT. Matric contributes (1050 ÷ 1100 × 10) = 9.5455. FSc contributes (1000 ÷ 1100 × 40) = 36.3636. MDCAT contributes (150 ÷ 180 × 50) = 41.6667. Final aggregate: 87.5758%.',
+          'Work backwards from a target. With the same board marks (9.5455 + 36.3636 = 45.9091 locked), an 85% aggregate needs MDCAT contribution 39.0909, which is about 141 out of 180. An 80% aggregate needs about 123 out of 180. One MDCAT mark is worth 0.2778 aggregate points, and one FSc mark is worth about 0.0364 — so a single MDCAT mark is worth roughly 7.6 FSc marks. Use this site\'s calculator to run your own numbers before you apply, so you know which colleges are realistic.',
+          'One honest warning: no 2026-27 BDS closing merit exists yet, because no BDS list has been published. Do not trust closing-merit screenshots on social media. The only honest benchmark is the 2025 closing merits in this site\'s closing-merit guide — and even those are a rough guide, not a promise.',
+        ],
+      },
+      {
+        heading: 'The other two BDS tracks: private colleges and reserved quota',
+        paragraphs: [
+          'Public BDS is one of three doors. The second is private BDS: 18 private dental colleges in Punjab with about 1,100 seats. Applications run on privatebds.uhs.edu.pk from 18 December 2026 (9:00 am) to 1 January 2027 (5:00 pm), with the provisional merit list on 8 January, the final list on 11 January, and selection lists on 13, 18 and 22 January 2027. It is a separate application with its own fee — private MBBS and private BDS are separate applications too, so if you want both, you apply and pay twice.',
+          'The third is the reserved quota: 38 BDS seats for candidates from Islamabad Capital Territory, Azad Jammu and Kashmir, Gilgit-Baltistan, Balochistan and the former FATA areas, under the Punjab policy notified 14 October 2026. Applications open 14 December and close 28 December 2026, with the provisional list on 4 January 2027, the final list on 7 January, and the first selection list on 18 January 2027; classes start 1 March 2027. One caution: the quota notice prints its second selection-list date as 25 January 2026 — an apparent typo in a 2027 cycle — so verify the later quota lists on UHS rather than trusting that date. A student can apply on more than one track; each track has its own portal, fee and calendar.',
+        ],
+      },
+      {
+        heading: 'After you apply: lists, fee and joining',
+        paragraphs: [
+          'When the provisional list appears on 6 January, check your name, your aggregate and your college preferences the same day. If anything is wrong, the objection window — if one is given — is printed in the list notice itself, so read it the day the list appears; this guide does not invent an objection channel or deadline that the notice does not state.',
+          'If you are selected on 11, 15 or 21 January, deposit the fee within three working days of the list. Public-sector tuition is Rs 50,000 a year under the Punjab policy, and the fee rule is the same as the MBBS cycle: an unpaid seat is cancelled without further notice, so keep the money ready before the list is published. If you are selected for a lower-preference college and want to wait for a higher one in a later list, read that list\'s notice — it states whether waiting is possible and what it costs you. Do not assume the MBBS upgradation rules apply unchanged; the BDS notice governs.',
+        ],
+      },
+      {
+        heading: 'Five mistakes that cost students a BDS seat',
+        paragraphs: [
+          'Most BDS rejections are not about merit — they are about procedure. These five are the ones to avoid.',
+        ],
+        list: [
+          'Applying on the MBBS portal and assuming BDS is included. It is not. Use publicbds.uhs.edu.pk.',
+          'Missing the 5:00 pm deadline on 30 December. The portal closes; the notice gives no late window.',
+          'Using the MBBS 55% MDCAT floor and deciding you are ineligible. BDS needs 50% — a score between 50% and 55% is eligible for BDS only.',
+          'Uploading documents over 500 KB or in the wrong format. Compress and convert them before the last day.',
+          'Ordering college preferences carelessly. A college left off your list can never be allotted to you, and a low-preference college listed first can lock you in below your merit.',
+        ],
+      },
+      {
+        heading: 'What this guide does not know yet — read before you act',
+        paragraphs: [
+          'This guide is written on 7 November 2026, six weeks before the BDS portal opens. Four things are deliberately not stated here because no verified source states them. First, the 2026-27 BDS closing merit of any college will only be known when that round\'s list is published — anyone quoting a 2026 BDS closing merit today is guessing. Second, whether the two PMDC-pending colleges (Fatima Jinnah Institute of Dental Sciences and Quaid-e-Azam Medical and Dental College) are approved will be known from the UHS notice. Third, the exact objection window and joining deadline for each BDS list come from that list\'s own notice. Fourth, the reserved-quota second selection-list date in the notice looks like a typo (printed as 25 January 2026) — verify it on UHS. If any number here disagrees with an official UHS notice, the notice wins.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'When do UHS Punjab BDS applications open?',
+        answer: 'Public BDS applications open on Tuesday 15 December 2026 at 9:00 am and close on Wednesday 30 December 2026 at 5:00 pm, on publicbds.uhs.edu.pk. The portal will not accept applications before it opens.',
+      },
+      {
+        question: 'Do I need to apply separately for BDS if I already applied for MBBS?',
+        answer: 'Yes. UHS runs MBBS and BDS as separate admissions with separate portals and a separate Rs 2,000 fee each. Your MBBS application on publicmbbs.uhs.edu.pk does not cover BDS — you must register and apply again on publicbds.uhs.edu.pk.',
+      },
+      {
+        question: 'What is the minimum MDCAT score for BDS in Punjab?',
+        answer: 'At least 50% in MDCAT 2026, 2025 or 2024 — 90 marks out of 180 — plus at least 60% (660/1100) in FSc pre-medical and Punjab domicile. The 55% MDCAT floor is for MBBS, not BDS.',
+      },
+      {
+        question: 'What is the BDS aggregate formula in Punjab?',
+        answer: 'The same PMDC formula as MBBS: Matric 10% + FSc 40% + MDCAT 50%, with MDCAT scored out of 180. Example: 1050/1100 Matric, 1000/1100 FSc and 150/180 MDCAT gives 87.5758%.',
+      },
+      {
+        question: 'Which public dental colleges are in Punjab?',
+        answer: 'Five are listed: de\'Montmorency College of Dentistry (Lahore), Nishtar Institute of Dentistry (Multan) and the Dental Institute at Punjab Medical College (Faisalabad) are confirmed; Fatima Jinnah Institute of Dental Sciences (Lahore) and Quaid-e-Azam Medical and Dental College (Bahawalpur) are listed subject to PMDC approval. Public BDS seats are 340 under the Punjab policy, subject to PMDC approval.',
+      },
+      {
+        question: 'What is the fee for public BDS in Punjab?',
+        answer: 'The application processing fee is Rs 2,000, paid at Bank of Punjab or National Bank of Pakistan with the receipt uploaded on the portal. Annual tuition in public dental colleges is Rs 50,000 under the Punjab policy — the same as MBBS.',
+      },
+      {
+        question: 'When do BDS classes start in Punjab?',
+        answer: 'Classes for the 2026-27 session begin on Monday 1 March 2027. The selection lists run 11, 15 and 21 January 2027, after the provisional list on 6 January and the final list on 9 January.',
+      },
+      {
+        question: 'Can I apply for private BDS as well?',
+        answer: 'Yes. Private BDS in Punjab runs on privatebds.uhs.edu.pk from 18 December 2026 to 1 January 2027, covering 18 private dental colleges with about 1,100 seats. It is a separate application with its own fee, and its selection lists run 13, 18 and 22 January 2027.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];
