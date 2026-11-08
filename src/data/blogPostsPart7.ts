@@ -605,4 +605,164 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: 'how-to-apply-kmu-private-mbbs-bds-2026',
+    image: '/blog/how-to-apply-kmu-private-mbbs-bds-2026.svg',
+    imageAlt: 'KMU private MBBS/BDS 2026 apply guide: caspr.kmu.edu.pk portal, 9 November 5 PM deadline, Rs 3,000 fee and 15 private colleges',
+    title: 'How to Apply for MBBS/BDS in KMU Private Medical Colleges 2026: Complete Guide (Deadline 9 November)',
+    description:
+      'KMU private MBBS/BDS applications close Monday 9 November 2026 at 5:00 PM on caspr.kmu.edu.pk. Step-by-step apply guide, Rs 3,000 fee per programme, the 15 private colleges, the 10/40/50 formula with a worked example, and the full schedule to final placement — no invented cutoffs.',
+    category: 'Guides',
+    date: 'November 2026',
+    readTime: '7 min read',
+    intro:
+      'The KMU private MBBS/BDS application window closes tomorrow — Monday 9 November 2026 at 5:00 PM — and this is the last guide you need before you submit. Khyber Medical University runs one centralised portal, caspr.kmu.edu.pk, for all 15 private medical and dental colleges of Khyber Pakhtunkhwa, and everything about this admission is online: no printed form, no courier, no hand delivery. The fee is Rs 3,000 per programme, the merit formula is the familiar SSC 10% + HSSC 40% + MDCAT 50%, and the provisional merit list appears two days after the deadline, on 11 November. This guide walks you through eligibility, the 15 colleges, the step-by-step application, the money — including the Rs 600,000 KMU holds after selection — the full schedule to the third placement round in January, and the mistakes that cost students a seat every year. Every date and figure comes from the official KMU admission notice published in Dawn on 5 October 2026 and the caspr.kmu.edu.pk portal itself.',
+    sections: [
+      {
+        heading: 'The deadline is tomorrow — do these three things first',
+        paragraphs: [
+          'Applications close on Monday 9 November 2026 at 5:00 PM Pakistan time, on caspr.kmu.edu.pk. That is a hard portal close: the notice gives no late window and no grace period, and forms submitted after 5:00 PM will not be accepted. If you have not applied yet, apply today, 8 November — not tomorrow evening, when a slow connection or a payment problem can end your whole season.',
+          'If you already applied, the portal has been reopened for editing, so you can still correct your educational or personal information and update your college preferences — but only until the same 9 November deadline. After you edit, submit again and download the fresh application form, because only the version printed on your downloaded form counts.',
+          'The third thing is the one students get wrong most often: use the right portal. The private-sector portal is caspr.kmu.edu.pk. The public-sector portal is cas.kmu.edu.pk, and its application deadline (21 October) has already passed. An application on the public portal does not count for private colleges, and a private application does not count for public colleges. They are two separate admissions with two separate fees.',
+        ],
+      },
+      {
+        heading: 'Who can apply — eligibility in one place',
+        paragraphs: [
+          'The official notice sets four conditions for the private track. First, at least 60% marks in Higher Secondary School Certificate (FSc Pre-Medical) or an equivalent qualification — 660 out of 1100. Second, MDCAT 2024, 2025 or 2026 with at least 55% marks for MBBS (99 out of 180) and at least 50% for BDS (90 out of 180). Third, domicile of Khyber Pakhtunkhwa or the Merged Districts for local seats. Fourth, candidates applying for foreign-quota seats must meet the eligibility laid down in section 7 of the PMDC undergraduate regulations 2023 and the PMDC notification dated 31 October 2025.',
+          'One figure to be careful about: some third-party pages still print 65% as the FSc requirement. That is the old PMC-era figure. The official 2026-27 private admission notice says 60%, and the notice wins. If your FSc is between 60% and 65%, you are eligible for this admission — do not let an outdated page talk you out of applying.',
+        ],
+        list: [
+          'FSc Pre-Medical (or equivalent): at least 60% (660/1100).',
+          'MDCAT 2024, 2025 or 2026: at least 55% for MBBS (99/180), at least 50% for BDS (90/180).',
+          'Domicile: Khyber Pakhtunkhwa or Merged Districts for local seats.',
+          'Foreign-quota seats: PMDC section 7 rules plus the PMDC notification of 31 October 2025.',
+        ],
+      },
+      {
+        heading: 'The 15 private colleges — 10 medical, 5 dental',
+        paragraphs: [
+          'KMU admits to ten private medical colleges and five private dental colleges or dental sections. Your preference order on the form decides where you are placed, and you are only eligible for the quotas, seats and colleges you applied for online and that are printed on your downloaded application form. So list every college you would genuinely accept, in your true order of preference — a college left off your list can never be allotted to you, and a college listed first can lock you in below your merit.',
+          'Three of the fifteen are female-only, so check that column before you rank them: Women Medical College in Abbottabad admits female students only, Peshawar Dental College admits female students only, and the dental section of Women Medical College Abbottabad is female-only too.',
+        ],
+        list: [
+          'Medical: Abbottabad International Medical College (Abbottabad), Frontier Medical College (Abbottabad), Jinnah Medical College (Peshawar), Kabir Medical College (Peshawar), Muhammad College of Medicine (Peshawar), North West School of Medicine (Peshawar), Pak International Medical College (Peshawar), Peshawar Medical College (Peshawar), Rehman Medical College (Peshawar), Women Medical College (Abbottabad — female only).',
+          'Dental: Dental Section, Abbottabad International Medical College; Peshawar Dental College (Peshawar — female only); Rehman College of Dentistry (Peshawar); Sardar Begum Dental College (Peshawar); Dental Section, Women Medical College Abbottabad (female only).',
+        ],
+      },
+      {
+        heading: 'How to apply, step by step',
+        paragraphs: [
+          'KMU has gone fully paperless for this admission. Hard copies of application forms through post or courier are not accepted, and no form is accepted by hand. The whole process runs on caspr.kmu.edu.pk, and it takes about half an hour if your documents and payment are ready.',
+        ],
+        list: [
+          'Open caspr.kmu.edu.pk and click APPLY to create your account.',
+          'Fill in your personal and educational details, including your MDCAT year and score.',
+          'Choose your programme: MBBS Open (Private), BDS Open (Private), MBBS Foreign Self Finance (Private) or BDS Foreign Self Finance (Private). Each programme carries its own Rs 3,000 processing fee, so applying for both MBBS and BDS costs Rs 6,000.',
+          'List your colleges in order of priority, in the designated fields. This order decides your placement — rank honestly, best first.',
+          'Download the challan or bank deposit slip and pay the fee at any Bank of Khyber branch in Pakistan. Keep the original fee slip — you must produce it as evidence during the admission process.',
+          'Log in again after 72 hours to verify your payment status. Admission is allotted only to candidates whose payment status is verified, so do not leave the fee to the last evening.',
+          'Submit your online application before 5:00 PM on Monday 9 November 2026, then download and print your application form. The printed form is your record of the quotas, seats and colleges you applied for.',
+          'Do not send anything by post, courier or hand. If a step asks for a document, it is uploaded on the portal, not mailed.',
+        ],
+      },
+      {
+        heading: 'The money: Rs 3,000 to apply, Rs 600,000 held after selection',
+        paragraphs: [
+          'The application processing fee is Rs 3,000 per programme — MBBS Open (Private) Rs 3,000, BDS Open (Private) Rs 3,000, MBBS Foreign Self Finance (Private) Rs 3,000 and BDS Foreign Self Finance (Private) Rs 3,000. Pay it with the challan at a Bank of Khyber branch, and remember the 72-hour verification rule: log in after three days and confirm the portal shows your payment as verified before the deadline passes.',
+          'The bigger number is the one after selection. KMU retains the initial payable admission and tuition fee — a minimum of Rs 600,000 — charged from students who qualify for admission to a private-sector college. KMU keeps that money until you have obtained admission in a private college or you have asked for the fee to be withdrawn, whichever comes first; then KMU transfers it to your college, or back to you if you withdraw. So budget for Rs 600,000 being held by KMU after you are selected, and keep it ready before the placement rounds start in December.',
+          'Two more money rules from the notice. If you are selected for any category, you must deposit your fee after receiving the admission offer letter within three working days in the KMU account — miss that window and the next applicant on the merit list is offered your seat. And your admission is only confirmed when you have submitted your original documents and deposited the remaining balance of the prescribed fee with your college. The notice does not publish a per-college annual tuition figure, so confirm the fee of each college on its own website or the PMDC list before you rank it first — the PMDC cap for private medical and dental tuition was reported at Rs 1.89 million a year for the 2025-26 session, but that is a reported cap, not a figure from this notice.',
+        ],
+      },
+      {
+        heading: 'Your aggregate: the 10/40/50 formula, worked',
+        paragraphs: [
+          'Private KMU merit uses the same PMDC formula as the public track: SSC 10% + HSSC 40% + MDCAT 50%, with MDCAT scored out of 180 — never out of 200. The formula is: Aggregate = (SSC obtained ÷ SSC total × 10) + (HSSC obtained ÷ HSSC total × 40) + (MDCAT obtained ÷ 180 × 50).',
+          'Worked example: a student with 1050 out of 1100 in SSC, 1000 out of 1100 in HSSC and 150 out of 180 in MDCAT. SSC contributes 1050 ÷ 1100 × 10 = 9.5455. HSSC contributes 1000 ÷ 1100 × 40 = 36.3636. MDCAT contributes 150 ÷ 180 × 50 = 41.6667. Final aggregate: 87.5758%.',
+          'Working backwards from a target: with the same board marks (SSC 9.5455 + HSSC 36.3636 = 45.9091 locked in), a 90% aggregate needs (90 − 45.9091) ÷ 50 × 180 = 159 MDCAT marks. An 85% aggregate needs about 141 MDCAT marks. One MDCAT mark is worth 50 ÷ 180 = 0.2778 aggregate points, and one HSSC mark is worth 40 ÷ 1100 = 0.0364 points — so one MDCAT mark is worth roughly 7.6 HSSC marks. If you are choosing between improving board marks and improving your MDCAT score, the MDCAT moves your aggregate far faster.',
+        ],
+      },
+      {
+        heading: 'The full schedule — every date to January',
+        paragraphs: [
+          'The official schedule runs from the form opening on 6 October 2026 to the third placement round in January 2027. Save these dates now, because the objection window after the provisional list is only two days.',
+        ],
+        list: [
+          'Admission form available on caspr.kmu.edu.pk: 6 October 2026.',
+          'Last date for online submission of admission forms: Monday 9 November 2026 (5:00 PM).',
+          'Display of provisional merit list: 11 November 2026.',
+          'Submission of online objections or claims on the provisional merit list: 11–12 November 2026.',
+          'Meeting of the appellate Scrutiny Committee for objections, claims and complaints: 16 November 2026.',
+          'Display of final merit list: 24 November 2026.',
+          'Placement in various categories, MBBS and BDS: 8–12 December 2026.',
+          'Second round of placement on all vacant seats: 21–24 December 2026.',
+          'Third round of placement on all vacant seats: 4–7 January 2027.',
+        ],
+      },
+      {
+        heading: 'After you apply — lists, objections, placement',
+        paragraphs: [
+          'Two days after the deadline, on 11 November, KMU displays the provisional merit list on the portal. Read your row the same day: check your name, CNIC, domicile district, category, SSC and HSSC marks, MDCAT score and computed aggregate. If anything is wrong, you have only 11 and 12 November to submit an online objection or claim — the notice gives the window but the exact form or link will be published on caspr.kmu.edu.pk, so check the portal on 11 November rather than guessing a URL. The appellate Scrutiny Committee meets on 16 November, and the final merit list follows on 24 November.',
+          'Placement then runs in three rounds: 8–12 December, 21–24 December, and 4–7 January 2027. Placement follows your merit and the preference order on your form — you can only be placed in a college and category you applied for. After each placement, the three-working-day fee rule applies: deposit the fee after your offer letter within three working days or the seat passes to the next candidate. Keep your original documents ready, because admission is confirmed only when they are submitted and the remaining fee balance is deposited with the college.',
+          'If your name is missing from the provisional list, do not wait for the final list to act. Check first whether your payment was verified — unverified payments are not allotted — and whether you applied on the right portal. If the row itself is wrong, the 11–12 November objection window is your only route to fix it.',
+        ],
+      },
+      {
+        heading: 'Seven mistakes that cost students a private KMU seat',
+        paragraphs: [
+          'Most private-track rejections are not about merit — they are about procedure. These seven are the ones to avoid.',
+        ],
+        list: [
+          'Applying on cas.kmu.edu.pk, the public portal, instead of caspr.kmu.edu.pk. The two admissions are separate.',
+          'Paying the fee on the last day. Payment verification takes up to 72 hours, and only candidates with verified payment status are allotted.',
+          'Listing colleges in the wrong order. Preference order decides placement — rank your true first choice first.',
+          'Leaving off a college you would have accepted. It can never be allotted to you later.',
+          'Missing the 5:00 PM deadline on 9 November. The portal closes and the notice gives no late window.',
+          'Sending a hard copy by post, courier or hand. KMU is fully paperless for this admission — mailed forms are not accepted.',
+          'Submitting forged certificates or fake documents. The notice is explicit: the candidate is debarred from admission to any medical or dental institution and the admission is cancelled.',
+        ],
+      },
+      {
+        heading: 'What this guide does not know yet — read before you act',
+        paragraphs: [
+          'This guide is written on 8 November 2026, one day before the deadline. Five things are deliberately not stated here because no verified source states them. First, some third-party pages print 7 November as the last date and 29 November as the final-list date — those conflict with the official portal and the Dawn notice, which say 9 November and 24 November. The official sources win. Second, one blog prints the application fee as "approximately Rs 5,000–6,000" — that is wrong; the official fee is Rs 3,000 per programme. Third, no 2026-27 private closing merit exists yet — anyone quoting one today is guessing; real closings will only emerge from the placement rounds in December and January. Fourth, per-college seat numbers and annual tuition are not in the admission notice — confirm them on the college\u2019s own website or the PMDC list before you rank a college first. Fifth, the exact objection form or link for the private track will be published on the portal with the provisional list; this guide does not invent a URL for it. If any figure here disagrees with caspr.kmu.edu.pk or a KMU notice, the portal and the notice win. For queries, KMU lists privatesector@kmu.edu.pk and phone 091-9217703.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for KMU private MBBS/BDS 2026?',
+        answer: 'Monday 9 November 2026 at 5:00 PM Pakistan time, on caspr.kmu.edu.pk. The form has been available since 6 October 2026, and the notice gives no late window — apply today rather than tomorrow evening.',
+      },
+      {
+        question: 'Which portal do I use — cas.kmu.edu.pk or caspr.kmu.edu.pk?',
+        answer: 'Use caspr.kmu.edu.pk for private-sector MBBS/BDS. cas.kmu.edu.pk is the public-sector portal, and its deadline (21 October 2026) has already passed. An application on the wrong portal does not count for the other track.',
+      },
+      {
+        question: 'What is the application fee for KMU private MBBS/BDS?',
+        answer: 'Rs 3,000 per programme: MBBS Open (Private), BDS Open (Private), MBBS Foreign Self Finance (Private) and BDS Foreign Self Finance (Private) each cost Rs 3,000. Applying for both MBBS and BDS costs Rs 6,000. Pay by challan at any Bank of Khyber branch and verify the payment on the portal after 72 hours.',
+      },
+      {
+        question: 'Can I apply for both MBBS and BDS in KMU private colleges?',
+        answer: 'Yes. They are separate programme choices with a separate Rs 3,000 fee each, and you list college preferences for each. Your aggregate is the same 10/40/50 formula for both, but the MDCAT floor differs: 55% for MBBS and 50% for BDS.',
+      },
+      {
+        question: 'What is the minimum MDCAT score for KMU private MBBS/BDS?',
+        answer: 'At least 55% in MDCAT 2024, 2025 or 2026 for MBBS (99 marks out of 180) and at least 50% for BDS (90 out of 180), plus at least 60% (660/1100) in FSc Pre-Medical and Khyber Pakhtunkhwa or Merged Districts domicile for local seats.',
+      },
+      {
+        question: 'Do I need Khyber Pakhtunkhwa domicile for KMU private colleges?',
+        answer: 'Yes, for local seats you need domicile of Khyber Pakhtunkhwa or the Merged Districts. Foreign-quota seats follow PMDC section 7 rules and the PMDC notification dated 31 October 2025.',
+      },
+      {
+        question: 'When is the KMU private merit list 2026?',
+        answer: 'The provisional merit list is displayed on 11 November 2026, objections and claims are accepted online on 11–12 November, the appellate Scrutiny Committee meets on 16 November, and the final merit list is displayed on 24 November 2026. Placement rounds follow on 8–12 December, 21–24 December and 4–7 January 2027.',
+      },
+      {
+        question: 'What is the Rs 600,000 that KMU keeps after selection?',
+        answer: 'KMU retains the initial payable admission and tuition fee — a minimum of Rs 600,000 — from students who qualify for a private-sector seat. KMU holds it until you are placed in a private college or you ask for the fee to be withdrawn, and then transfers it to your college or back to you. After your offer letter, you must deposit the fee within three working days or the seat goes to the next candidate.',
+      },
+    ],
+    relatedCalculators: ['kemu', 'duhs', 'nums'],
+  },
 ];

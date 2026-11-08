@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#065f46"/>
+      <stop offset="0.55" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ccfbf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="70" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="100" cy="570" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="990" cy="530" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- application form card -->
+  <g transform="translate(770,105)">
+    <rect x="0" y="0" width="350" height="420" rx="22" fill="url(#card)"/>
+    <rect x="28" y="28" width="200" height="16" rx="8" fill="#065f46"/>
+    <rect x="28" y="56" width="140" height="10" rx="5" fill="#94a3b8"/>
+    <rect x="28" y="88" width="294" height="46" rx="10" fill="#ccfbf1"/>
+    <text x="44" y="118" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#065f46">caspr.kmu.edu.pk</text>
+    <rect x="28" y="150" width="294" height="46" rx="10" fill="#e2e8f0"/>
+    <text x="44" y="180" font-family="Arial, sans-serif" font-size="20" fill="#475569">MBBS / BDS 2026-27</text>
+    <rect x="28" y="212" width="294" height="46" rx="10" fill="#e2e8f0"/>
+    <text x="44" y="242" font-family="Arial, sans-serif" font-size="20" fill="#475569">15 private colleges</text>
+    <rect x="28" y="288" width="294" height="64" rx="12" fill="#065f46"/>
+    <text x="175" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff">APPLY NOW</text>
+    <text x="175" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Deadline: 9 Nov, 5:00 PM</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Arial, sans-serif" fill="#ffffff">
+    <text x="80" y="165" font-size="60" font-weight="bold">APPLY FOR MBBS/BDS</text>
+    <text x="80" y="235" font-size="60" font-weight="bold">IN KMU PRIVATE</text>
+    <text x="80" y="305" font-size="60" font-weight="bold">COLLEGES</text>
+    <text x="80" y="360" font-size="30" fill="#a7f3d0">Khyber Pakhtunkhwa 2026-27</text>
+    <text x="80" y="402" font-size="30" fill="#a7f3d0">Step-by-step application guide</text>
+  </g>
+
+  <!-- pills -->
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    <rect x="80" y="450" width="330" height="52" rx="26" fill="#ffffff"/>
+    <text x="245" y="484" text-anchor="middle" fill="#065f46">9 NOV 2026, 5 PM</text>
+    <rect x="430" y="450" width="240" height="52" rx="26" fill="#fbbf24"/>
+    <text x="550" y="484" text-anchor="middle" fill="#451a03">Rs 3,000 FEE</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    <rect x="80" y="520" width="330" height="52" rx="26" fill="#ffffff" opacity="0.92"/>
+    <text x="245" y="554" text-anchor="middle" fill="#065f46">15 COLLEGES</text>
+    <rect x="430" y="520" width="240" height="52" rx="26" fill="#ffffff" opacity="0.92"/>
+    <text x="550" y="554" text-anchor="middle" fill="#065f46">LIST: 11 NOV</text>
+  </g>
+</svg>
