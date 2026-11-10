@@ -146,4 +146,175 @@ export const BLOG_POSTS_PART8: BlogPost[] = [
     ],
     relatedCalculators: ['kemu', 'duhs', 'nums'],
   },
+  {
+    slug: "low-mdcat-score-what-to-do-next-2026",
+    image: "/blog/low-mdcat-score-what-to-do-next-2026.svg",
+    imageAlt: "Low MDCAT score options guide: BDS at 50% MDCAT, private MBBS, repeating MDCAT 2027, NUMS and MBBS abroad after MDCAT 2026",
+    title: "MDCAT Score Low? What to Do Next — Your Options After MDCAT 2026",
+    description:
+      "Scored below the MDCAT 2026 merit cutoffs? Your result is not the end of the road: BDS at 50% MDCAT, private MBBS merit ranges, repeating MDCAT 2027, NUMS, MBBS abroad after the PMDC exemption, and allied health — with the real numbers.",
+    category: "Guides",
+    date: "November 2026",
+    readTime: "8 min read",
+    intro:
+      "The MDCAT 2026 result is out, the merit lists are landing one by one — KMU final list on 12 November, UHS provisional lists on 12–13 November — and thousands of students are discovering that passing MDCAT was the easy part. In Punjab alone, 37,708 candidates cleared the 55% MBBS floor, but there are far fewer public MBBS seats than that. If your score is low, this guide lays out every real option you still have: BDS, private MBBS, repeating MDCAT, NUMS, MBBS abroad under the new PMDC rule, and allied health degrees — with the actual numbers, so you can decide on facts instead of panic.",
+    sections: [
+      {
+        heading: "The honest picture first: qualifying is not the same as getting a seat",
+        paragraphs: [
+          "Start with the numbers, because they explain why so many good students feel stuck. In Punjab, the University of Health Sciences (UHS) ran MDCAT 2026 on 20 September and declared the result on 24 September 2026. Of 49,202 registered candidates, 47,475 appeared. Of those, 37,708 scored at least 55% (99 of 180 marks) — the MBBS qualifying floor — a pass rate of 79.43%. Another 2,749 candidates cleared only the BDS floor: 40,457 in total reached 50% (90 of 180), or 85.22%. And 7,018 candidates — 14.78% — scored 89 marks or below.",
+          "But passing only lets you apply. Seats go by aggregate merit, and the score bands show how crowded the top is: 1,772 candidates scored 170–180, 8,454 scored 160 or above, and 14,714 scored 150 or above. In Khyber Pakhtunkhwa, KMU reported a 66% success rate with a topper at a perfect 180. So if your MDCAT score is 130, 120 or even 110, you are not alone — and you are not finished. The rest of this guide works through your options in order of how soon they close.",
+        ],
+        list: [
+          "MDCAT 2026 (Punjab): 47,475 appeared, 37,708 cleared 55% for MBBS, 40,457 cleared 50% for BDS.",
+          "8,454 candidates scored 160+ and 14,714 scored 150+ — far more than the public MBBS seats available.",
+          "A low MDCAT score hurts, but your aggregate — not your MDCAT marks alone — decides your options.",
+        ],
+      },
+      {
+        heading: "Step 1: work out where you actually stand",
+        paragraphs: [
+          "Before choosing any option, calculate your real aggregate. The formula for public MBBS/BDS admissions in Punjab, Sindh, KP and Balochistan is the same: Matric 10% + FSc 40% + MDCAT 50%, with MDCAT out of 180. Take a student with 1050/1100 in Matric, 1000/1100 in FSc and 130/180 in MDCAT. Matric contributes (1050 ÷ 1100 × 10) = 9.5455. FSc contributes (1000 ÷ 1100 × 40) = 36.3636. MDCAT contributes (130 ÷ 180 × 50) = 36.1111. Final aggregate: 82.0202%.",
+          "Now compare that honestly. KEMU, the top public medical college in Punjab, closed at around 94.9% in 2025, and every other public MBBS college in the province closed far above 82% last year — so 82.02% would not have reached public MBBS. But that same 82.02% sits inside the range where private colleges closed their first lists last session (see Option 2 below), and it is comfortably above the BDS floors. The point of the exercise: your MDCAT score alone does not tell you your fate. A student with strong board marks and a weak MDCAT can still have options; a student with weak boards and a weak MDCAT has fewer. Calculate first, decide second. Use the KEMU, DUHS or NUMS calculator on this site — the formula is the same 10/40/50 for the MDCAT provinces.",
+        ],
+        list: [
+          "Aggregate = (Matric ÷ 1100 × 10) + (FSc ÷ 1100 × 40) + (MDCAT ÷ 180 × 50).",
+          "Example: 1050 Matric + 1000 FSc + 130 MDCAT = 82.0202%.",
+          "One MDCAT mark is worth 0.2778 aggregate points — every mark matters, but no single mark decides everything.",
+        ],
+      },
+      {
+        heading: "Option 1: BDS is still open if your MDCAT is 50–55%",
+        paragraphs: [
+          "If your MDCAT score is between 90 and 98 out of 180 — 50% to just under 55% — you cannot apply for MBBS, but you can apply for BDS. The BDS floor is 50% (90/180) in every province, and the BDS admission window in Punjab has not even opened yet. Public BDS applications run 15–30 December 2026 on publicbds.uhs.edu.pk, with the provisional list on 6 January 2027, the final list on 9 January and selection lists on 11, 15 and 21 January 2027; classes begin 1 March 2027. The application fee is Rs 2,000, and there are five public dental colleges in Punjab. The private BDS track runs 18 December 2026–1 January 2027, with its provisional list on 8 January, final list on 11 January and selections on 13, 18 and 22 January 2027.",
+          "Take the same example student — 1050 Matric, 1000 FSc — but with 95/180 in MDCAT. The aggregate is 9.5455 + 36.3636 + (95 ÷ 180 × 50 = 26.3889) = 72.2980%. That is a realistic BDS application: BDS merit closes well below MBBS merit, and the competition is smaller. BDS is a full five-year professional degree with its own house job and practice — it is not a failed version of MBBS. If dentistry interests you at all, do not let the MBBS disappointment push you past a December deadline you can still meet. Read the full BDS application guide on this site for the document list and the step-by-step process.",
+        ],
+        list: [
+          "BDS floor: 50% MDCAT (90/180) + 60% FSc (660/1100) + Punjab domicile for the public track.",
+          "Public BDS Punjab: apply 15–30 December 2026; lists in January 2027; classes 1 March 2027.",
+          "Private BDS: apply 18 December 2026–1 January 2027; selections 13, 18 and 22 January 2027.",
+        ],
+      },
+      {
+        heading: "Option 2: private MBBS — where merit actually closes",
+        paragraphs: [
+          "Private medical colleges are the most misunderstood option. Their merit is lower than public colleges, but it is not low. In the previous session, the first selection lists of Punjab private colleges closed from 92.7136% (Al Aleem Medical College, Lahore) down to 75.9465% (Queens Medical College for Women, Kasur), with Sharif at 91.6586%, Shalamar at 90.6364% and FMH at 90.1348% in between. Those figures come from Academia Magazine's reporting of the first lists — they are first-list numbers from the previous session, before upgradation dragged merit down in later rounds, and they are benchmarks, not targets. Our example student at 82.0202% would have missed the Lahore flagships on that first list and sat inside the range of many other private colleges.",
+          "The timing matters: private MBBS applications in Punjab closed on 6 November 2026, the provisional list is due 12 November, the final list on 16 November, and selection lists on 18, 23 and 27 November 2026. If you applied, watch every list — upgradation moves merit down, and a college you missed on the first list can open up on the second or third. If you are selected, the token fee is Rs 600,000, payable within three working days of the offer — miss that deadline and the seat goes to the next candidate. Tuition after that varies college by college; there is no single private fee figure, so check the college's own fee notice before you commit. The full private merit-list guide on this site explains how to read each list and what the fee rules are.",
+        ],
+        list: [
+          "Previous-session private first lists (Punjab): 92.7136% down to 75.9465% — first lists, not final closings.",
+          "2026-27 private MBBS: provisional 12 Nov, final 16 Nov, selections 18/23/27 Nov 2026.",
+          "Token fee Rs 600,000 within 3 working days of selection; tuition varies by college.",
+        ],
+      },
+      {
+        heading: "Option 3: repeat MDCAT 2027 — the maths of improving",
+        paragraphs: [
+          "Repeating is the option most students dismiss too quickly, because the maths is kinder than it feels. One MDCAT mark is worth 0.2778 aggregate points, so 30 extra MDCAT marks are worth 8.3333 points. Take our example student again: 1050 Matric, 1000 FSc, 130 MDCAT = 82.0202%. If the same student scores 160/180 on a repeat — 30 marks better — the aggregate becomes 9.5455 + 36.3636 + (160 ÷ 180 × 50 = 44.4444) = 90.3535%. That is a jump of more than eight points, from below every public MBBS close to within reach of several public colleges. Even 18 extra marks buy a full five aggregate points.",
+          "Two things make repeating practical. First, your current score is not wasted: MDCAT scores from 2024, 2025 and 2026 were all accepted in the 2026-27 admission cycle, so a 2026 score should remain usable in the next cycles — confirm it against the next cycle's notice when it is published. Second, you can improve your FSc side too: 50 extra FSc marks are worth 1.8182 aggregate points, and improvement exams are a real route. The next MDCAT is expected in 2027; no date has been announced yet, so do not trust any date circulating on social media. If you repeat, start preparing now, while the lists are still running — you lose nothing by preparing, and you keep every other option open in parallel.",
+        ],
+        list: [
+          "30 extra MDCAT marks = +8.3333 aggregate points (130 → 160 moves 82.02% to 90.35%).",
+          "18 extra MDCAT marks = +5.0 aggregate points; 50 extra FSc marks = +1.8182 points.",
+          "2024, 2025 and 2026 MDCAT scores were all accepted in the 2026-27 cycle.",
+        ],
+      },
+      {
+        heading: "Option 4: NUMS — but only if you sat the test",
+        paragraphs: [
+          "NUMS is a separate door, and it is only open to students who sat the NUMS entry test on 13 September 2026. The NUMS formula is different from the MDCAT provinces: Matric 10% + FSc 40% + NUMS Entry Test 50%, with the NUMS test out of 200 — never out of 180, and never the MDCAT. Centralized registration for NUMS MBBS/BDS closes on 11 November 2026 at 4:00 PM (late registration to 25 November), the provisional merit list is due 10 December, the first MBBS selection list on 17 December 2026 and the BDS selection on 21 January 2027.",
+          "If you sat the NUMS test and your NUMS score is stronger than your MDCAT score, this can rescue your year: a student who scored poorly in MDCAT but well in the NUMS test competes on the NUMS aggregate instead. But be clear about the limit — if you did not sit the NUMS test on 13 September, there is no way into the NUMS 2026-27 cycle, and anyone offering to arrange it is selling you a lie. The NUMS aggregate guide and the NUMS application guide on this site have the full college lists and the worked examples.",
+        ],
+        list: [
+          "NUMS registration closes 11 November 2026, 4:00 PM; late registration to 25 November.",
+          "Formula: Matric 10% + FSc 40% + NUMS test 50% (test out of 200).",
+          "Provisional list 10 December; first MBBS selection 17 December 2026.",
+        ],
+      },
+      {
+        heading: "Option 5: MBBS abroad — the PMDC rule changed on 5 October 2026",
+        paragraphs: [
+          "This is the option that changed most recently, and the change matters. On 14 September 2026 the Pakistan Medical and Dental Council decided, and in a public notice dated 5 October 2026 announced, that Pakistani students no longer need to pass MDCAT before taking admission in a foreign medical or dental institution. The old rule — at least 50% in MDCAT before going abroad, in force since the 2024-25 session and restated as recently as May 2026 — no longer applies to the foreign-admission route. MDCAT is still mandatory for admission to medical and dental colleges inside Pakistan.",
+          "The exemption removes one gate, not all of them. The other PMDC conditions still apply: the foreign institution must be recognised (listed by PMDC, and accredited by WFME or listed in WDOMS), the programme must be a five-year allopathic medicine degree, and you still need at least 60% in FSc Pre-Medical. And the return journey is the part agents skip: a foreign medical graduate must pass PMDC's National Registration Examination and complete a one-year house job in Pakistan before getting a licence to practise, and transferring mid-studies to a Pakistani university requires clearing the NEB assessment. Before paying anyone, verify the institution on PMDC's own website, confirm the total cost in writing (tuition, hostel, living, travel — not just the first-year figure), and never hand over full fees to an agent upfront.",
+        ],
+        list: [
+          "PMDC public notice, 5 October 2026: no MDCAT needed for admission to foreign medical/dental institutions.",
+          "Still required: recognised institution, 60% FSc, five-year allopathic programme.",
+          "On return: pass the National Registration Examination + one-year house job before practising in Pakistan.",
+        ],
+      },
+      {
+        heading: "Option 6: allied health and other degrees",
+        paragraphs: [
+          "If medicine itself is the goal, the options above are your route. But if the goal is a healthcare career, the allied health degrees deserve an honest look: Doctor of Physical Therapy (DPT), Pharm-D, BS Nursing, BS Medical Laboratory Technology (MLT) and similar programmes. These are full professional degrees with their own careers, their own merit lists and — importantly — their own admission timelines and entry tests, run by the universities themselves rather than through the MDCAT merit lists. They are not consolation prizes, and they are not easier versions of MBBS; they are different professions.",
+          "Because each university runs its own allied-health admissions, there is no single deadline to quote here — check the admissions page of the university you are interested in, and do it this week, because several universities open allied-health admissions while the MBBS lists are still running. If you choose this route, choose it because the profession interests you, not because a deadline panicked you into it.",
+        ],
+      },
+      {
+        heading: "What not to do: the traps",
+        paragraphs: [
+          "Low scores attract predators, and the traps are the same every year. First, nobody can sell you a public merit seat. Any agent or WhatsApp contact offering a 'confirmed' public MBBS seat for money is a fraud — public seats are allotted strictly by the merit lists published on the official portals. Second, do not trust merit lists forwarded on WhatsApp or Facebook: only the list on the official portal (publicmbbs.uhs.edu.pk, cas.kmu.edu.pk, admission.szabmu.edu.pk and the equivalent official pages) is real. Third, do not give up after the first list. Upgradation rounds move merit down every year — Punjab public selections run 17 November, 23 November and 1 December, KMU runs 2nd and 3rd rounds on 1–4 and 15–17 December, and seats fall vacant when selected candidates do not deposit the fee.",
+          "Fourth, do not make one decision when you can make several in parallel: apply for BDS, keep your private options live, and start MDCAT preparation at the same time — the options only conflict if you let a deadline pass while deciding. And fifth, do not decide on a single headline cutoff. Closing merits move every year with the strength of the applicant pool; last year's 94.9% at KEMU is a benchmark, not a prediction.",
+        ],
+        list: [
+          "No one can sell a public merit seat — every public seat comes from the official merit list only.",
+          "Trust only the list on the official portal, never a WhatsApp forward.",
+          "Later selection rounds move merit down — check every list, not just the first.",
+        ],
+      },
+      {
+        heading: "Your 7-day action plan",
+        paragraphs: [
+          "Here is what to do this week, in order. First, calculate your real aggregate with the 10/40/50 formula and write it down — decisions made on the MDCAT number alone are usually wrong. Second, check the lists landing this week: KMU private provisional on 11 November, KMU public final on 12 November, UHS private provisional on 12 November and UHS public provisional on 13 November. Third, if your MDCAT is 50–55%, get your BDS documents ready now for the 15 December public BDS opening — do not wait until December to discover a missing document. Fourth, if you are repeating, start MDCAT preparation this week; 18 marks is five aggregate points, and the preparation compounds.",
+          "Fifth, if you are considering MBBS abroad, verify the institution on PMDC's website before talking money with anyone. Sixth, if you sat the NUMS test, complete the centralized registration before 4:00 PM on 11 November — after that only the late window to 25 November remains. And finally, keep checking the official portals through December: the lists that matter most to a low scorer are usually the second and third ones.",
+        ],
+        list: [
+          "Calculate your aggregate (10/40/50) before deciding anything.",
+          "Check KMU final (12 Nov), UHS private provisional (12 Nov), UHS public provisional (13 Nov).",
+          "BDS documents ready for 15 December; NUMS registration before 11 Nov, 4:00 PM if you sat the test.",
+        ],
+      },
+      {
+        heading: "Page notes: what is not known yet",
+        paragraphs: [
+          "No 2026-27 closing merit has been published for any public or private MBBS or BDS college yet — the first selection lists land 12–17 November, and this guide quotes no 2026-27 cutoff anywhere. The private figures quoted are first-list numbers from the previous session, reported by Academia Magazine, and upgradation moved them down. The Punjab MDCAT statistics (47,475 appeared; 37,708 cleared 55%; 40,457 cleared 50%) are from the official UHS result notification as reported by multiple news outlets on 24–25 September 2026. The PMDC foreign-admission exemption is from the Council's public notice dated 5 October 2026 — read the notice itself on the PMDC website before acting on it, because PMDC rules have changed twice in this cycle already.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "I scored 120 in MDCAT. Can I still get MBBS?",
+        answer: "It depends on your aggregate, not the MDCAT number alone. With strong board marks — say 1050/1100 Matric and 1000/1100 FSc — 120/180 in MDCAT gives an aggregate of 79.2424%. That would not reach public MBBS in Punjab, but it sits inside the range where private colleges closed their first lists last session (75.9465% to 92.7136%), and BDS is open to you as well. Calculate your own aggregate before deciding.",
+      },
+      {
+        question: "Is 55% in MDCAT enough for MBBS?",
+        answer: "55% (99/180) makes you eligible to apply for MBBS, but it is not a seat. Public MBBS colleges in Punjab closed far above that level last year — KEMU closed around 94.9% — because eligibility and merit are different things. At 55–60% MDCAT, your realistic MBBS route is a private college, and your BDS route is wide open.",
+      },
+      {
+        question: "Can I apply for BDS with 50% in MDCAT?",
+        answer: "Yes. The BDS floor is 50% (90/180) with 60% in FSc. In Punjab, public BDS applications open 15–30 December 2026 on publicbds.uhs.edu.pk, and the private BDS track runs 18 December 2026–1 January 2027. The same floors apply in the other provinces, with their own portals and dates.",
+      },
+      {
+        question: "Should I repeat MDCAT or take private admission?",
+        answer: "Use the numbers. If your aggregate is within a few points of a private college's previous first-list close and your family can afford the Rs 600,000 token fee plus tuition, private admission is a real option. If you are far below the private range but your board marks are strong, repeating is usually the better investment: 30 extra MDCAT marks are worth 8.33 aggregate points. You can also do both — apply for private admission and keep preparing for a repeat.",
+      },
+      {
+        question: "Is MDCAT required for MBBS abroad in 2026?",
+        answer: "No — not since 5 October 2026, when PMDC announced that Pakistani students no longer need to pass MDCAT before admission to foreign medical or dental institutions. The institution must still be recognised by PMDC, you still need 60% in FSc, and on return you must pass the National Registration Examination and complete a one-year house job before practising in Pakistan.",
+      },
+      {
+        question: "How many MDCAT marks do I need to raise my aggregate by 5 points?",
+        answer: "18 marks. One MDCAT mark is worth 0.2778 aggregate points (50 ÷ 180), so 18 marks × 0.2778 = 5.0 points. For comparison, 50 extra FSc marks are worth only 1.8182 points — MDCAT preparation gives you far more aggregate per hour of study.",
+      },
+      {
+        question: "Can I use my 2026 MDCAT score next year?",
+        answer: "MDCAT scores from 2024, 2025 and 2026 were all accepted in the 2026-27 admission cycle, so a 2026 score should remain usable in the next cycles. Confirm it against the next cycle's official admission notice when it is published — do not rely on a prep academy's word for it.",
+      },
+      {
+        question: "My aggregate is below 80%. What are my real options?",
+        answer: "Four, in order: BDS, if your MDCAT is at least 50% — applications open 15 December in Punjab. Private MBBS at colleges whose previous first lists closed near your aggregate — the range ran 75.9465% to 92.7136% last session. Allied health degrees (DPT, Pharm-D, Nursing, MLT) on separate university timelines. And repeating MDCAT, where 30 extra marks buy 8.33 aggregate points. What is not an option is paying anyone for a 'confirmed' public seat — those do not exist.",
+      },
+    ],
+    relatedCalculators: ["kemu", "duhs", "nums"],
+  },
 ];
