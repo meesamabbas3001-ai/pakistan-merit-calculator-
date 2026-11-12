@@ -317,4 +317,169 @@ export const BLOG_POSTS_PART8: BlogPost[] = [
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
   },
+  {
+    slug: "how-to-apply-szabmu-private-mbbs-bds-2026",
+    image: "/blog/how-to-apply-szabmu-private-mbbs-bds-2026.svg",
+    imageAlt: "Illustration for the SZABMU private MBBS/BDS 2026-27 application guide",
+    title:
+      "How to Apply for SZABMU Private Medical Colleges 2026-27: MBBS/BDS Guide (Deadline 27 November)",
+    description:
+      "SZABMU private MBBS/BDS admissions 2026-27 are open on admission.szabmu.edu.pk/private/ until 27 November 2026. Step-by-step apply guide, Rs 3,000 fee, 10/40/50 merit formula with a worked example, the seven private colleges, and the full list schedule to 7 December.",
+    category: "Guides",
+    date: "November 2026",
+    readTime: "6 min read",
+    intro:
+      "SZABMU has opened centralised admissions for its affiliated private medical and dental colleges in Islamabad for session 2026-27. You apply once, through one portal, and one merit list covers all seven colleges — but the window is short: applications opened on 4 November 2026 and close on 27 November 2026. This guide walks you through the portal, the eligibility rules, the fee, the documents, and the merit-list dates, with a worked aggregate example so you know where you stand before you pay the fee.",
+    sections: [
+      {
+        heading: "The deadline first: 27 November 2026",
+        paragraphs: [
+          "The central online registration for SZABMU private-sector MBBS/BDS admissions opened on 4 November 2026 (the university's notice is dated 5 November 2026) and the last date for application form submission is 27 November 2026. After that, the schedule runs: provisional merit list on 1 December 2026, final provisional merit list on 3 December 2026, and the first selected merit list on 7 December 2026. Do not plan to apply on the last day — the portal asks for scanned documents under 512 KB and a paid challan receipt, and a failed upload on 27 November leaves no time to fix it.",
+          "This is a separate admission from the SZABMU public track. The public colleges (Federal Medical College Islamabad, Shaikh Khalifa Bin Zayed Al-Nahyan Medical & Dental College Lahore, and the School of Dentistry Islamabad) closed their applications on 30 October 2026, and their provisional merit list was reported published on 6 November 2026. If you applied to the public track, that is a different list on a different timeline — this post is only about the private colleges.",
+        ],
+      },
+      {
+        heading: "Which colleges are covered?",
+        paragraphs: [
+          "SZABMU runs one centralised admission for the private medical and dental colleges affiliated with it in the Islamabad Capital Territory. You do not apply to colleges one by one — you submit one form, rank your college preferences in order, and the merit list places you. Your preference order becomes final once submitted, so rank the colleges in the order you genuinely want them, not the order you think is 'safe'.",
+        ],
+        list: [
+          "MBBS — Islamabad Medical & Dental College, Rawal Institute of Health Sciences, HBS Medical & Dental College.",
+          "BDS — Dental College of Islamabad Medical & Dental College, Dental College of Rawal Institute of Health Sciences, HBS Dental College, Bashir College of Dentistry.",
+          "Seven colleges in total: three MBBS colleges and four BDS colleges.",
+        ],
+      },
+      {
+        heading: "Who can apply: eligibility",
+        paragraphs: [
+          "The eligibility rules follow the PMDC Undergraduate Education Regulations 2026. You need at least 60% marks in FSc Pre-Medical (660 out of 1100) or an equivalent HSSC 12th-grade qualification certified by IBCC. For the entry test, MBBS needs at least 55% in MDCAT (99 out of 180) and BDS needs at least 50% (90 out of 180). MDCAT scores from 2024, 2025 or 2026 are all accepted — the same three-year acceptance the other admitting universities use this cycle.",
+          "Overseas and foreign candidates may substitute MDCAT with SAT-II (minimum 550 in each of Biology, Chemistry and Physics/Maths) or MCAT/UCAT with 50% marks. There is a 15% quota reserved for overseas Pakistanis and dual nationals in each private college; unfilled overseas seats automatically convert to the open merit pool, so they are not lost.",
+        ],
+      },
+      {
+        heading: "The merit formula: 10/40/50",
+        paragraphs: [
+          "Merit is calculated the same way as the rest of the country's public MBBS/BDS admissions this cycle: Matric (SSC) 10% + FSc (HSSC) 40% + MDCAT 50%, with MDCAT scored out of 180. The formula is: Aggregate = (SSC obtained ÷ SSC total × 10) + (HSSC obtained ÷ HSSC total × 40) + (MDCAT obtained ÷ 180 × 50).",
+          "Worked example: a student with 1050/1100 in Matric, 1000/1100 in FSc and 150/180 in MDCAT gets (1050 ÷ 1100 × 10) = 9.5455 from Matric, (1000 ÷ 1100 × 40) = 36.3636 from FSc, and (150 ÷ 180 × 50) = 41.6667 from MDCAT — a total aggregate of 87.5758%. Because MDCAT carries half the weight, it moves your aggregate fastest: one MDCAT mark is worth 0.2778 aggregate points, so 10 MDCAT marks are worth 2.78 points — about the same as 76 FSc marks. If your target is 90% with those same board marks, you would need (90 − 45.9091) ÷ 50 × 180 = 159 out of 180 in MDCAT.",
+          "Use the SZABMU calculator on this site to run your own numbers before you pay the application fee — if your aggregate is far below the range private colleges closed at last session, you may be better off applying for BDS or planning a repeat instead.",
+        ],
+      },
+      {
+        heading: "How to apply, step by step",
+        paragraphs: [
+          "Applications are online only, through the central private portal at admission.szabmu.edu.pk/private/. No hard copies are accepted and no individual college applications are needed. Work through the steps in order and keep a copy of everything you submit.",
+        ],
+        list: [
+          "Open admission.szabmu.edu.pk/private/ and create an account with your full name, CNIC/NICOP/passport number and an active email address.",
+          "Log in and complete your personal details, enter your MDCAT (or SAT/MCAT) scores and your academic grades exactly as they appear on your certificates.",
+          "Upload clear scanned JPEG documents under 512 KB each (see the checklist below). Oversized or blurry scans are a common reason for rejection at screening.",
+          "Select your college preferences from the dropdown in the order you want them. This order becomes final and unchangeable once submitted — a college you leave off the list will never be offered to you.",
+          "Generate the bank challan and pay the non-refundable application processing fee of Rs 3,000 per programme — separately for MBBS and BDS if you apply for both.",
+          "Upload the paid fee receipt, review the whole form once more, and submit it online before 27 November 2026.",
+        ],
+      },
+      {
+        heading: "Documents checklist",
+        paragraphs: [
+          "Prepare these before you start the form, so the application takes minutes instead of hours. Every scan must be a clear JPEG under 512 KB.",
+        ],
+        list: [
+          "Recent passport-size photograph with a blue or white background.",
+          "Valid CNIC, NICOP or passport.",
+          "Matric (SSC) certificate, or IBCC equivalence if you did O-Levels.",
+          "FSc Pre-Medical transcript, or A-Level IBCC equivalence.",
+          "Valid MDCAT result certificate (2024, 2025 or 2026).",
+          "Paid application processing fee challan (Rs 3,000 per programme).",
+          "Overseas applicants additionally: proof of study abroad, plus an Iqama, residence permit, green card or foreign passport.",
+        ],
+      },
+      {
+        heading: "What happens after you apply",
+        paragraphs: [
+          "The provisional merit list is displayed on 1 December 2026, the final provisional merit list on 3 December 2026, and the first selected merit list on 7 December 2026. Check the lists on the portal yourself — SZABMU does not send individual call letters, and the lists are the only notice you get. Selected candidates must deposit their college tuition fee within the timeframe printed on the selection list; failure to pay on time cancels the provisional admission immediately and the seat passes to the next candidate on the waiting list.",
+          "After the first selection list, further lists fill the seats left empty by non-joining candidates, in the same way as the other provinces' upgradation rounds. Keep checking the portal after 7 December even if your name is not on the first list.",
+        ],
+      },
+      {
+        heading: "Private vs public — do not mix them up",
+        paragraphs: [
+          "Students confuse the two SZABMU tracks every year, and the confusion costs applications. The public track is for the three federal public colleges (FMC Islamabad, SKZMDC Lahore, School of Dentistry Islamabad): applications closed 30 October 2026, the provisional merit list was reported published on 6 November 2026, and admission there is on the public fee. The private track in this post is for the seven affiliated private colleges: applications run 4–27 November 2026 on a different portal (admission.szabmu.edu.pk/private/), with its own lists in December and private-college tuition. Applying to one track does not enter you in the other.",
+          "If you applied to the public track, watch szabmu.edu.pk for its selection lists. If you missed it, the private track is still open until 27 November — but weigh the private tuition honestly against your family's budget before you pay the Rs 3,000 fee.",
+        ],
+      },
+      {
+        heading: "Mistakes that get forms rejected",
+        paragraphs: [
+          "Most rejected forms fail on avoidable errors. The portal screens your documents before merit is even calculated, so a sloppy upload can end your application before it starts.",
+        ],
+        list: [
+          "Preference order submitted in the wrong order — it cannot be changed after submission, so rank colleges by your real preference.",
+          "Scans larger than 512 KB or too blurry to read — compress and re-scan before uploading.",
+          "Challan generated but never paid, or the paid receipt never uploaded — the form is incomplete without it.",
+          "MDCAT from the wrong year — only 2024, 2025 and 2026 are accepted this cycle.",
+          "A-Level or O-Level results submitted without IBCC equivalence.",
+          "Applying on the last day with no time to fix a failed upload or a wrong entry.",
+        ],
+      },
+      {
+        heading: "Page notes: what is not yet known",
+        paragraphs: [
+          "No 2026-27 private closing merits exist yet — the first selection list is on 7 December 2026, and no cutoff can be honestly quoted before then. Per-college seat counts and tuition fees were not stated in the notice as reported, so they are not printed here; check them on the portal or the college's own notice before you finalise your preference order. No objection window was stated in the coverage of the private schedule — if your name or marks are wrong on the 1 December provisional list, check the portal notice that day for the correction channel rather than assuming an email address. All dates and rules in this guide were verified on 12 November 2026 from the SZABMU notice as reported by two independent sources; if the university extends a date, the portal governs.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the last date to apply for SZABMU private MBBS/BDS 2026-27?",
+        answer:
+          "27 November 2026. Online registration opened on 4 November 2026 and closes on 27 November. The provisional merit list follows on 1 December, the final provisional list on 3 December, and the first selected list on 7 December 2026.",
+      },
+      {
+        question: "What is the SZABMU private admission portal?",
+        answer:
+          "admission.szabmu.edu.pk/private/ — the central portal for all affiliated private medical and dental colleges. Create an account with your name, CNIC/NICOP/passport and email, then apply online. No hard copies and no individual college applications are accepted.",
+      },
+      {
+        question: "What is the application fee for SZABMU private admission?",
+        answer:
+          "Rs 3,000 per programme, non-refundable. You pay separately for MBBS and BDS if you apply for both, generate the bank challan from the portal, and upload the paid receipt before submitting the form.",
+      },
+      {
+        question: "What is the merit formula for SZABMU private colleges?",
+        answer:
+          "Matric (SSC) 10% + FSc (HSSC) 40% + MDCAT 50%, with MDCAT out of 180. For example, 1050/1100 Matric, 1000/1100 FSc and 150/180 MDCAT gives an aggregate of 87.5758%.",
+      },
+      {
+        question: "Can I apply with MDCAT 2024 or 2025?",
+        answer:
+          "Yes. MDCAT scores from 2024, 2025 and 2026 are all accepted for SZABMU private admission 2026-27, the same three-year acceptance as the other admitting universities this cycle.",
+      },
+      {
+        question: "What is the minimum MDCAT score for SZABMU private MBBS and BDS?",
+        answer:
+          "55% in MDCAT (99 out of 180) for MBBS and 50% (90 out of 180) for BDS, with at least 60% in FSc Pre-Medical (660 out of 1100). These are eligibility floors — the actual merit cutoffs will be set by the 7 December selection list and will be higher.",
+      },
+      {
+        question: "Which private colleges are included in SZABMU admission 2026-27?",
+        answer:
+          "For MBBS: Islamabad Medical & Dental College, Rawal Institute of Health Sciences, and HBS Medical & Dental College. For BDS: the Dental College of Islamabad Medical & Dental College, the Dental College of Rawal Institute of Health Sciences, HBS Dental College, and Bashir College of Dentistry — seven colleges in total.",
+      },
+      {
+        question: "Is there an overseas quota in SZABMU private colleges?",
+        answer:
+          "Yes — 15% of seats in each private college are reserved for overseas Pakistanis and dual nationals. Unfilled overseas seats automatically convert to the open merit pool. Overseas candidates may substitute MDCAT with SAT-II (minimum 550 in Biology, Chemistry and Physics/Maths) or MCAT/UCAT with 50% marks.",
+      },
+      {
+        question: "I applied to SZABMU public colleges. Is that the same admission?",
+        answer:
+          "No. The public track (FMC Islamabad, SKZMDC Lahore, School of Dentistry Islamabad) closed on 30 October 2026 and its provisional merit list was reported published on 6 November 2026. The private track is a separate admission on a separate portal with its own lists in December. Applying to one does not enter you in the other.",
+      },
+      {
+        question: "When is the first SZABMU private selection list?",
+        answer:
+          "7 December 2026, after the provisional list on 1 December and the final provisional list on 3 December. Check the lists on the portal yourself — no call letters are sent — and deposit the tuition fee within the timeframe printed on the list or the seat is cancelled.",
+      },
+    ],
+    relatedCalculators: ["kemu", "duhs", "nums"],
+  },
 ];
