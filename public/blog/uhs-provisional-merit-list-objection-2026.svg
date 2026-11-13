@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#134e4a"/>
+      <stop offset="0.55" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#155e75"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ccfbf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="70" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="100" cy="570" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="990" cy="530" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- objection document card -->
+  <g transform="translate(770,105)">
+    <rect x="0" y="0" width="350" height="420" rx="22" fill="url(#card)"/>
+    <rect x="28" y="28" width="200" height="16" rx="8" fill="#134e4a"/>
+    <rect x="28" y="56" width="150" height="10" rx="5" fill="#94a3b8"/>
+    <rect x="28" y="88" width="294" height="54" rx="10" fill="#b45309"/>
+    <text x="175" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">PROVISIONAL LIST</text>
+    <rect x="28" y="158" width="294" height="46" rx="10" fill="#ccfbf1"/>
+    <text x="44" y="188" font-family="Arial, sans-serif" font-size="20" fill="#134e4a">Check your row first</text>
+    <rect x="28" y="210" width="294" height="46" rx="10" fill="#e2e8f0"/>
+    <text x="44" y="240" font-family="Arial, sans-serif" font-size="20" fill="#475569">Marks + aggregate</text>
+    <rect x="28" y="262" width="294" height="46" rx="10" fill="#e2e8f0"/>
+    <text x="44" y="292" font-family="Arial, sans-serif" font-size="20" fill="#475569">Category + quota</text>
+    <rect x="28" y="324" width="294" height="54" rx="12" fill="#f59e0b"/>
+    <text x="175" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#451a03">OBJECT WITH PROOF</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Arial, sans-serif" fill="#ffffff">
+    <text x="80" y="165" font-size="58" font-weight="bold">UHS PROVISIONAL</text>
+    <text x="80" y="235" font-size="58" font-weight="bold">MERIT LIST 2026</text>
+    <text x="80" y="305" font-size="58" font-weight="bold">OBJECTION GUIDE</text>
+    <text x="80" y="360" font-size="30" fill="#a7f3d0">File fast, with evidence — or the error stands</text>
+    <text x="80" y="402" font-size="30" fill="#a7f3d0">Public, private &amp; quota tracks</text>
+  </g>
+
+  <!-- pills -->
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    <rect x="80" y="450" width="330" height="52" rx="26" fill="#ffffff"/>
+    <text x="245" y="484" text-anchor="middle" fill="#134e4a">13 NOV: LIST DAY</text>
+    <rect x="430" y="450" width="290" height="52" rx="26" fill="#fbbf24"/>
+    <text x="575" y="484" text-anchor="middle" fill="#451a03">FINAL LIST: 16 NOV</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    <rect x="80" y="520" width="330" height="52" rx="26" fill="#ffffff" opacity="0.92"/>
+    <text x="245" y="554" text-anchor="middle" fill="#134e4a">FILE THE SAME DAY</text>
+    <rect x="430" y="520" width="290" height="52" rx="26" fill="#ffffff" opacity="0.92"/>
+    <text x="575" y="554" text-anchor="middle" fill="#134e4a">EVIDENCE REQUIRED</text>
+  </g>
+</svg>

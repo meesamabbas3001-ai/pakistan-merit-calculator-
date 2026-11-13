@@ -482,4 +482,184 @@ export const BLOG_POSTS_PART8: BlogPost[] = [
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
   },
+  {
+    slug: "uhs-provisional-merit-list-objection-2026",
+    image: "/blog/uhs-provisional-merit-list-objection-2026.svg",
+    imageAlt: "UHS provisional merit list 2026 objection guide: provisional lists 13 November, final list 16 November, file the same day with evidence",
+    title:
+      "How to File an Objection on the UHS Provisional Merit List 2026 (13 November): Evidence, Deadline & What Gets Fixed",
+    description:
+      "UHS Punjab publishes the MBBS provisional merit lists on 13 November 2026 and the final lists on 16 November — the objection window is short. How to audit your row, what evidence to attach, what UHS can and cannot fix, and how to check the correction landed — no invented dates or cutoffs.",
+    category: "Guides",
+    date: "November 2026",
+    readTime: "7 min read",
+    intro:
+      "The UHS provisional order of merit for Punjab MBBS admissions is due today, 13 November 2026 — and the list is a draft, not a verdict. If your marks, your aggregate, your category or even your name is wrong on it, this is the one window in the whole admission cycle where you can get it fixed. The window is short, it is stated in the list notice itself, and once the final list appears on 16 November there is no second chance. This guide walks you through auditing your row, gathering the evidence, filing the objection, and checking that the correction actually landed — for the public, private and reserved-quota tracks.",
+    sections: [
+      {
+        heading: "Today is the day: three provisional lists, one date",
+        paragraphs: [
+          "The UHS provisional order of merit for Punjab MBBS admissions is due today, Friday 13 November 2026 — and it is not one list but three. The public track, the private track and the reserved-quota track all publish a provisional list on the same day, each on its own portal and each with its own final list after it. The public final order of merit follows on Monday 16 November, the private final list also on 16 November, and the reserved-quota final list on Tuesday 17 November. The first college-wise selection lists then follow fast: 17 November for public, 18 November for private, and 27 November for reserved quota. Everything in this guide is about the short gap between today and the final list — because that gap is the only chance you get to fix an error in your row.",
+          "One practical note before you start refreshing: a merit-list tracker reported the provisional list's status as 'Uploading' on the morning of 13 November, which means the document may not be visible the first time you check. UHS lists typically appear during working hours rather than at midnight. If the list is not up when you look in the morning, check again during the day — and check the portal you applied through, not a screenshot in a WhatsApp group. This guide tells you exactly what to check and what to do the moment your row is in front of you.",
+        ],
+      },
+      {
+        heading: "The window is short — plan as if it is 24 hours",
+        paragraphs: [
+          "The objection window for the 2026-27 cycle is stated in the provisional-list notice itself, and at the time of writing no verified window has been published anywhere else — so this guide deliberately does not print a deadline. What the calendar does tell you is the outer limit: the final list is published on 16 November, three days after the provisional list, so the window cannot be longer than three days. In practice it is usually much shorter. In the 2024-25 cycle, UHS gave candidates only 24 hours to submit objections to the provisional list, and other admitting universities have used the same 24-hour pattern in past-cycle notices.",
+          "Treat the window as if it closes tomorrow. Prepare your evidence folder before the list appears, read the notice the moment the list is published, and file the same day if anything is wrong. An error left unchallenged on the provisional list hardens into the final list, and there is no second objection window on the final list itself. The cost of filing early is nothing; the cost of filing late is your rank.",
+        ],
+        list: [
+          "The final list is 16 November (public and private) and 17 November (reserved quota) — the window must close before then.",
+          "Past UHS practice: as little as 24 hours in the 2024-25 cycle.",
+          "Read the 13 November notice for the exact channel and deadline — never assume either.",
+          "File the same day you spot the error, with evidence attached.",
+        ],
+      },
+      {
+        heading: "What an objection can fix — and what it cannot",
+        paragraphs: [
+          "An objection is a correction request about the data on the list, not a second chance at the exam or the application. UHS will correct a row that is factually wrong; it will not re-decide your merit. Knowing the difference before you write saves you a rejected objection and a wasted day.",
+          "These are the errors an objection is for: marks entered wrongly (your Matric, FSc or MDCAT marks on the list differ from your result cards), an aggregate that does not match the official formula applied to your correct marks, a wrong category or quota recorded against your name, a missing row even though you applied, paid and meet the eligibility floors, or wrong identity details such as a misspelled name or wrong CNIC number.",
+          "These are not objection matters. Your MDCAT score itself cannot be challenged through a merit-list objection — the MDCAT recount and review window was a separate process and its complaint deadline was 30 September 2026. Your college preference order cannot be changed — it became final and unchangeable when the public application window closed on 30 October 2026. And an objection cannot waive the eligibility floors: 60% in FSc Pre-Medical (660 out of 1100), at least 55% in MDCAT for MBBS (99 out of 180) and 50% for BDS (90 out of 180). If you are below a floor, the list is not wrong about you.",
+        ],
+        list: [
+          "Wrong Matric, FSc or MDCAT marks on your row.",
+          "Aggregate that does not match the 10/40/50 formula on your correct marks.",
+          "Wrong category, quota or domicile recorded.",
+          "Name missing although you applied, paid the fee and meet the floors.",
+          "Wrong name, father name or CNIC details.",
+        ],
+      },
+      {
+        heading: "Audit your row in five minutes",
+        paragraphs: [
+          "When the list opens, find your own row first — not the topper, not the cutoff, not your friends. Check six things, in this order: your name and father name spelling; your form or application number; your Matric, FSc and MDCAT marks against your result cards; your aggregate against your own calculation under the official formula — Matric 10% + FSc 40% + MDCAT 50%, with MDCAT out of 180; your category and quota, if any; and your merit number. A wrong mark is not a rounding difference: one MDCAT mark is worth 50 divided by 180, or 0.2778 aggregate points, so a small error moves your rank visibly.",
+          "Worked example, using the standard profile from our other UHS guides so you can compare directly. A student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc and 150 out of 180 in MDCAT has an aggregate of (1050 ÷ 1100 × 10) = 9.5455, plus (1000 ÷ 1100 × 40) = 36.3636, plus (150 ÷ 180 × 50) = 41.6667 — a total of 87.5758%. Now see what an error costs. If the list shows FSc as 950 instead of 1000, the aggregate falls by 50 ÷ 1100 × 40 = 1.8182 points, to 85.7576%. If the list shows MDCAT as 140 instead of 150, it falls by 10 ÷ 180 × 50 = 2.7778 points, to 84.7980%. Either error can cost you dozens of merit positions — and a college. That is why the audit comes before any celebration or panic.",
+          "If your aggregate matches your own calculation to two decimal places, your row is almost certainly right and there is nothing to object to — note your merit number and move on to watching the selection lists. If it differs by more than a rounding difference, recheck your own arithmetic first, then your marks. A wrong mark in the list is the most common cause, and it is exactly what the objection window exists to fix.",
+        ],
+      },
+      {
+        heading: "The evidence pack: gather it before you file",
+        paragraphs: [
+          "An objection without evidence is an objection that cannot be verified, and UHS has always required supporting documents with grievances — in past notices, written representations to the Vice Chancellor had to carry documentary evidence and meet a 5:00 PM deadline, with nothing accepted after it. Prepare this folder before the list appears, so filing takes minutes.",
+          "Keep originals and clear scans together. If the notice asks for an online submission, you will upload scans; if it asks for a written representation, you will attach copies. Either way, keep a copy of everything you send and a record of when you sent it — that record is your proof if the correction does not appear on the final list.",
+        ],
+        list: [
+          "Your Matric (SSC) result card and certificate.",
+          "Your FSc Pre-Medical result card and transcript.",
+          "Your MDCAT result certificate — use the one you applied with; MDCAT scores from 2024, 2025 and 2026 are all accepted this cycle.",
+          "IBCC equivalence certificate, if you applied with O-Levels or A-Levels.",
+          "Your domicile certificate and any quota certificate (for example, under-developed district, Cholistan, disability or overseas Pakistani).",
+          "Your paid application fee challan or receipt (Rs 2,000 for the public and private MBBS applications) and your application acknowledgement or form number.",
+          "A screenshot or print of your row on the provisional list, showing the error.",
+        ],
+      },
+      {
+        heading: "How to file, step by step",
+        paragraphs: [
+          "Follow the notice, not a rumour. The provisional-list notice states the channel and the deadline for this cycle, and that notice governs — do not borrow a channel or a window from another university or another year. The steps below are the shape of the process; the notice fills in the exact address and time.",
+          "UHS's established pattern for list grievances, seen in its published notices, is a written representation to the Vice Chancellor with supporting documentary evidence by a stated 5:00 PM deadline, after which nothing is entertained. UHS also publishes a general complaint form, which can be sent by post or courier to the Deputy Registrar, University of Health Sciences, Khayaban-e-Jamia Punjab, Lahore, or by email to complaints@uhs.edu.pk — but that is the university's general complaint route, not the merit-list channel. For a list error, use the channel the list notice names. If the notice names no channel at all, the general complaint route is the fallback to use the same day — do not wait for a better option to appear.",
+        ],
+        list: [
+          "Open the provisional list on the portal for your track: publicmbbs.uhs.edu.pk for public MBBS, privatembbs.uhs.edu.pk for private MBBS, and the UHS website portal for the reserved-quota track.",
+          "Read the notice published with the list. It states where objections go and by when. Note the deadline in writing.",
+          "Audit your row against your result cards and recompute your aggregate (see the section above).",
+          "Write the objection precisely: your name, form number, CNIC, the exact error, and the correct figure with its source document.",
+          "Attach the evidence from your pack — the result card that proves the correct figure, not a general pile of documents.",
+          "File through the stated channel before the stated deadline, and keep the acknowledgement, receipt or sent-mail record.",
+          "On 16 November (public and private) or 17 November (quota), open the final list and check whether the correction landed.",
+        ],
+      },
+      {
+        heading: "What to write: a short template",
+        paragraphs: [
+          "Keep it short and factual. UHS does not need your story; it needs the error, the correct figure, and the proof. Copy this shape and fill in your own details:",
+          "Subject: Correction of marks on the provisional order of merit, MBBS 2026-27 — Form No. [your form number], CNIC [your CNIC]. Respected Sir/Madam, my name is [your name], form number [number]. On the provisional order of merit published on 13 November 2026, my FSc Pre-Medical marks are shown as [wrong figure], whereas my FSc result card (attached) shows [correct figure]. My correct aggregate under the 10/40/50 formula is therefore [correct aggregate], not [listed aggregate]. I request correction of my row before the final order of merit. Attached: FSc result card, MDCAT result certificate, and a copy of my provisional-list row.",
+          "One error per objection, stated plainly. If two different things are wrong — say, your FSc marks and your category — list both, each with its own evidence. Do not ask for a re-check of your MDCAT paper, a change of preferences, or a seat in a specific college: those requests are outside what an objection can do, and they slow down the one that is valid.",
+        ],
+      },
+      {
+        heading: "If your name is not on the provisional list",
+        paragraphs: [
+          "A missing name is the most frightening result, and it usually has one of a small number of causes. Work through them before you conclude the list is wrong about you: you may be looking at the wrong track's list (public, private and quota lists are separate, and all three appear on 13 November); your application may have been incomplete or the Rs 2,000 fee unpaid; you may fall below an eligibility floor (60% FSc, 55% MDCAT for MBBS); your MDCAT may be from a year outside 2024-2026; or your row may genuinely have been omitted in error.",
+          "Check in this order. First, confirm you are on the right list for the track you applied to, and search the PDF for your form number and CNIC as well as your name — spelling errors hide rows. Second, re-check your eligibility against the floors and your fee receipt. Third, if everything checks out and your name is still absent, file an objection the same day with your application acknowledgement, fee receipt and result cards attached, stating that you are an eligible applicant omitted from the list. A missing row is correctable only inside the same short window, so do not spend the window asking friends whether they can see your name — file first, then follow up.",
+        ],
+        list: [
+          "Search by form number and CNIC, not only by name — a misspelling hides a row.",
+          "Confirm the track: public, private and quota lists are separate documents.",
+          "Check the floors: 60% FSc, 55% MDCAT for MBBS; MDCAT from 2024, 2025 or 2026.",
+          "If eligible and still missing, object the same day with your acknowledgement and fee receipt.",
+        ],
+      },
+      {
+        heading: "After you file: the final list on 16 November",
+        paragraphs: [
+          "Filing an objection is not the same as winning it. The final order of merit on 16 November (public and private) or 17 November (reserved quota) is where you see the result: open it, find your row again, and check whether the correction landed. If it did, your merit number will have moved — possibly past candidates who were ahead of you on the provisional list, since everyone else's corrections move the ranking too. If it did not, and you filed inside the window with evidence, keep your filing record; but be aware there is no second objection window on the final list itself, and the selection lists are built from the final ranking.",
+          "From here the cycle moves fast. The first college-wise selection list for public MBBS is 17 November, for private MBBS 18 November, and for reserved quota 27 November, with further upgradation lists after them (public: 23 November and 1 December; private: 23 and 27 November). When your name appears on a selection list, the joining clock starts immediately: public-sector tuition under the 2026-27 policy is Rs 50,000 per year, while private-track selections require a Rs 600,000 deposit within three working days. Have your original documents, CNIC and fee arrangement ready before 17 November, not after your name appears — a late-round offer gives you days, not weeks, to act. Our after-the-merit-list guide on this site walks through the joining steps in full.",
+          "One last caution for the days between the lists: no 2026-27 closing merit exists yet, because no selection list has been published. Anyone quoting you a precise 2026 cutoff today is guessing. The only verified benchmark is last session: King Edward Medical University closed at about 94.9% on the 2025 final open-merit list. Use it as a sense of how competitive the top is, not as a prediction for your college.",
+        ],
+      },
+      {
+        heading: "Page notes: what is not yet known",
+        paragraphs: [
+          "Verified for this guide on 13 November 2026: the three-track provisional lists on 13 November 2026 and the final lists on 16 November (public and private) and 17 November (quota), from the UHS schedule as reported by multiple sources reading the official notices; the 10/40/50 formula with MDCAT out of 180; the eligibility floors (60% FSc, 55% MDCAT for MBBS, 50% for BDS); the Rs 2,000 application fee; public tuition of Rs 50,000 per year and the private Rs 600,000 deposit within three working days; the MDCAT recount and review complaint deadline of 30 September 2026; and the 2025 KEMU final close of about 94.9%.",
+          "Not verified, and therefore not printed as fact: the exact objection channel and deadline for the 2026-27 provisional lists — those are stated in the 13 November list notice, which governs, and this page will be updated when the notice is read. The private-track provisional date is reported two ways: our own private-list guide followed sources that said 12 November, while several sources reading the UHS notice say 13 November — check privatembbs.uhs.edu.pk on both days and trust the portal, not this page, for the date. No 2026-27 closing merit or college-wise cutoff exists yet. BDS runs on a separate calendar (public applications 15–30 December 2026, provisional list 6 January 2027) — the objection principles in this guide apply when that list appears, but its dates are different.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the last date to file an objection on the UHS provisional merit list 2026?",
+        answer:
+          "The exact deadline is stated in the provisional-list notice published with the list on 13 November 2026 — read that notice the day the list appears. The window cannot run past the final list on 16 November (public and private) or 17 November (quota), and in the 2024-25 cycle UHS allowed only 24 hours. File the same day you spot the error.",
+      },
+      {
+        question: "Where do I file my objection to the UHS provisional merit list?",
+        answer:
+          "Through the channel stated in the provisional-list notice for your track — that notice governs. UHS past practice for list grievances is a written representation to the Vice Chancellor with supporting documentary evidence by a stated 5:00 PM deadline. Do not file through phone calls, visits or social media, and do not borrow another university's channel.",
+      },
+      {
+        question: "Can I object to my MDCAT score on the provisional merit list?",
+        answer:
+          "No. A merit-list objection corrects the data on the list, not your test score. The MDCAT recount and review process was separate, and its complaint deadline was 30 September 2026. If your MDCAT marks on the list differ from your MDCAT result certificate, that is a data error and you can object to it — but the score itself cannot be re-marked through this window.",
+      },
+      {
+        question: "Can an objection change my college preference order?",
+        answer:
+          "No. Your preference order became final and unchangeable when the public application window closed on 30 October 2026, and a college left off your list can never be offered to you. An objection fixes wrong data on your row; it cannot re-rank your colleges.",
+      },
+      {
+        question: "What documents do I need to attach to a UHS merit list objection?",
+        answer:
+          "The document that proves the correct figure: your Matric and FSc result cards, your MDCAT result certificate, your IBCC equivalence certificate if applicable, your domicile or quota certificate, your paid fee challan and application acknowledgement, and a copy of your row on the provisional list showing the error. An objection without evidence cannot be verified.",
+      },
+      {
+        question: "My aggregate on the provisional list is lower than my own calculation. What do I do?",
+        answer:
+          "Recheck your arithmetic first — the formula is Matric 10% + FSc 40% + MDCAT 50%, with MDCAT out of 180. If your calculation is right and the list is wrong, check which mark differs; a 50-mark FSc error costs 1.82 aggregate points and a 10-mark MDCAT error costs 2.78. Then object the same day through the channel in the list notice, attaching the result card that proves the correct mark.",
+      },
+      {
+        question: "My name is not on the UHS provisional merit list. What should I do?",
+        answer:
+          "First check you are looking at the right track list — public, private and quota are separate — and search by form number and CNIC, not only by name. Check the eligibility floors (60% FSc, 55% MDCAT for MBBS) and your fee receipt. If you are eligible and still missing, file an objection the same day with your application acknowledgement, fee receipt and result cards attached.",
+      },
+      {
+        question: "What happens if I miss the objection deadline?",
+        answer:
+          "The error stands into the final list on 16 November (public and private) or 17 November (quota), and there is no second objection window on the final list. Selection lists are built from the final ranking, so an uncorrected error follows you through the rest of the cycle. Keep your filing record if you did file in time.",
+      },
+      {
+        question: "When is the UHS final merit list 2026?",
+        answer:
+          "The final order of merit is scheduled for Monday 16 November 2026 for the public and private tracks, and Tuesday 17 November 2026 for the reserved-quota track. The first selection lists follow on 17 November (public), 18 November (private) and 27 November (quota).",
+      },
+      {
+        question: "Does filing an objection guarantee my merit will be corrected?",
+        answer:
+          "No. Filing is a request with evidence; UHS decides it, and the result shows on the final list. Check the final list on 16 or 17 November to confirm the correction actually landed — an objection filed is not an objection granted.",
+      },
+    ],
+    relatedCalculators: ["kemu", "duhs", "nums"],
+  },
 ];
