@@ -662,4 +662,183 @@ export const BLOG_POSTS_PART8: BlogPost[] = [
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
   },
+  {
+    slug: "how-to-check-uhs-final-merit-list-2026",
+    image: "/blog/how-to-check-uhs-final-merit-list-2026.svg",
+    imageAlt: "UHS final merit list 2026 guide: final list 16 November, first selection list 17 November, upgradation 23 November, fee within three working days",
+    title:
+      "How to Check the UHS Final Merit List 2026 (16 November): Selection Lists, Upgradation & Fee Deadlines",
+    description:
+      "UHS Punjab publishes the final MBBS merit list on Monday 16 November 2026 (17 November for reserved quota). How to check it on the right portal, what changed since the provisional list, how selection and upgradation work, and the fee deadlines that follow — no invented cutoffs.",
+    category: "Guides",
+    date: "November 2026",
+    readTime: "8 min read",
+    intro:
+      "The provisional list was a draft. The final order of merit, due Monday 16 November 2026, is the locked ranking that decides everything after it: which college you are selected for, whether you move up in the upgradation lists, and how fast you must pay. This guide covers the final list for all three UHS tracks — public, private and reserved quota — how to check it step by step, how to read your row, what changes between the provisional and final lists, and the selection lists, upgradation rules and fee deadlines that start the very next day.",
+    sections: [
+      {
+        heading: "Monday 16 November: three final lists, one ranking",
+        paragraphs: [
+          "The University of Health Sciences (UHS) Lahore publishes the final order of merit for Punjab MBBS admissions on Monday 16 November 2026 for the public and private tracks, and on Tuesday 17 November 2026 for the reserved-quota track. The provisional lists for all three tracks appeared on Friday 13 November, so the gap between draft and final is three days for public and private, and four days for quota. That gap is the objection window: every correction filed on the provisional list is decided inside it, and the final list is the result.",
+          "The three tracks stay separate all the way through. The public track covers open-merit seats in Punjab's public medical colleges; the private track covers Punjab's private medical colleges; the reserved-quota track covers the 252 MBBS and BDS seats reserved for candidates from Islamabad (ICT), Azad Jammu and Kashmir, Gilgit-Baltistan, Balochistan and ex-FATA in Punjab's public colleges. Each track has its own final list, its own selection lists and its own deadlines — checking the wrong track's list is the most common reason a student thinks their name is missing. UHS itself calls these dates tentative, and they can move on PMDC or Government of Punjab directions, so confirm on uhs.edu.pk on the day.",
+        ],
+        list: [
+          "Public MBBS: final order of merit Monday 16 November 2026; first college-wise selection list Tuesday 17 November; upgradation lists 23 November and 1 December.",
+          "Private MBBS: final merit list Monday 16 November 2026; first selection list Wednesday 18 November; second selection list 23 November; third selection list 27 November.",
+          "Reserved quota: final merit list Tuesday 17 November 2026; first college-wise selection list 27 November 2026.",
+          "BDS is a separate calendar: public BDS applications run 15 to 30 December 2026, provisional list 6 January 2027, final list 9 January 2027, first selection list 11 January 2027.",
+        ],
+      },
+      {
+        heading: "Provisional vs final: what actually changes",
+        paragraphs: [
+          "The final list is not a reprint of the provisional list. It is the same ranking after every accepted objection has been applied — and that means your merit number can move in either direction. If your own row was corrected, your aggregate rises and your merit number improves. But other candidates' corrections move the ranking too: a candidate below you whose marks were under-recorded can pass you, and a candidate above you whose marks were over-recorded can drop below you. Do not assume your position is unchanged; check the final list as carefully as you checked the provisional one.",
+          "The formula does not change between the two lists. UHS ranks everyone on the same official formula — Matric 10% + FSc 40% + MDCAT 50%, with MDCAT scored out of 180 — and the eligibility floors are the same: 60% in FSc Pre-Medical (660 out of 1100), at least 55% in MDCAT for MBBS (99 out of 180) and 50% for BDS (90 out of 180). What changes is only the data the formula is applied to. A one-mark correction is not trivial: one MDCAT mark is worth 50 divided by 180, or 0.2778 aggregate points, and one FSc mark is worth 40 divided by 1100, or 0.0364 points.",
+          "Worked example, using the standard profile from our other UHS guides so you can compare directly. A student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc and 150 out of 180 in MDCAT has an aggregate of (1050 ÷ 1100 × 10) = 9.5455, plus (1000 ÷ 1100 × 40) = 36.3636, plus (150 ÷ 180 × 50) = 41.6667 — a total of 87.5758%. Suppose the provisional list showed this student's FSc as 950 instead of 1000. Their listed aggregate was 85.7576%, a full 1.8182 points lower — 50 ÷ 1100 × 40. If the objection was accepted, the final list shows 87.5758% and the merit number jumps past every candidate sitting between those two aggregates. That is the whole point of the final list: it is the first ranking you can trust.",
+        ],
+        list: [
+          "Your aggregate can rise if your objection was accepted — recheck it against your own calculation.",
+          "Your merit number can also fall, because other candidates' corrections move the ranking too.",
+          "The formula, the floors and your preference order do not change — only the data on your row.",
+          "Once the final list is published, there is no second objection window on it.",
+        ],
+      },
+      {
+        heading: "How to check the final list, step by step",
+        paragraphs: [
+          "Check on the portal for your own track, not on a screenshot in a WhatsApp group and not on a tracker page. The lists are published on the UHS admission portals and on the UHS website, and the portal you applied through is the one that carries your list. Lists in this cycle have appeared during working hours rather than at midnight — a merit tracker reported the provisional list's status as 'Uploading' on the morning of 13 November — so if the final list is not visible in the morning, check again during the day instead of assuming it has been delayed.",
+          "Save a copy of your row the moment you find it. A screenshot or PDF of the final list is your record if anything is disputed later, and you will need your merit number for every step that follows. If the portal is slow or crashes under load, wait and retry — do not pay anyone who offers to 'check the list for you' for a fee, and do not trust a list forwarded as an image, which can be edited or from another year.",
+        ],
+        list: [
+          "Public MBBS: open publicmbbs.uhs.edu.pk and sign in with the email or CNIC and password you registered with, or open the final order of merit PDF on uhs.edu.pk.",
+          "Private MBBS: open privatembbs.uhs.edu.pk and sign in the same way; the private final list is a separate document from the public one.",
+          "Reserved quota: use the UHS portal for the quota track, and check the UHS website notice for the 17 November list.",
+          "Search the list by your form or application number and CNIC as well as your name — a spelling error can hide a row that is actually there.",
+          "Compare the final list against the provisional list: check your marks, your aggregate to two decimal places, your category and quota, and your merit number.",
+        ],
+      },
+      {
+        heading: "How to read your row on the final list",
+        paragraphs: [
+          "Your row carries five things that matter. Your merit number is your position in the final ranking — it is the number the selection lists are built from, so note it exactly. Your aggregate is your score under the 10/40/50 formula; if it does not match your own calculation to two decimal places, recheck your arithmetic first, then your marks — the standard-profile example above shows how a single wrong mark moves the total. Your category and quota tell you which seat pool you are competing in: open merit, or a reserved category such as under-developed districts, Cholistan, reciprocal, overseas or disability. Your college preference order is not printed on the list, but it decides everything next — the selection lists offer you the highest college on your list that your merit reaches.",
+          "Two things the final list does not tell you: it does not tell you which college you have been selected for — that comes from the selection lists, starting 17 November for public and 18 November for private — and it does not tell you a closing merit. No 2026-27 closing merit exists until the selection lists are published. The only verified benchmark is last session: King Edward Medical University closed at about 94.9% on the 2025 final open-merit list, and the private sector's first selection list in 2025-26 closed at 75.9465%. Use those as a sense of how competitive the top and the private floor are, not as predictions for your college this year.",
+        ],
+      },
+      {
+        heading: "What happens next: the selection lists",
+        paragraphs: [
+          "The final list ranks everyone; the selection lists place them. Starting the day after the final list, UHS publishes college-wise selection lists: the first public selection list on 17 November, the first private selection list on 18 November, and the first reserved-quota selection list on 27 November. Each selection list names the candidates selected for each college, with the college decided by your preference order — you are placed in the highest college on your list that your merit reaches. A college you left off your preference list can never be offered to you, not even through upgradation, because your preference order became final and unchangeable when the public application window closed on 30 October 2026.",
+          "After the first selection list, the process runs in rounds. Seats fall vacant when selected candidates do not pay or do not join, and the next list fills them — that is upgradation, covered in the next section. The public track's upgradation lists are scheduled for 23 November and 1 December, and the private track's second and third selection lists for 23 and 27 November. In the last session the public process ran to many lists — a sixth selection and upgradation list was published on 22 January 2026 — so a candidate who misses the first list is not out of the running. Keep checking every list until the process closes.",
+        ],
+        list: [
+          "First selection lists: public 17 November, private 18 November, reserved quota 27 November 2026.",
+          "Upgradation lists: public 23 November and 1 December; private second and third lists 23 and 27 November.",
+          "Your college is the highest one on your preference list that your merit reaches — merit alone does not choose it.",
+          "A college left off your list is never offered, in any round.",
+        ],
+      },
+      {
+        heading: "How upgradation works — public vs private",
+        paragraphs: [
+          "Upgradation is the part of the process students misunderstand most, and the public and private rules are opposites. In the public sector, upgradation is mandatory. When a seat opens at a college higher on your preference list than the one you joined, you are moved up automatically in the next list. You must report in person to the upgraded college and submit a written joining report in the prescribed format; UHS transfers your fee to the new college, and you pay no extra fee. Candidates who joined earlier and are not upgraded stay in their current college.",
+          "In the private sector, you choose. When you are selected, you log into the portal and choose between 'STAY' — keep the college you have been allotted — and upgradation — stay in the running for a higher-preference college in the next list. That choice is final, and you make it at the time of joining, through the same portal where you download your fee challan. If you choose upgradation, you submit your joining online by uploading the paid fee receipt; if you are allotted your first choice and choose STAY, you submit a written joining at the college itself and pay the remaining fee there. Think before you choose: STAY ends your upward movement, and upgradation keeps you moving but means you may have to shift colleges — and cities — later.",
+          "A concrete example of the preference rule. Suppose your list reads: your first-choice college, then your second, then your third. In the first selection list your merit reaches your second choice, so you are selected there. In the second list, a seat opens at your first choice and your merit is now high enough for it — in the public track you are upgraded automatically; in the private track you are upgraded only if you chose upgradation at joining. But if a seat opens at your third choice, you are not moved down to it — upgradation only ever moves you up your own list, never down.",
+        ],
+        list: [
+          "Public sector: upgradation is mandatory and automatic; report to the new college, fee is transferred, no extra fee.",
+          "Private sector: choose STAY or upgradation on the portal at joining — the choice is final.",
+          "Upgradation only moves you to a college higher on your list; it never moves you down.",
+          "A college you did not list is never offered in any round.",
+        ],
+      },
+      {
+        heading: "Fee deadlines: the three-working-day rule",
+        paragraphs: [
+          "Selection starts a clock, and the clock is short. Selected candidates must deposit the fee and join within three working days of the selection list — miss the deadline and you lose the seat. For public-sector selections, tuition under the 2026-27 policy is Rs 50,000 per year. For private-sector selections, the first step is a Rs 600,000 deposit: download the fee challan from the UHS admission portal, deposit it at a Bank of Punjab or National Bank of Pakistan branch, and upload the proof on the portal within the three working days. The Rs 600,000 is passed on by UHS to the college; the rest of the fee is paid directly to the college.",
+          "Joining is a second step, not the same as paying. A selected candidate is fully admitted only after two things are done: the fee is deposited before the due date, and the candidate reports in person to the college and uploads the signed joining report on the UHS portal, signed by both the college focal person and the student. Have your original documents, CNIC, result cards, domicile and fee arrangement ready before 17 November, not after your name appears — a late-round offer gives you days, not weeks, to act. Our after-the-merit-list guide on this site walks through the joining steps in full.",
+        ],
+        list: [
+          "Public selection: tuition Rs 50,000 per year; fee and joining within three working days of the selection list.",
+          "Private selection: Rs 600,000 challan from the portal, deposit at Bank of Punjab or National Bank of Pakistan, proof uploaded on the portal.",
+          "Joining needs the signed joining report uploaded on the portal — paying alone does not complete admission.",
+          "Missing the deadline cancels the seat, and it goes to the next candidate in the following list.",
+        ],
+      },
+      {
+        heading: "If your row changed — or vanished",
+        paragraphs: [
+          "First, check whether your objection landed. Open the final list, find your row, and compare every figure against the provisional list: if the wrong mark is now right and your aggregate matches your own calculation, the correction worked and your merit number is your new position. If the error is still there, and you filed inside the window with evidence, keep your filing record — but be aware there is no second objection window on the final list itself, and the selection lists are built from the final ranking as published.",
+          "If your name was on the provisional list and is missing from the final list, do not assume a mistake — check first that you are reading the right track's final list, and search by form number and CNIC as well as by name. A candidate can also disappear from the final list if a correction to someone else's data changed the ranking boundary, or if eligibility was re-checked — but a missing eligible applicant should contact UHS the same day through its general complaint route (the Deputy Registrar by post, or complaints@uhs.edu.pk) with the application acknowledgement, fee receipt and result cards, because the selection lists follow within a day and there is no time to wait. Our guide on a missing name covers the full checklist.",
+          "One caution for the days between the lists: do not pay anyone who promises to 'fix' your final-list position or 'arrange' a seat. Merit is decided by the published ranking and your preference order, and no payment to a third party can change either. Anyone asking for money for a seat is running a fraud — report it and keep your money.",
+        ],
+      },
+      {
+        heading: "If you are not selected in the first list",
+        paragraphs: [
+          "Not being on the first selection list is not the end of the cycle. The first list takes only the top of the ranking; every later list fills the seats that fall vacant, and the lists keep coming — public upgradation on 23 November and 1 December, private second and third lists on 23 and 27 November, and in the last session the public process ran to a sixth list in January. Your merit number on the final list tells you roughly where you stand, but the number of candidates ahead of you who do not join is unknowable in advance, so the only useful action is to check every list on the day it appears.",
+          "While you wait, keep your backup routes warm. BDS runs on its own calendar — public BDS applications open 15 December and close 30 December 2026, with the provisional list on 6 January 2027 — and the MDCAT floor for BDS is lower, 50% (90 out of 180) against 55% for MBBS, with the same 60% FSc floor. NUMS publishes its provisional list on 10 December 2026 with its first MBBS selection list on 17 December. Private colleges, SZABMU's private track and a MDCAT repeat are covered in our low-MDCAT-score guide. None of these needs a decision today — but the BDS and NUMS dates do need a diary entry now, because their windows are short.",
+        ],
+      },
+      {
+        heading: "Page notes: what is not yet known",
+        paragraphs: [
+          "Verified for this guide on 14 November 2026: the three-track provisional lists on 13 November 2026 and the final lists on 16 November (public and private) and 17 November (quota), from the UHS schedule as reported by multiple sources reading the official notices; the selection and upgradation dates (public first list 17 November, upgradation 23 November and 1 December; private first list 18 November, second 23 November, third 27 November; quota first list 27 November); the 10/40/50 formula with MDCAT out of 180; the eligibility floors (60% FSc, 55% MDCAT for MBBS, 50% for BDS); the Rs 2,000 application fee; public tuition of Rs 50,000 per year and the private Rs 600,000 deposit within three working days at Bank of Punjab or National Bank of Pakistan; mandatory public upgradation with fee transfer and the private STAY-or-upgradation choice; the 252 reserved-quota seats; the 2025 benchmarks (KEMU final close about 94.9%; private first list lowest 75.9465%); and the BDS calendar (public applications 15–30 December 2026, provisional 6 January 2027, final 9 January 2027, first selection 11 January 2027; private BDS applications 18 December 2026 to 1 January 2027, first selection 13 January 2027).",
+          "Not verified, and therefore not printed as fact: no 2026-27 closing merit or college-wise cutoff exists yet — none can exist until the selection lists are published. One merit tracker lists the public first selection list as 18 November rather than 17 November; the majority of sources reading the UHS schedule say 17 November, and the private first list is 18 November, so the tracker may have mixed the two tracks — check publicmbbs.uhs.edu.pk on both days and trust the portal, not this page, for the date. The exact hour the final list appears is not announced — lists in this cycle have appeared during working hours. The private-track provisional date was reported two ways (12 vs 13 November) and is now moot, since both tracks' final lists are 16 November.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "When is the UHS final merit list 2026?",
+        answer:
+          "The final order of merit is scheduled for Monday 16 November 2026 for the public and private MBBS tracks, and Tuesday 17 November 2026 for the reserved-quota track. The provisional lists for all three tracks were published on 13 November 2026.",
+      },
+      {
+        question: "Where do I check the UHS final merit list 2026?",
+        answer:
+          "On the portal for your track: publicmbbs.uhs.edu.pk for public MBBS, privatembbs.uhs.edu.pk for private MBBS, and the UHS portal for the reserved-quota track. The lists are also published on uhs.edu.pk. Sign in with the email or CNIC and password you registered with, and search by form number and CNIC as well as by name.",
+      },
+      {
+        question: "What is the difference between the provisional and final merit list?",
+        answer:
+          "The provisional list is a draft; the final list is the locked ranking after all accepted objections have been applied. Your marks, aggregate and merit number can change between the two — in either direction, because other candidates' corrections move the ranking too. The formula, the eligibility floors and your preference order do not change. There is no objection window on the final list.",
+      },
+      {
+        question: "Can I still file an objection after the final merit list?",
+        answer:
+          "No. The objection window belongs to the provisional list and closes before the final list is published. The selection lists are built from the final ranking as published. If you filed an objection in time with evidence and it was not applied, keep your filing record, but there is no second window on the final list itself.",
+      },
+      {
+        question: "When is the first UHS selection list 2026?",
+        answer:
+          "The first college-wise selection list is scheduled for Tuesday 17 November 2026 for public MBBS, Wednesday 18 November for private MBBS, and 27 November for the reserved-quota track. Upgradation lists follow on 23 November and 1 December for public, and 23 and 27 November for private.",
+      },
+      {
+        question: "How does upgradation work in UHS public medical colleges?",
+        answer:
+          "In the public sector, upgradation is mandatory and automatic. If a seat opens at a college higher on your preference list than the one you joined, you are moved up in the next list. You must report in person to the upgraded college and submit a written joining report; UHS transfers your fee to the new college and you pay no extra fee. Upgradation only ever moves you up your list, never down.",
+      },
+      {
+        question: "What is STAY vs upgradation in private medical colleges?",
+        answer:
+          "In the private sector, when you are selected you choose on the UHS portal whether to STAY — keep the college you have been allotted — or stay in the running for upgradation to a higher-preference college in the next list. The choice is final and is made at joining. If you choose upgradation, you join online by uploading the paid fee receipt; if you are allotted your first choice and choose STAY, you join in writing at the college.",
+      },
+      {
+        question: "How much fee do I pay if selected, and by when?",
+        answer:
+          "Within three working days of the selection list. Public-sector tuition is Rs 50,000 per year. Private-sector selections start with a Rs 600,000 deposit: download the challan from the UHS portal, pay it at a Bank of Punjab or National Bank of Pakistan branch, and upload the proof on the portal. Paying alone is not enough — you must also report to the college and upload the signed joining report. Missing the deadline cancels the seat.",
+      },
+      {
+        question: "My aggregate changed between the provisional and final list. Why?",
+        answer:
+          "Because a correction was applied — to your row or to someone else's. If your objection was accepted, your marks were corrected and your aggregate moved to the right figure; recheck it against your own calculation under the 10/40/50 formula. Your merit number can also move because other candidates' corrections shifted the ranking. One MDCAT mark is worth 0.2778 aggregate points, so even a small correction moves your position visibly.",
+      },
+      {
+        question: "What if my name is not on the UHS final merit list?",
+        answer:
+          "First check you are reading the right track's final list — public, private and quota are separate — and search by form number and CNIC, not only by name. Check the eligibility floors (60% FSc, 55% MDCAT for MBBS). If you are eligible and were on the provisional list, contact UHS the same day through its general complaint route with your application acknowledgement, fee receipt and result cards, because the first selection list follows within a day.",
+      },
+    ],
+    relatedCalculators: ["kemu", "duhs", "nums"],
+  },
 ];

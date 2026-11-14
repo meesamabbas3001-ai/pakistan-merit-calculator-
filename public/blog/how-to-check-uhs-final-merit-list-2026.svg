@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c4a6e"/>
+      <stop offset="0.55" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1120" cy="60" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="90" cy="580" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="1010" cy="540" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- final list card with check -->
+  <g transform="translate(770,105)">
+    <rect x="0" y="0" width="350" height="420" rx="22" fill="url(#card)"/>
+    <circle cx="175" cy="82" r="46" fill="#059669"/>
+    <path d="M152 82 L168 98 L200 66" stroke="#ffffff" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="175" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#0c4a6e">FINAL LIST</text>
+    <text x="175" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#475569">Locked ranking — no more changes</text>
+    <rect x="28" y="224" width="294" height="46" rx="10" fill="#d1fae5"/>
+    <text x="44" y="254" font-family="Arial, sans-serif" font-size="20" fill="#065f46">Merit number + aggregate</text>
+    <rect x="28" y="280" width="294" height="46" rx="10" fill="#e2e8f0"/>
+    <text x="44" y="310" font-family="Arial, sans-serif" font-size="20" fill="#475569">Check corrections landed</text>
+    <rect x="28" y="336" width="294" height="54" rx="12" fill="#f59e0b"/>
+    <text x="175" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#451a03">NEXT: SELECTION LIST</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Arial, sans-serif" fill="#ffffff">
+    <text x="80" y="165" font-size="58" font-weight="bold">UHS FINAL</text>
+    <text x="80" y="235" font-size="58" font-weight="bold">MERIT LIST 2026</text>
+    <text x="80" y="305" font-size="58" font-weight="bold">CHECK GUIDE</text>
+    <text x="80" y="360" font-size="30" fill="#bae6fd">16 November — then selection lists,</text>
+    <text x="80" y="402" font-size="30" fill="#bae6fd">upgradation &amp; fee deadlines</text>
+  </g>
+
+  <!-- pills -->
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    <rect x="80" y="450" width="330" height="52" rx="26" fill="#ffffff"/>
+    <text x="245" y="484" text-anchor="middle" fill="#0c4a6e">FINAL LIST: 16 NOV</text>
+    <rect x="430" y="450" width="320" height="52" rx="26" fill="#fbbf24"/>
+    <text x="590" y="484" text-anchor="middle" fill="#451a03">1ST SELECTION: 17 NOV</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    <rect x="80" y="520" width="330" height="52" rx="26" fill="#ffffff" opacity="0.92"/>
+    <text x="245" y="554" text-anchor="middle" fill="#0c4a6e">UPGRADATION: 23 NOV</text>
+    <rect x="430" y="520" width="320" height="52" rx="26" fill="#ffffff" opacity="0.92"/>
+    <text x="590" y="554" text-anchor="middle" fill="#0c4a6e">FEE: 3 WORKING DAYS</text>
+  </g>
+</svg>
