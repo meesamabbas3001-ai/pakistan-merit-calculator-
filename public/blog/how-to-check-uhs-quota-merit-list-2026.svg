@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.55" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ccfbf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1120" cy="60" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="90" cy="580" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="1010" cy="540" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- quota seats card -->
+  <g transform="translate(770,80)">
+    <rect x="0" y="0" width="350" height="470" rx="22" fill="url(#card)"/>
+    <text x="175" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">RESERVED SEATS</text>
+    <text x="175" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#1e3a8a">252</text>
+    <text x="175" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#475569">214 MBBS + 38 BDS</text>
+    <g font-family="Arial, sans-serif" font-size="20" fill="#334155">
+      <rect x="28" y="186" width="294" height="40" rx="10" fill="#e0f2fe"/>
+      <text x="44" y="213">ICT 26 + 4</text>
+      <text x="306" y="213" text-anchor="end" fill="#0f766e">30</text>
+      <rect x="28" y="232" width="294" height="40" rx="10" fill="#f0fdfa"/>
+      <text x="44" y="259">AJK 36 + 3</text>
+      <text x="306" y="259" text-anchor="end" fill="#0f766e">39</text>
+      <rect x="28" y="278" width="294" height="40" rx="10" fill="#e0f2fe"/>
+      <text x="44" y="305">Gilgit-Baltistan 55 + 5</text>
+      <text x="306" y="305" text-anchor="end" fill="#0f766e">60</text>
+      <rect x="28" y="324" width="294" height="40" rx="10" fill="#f0fdfa"/>
+      <text x="44" y="351">Balochistan 48 + 10</text>
+      <text x="306" y="351" text-anchor="end" fill="#0f766e">58</text>
+      <rect x="28" y="370" width="294" height="40" rx="10" fill="#e0f2fe"/>
+      <text x="44" y="397">Ex-FATA 49 + 16</text>
+      <text x="306" y="397" text-anchor="end" fill="#0f766e">65</text>
+    </g>
+    <rect x="28" y="420" width="294" height="34" rx="10" fill="#f59e0b"/>
+    <text x="175" y="444" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#451a03">FINAL LIST 17 NOV</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Arial, sans-serif" fill="#ffffff">
+    <text x="80" y="150" font-size="58" font-weight="bold">UHS QUOTA</text>
+    <text x="80" y="220" font-size="58" font-weight="bold">MERIT LIST 2026</text>
+    <text x="80" y="290" font-size="58" font-weight="bold">CHECK GUIDE</text>
+    <text x="80" y="350" font-size="30" fill="#bfdbfe">252 reserved seats for ICT, AJK,</text>
+    <text x="80" y="392" font-size="30" fill="#bfdbfe">Gilgit-Baltistan, Balochistan</text>
+    <text x="80" y="434" font-size="30" fill="#bfdbfe">&amp; ex-FATA — who qualifies,</text>
+    <text x="80" y="476" font-size="30" fill="#bfdbfe">how to check &amp; what is next</text>
+  </g>
+
+  <!-- bottom pills -->
+  <g font-family="Arial, sans-serif" font-size="21" font-weight="bold">
+    <rect x="80" y="520" width="300" height="52" rx="26" fill="#ffffff"/>
+    <text x="230" y="554" text-anchor="middle" fill="#1e3a8a">FINAL LIST 17 NOV</text>
+    <rect x="400" y="520" width="330" height="52" rx="26" fill="#f59e0b"/>
+    <text x="565" y="554" text-anchor="middle" fill="#451a03">1ST SELECTION 27 NOV</text>
+  </g>
+</svg>
