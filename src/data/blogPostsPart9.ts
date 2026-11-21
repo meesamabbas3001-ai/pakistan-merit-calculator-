@@ -611,4 +611,183 @@ export const BLOG_POSTS_PART9: BlogPost[] = [
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
   },
+  {
+    slug: "uhs-second-selection-list-2026",
+    image: "/blog/uhs-second-selection-list-2026.svg",
+    imageAlt: "UHS 2nd selection list 2026 guide illustration — 23 November, public and private upgradation",
+    title: "UHS 2nd Selection List 2026 (23 November): Public & Private Upgradation, Fee & Joining Guide",
+    description:
+      "UHS 2nd selection list 2026 comes out Monday 23 November for public and private MBBS. First-list closes (KEMU 95.3697%, lowest 93.297%), how upgradation works, fee and joining deadlines, and what to do if your name is still missing.",
+    category: "Guides",
+    date: "November 2026",
+    readTime: "8 min read",
+    intro:
+      "The first UHS selection lists are out — public on 17 November, private on 18 November — and the next date every MBBS candidate in Punjab is watching is Monday 23 November, when UHS issues the second selection and upgradation list for both tracks. This is the list that does two jobs at once: it selects fresh candidates from the waiting merit order into seats freed by students who did not join, and it upgrades already-selected students to a higher-preference college when a seat opens above them. This guide explains what the first list showed, how to check the second list, how upgradation works differently in public and private colleges, what the fee and joining deadlines will look like, and what to do if your name is still missing after 23 November.",
+    sections: [
+      {
+        heading: "The 2nd selection list in one paragraph",
+        paragraphs: [
+          "The University of Health Sciences (UHS), Lahore, issues the second college-wise selection and upgradation list for MBBS 2026-27 on Monday 23 November 2026, covering public-sector and private-sector medical colleges together. It is built from the same final order of merit — public final list 16 November, private final list 17 November — so there is no new test and no new application. Two movements happen on the same day: fresh selections into seats left vacant because first-list candidates did not pay the fee or did not join by 5:00 PM on Saturday 21 November, and upgradation of already-selected students to colleges higher on their preference list as those seats open up.",
+          "One thing the 23 November list is not: a BDS list. Public BDS applications in Punjab open on 15 December 2026 and the first BDS selection list comes on 11 January 2027. If you applied for MBBS only, BDS does not appear in your 23 November result, and if you are waiting for BDS, your calendar starts in December, not November.",
+        ],
+      },
+      {
+        heading: "What the first list showed: closing merits by college",
+        paragraphs: [
+          "The public first selection list, published 17 November 2026, filled 3,796 open-merit seats across 19 public medical colleges in Punjab. The lowest open-merit aggregate selected anywhere in Punjab was 93.2970%, at the Medical College of the University of Rasul, Mandi Bahauddin. King Edward Medical University (KEMU), Lahore, closed highest at 95.3697%. The table below gives the lowest open-merit aggregate selected at the ten most-watched colleges in the first list, with the open-merit seats filled at each. Source: the UHS first college-wise selection list of 17 November 2026, as reported by the UHS spokesperson (Daily Ittehad, 18 November 2026) and compiled from the UHS list by StudentPath.",
+        ],
+        list: [
+          "King Edward Medical University (KEMU), Lahore — 95.3697% (338 seats).",
+          "Allama Iqbal Medical College (AIMC), Lahore — 94.8750% (314 seats).",
+          "Services Institute of Medical Sciences (SIMS), Lahore — 94.3917% (261 seats).",
+          "Nishtar Medical College, Multan — 94.1889% (318 seats).",
+          "Rawalpindi Medical College, Rawalpindi — 94.0131% (325 seats).",
+          "Ameer-ud-Din Medical College, Lahore — 93.8972% (154 seats).",
+          "Punjab Medical College, Faisalabad — 93.7121% (320 seats).",
+          "Narowal Medical College, Narowal — 93.3561% (99 seats).",
+          "Maryam Nawaz Sharif Medical College, Mianwali — 93.3121% (100 seats).",
+          "Medical College, University of Rasul, Mandi Bahauddin — 93.2970% (100 seats).",
+        ],
+      },
+      {
+        heading: "2026 is running hotter than 2025 — read the table honestly",
+        paragraphs: [
+          "The comparison that matters is with last session. KEMU's final (13th) selection list in 2025-26 closed at 94.8677% — the lowest the college reached all cycle. The 2026 first list closed half a point higher, at 95.3697%. That tells you the whole 2026 cycle is running hotter, and it tells you where the second list will move: the bottom of the table, not the top. A student at 93.50% should watch Rasul, Mianwali and Narowal on 23 November, not KEMU. A student at 95.00% who was allotted AIMC or SIMS in the first list is the one who might upgrade to KEMU if a seat frees up there.",
+          "The private first selection list was scheduled for 18 November 2026, a day after the public list. Its college-wise closing merits were not compiled in the sources we checked for this guide, so they are not printed here — check the private list on privatembbs.uhs.edu.pk for the exact figures. Last session's private first-list range, reported at 75.9465% to 92.7136% across the colleges, is a benchmark for the shape of the private market, not a prediction for 2026.",
+        ],
+      },
+      {
+        heading: "How to check the 2nd selection list on 23 November",
+        paragraphs: [
+          "UHS lists usually appear during working hours, not at midnight — check in the morning and again in the afternoon if the first check shows nothing. Keep your portal login ready before the day: your CNIC or application number and the password you used to apply. The public portal was under scheduled maintenance on 16 November, so if the portal is slow on list day, try the UHS website notices page (uhs.edu.pk) first — the list PDFs are posted there as well.",
+        ],
+        list: [
+          "Open uhs.edu.pk and go to the Public Notices or merit list section, or log in to your portal account — publicmbbs.uhs.edu.pk for public colleges, privatembbs.uhs.edu.pk for private colleges.",
+          "Open the second selection list dated 23 November 2026 and search your name, CNIC or application number.",
+          "Note three things from the list: the college allotted to you, the fee amount and bank, and the fee and joining deadline printed in the same notice.",
+          "If your name is not in the 23 November list, note your position in the final order of merit and keep the 3rd list dates (private 27 November, public 1 December) in your calendar.",
+        ],
+      },
+      {
+        heading: "How upgradation works — and why public and private differ",
+        paragraphs: [
+          "Upgradation means you move to a college higher on your own preference list when a seat there frees up. Your aggregate never changes in this process; your position in the merit order decides whether a freed seat reaches you. A seat frees up when a selected student does not pay, does not join, or upgrades away from that college — each vacancy cascades down the merit order to the next candidate who had that college on their list.",
+          "In public colleges, upgradation is mandatory. If the 2nd list moves you to a higher-preference college, you must join the new college: the fee you already paid transfers, you report in person to the new college with your original documents, and no extra fee is charged. Staying at the old college is not an option — the upgrade replaces your earlier allotment.",
+          "In private colleges, you already made your choice at joining time: RETAIN means you stay where you are and the choice is final, while UPGRADATION means you move up if a seat opens in a higher-preference college. A student who chose RETAIN will not be upgraded in the 2nd or 3rd list. If you are a private candidate, check which choice you recorded — it decides whether the 23 November list can change anything for you.",
+          "Quota seats are not part of the 23 November list. The quota first selection list is due on 27 November 2026, with the second on 4 December and the third on 10 December — a separate track with separate portals (quotambbs.uhs.edu.pk and quotabds.uhs.edu.pk).",
+        ],
+      },
+      {
+        heading: "Fee and joining after the 2nd list",
+        paragraphs: [
+          "The exact fee and joining deadline for the 2nd list is printed in the 23 November notice itself. It had not been announced at the time of writing, and this guide will not guess it. What the first list shows is the pattern: first-list candidates had to download the fee challan from the portal, pay it at a Bank of Punjab branch, and report in person to the allotted college with the paid challan and all original documents by 5:00 PM on Saturday 21 November — four days after the list. Expect a similarly short window after 23 November: a few working days, not weeks. Read the notice the same day the list appears.",
+          "Joining is a three-part act, and UHS has said this explicitly for the first list: pay the fee, report in person, and have the college upload your Joining Report and mark you JOINED on the portal. Paying the fee alone, or visiting the college without the paid challan, does not count as joining. If the college has not marked you JOINED, your seat is still at risk.",
+          "The amounts: public-sector tuition is Rs 50,000 per year under the Punjab admission policy notified on 14 October 2026. Private colleges take a Rs 600,000 deposit within three working days of selection, through the portal challan (Bank of Punjab or National Bank of Pakistan, payable through 1Bill) — the deposit is part of your admission dues, and missing the deadline forfeits the seat to the next candidate on merit. Keep your original documents ready now: the full checklist is in the documents guide on this site (CNIC, Matric and FSc certificates, domicile, MDCAT result card, photographs, and IBCC equivalence where applicable).",
+        ],
+      },
+      {
+        heading: "Worked example: what your aggregate means on 23 November",
+        paragraphs: [
+          "UHS calculates the aggregate as 10% Matric + 40% FSc + 50% MDCAT, with the MDCAT out of 180. Take a student with Matric 1050/1100, FSc 1000/1100 and MDCAT 150/180. Matric contributes 1050 ÷ 1100 × 10 = 9.5455, FSc contributes 1000 ÷ 1100 × 40 = 36.3636, and MDCAT contributes 150 ÷ 180 × 50 = 41.6667. Total aggregate: 87.5758%. That student was not selected in the first list — the floor was 93.2970% — and is not in range for the second public list either: the second list only moves the closing merit down by the seats that free up, and 87.5758% is 5.72 points below the lowest first-list close. The realistic paths for this student are private colleges (last session's private first-list range ran 75.9465% to 92.7136%), public BDS in January, or NUMS, whose provisional merit list is due on 10 December.",
+          "Now take a student at 93.50%. In the first list that aggregate was selected at Rasul (93.2970%), Mianwali (93.3121%) or Narowal (93.3561%), depending on the preference order. In the second list, if a seat frees up at a college above the one allotted and this student's merit reaches it, the student upgrades automatically in the public track. The movement is real but small: one MDCAT mark is worth 0.2778 aggregate points, and one FSc mark is worth 0.0364 points, so a handful of freed seats shifts a college's closing merit by fractions of a point, not whole points.",
+          "The backward calculation shows how tight the top is. With Matric 1050/1100 and FSc 1000/1100 locked at 45.9091 points, reaching the first-list floor of 93.2970% needs 47.3879 MDCAT points — that is 171 marks out of 180. With 170 marks the aggregate is 93.1313%, just short; with 171 it is 93.4091%, just above the line. One MDCAT question decided it. That is also why the second list cannot rescue an aggregate far below the floor: the vacancies it fills are counted in seats, not in points.",
+        ],
+      },
+      {
+        heading: "If your name is still missing after 23 November",
+        paragraphs: [
+          "The third selection and upgradation lists follow quickly: private on 27 November and public on 1 December 2026. After the third lists, UHS may issue further lists if seats remain vacant — in 2025-26 the public lists ran to a 13th and final list, so do not assume the season ends on 1 December. Keep checking the portals on every scheduled date, and keep your fee money and documents ready: a vacancy can reach you late in the cycle, and the joining window is always short.",
+          "Parallel tracks still open this month: the KMU private final merit list is due on 24 November, with placements from 8 December to 7 January; the NUMS provisional merit list is due on 10 December, with the first MBBS selection on 17 December; SZABMU private applications close on 27 November, with the first selection on 7 December; and public BDS applications open on 15 December, with the first BDS selection on 11 January 2027. If public MBBS is out of reach, the private track, BDS and the other admitting universities are real alternatives — the low-MDCAT-score guide on this site walks through each option with its own dates and eligibility floors.",
+        ],
+      },
+      {
+        heading: "Five mistakes that cost students a seat",
+        paragraphs: [
+          "Most lost seats in the selection rounds are not about merit — they are about procedure. These are the five we see every year.",
+        ],
+        list: [
+          "Not checking every list: in the public track upgradation is automatic, so if you never look at the 2nd list you may report to the wrong college — or miss that you were upgraded at all.",
+          "Treating the fee receipt as joining: the college must upload your Joining Report and mark you JOINED on the portal. Pay, report in person, and confirm the status.",
+          "Assuming the deadline is the same as the first list: the 2nd list carries its own deadline in its own notice. Read it the day the list appears.",
+          "Private students forgetting their RETAIN choice is final: if you chose RETAIN at joining, the 2nd and 3rd lists cannot upgrade you, whatever your merit.",
+          "Checking the wrong portal: public, private and quota are separate lists on separate portals. A private candidate will not find their name on the public list, and a quota candidate will not find it on either.",
+        ],
+      },
+      {
+        heading: "Remaining schedule at a glance",
+        paragraphs: [
+          "Every date below is from the UHS 2026-27 admission schedule and the admitting universities' own notices. UHS can revise the schedule on PMDC or Government of Punjab directions, so confirm each date on uhs.edu.pk before you act.",
+        ],
+        list: [
+          "21 November 2026, 5:00 PM — first-list fee and joining deadline (public MBBS).",
+          "23 November 2026 — second selection and upgradation list, public and private MBBS.",
+          "24 November 2026 — KMU private final merit list.",
+          "27 November 2026 — private third selection list; quota first selection list; SZABMU private applications close.",
+          "1 December 2026 — public third selection list.",
+          "4 December 2026 — quota second selection list.",
+          "7 December 2026 — SZABMU private first selection list.",
+          "10 December 2026 — quota third selection list; NUMS provisional merit list.",
+          "15–30 December 2026 — public BDS applications (Punjab).",
+          "17 December 2026 — NUMS first MBBS selection list.",
+          "11 January 2027 — public BDS first selection list.",
+          "1 February 2027 — public MBBS classes begin.",
+        ],
+      },
+      {
+        heading: "Page notes — what we verified and what we did not",
+        paragraphs: [
+          "Verified for this guide: the 2nd-list date of 23 November 2026 for public and private MBBS, from the UHS 2026-27 schedule as reported by multiple trackers (NiFT, XcelTube, IlmiWorld and 10th Class Result Check, all checked 18–19 November 2026); the first-list closing merits by college from the UHS 17 November 2026 list, via the UHS spokesperson (Daily Ittehad, 18 November 2026) and StudentPath's compilation from the list; 3,796 open-merit seats across 19 public colleges (UHS spokesperson); the first-list joining deadline of 21 November 2026, 5:00 PM, and the JOINED rule (NiFT reading the UHS notice); KEMU's 2025-26 final close of 94.8677% (UHS 13th and final list, via StudentPath).",
+          "Not verified, and deliberately not claimed: the 2nd list's exact fee and joining deadline (it comes in the 23 November notice); private first-list college-wise closing merits for 2026-27 (not compiled in the sources we checked — the private first list was scheduled for 18 November; check privatembbs.uhs.edu.pk); how far the 2nd list will lower each college's closing merit (that depends on how many first-list candidates did not join, and no number exists until the list is published); and any 2026-27 closing merit beyond the published first-list figures above.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "When is the UHS 2nd selection list 2026?",
+        answer:
+          "Monday 23 November 2026, for public and private MBBS in Punjab. The third lists follow on 27 November (private) and 1 December (public).",
+      },
+      {
+        question: "Where can I check the UHS 2nd selection list?",
+        answer:
+          "On the UHS website (uhs.edu.pk) under Public Notices, or in your portal account: publicmbbs.uhs.edu.pk for public colleges and privatembbs.uhs.edu.pk for private colleges. Quota candidates use quotambbs.uhs.edu.pk — the quota first selection list is a separate list on 27 November.",
+      },
+      {
+        question: "I was selected in the 1st list and already joined. Do I still need to check the 2nd list?",
+        answer:
+          "Yes. In the public track upgradation is mandatory: if the 2nd list moves you to a higher-preference college, you must join the new college. In the private track it depends on the choice you recorded at joining — UPGRADATION means you can move up, RETAIN means you stay and the choice is final.",
+      },
+      {
+        question: "What is upgradation in the UHS merit list?",
+        answer:
+          "Upgradation is the automatic move to a college higher on your own preference list when a seat there frees up — because a selected student did not pay, did not join, or upgraded away. Your aggregate never changes; your position in the merit order decides whether a freed seat reaches you.",
+      },
+      {
+        question: "What is the fee deadline for the 2nd selection list?",
+        answer:
+          "It is printed in the 23 November notice itself and had not been announced when this guide was written. The first list gave four days — fee, Bank of Punjab challan and in-person reporting by 5:00 PM on Saturday 21 November — so expect a similarly short window, not weeks. Read the notice the day the list appears.",
+      },
+      {
+        question: "What was the lowest merit in the UHS 1st selection list?",
+        answer:
+          "93.2970% on open merit, at the Medical College of the University of Rasul, Mandi Bahauddin. King Edward Medical University closed highest at 95.3697%. Across the 19 public colleges, 3,796 open-merit seats were filled in the first list.",
+      },
+      {
+        question: "My aggregate is 90%. Will the 2nd list select me in a public college?",
+        answer:
+          "No — 90% is 3.30 points below the lowest first-list close of 93.2970%, and second-list movement is measured in fractions of a point per college. Your realistic options are private colleges (last session's private first-list range was 75.9465% to 92.7136%), public BDS in January, or NUMS, whose provisional list is due on 10 December.",
+      },
+      {
+        question: "Does the 2nd selection list include BDS?",
+        answer:
+          "No. The 23 November list is MBBS only. Public BDS applications in Punjab open on 15 December 2026, with the provisional list on 6 January 2027, the final list on 9 January and the first BDS selection list on 11 January 2027.",
+      },
+      {
+        question: "What happens if I am not selected even in the 3rd list?",
+        answer:
+          "The season is not necessarily over: in 2025-26 the public lists ran to a 13th and final list as seats kept opening. Keep checking the portals on every scheduled date. In parallel, the KMU private final list (24 November), NUMS provisional list (10 December), SZABMU private first selection (7 December) and public BDS (January) are still open.",
+      },
+    ],
+    relatedCalculators: ["kemu", "duhs", "nums"],
+  },
 ];
