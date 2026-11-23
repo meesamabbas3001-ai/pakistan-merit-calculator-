@@ -317,5 +317,155 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
       },
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
+  },,
+  {
+    slug: "mbbs-fee-in-pakistan-2026",
+    image: "/blog/mbbs-fee-in-pakistan-2026.svg",
+    imageAlt: "MBBS fee in Pakistan 2026 illustration — public Rs 50,000 a year vs private PMDC cap Rs 1.89 million",
+    title: "MBBS Fee in Pakistan 2026: Public vs Private — Complete Fee Guide",
+    description:
+      "MBBS fee in Pakistan 2026: public colleges charge Rs 50,000 a year under the Punjab policy, private colleges are capped at Rs 1.89 million a year by PMDC — plus the Rs 600,000 deposit, five-year totals, and what to do about overcharging.",
+    category: "Guides",
+    date: "November 2026",
+    readTime: "8 min read",
+    intro:
+      "The moment your name appears on a selection list, the question stops being about merit and becomes about money: how much, by when, and to whom. For session 2026-27 the answer in Pakistan is two very different numbers. A public-sector MBBS seat in Punjab costs Rs 50,000 a year in tuition. A private-sector seat costs up to Rs 1.89 million a year under the PMDC cap — nearly 38 times as much — and the first Rs 600,000 of it is due within three working days of the merit list. This guide puts every verified fee figure for the 2026-27 cycle in one place: the public fee and the hike behind it, the private cap and the 16 colleges allowed to charge above it, the deposit and the deadlines that cancel seats, the five-year totals, and what to do when a college demands more than the cap. Where a figure does not exist yet, this page says so instead of inventing one.",
+    sections: [
+      {
+        heading: "The two numbers that decide your budget",
+        paragraphs: [
+          "Start with the gap, because it frames every decision that follows. Public-sector tuition in Punjab for session 2026-27 is Rs 50,000 per year. The PMDC cap on private-sector tuition is Rs 1.89 million per year. Divide one by the other: a single year at a private college costs the same as 37.8 years of public tuition. Over the five years of MBBS, the public route costs Rs 250,000 in tuition; the private route at the cap costs Rs 9.45 million.",
+          "That gap is why the merit list matters financially, not just academically. The difference between a public seat and a private seat is not a few thousand rupees — it is roughly Rs 9.2 million across the degree. Every aggregate point that moves you from the private lists onto a public list is worth real money, and every family planning for this cycle should know both numbers before the lists arrive, not after.",
+          "One caution before the detail: this guide's public figure is Punjab's, notified in the province's 2026-27 admission policy. Public fees in other provinces are set by their own admitting universities and governments, and this page does not print figures for them — see the page notes at the end for exactly what is verified and what is not.",
+        ],
+      },
+      {
+        heading: "Public-sector fee 2026-27: Rs 50,000 a year — and what changed",
+        paragraphs: [
+          "The Government of Punjab notified the MBBS/BDS admission policy for 2026-27 on 14 October 2026, with UHS Lahore as the admitting university. The notification sets public-sector tuition at Rs 50,000 per year for open-merit MBBS and BDS seats in all government-run institutions. The figure applies to newly admitted students of this session; earlier batches keep the old rate.",
+          "The new figure is a sharp rise. Public tuition had sat at Rs 15,000 a year for years — the total annual bill, including other charges, was about Rs 18,030. Tuition alone is now Rs 50,000: more than triple the old tuition, an increase of Rs 35,000 a year. Several reports describe it as a rise of over 300% on the old rate, and for families who planned around the old Rs 15,000 figure, the change is real money — Rs 175,000 more across a five-year degree than the old tuition would have cost.",
+          "What the Rs 50,000 covers, and what it does not: it is tuition only. University registration fees, annual examination fees, hostel accommodation, mess charges and practical materials are charged separately, on top of it. The UHS application fee is also separate: Rs 2,000 per candidate, per programme — medical and dental are applied to separately, so a candidate applying to both pays Rs 4,000 in application fees.",
+          "One more public-sector figure from the same policy: an overseas-quota seat in a public college costs USD 10,000 a year. That is the rate for overseas Pakistanis admitted on quota seats, and it is a different world from the open-merit Rs 50,000 — about Rs 2.8 million a year at current exchange rates, which is why the overseas quota is a separate decision with separate finances.",
+        ],
+      },
+      {
+        heading: "Private-sector fee: the PMDC cap, and the 16 colleges allowed to charge more",
+        paragraphs: [
+          "Private medical and dental colleges in Pakistan do not set their fees freely. The Pakistan Medical and Dental Council caps them, and the cap has moved in steps. On 30 January 2024 the PMDC fixed the maximum annual tuition for private MBBS and BDS programmes at Rs 1.8 million for the 2024-25 session. A 5% increase took it to Rs 1.89 million for the 2025-26 session. The framework provides that any further increase after 2026 is linked to the Consumer Price Index and must be officially notified by the PMDC — colleges may not raise fees on their own.",
+          "The Rs 1.89 million figure is described in the PMDC's 2025-26 notice as inclusive of all ancillary charges. An earlier joint statement between the PMDC and the private colleges' association described the Rs 1.8 million cap as tuition only, excluding hostel, transport, examination and PMDC registration charges. The two descriptions do not fully agree, and the difference matters to your bill — so read your own college's fee slip line by line rather than assuming either description covers everything. The slip is the document that binds you.",
+          "Then came the exception that changes the headline number for some colleges. In a notification dated 4 August 2026 (No. PF.1-A(B&A)(Tuition Fee)-2026/100), the PMDC approved enhanced, institution-specific tuition fee caps for 16 private medical and dental colleges, ranging from Rs 1.8 million to Rs 2,160,000 a year. The colleges were allowed to apply for a higher fee — up to a ceiling of Rs 2.5 million — on the basis of audited financial accounts, and the 16 approvals are the outcome of that review process.",
+          "The highest approved caps, Rs 2,160,000 a year, went to NUST School of Health Sciences (Islamabad), Bahria University College of Medicine (Islamabad) and Shalamar Medical & Dental College (Lahore). Rashid Latif Medical and Dental College and RLKU Medical College in Lahore were capped at Rs 2,121,765; Rahbar Medical & Dental College, Lahore at Rs 2,107,421; and Peshawar Medical and Dental College at Rs 2,116,552. At the lower end, Al Aleem Medical College, Lahore received Rs 1,800,000, while Pak International Medical College, Peshawar was capped at Rs 1,928,812 and Aziz Fatima Medical College, Faisalabad at Rs 1,945,341. If your college is one of the 16, its cap is its own figure — not the general Rs 1.89 million — and your fee slip should match the notified cap for that college.",
+        ],
+      },
+      {
+        heading: "The Rs 600,000 deposit — the first payment, and the deadline that cancels seats",
+        paragraphs: [
+          "In Punjab, a private-college seat begins with a deposit, not with the full annual fee. The 2026-27 policy requires a private-sector candidate to pay Rs 600,000 into the UHS account within three working days of the merit list. The deposit is part of the college fee, not an extra charge: UHS passes it to the college after admissions close, and you pay the rest of the year's fee directly to the college, quarterly, six-monthly or yearly under the PMDC policy.",
+          "Do the arithmetic on the first year at the general cap: Rs 1.89 million minus the Rs 600,000 deposit leaves Rs 1.29 million still to pay for year one — the deposit is about 32% of the first year's fee, not most of it. Families who arrange only the deposit and discover the balance later are the ones who lose seats. Have the full first-year figure ready before the list, not just the deposit.",
+          "The deadlines are enforced, and this cycle has already shown it. UHS's first public selection list of 17 November required fee payment at the Bank of Punjab and joining by 5:00 PM on 21 November. On the SZABMU public track, selected candidates had to pay by 2:00 PM on Monday 23 November 2026 or lose the provisional admission. The private rule is the same in spirit: three working days, then the seat moves to the next candidate. A late payment is not a fine — it is a lost seat.",
+          "Khyber Pakhtunkhwa adds its own retention rule for private admissions: KMU retains a minimum of Rs 600,000 until placement or withdrawal. That is the same order of magnitude as Punjab's deposit, and it means the money is committed from the moment you accept a private seat — withdrawing later does not simply return it. Check the refund and retention terms on your own admission letter before you pay, because the deposit is the least refundable money in the whole process.",
+        ],
+      },
+      {
+        heading: "Five-year arithmetic: what the degree actually costs",
+        paragraphs: [
+          "Here is the full-degree arithmetic at the verified figures, tuition only, before hostel, mess, exams and books. Public MBBS in Punjab: Rs 50,000 a year for five years is Rs 250,000, plus the Rs 2,000 application fee. Public BDS: four years, so Rs 200,000 in tuition. Those are the cheapest accredited medical degrees in the country by an enormous margin.",
+          "Private MBBS at the general cap: Rs 1.89 million a year for five years is Rs 9.45 million. Private MBBS at the highest enhanced cap, Rs 2.16 million: Rs 10.8 million across the degree. Private BDS at the general cap: Rs 1.89 million a year for four years is Rs 7.56 million — one year less than MBBS, which is a saving of Rs 1.89 million against the same annual fee, and one reason BDS is a genuine financial alternative rather than only a second choice.",
+          "Put the two routes side by side for one student: public MBBS tuition Rs 250,000 against private MBBS tuition Rs 9,450,000 at the cap. The difference is Rs 9.2 million — about 37.8 times the public total. A family paying the private cap could fund roughly 38 public MBBS degrees for the same tuition. That is not an argument against private colleges, which educate thousands of doctors every year; it is the scale of the decision, stated plainly, so that no family walks into it without seeing it.",
+          "And remember what the totals exclude. Hostel and mess, examination fees, university registration, books and instruments, transport and living costs sit on top of tuition in both sectors. In the public sector those extras are a large share of the real bill relative to Rs 50,000 tuition; in the private sector they are a smaller share of a much larger bill. Budget for them separately — a tuition-only plan understates the true cost in both sectors.",
+        ],
+      },
+      {
+        heading: "What the fee does not include — and the overcharging problem",
+        paragraphs: [
+          "The uncomfortable fact of this cycle is that some private colleges charge more than the cap. The News reported colleges collecting between Rs 2.5 million and Rs 3.5 million per seat, against a cap of Rs 1.89 million — and the PMDC has issued repeated public warnings telling parents not to pay more than the cap, and show-cause notices against 12 colleges accused of overcharging. The Islamabad High Court has also ruled that private colleges cannot collect fees above the annual cap set by the PMDC.",
+          "The gap between the cap and what some colleges demand is the single most expensive trap in this admission season. A college asking Rs 2.5 million a year is asking Rs 610,000 a year above the general cap — Rs 3.05 million extra across the degree. Before you pay anything above your college's notified cap, ask for the fee slip in writing, check it against the PMDC cap for that college, and keep every receipt and challan.",
+          "If a college demands more than the cap, the PMDC is the regulator to complain to — it is the body that set the cap, issued the warnings and served the show-cause notices. Do not pay an above-cap demand quietly and hope for a refund later; the record of this cycle is that overcharging is discovered through complaints, not through colleges volunteering refunds. And never pay a fee in cash without a receipt: an undocumented payment is very hard to recover.",
+          "One more protection to know: the PMDC framework allows colleges to seek a higher fee only through the Fee Justification Committee, on audited accounts, up to a Rs 2.5 million ceiling — and the 16 enhanced caps from August 2026 are the published results of that process. A college that is not on that list has no approved basis to charge above Rs 1.89 million. If your college claims an enhanced cap, ask to see the notification.",
+        ],
+      },
+      {
+        heading: "The small fees: application charges add up",
+        paragraphs: [
+          "Application fees are small next to tuition, but they are charged per programme, and they add up across a season. UHS Punjab charges Rs 2,000 per candidate per programme — MBBS and BDS separately. SZABMU's private track charges Rs 3,000 per programme. KMU's private track also charges Rs 3,000 per programme, payable by Bank of Khyber challan.",
+          "A student applying to MBBS and BDS in Punjab pays Rs 4,000 to UHS; adding a SZABMU private application and a KMU private application takes the season's application fees past Rs 10,000 before a single list is published. That is not a reason to narrow your applications — a missed list costs far more than a fee — but it is worth budgeting, and worth knowing that each programme is a separate payment with its own deadline and its own challan.",
+          "Keep the payment proof for every application fee. Lists are built from the applications the system received; a challan paid but not recorded is the kind of error that shows up as a missing name, and the proof of payment is what gets it fixed.",
+        ],
+      },
+      {
+        heading: "Worked example: two students, two very different bills",
+        paragraphs: [
+          "Take two students with the same marks, admitted in the same session. Student A takes a public MBBS seat in Punjab. Year one: Rs 50,000 tuition plus the Rs 2,000 application fee already paid. Five years of tuition: Rs 250,000. Add hostel, mess, exams and books on top — but the tuition itself is less than a single month of the private fee.",
+          "Student B takes a private MBBS seat at a college on the general cap. Year one: Rs 1.89 million, of which Rs 600,000 is the deposit due within three working days of the list and Rs 1.29 million is the balance for the year. Five years of tuition: Rs 9.45 million. If Student B's college is one of the three capped at Rs 2.16 million, the five-year total is Rs 10.8 million — Rs 1.35 million more than the general cap.",
+          "The difference between the two students' tuition bills is Rs 9.2 million, and it is decided entirely by the merit list: the same marks, the same degree, the same five years. That is the honest reason this site spends so much effort on aggregates and closing merits — a few aggregate points are worth, quite literally, millions of rupees.",
+          "Now the BDS comparison. Student C takes a private BDS seat at the general cap: four years at Rs 1.89 million is Rs 7.56 million — Rs 1.89 million less than private MBBS, exactly one year's fee. Student D takes a public BDS seat: four years at Rs 50,000 is Rs 200,000. For a family weighing MBBS against BDS on a private seat, the one-year difference is real money; for a family weighing them on a public seat, the tuition difference is only Rs 50,000.",
+        ],
+      },
+      {
+        heading: "If private is out of reach: the honest options",
+        paragraphs: [
+          "First, the public route is the goal, and it is still open to this cycle's candidates: the UHS public lists run through upgradation rounds (second list 23 November, third list 1 December), KMU and SZABMU lists are still running, and the NUMS provisional merit list is due 10 December. A name missing from one list is not the end of the season — check the next one, and keep the fee ready so a late-round offer is not lost to an unprepared wallet.",
+          "Second, the fee itself can be spread. The Punjab policy provides for the balance of the private fee to be paid quarterly, six-monthly or yearly under the PMDC policy — ask your college which schedule it offers before the deposit deadline, and get it in writing. An instalment plan does not reduce the total, but it changes when the money is needed, and that can be the difference between accepting and declining a seat.",
+          "Third, scholarships exist, but no specific award is promised here: check the HEC need-based scholarship portal and your province's merit-scholarship programmes, and ask your allotted college's financial-aid office what it offers. Scholarship deadlines are separate from admission deadlines and are easy to miss while you are watching merit lists.",
+          "Fourth, the longer route is real and legitimate. MDCAT scores stay valid for up to three years, so a candidate who misses public merit this year can reappear with a stronger score rather than accept a private fee the family cannot afford. It is a hard choice — a year of your life against Rs 9.2 million — but it is a choice many families make, and it should be made with the numbers in front of you, not in the panic of a three-day deposit deadline.",
+        ],
+      },
+      {
+        heading: "Page notes: what we know, what we refuse to guess",
+        paragraphs: [
+          "Known and verified: the Punjab public tuition of Rs 50,000 a year and the Rs 600,000 private deposit within three working days, from the Punjab MBBS/BDS admission policy notified 14 October 2026 and reported by multiple independent sources; the old public tuition of Rs 15,000 a year; the Rs 2,000 UHS application fee per programme; the overseas-quota public fee of USD 10,000 a year; the PMDC cap history — Rs 1.8 million for 2024-25, Rs 1.89 million for 2025-26 with a 5% increase, further increases linked to CPI after 2026; the 4 August 2026 notification (No. PF.1-A(B&A)(Tuition Fee)-2026/100) enhancing caps for 16 colleges up to Rs 2,160,000, with the named colleges and figures quoted above; the SZABMU private application fee of Rs 3,000 per programme and the KMU private fee of Rs 3,000 per programme with the Rs 600,000 retention rule; and the fee deadlines already enforced this cycle — UHS first-list fee and joining by 5:00 PM on 21 November, SZABMU public-track fee by 2:00 PM on 23 November.",
+          "Also verified and stated with its limits: the reports that some colleges charge Rs 2.5–3.5 million per seat against the cap, the PMDC's repeated warnings and show-cause notices against 12 colleges, and the Islamabad High Court ruling that colleges cannot collect above the cap. The five-year and four-year totals in this guide are arithmetic on the verified annual figures, not separate published numbers.",
+          "Not published, so not printed here: any per-college fee slip — your own college's slip is the only binding figure; public-sector tuition figures for Khyber Pakhtunkhwa, Sindh, Balochistan and Islamabad, which are set by their own admitting universities; the fee schedules of NUMS/Army Medical College and Aga Khan University; hostel, mess, examination and registration charges, which vary by college; and the exact CPI-linked general cap figure for 2026-27, which the PMDC has not published as a single number — the Rs 1.89 million figure is the 2025-26 cap, and the 16 enhanced caps are the published 2026 figures for those colleges. The moment a college's fee slip or a new PMDC notification gives a firm number, we will update this page.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the MBBS fee in a public medical college in Pakistan in 2026?",
+        answer:
+          "In Punjab, public-sector MBBS tuition is Rs 50,000 a year under the admission policy notified on 14 October 2026 — up from Rs 15,000 a year, and applying to newly admitted students of session 2026-27. That is tuition only; registration, examination, hostel and mess charges are extra. Public fees in other provinces are set by their own admitting universities and are not covered by this figure.",
+      },
+      {
+        question: "What is the maximum fee a private medical college can charge in Pakistan?",
+        answer:
+          "The PMDC general cap is Rs 1.89 million a year (2025-26), with further increases linked to the Consumer Price Index after 2026. Sixteen colleges hold higher institution-specific caps under the PMDC notification of 4 August 2026, up to Rs 2,160,000 a year — NUST School of Health Sciences, Bahria University College of Medicine and Shalamar Medical & Dental College are at the top. A college not on that list has no approved basis to charge above Rs 1.89 million.",
+      },
+      {
+        question: "What is the Rs 600,000 deposit for a private MBBS seat?",
+        answer:
+          "In Punjab, a candidate selected for a private-sector MBBS or BDS seat must pay Rs 600,000 into the UHS account within three working days of the merit list. It is part of the college fee, not an extra charge — UHS passes it to the college, and the balance of the year's fee is paid directly to the college, quarterly, six-monthly or yearly. Missing the three-day window loses the seat.",
+      },
+      {
+        question: "How much does an MBBS degree cost in total in Pakistan?",
+        answer:
+          "Tuition only: a public MBBS seat in Punjab costs Rs 250,000 over five years (Rs 50,000 a year). A private MBBS seat costs Rs 9.45 million over five years at the general cap of Rs 1.89 million a year, or Rs 10.8 million at the highest enhanced cap of Rs 2.16 million. Hostel, mess, exams, registration and books are extra in both sectors.",
+      },
+      {
+        question: "Is BDS cheaper than MBBS in Pakistan?",
+        answer:
+          "Yes, by one year's fee, because BDS is a four-year degree and MBBS is five years. At the same annual fee, private BDS tuition totals Rs 7.56 million against Rs 9.45 million for private MBBS at the general cap; public BDS tuition is Rs 200,000 against Rs 250,000 for public MBBS in Punjab.",
+      },
+      {
+        question: "What should I do if a private college demands more than the PMDC cap?",
+        answer:
+          "Ask for the fee slip in writing and compare it with the PMDC cap for that college — Rs 1.89 million generally, or its notified enhanced cap if it is one of the 16 colleges from the August 2026 notification. The PMDC has warned parents repeatedly not to pay above the cap and has issued show-cause notices to colleges accused of overcharging; the Islamabad High Court has ruled colleges cannot collect above the cap. Complain to the PMDC with your receipts, and never pay in cash without a receipt.",
+      },
+      {
+        question: "What is the fee for an overseas or foreign seat in a public medical college?",
+        answer:
+          "Under the Punjab 2026-27 policy, an overseas-quota seat in a public college costs USD 10,000 a year — far above the Rs 50,000 open-merit tuition. Overseas seats in private colleges follow the private fee structure, and 15% of private seats in tracks such as SZABMU's are reserved for overseas Pakistanis and foreign students.",
+      },
+      {
+        question: "When is the MBBS fee due after selection?",
+        answer:
+          "It depends on the list. In Punjab, the private deposit of Rs 600,000 is due within three working days of the merit list. UHS's first public selection list required fee payment and joining by 5:00 PM on 21 November 2026. On the SZABMU public track, the fee deadline was 2:00 PM on Monday 23 November 2026. Every list prints its own deadline — read it on the list notice itself, because an unpaid seat is cancelled and given to the next candidate.",
+      },
+      {
+        question: "Does the PMDC cap include hostel and mess charges?",
+        answer:
+          "The PMDC's 2025-26 notice describes the Rs 1.89 million cap as inclusive of all ancillary charges, but an earlier joint statement described the Rs 1.8 million cap as tuition only, excluding hostel, transport, examination and PMDC registration charges. The two descriptions do not fully agree — so read your college's fee slip line by line. The slip, not either description, is the document that binds you.",
+      },
+    ],
+    relatedCalculators: ["kemu", "duhs", "nums"],
   },
 ];
