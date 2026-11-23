@@ -317,7 +317,7 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
       },
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
-  },,
+  },
   {
     slug: "mbbs-fee-in-pakistan-2026",
     image: "/blog/mbbs-fee-in-pakistan-2026.svg",
