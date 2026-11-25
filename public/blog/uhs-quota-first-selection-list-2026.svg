@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.55" stop-color="#155e75"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="70" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="100" cy="570" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="990" cy="530" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- left text block -->
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="72" width="330" height="40" rx="20" fill="#fbbf24"/>
+    <text x="225" y="99" text-anchor="middle" font-size="20" font-weight="bold" fill="#1e3a8a">UHS &#8226; SESSION 2026-27</text>
+    <text x="60" y="200" font-size="62" font-weight="bold" fill="#ffffff">UHS QUOTA</text>
+    <text x="60" y="262" font-size="42" font-weight="bold" fill="#fbbf24">1st Selection List</text>
+    <text x="60" y="312" font-size="25" fill="#e0f2fe">Reserved Seats &#8212; MBBS &amp; BDS</text>
+    <text x="60" y="352" font-size="21" fill="#bae6fd">ICT &#8226; AJK &#8226; Gilgit-Baltistan &#8226; Balochistan &#8226; ex-FATA</text>
+    <g font-weight="bold" font-size="20">
+      <rect x="60" y="420" width="170" height="48" rx="24" fill="#ffffff"/>
+      <text x="145" y="451" text-anchor="middle" fill="#1e3a8a">FRI 27 NOV</text>
+      <rect x="246" y="420" width="160" height="48" rx="24" fill="#0d9488"/>
+      <text x="326" y="451" text-anchor="middle" fill="#ffffff">252 SEATS</text>
+      <rect x="422" y="420" width="190" height="48" rx="24" fill="#ffffff"/>
+      <text x="517" y="451" text-anchor="middle" fill="#1e3a8a">7 CATEGORIES</text>
+    </g>
+    <text x="60" y="540" font-size="21" fill="#e0f2fe">2nd list 4 Dec &#8226; 3rd list 10 Dec &#8226; Classes 1 Feb 2027</text>
+  </g>
+
+  <!-- selection list card -->
+  <g transform="translate(700,70)">
+    <rect x="0" y="0" width="420" height="490" rx="22" fill="url(#card)"/>
+    <rect x="28" y="28" width="240" height="16" rx="8" fill="#1e3a8a"/>
+    <rect x="28" y="56" width="170" height="10" rx="5" fill="#94a3b8"/>
+    <rect x="28" y="92" width="364" height="58" rx="10" fill="#1e3a8a"/>
+    <text x="210" y="129" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">1ST SELECTION LIST</text>
+    <g font-family="Arial, sans-serif" font-size="21" fill="#334155">
+      <circle cx="48" cy="196" r="14" fill="#0d9488"/>
+      <text x="41" y="203" font-size="17" font-weight="bold" fill="#ffffff">&#10003;</text>
+      <text x="74" y="203">Gilgit-Baltistan &#8212; 60 seats</text>
+      <circle cx="48" cy="250" r="14" fill="#0d9488"/>
+      <text x="41" y="257" font-size="17" font-weight="bold" fill="#ffffff">&#10003;</text>
+      <text x="74" y="257">AJK &#8212; 39 seats</text>
+      <circle cx="48" cy="304" r="14" fill="#0d9488"/>
+      <text x="41" y="311" font-size="17" font-weight="bold" fill="#ffffff">&#10003;</text>
+      <text x="74" y="311">ICT &#8212; 30 seats</text>
+      <circle cx="48" cy="358" r="14" fill="#0d9488"/>
+      <text x="41" y="365" font-size="17" font-weight="bold" fill="#ffffff">&#10003;</text>
+      <text x="74" y="365">HEC Balochistan &#8212; 38 seats</text>
+    </g>
+    <rect x="28" y="404" width="364" height="52" rx="10" fill="#fbbf24"/>
+    <text x="210" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#1e3a8a">CHECK: quotambbs.uhs.edu.pk</text>
+  </g>
+</svg>
