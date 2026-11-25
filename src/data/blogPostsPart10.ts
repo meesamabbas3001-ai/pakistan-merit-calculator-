@@ -468,4 +468,160 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
   },
+  {
+    slug: "uhs-third-selection-list-2026",
+    image: "/blog/uhs-third-selection-list-2026.svg",
+    imageAlt: "UHS 3rd selection list 2026 illustration — final upgradation round, 27 November private and 1 December public",
+    title: "UHS 3rd Selection List 2026 (27 November Private / 1 December Public): Final Upgradation Round, Fee & Joining Guide",
+    description:
+      "The UHS 3rd selection list lands 27 November for private MBBS and 1 December for public MBBS — the last scheduled round of 2026-27. How to check it, mandatory public upgradation vs the private RETAIN choice, fee and joining rules, and what to do if your name is still missing.",
+    category: "Guides",
+    date: "November 2026",
+    readTime: "7 min read",
+    intro:
+      "Two dates now decide the rest of the Punjab MBBS season: the private colleges' third selection list on Friday 27 November 2026, and the public colleges' third selection list on Tuesday 1 December 2026. This is the last round printed in the UHS schedule — the final upgradation round, after which classes begin on 1 February 2027. This guide explains how to check the 3rd list, how upgradation works differently in the public and private tracks, what fee you will owe and by when, and what to do if your name is still missing. Every date below comes from the published UHS 2026-27 schedule, corroborated across independent admission trackers that reproduce the UHS notices. Where a number does not exist yet — the 2nd-list closes, the 3rd-list fee deadline — this page says so instead of inventing one.",
+    sections: [
+      {
+        heading: "The last scheduled round: 27 November for private, 1 December for public",
+        paragraphs: [
+          "The UHS 2026-27 MBBS schedule has three selection rounds. The first landed on 17 November (public) and 18 November (private); the second was due on 23 November for both sectors; the third — the last one in the printed schedule — lands on Friday 27 November for private colleges and Tuesday 1 December for public colleges. The quota track's first selection list lands on the same day as the private third list, 27 November.",
+          "Treat the 3rd list as the final planned chance for MBBS in Punjab. UHS can issue further lists only if the PMDC or the Punjab government directs it, and the PMDC admission regulations require public medical admissions to be completed by 31 December 2026. Nothing in the published schedule promises a fourth round, so do not plan your season around one.",
+          "MBBS classes in both sectors are scheduled to commence on 1 February 2027. That date is why the fee and joining windows after the 3rd list will be short: the colleges need every seat confirmed, paid and joined well before February.",
+        ],
+      },
+      {
+        heading: "What the 2nd list (23 November) did — and the one number we still do not have",
+        paragraphs: [
+          "The second selection and upgradation lists were due on Monday 23 November for both sectors. As of the morning of Tuesday 24 November, the picture was mixed: one admission tracker that checked uhs.edu.pk on Monday morning reported the 2nd lists had not yet appeared on the UHS website, while a Nearpeer update posted the same day said the second selection and upgrade list was being released. Both reports are recorded here because they disagree — the UHS website and your portal account are the only authorities on whether the 2nd list is actually up.",
+          "What is certain is that no 2nd-list closing merit has been published in any source we could verify as of this writing. We do not print 2nd-list closes here because they do not exist in public sources yet — any site showing precise '2nd list closing merits' today is guessing.",
+          "What the 2nd list does mechanically is simple, and the 3rd list will do exactly the same thing. Seats left unpaid after the 1st-list fee deadline — public 1st-list students had to deposit the fee and join by 5:00 PM on 21 November — fall vacant and are offered to the next candidates on merit. Students who paid and joined can be upgraded to a higher-preference college when a seat frees above them. The 3rd list repeats this on whatever remains after the 2nd round.",
+        ],
+      },
+      {
+        heading: "How to check the 3rd list, step by step",
+        paragraphs: [
+          "Lists appear during working hours, not at midnight — the first lists appeared on the UHS website during the day, and the second was still not posted on Monday morning. Check in the morning of the scheduled date, and check again later the same day if it is not there yet.",
+          "Your name appears under exactly one college: the highest preference on your list that your merit reaches in that round. Save or screenshot your entry the same day — it is your proof of selection and the document you will compare against the fee challan and the joining letter.",
+        ],
+        list: [
+          "Public track: open publicmbbs.uhs.edu.pk and the merit-list page on uhs.edu.pk. Private track: open privatembbs.uhs.edu.pk. Quota track: quotambbs.uhs.edu.pk.",
+          "Find the college-wise selection list PDF for the 3rd list and search inside it for your form number or CNIC number — search by number, not by name, because names are misspelled in lists far more often than numbers are.",
+          "Read your whole row: the college allotted, your aggregate, and the fee and joining deadline printed on the list notice itself.",
+          "Check your portal account as well as the PDF — your status there changes when you are selected.",
+          "Do not trust forwarded screenshots or social-media lists. Only the UHS website and your portal account are the list.",
+        ],
+      },
+      {
+        heading: "Upgradation in the final round: public mandatory, private your choice",
+        paragraphs: [
+          "In the public track, upgradation is mandatory. If a higher-preference college frees a seat and your merit reaches it on the 3rd list, you move — the fee you already paid transfers to the new college, and you report in person to the new college by the deadline in the notice. You cannot choose to stay at the lower college.",
+          "In the private track, the choice is yours, and it is final. When you joined after the 1st or 2nd list, you chose RETAIN — keep the college you were selected for — or UPGRADATION — move up if a seat frees above you. If you chose RETAIN, later lists pass you by. If you chose UPGRADATION, the 3rd list can still move you to a higher-preference college.",
+          "If you were already upgraded on the 2nd list, the 3rd list can upgrade you again: every round re-runs your preferences against the seats freed in that round. Each move is decided by merit order and your stated preference list — a careless preference order can still hand you a lower-choice college, so the order you submitted in October governs your fate in December.",
+          "After the 3rd list, upgradation stops unless UHS announces an extra round. Do not plan on one — plan as if the college the 3rd list gives you is the college you will join.",
+        ],
+      },
+      {
+        heading: "Fee and joining after the 3rd list: the deadline is in the notice, not in this guide",
+        paragraphs: [
+          "UHS has not announced the 3rd-list fee and joining deadline yet. It will be printed on the 3rd-list notice itself, and that notice is the only source that counts. Do not use the 1st-list deadline, and do not use another student's deadline from a different list — every list prints its own.",
+          "The pattern from round one tells you how short the window will be. Public 1st-list students had to deposit the fee and join by 5:00 PM on 21 November — four days after the 17 November list. Private students pay the Rs 600,000 deposit within three working days of the list, through the challan issued on the portal. Expect the 3rd list to give you a similarly short window, so arrange the money before the list lands, not after.",
+          "An unpaid seat is a cancelled seat. If you do not pay and join by the deadline in the notice, your seat goes to the next candidate on merit. With no further round scheduled after the 3rd list, a missed deadline may mean the seat is filled only if UHS issues another list — do not rely on that. Public tuition is Rs 50,000 a year; the private Rs 600,000 deposit is part of the fee, with the balance payable per the college's schedule.",
+        ],
+        list: [
+          "Arrange the funds now — Rs 50,000 a year for a public seat, Rs 600,000 deposit for a private seat, plus the first instalment your college asks for.",
+          "Read the list notice the hour the list lands and note the exact fee deadline and the reporting time.",
+          "Pay through the portal challan (Bank of Punjab or NBP, or 1Bill where the notice says so) and keep the receipt.",
+          "Report in person to the allotted college by the time stated in the notice, with your original documents.",
+        ],
+      },
+      {
+        heading: "Reading the 3rd-list closes: use the 1st-list numbers as a map, not a promise",
+        paragraphs: [
+          "The only verified closing merits of this session are the 1st-list closes, reported by Dawn and Pakistan Observer on 19 November. For public open merit: King Edward Medical University 95.3697%, Allama Iqbal Medical College 94.8750%, Services Institute of Medical Sciences 94.3917%, Nishtar Medical University 94.1889%, Rawalpindi Medical College 94.0131%, Ameer-ud-Din Medical College 93.8972%, Punjab Medical College Faisalabad 93.7121%, Quaid-e-Azam Medical College Bahawalpur 93.5636%, Sheikh Zayed Medical College Rahim Yar Khan 93.3583%, Narowal Medical College 93.3561%, Mianwali Medical College 93.3121%, and the lowest public close, Rasul University Mandi Bahauddin 93.2970%. For private colleges: the highest first-list close was Al-Aleem Medical College Lahore at 91.6051%, and the lowest was Sahara Medical College Narowal at 75.1354%. Public colleges filled 3,796 open-merit seats in the first round across 19 colleges; private colleges hold about 4,500 MBBS seats.",
+          "Expect every college's close to fall across the 2nd and 3rd rounds as unpaid seats cascade downward — but by how much is unknowable in advance, because it equals the number of seats left unpaid and the number of students who upgrade. A student at 93.50% was already selected at Rasul, Mianwali and Narowal on the 1st list; a student at 93.00% needs merit to fall by at least 0.30 points at the lowest public college. Whether it falls that far is decided by other students' payments, and it is only known when the list lands.",
+          "Never plan your preferences around a predicted 3rd-list close. The list itself is the only true number, and every prediction site publishing one today is guessing from the same 1st-list figures you have just read.",
+        ],
+      },
+      {
+        heading: "Worked example: where does your aggregate stand?",
+        paragraphs: [
+          "Take a student with 1050 out of 1100 in Matric, 1000 out of 1100 in FSc, and 150 out of 180 in MDCAT. The official formula is Matric 10% + FSc 40% + MDCAT 50%, with MDCAT scored out of 180. Matric contributes 1050 ÷ 1100 × 10 = 9.5455. FSc contributes 1000 ÷ 1100 × 40 = 36.3636. MDCAT contributes 150 ÷ 180 × 50 = 41.6667. Final aggregate: 87.5758%.",
+          "Read it against the 1st-list closes. Against the public track it is 5.7212 points below the lowest public close of 93.2970% — the 3rd list would have to fall further than any past cycle suggests for this aggregate to take a public seat, so treat public MBBS as closed for this profile and focus on the tracks below. Against the private track it sits inside the first-list range of 75.1354% to 91.6051% — 12.4404 points above the lowest private close — so a private seat depends on your college preferences and how far private closes fall in rounds two and three.",
+          "Run it backwards for the public line. With those board marks (9.5455 + 36.3636 = 45.9091), reaching the lowest public close of 93.2970% needs 47.3879 from MDCAT — that is 47.3879 ÷ 50 × 180 = 170.56, so 171 marks out of 180. The leverage is the same as everywhere in this cycle: one MDCAT mark is worth 0.2778 aggregate points, about 7.6 FSc marks.",
+        ],
+      },
+      {
+        heading: "Quota track: its 1st selection list lands the same day, 27 November",
+        paragraphs: [
+          "The reserved-seats track runs on its own calendar, and its first selection list lands on Friday 27 November — the same day as the private 3rd list. There are 252 quota seats in total: 214 MBBS and 38 BDS, across ICT, AJK, Gilgit-Baltistan, Balochistan goodwill, ex-FATA, and the HEC Balochistan and ex-FATA project seats.",
+          "Quota selections continue with a 2nd list on 4 December and a 3rd on 10 December. Check the quota portals, quotambbs.uhs.edu.pk and quotabds.uhs.edu.pk, and read the quota list notice for its own fee and joining deadline — the quota deadlines are not the same as the public or private ones. BDS quota applications run separately, 14 to 28 December, with a provisional list on 4 January 2027 and a final list on 7 January.",
+          "Do not confuse the quota 1st list on 27 November with the private 3rd list on the same day. They are different lists on different portals for different seats — check the one you applied for.",
+        ],
+      },
+      {
+        heading: "If your name is still missing after the 3rd list",
+        paragraphs: [
+          "A missing name on the 3rd list ends the Punjab MBBS rounds, not the season. The next doors are already dated, and several of them are still open.",
+          "The most important rule for this stage: keep checking the portals on every scheduled date, even after a round passes you by. Seats keep moving until admissions close, and a list you stop watching is a seat you will never see.",
+        ],
+        list: [
+          "Punjab public BDS: applications 15 to 30 December 2026, provisional list 6 January 2027, final list 9 January, first selection 11 January 2027, classes 1 March 2027.",
+          "Punjab private BDS: applications 18 December 2026 to 1 January 2027, first selection list 13 January 2027.",
+          "NUMS: provisional merit list 10 December, MBBS first selection 17 December, BDS selection 21 January 2027. Late registration closed 25 November.",
+          "SZABMU private: provisional merit list 1 December, final provisional list 3 December, first selected list 7 December.",
+          "KMU private: placement in colleges 8 to 12 December, second round 21 to 24 December, third round 4 to 7 January 2027.",
+          "KMU public: second placement round 1 to 4 December, third round 15 to 17 December.",
+          "Sindh BDS: final merit list was due 14 November — check your processing university (JSMU, LUMHS or SMBBMU) if you applied there.",
+          "MDCAT 2027: your MDCAT score stays valid for three years, and a repeat sitting is always an option if no seat comes this cycle.",
+        ],
+      },
+      {
+        heading: "Page notes: what we know, what we refuse to guess",
+        paragraphs: [
+          "Known and verified: the full UHS schedule from the published 2026-27 notices — provisional lists 13 November, final lists 16 November, 1st selection lists 17 November public and 18 November private, 2nd lists 23 November, 3rd lists 27 November private and 1 December public, quota selections 27 November, 4 December and 10 December, classes 1 February 2027; the 1st-list closing merits quoted above, as reported by Dawn and Pakistan Observer; the official 10/40/50 formula with MDCAT out of 180; the eligibility floors of 60% FSc and 55% MDCAT for MBBS; public tuition of Rs 50,000 a year; the private deposit of Rs 600,000 within three working days; and the 1st-list public fee and joining deadline of 5:00 PM on 21 November.",
+          "Not published, so not printed here: any 2nd- or 3rd-list closing merit; the 3rd-list fee and joining deadline; how far any college's merit will fall in the remaining rounds; and whether any list will follow the 3rd. The first real 3rd-list numbers will come from the lists themselves, and we will update this page when they are published.",
+          "One conflict in the sources, flagged rather than resolved. On the 2nd list's posting status for 23 November, one tracker that checked uhs.edu.pk on Monday morning reported the lists had not yet appeared, while a Nearpeer update posted the same day said the second selection and upgrade list was being released. Both cannot describe the same moment — lists appear during the day, and the morning check may simply have been early. The UHS website governs; check it, not the trackers.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "When is the UHS 3rd selection list 2026?",
+        answer: "Private MBBS: Friday 27 November 2026. Public MBBS: Tuesday 1 December 2026. The quota track's first selection list also lands on 27 November. Check the portal for your own track — publicmbbs, privatembbs or quotambbs.uhs.edu.pk.",
+      },
+      {
+        question: "Is the 3rd selection list the last one?",
+        answer: "It is the last round printed in the published UHS schedule. Further lists are possible only if the PMDC or the Punjab government directs them, and the PMDC regulations require public medical admissions to be completed by 31 December 2026. Plan as if the 3rd list is final.",
+      },
+      {
+        question: "What is the fee deadline after the 3rd selection list?",
+        answer: "It has not been announced yet — it will be printed on the 3rd-list notice itself. As a guide to how short it will be: the public 1st list gave students until 5:00 PM on 21 November, and private students pay the Rs 600,000 deposit within three working days of the list. Arrange the money before the list lands.",
+      },
+      {
+        question: "I paid after the 1st list — can I still be upgraded on the 3rd list?",
+        answer: "In the public track, yes — upgradation is mandatory, so a higher-preference seat that frees up moves you automatically. In the private track, only if you chose UPGRADATION when you joined; if you chose RETAIN, later lists pass you by.",
+      },
+      {
+        question: "What happens if I miss the fee deadline after the 3rd list?",
+        answer: "Your seat is cancelled and offered to the next candidate on merit. With no further round scheduled after the 3rd list, do not count on another chance to reclaim it — pay and join by the deadline in the list notice.",
+      },
+      {
+        question: "My aggregate is below the 1st-list lowest of 93.297% — can the 3rd list still select me?",
+        answer: "Only if merit falls to your number. The fall equals the seats left unpaid after the 1st-list fee deadline, and it is only known when the list lands. Below 93.297% you are depending on that fall; inside the private first-list range of 75.1354% to 91.6051%, a private seat is a live possibility depending on your preferences.",
+      },
+      {
+        question: "Where do I check the UHS 3rd selection list?",
+        answer: "Public: publicmbbs.uhs.edu.pk and the merit-list page on uhs.edu.pk. Private: privatembbs.uhs.edu.pk. Quota: quotambbs.uhs.edu.pk. Search the college-wise PDF by form number or CNIC, and check your portal account as well.",
+      },
+      {
+        question: "What if my name is not on the 3rd list either?",
+        answer: "The Punjab MBBS rounds are over, but the season is not: Punjab public BDS applications open 15 December, private BDS 18 December, the NUMS provisional list is due 10 December, the SZABMU private first selected list is due 7 December, and KMU private placement runs 8 to 12 December. Your MDCAT score also stays valid for three years.",
+      },
+      {
+        question: "When do MBBS classes start in Punjab?",
+        answer: "Classes for session 2026-27 are scheduled to commence on 1 February 2027 in both the public and private sectors.",
+      },
+    ],
+    relatedCalculators: ["kemu", "duhs", "nums"],
+  },
 ];

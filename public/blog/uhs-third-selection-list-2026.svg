@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.55" stop-color="#155e75"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="70" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="100" cy="570" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="990" cy="530" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- selection list card -->
+  <g transform="translate(700,70)">
+    <rect x="0" y="0" width="420" height="490" rx="22" fill="url(#card)"/>
+    <rect x="28" y="28" width="240" height="16" rx="8" fill="#1e3a8a"/>
+    <rect x="28" y="56" width="170" height="10" rx="5" fill="#94a3b8"/>
+    <rect x="28" y="92" width="364" height="58" rx="10" fill="#1e3a8a"/>
+    <text x="210" y="129" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">3RD SELECTION LIST</text>
+    <g font-family="Arial, sans-serif" font-size="21" fill="#334155">
+      <circle cx="48" cy="196" r="14" fill="#0d9488"/>
+      <text x="41" y="203" font-size="17" font-weight="bold" fill="#ffffff">✓</text>
+      <text x="74" y="203">Final upgradation round</text>
+      <circle cx="48" cy="250" r="14" fill="#0d9488"/>
+      <text x="41" y="257" font-size="17" font-weight="bold" fill="#ffffff">✓</text>
+      <text x="74" y="257">Public: upgrade is mandatory</text>
+      <circle cx="48" cy="304" r="14" fill="#0d9488"/>
+      <text x="41" y="311" font-size="17" font-weight="bold" fill="#ffffff">✓</text>
+      <text x="74" y="311">Private: RETAIN or move up</text>
+      <circle cx="48" cy="358" r="14" fill="#f59e0b"/>
+      <text x="41" y="365" font-size="17" font-weight="bold" fill="#ffffff">!</text>
+      <text x="74" y="365">Fee deadline in the list notice</text>
+    </g>
+    <rect x="28" y="404" width="364" height="58" rx="10" fill="#fef3c7"/>
+    <text x="210" y="441" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#92400e">Private 27 NOV · Public 1 DEC</text>
+  </g>
+
+  <!-- left text -->
+  <g font-family="Arial, sans-serif">
+    <text x="70" y="130" font-size="30" font-weight="bold" fill="#bfdbfe">UHS MBBS 2026-27</text>
+    <text x="70" y="215" font-size="64" font-weight="bold" fill="#ffffff">3rd Selection</text>
+    <text x="70" y="285" font-size="64" font-weight="bold" fill="#ffffff">List — Final Round</text>
+    <text x="70" y="350" font-size="30" fill="#ccfbf1">Upgradation, fee &amp; joining —</text>
+    <text x="70" y="392" font-size="30" fill="#ccfbf1">public &amp; private, what changes now</text>
+    <g font-size="24" font-weight="bold">
+      <rect x="70" y="440" width="250" height="56" rx="28" fill="#fbbf24"/>
+      <text x="195" y="476" text-anchor="middle" fill="#78350f">FRI 27 NOV</text>
+      <rect x="340" y="440" width="300" height="56" rx="28" fill="#ffffff"/>
+      <text x="490" y="476" text-anchor="middle" fill="#1e3a8a">LOWEST 93.297%</text>
+    </g>
+    <text x="70" y="570" font-size="24" fill="#bfdbfe">19 public colleges · 3,796 open-merit seats · uhs.edu.pk</text>
+  </g>
+</svg>
