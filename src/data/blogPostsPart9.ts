@@ -365,7 +365,7 @@ export const BLOG_POSTS_PART9: BlogPost[] = [
         heading: "NUMS: what the centralized registration asked for",
         paragraphs: [
           "NUMS ran MBBS/BDS admissions for its affiliated colleges through centralized registration on mbbsbdsadmissions.numspak.edu.pk. You registered with your name, email address, CNIC/Passport/CRC number, cell phone number and a password, then uploaded your CNIC or B-Form, your transcripts, a recent photograph, and an IBCC equivalence certificate if you hold O/A-Level or foreign qualifications. Regular registration ran from 13 October to 11 November 2026 (fees Rs. 8,500 for MBBS and Rs. 50,000 for BDS), with late registration to 25 November at 4:00 PM (Rs. 9,500 and Rs. 55,000).",
-          "Eligibility is 60% in FSc Pre-Medical with Biology, Chemistry and Physics or Mathematics, and 55% in the NUMS entry test for MBBS (50% for BDS). The NUMS entry test is its own 200-mark test, not the MDCAT — do not upload an MDCAT card where a NUMS test result is asked for. The provisional merit list is scheduled for 10 December 2026; confirm the date on numspak.edu.pk, because NUMS dates have moved before — the 2026 test itself was postponed from 23 August to 13 September. When the list appears, the same file rule applies: originals for verification, attested copies for the college file.",
+          "Eligibility is 60% in FSc Pre-Medical with Biology, Chemistry and Physics or Mathematics, and 55% in the NUMS entry test for MBBS (50% for BDS). The NUMS entry test is its own 200-mark test, not the MDCAT — do not upload an MDCAT card where a NUMS test result is asked for. The provisional merit list is scheduled for 30 November 2026; confirm the date on numspak.edu.pk, because NUMS dates have moved before — the 2026 test itself was postponed from 23 August to 13 September. When the list appears, the same file rule applies: originals for verification, attested copies for the college file.",
         ],
       },
       {
@@ -688,7 +688,7 @@ export const BLOG_POSTS_PART9: BlogPost[] = [
       {
         heading: "Worked example: what your aggregate means on 23 November",
         paragraphs: [
-          "UHS calculates the aggregate as 10% Matric + 40% FSc + 50% MDCAT, with the MDCAT out of 180. Take a student with Matric 1050/1100, FSc 1000/1100 and MDCAT 150/180. Matric contributes 1050 ÷ 1100 × 10 = 9.5455, FSc contributes 1000 ÷ 1100 × 40 = 36.3636, and MDCAT contributes 150 ÷ 180 × 50 = 41.6667. Total aggregate: 87.5758%. That student was not selected in the first list — the floor was 93.2970% — and is not in range for the second public list either: the second list only moves the closing merit down by the seats that free up, and 87.5758% is 5.72 points below the lowest first-list close. The realistic paths for this student are private colleges (last session's private first-list range ran 75.9465% to 92.7136%), public BDS in January, or NUMS, whose provisional merit list is due on 10 December.",
+          "UHS calculates the aggregate as 10% Matric + 40% FSc + 50% MDCAT, with the MDCAT out of 180. Take a student with Matric 1050/1100, FSc 1000/1100 and MDCAT 150/180. Matric contributes 1050 ÷ 1100 × 10 = 9.5455, FSc contributes 1000 ÷ 1100 × 40 = 36.3636, and MDCAT contributes 150 ÷ 180 × 50 = 41.6667. Total aggregate: 87.5758%. That student was not selected in the first list — the floor was 93.2970% — and is not in range for the second public list either: the second list only moves the closing merit down by the seats that free up, and 87.5758% is 5.72 points below the lowest first-list close. The realistic paths for this student are private colleges (last session's private first-list range ran 75.9465% to 92.7136%), public BDS in January, or NUMS, whose provisional merit list is due on 30 November.",
           "Now take a student at 93.50%. In the first list that aggregate was selected at Rasul (93.2970%), Mianwali (93.3121%) or Narowal (93.3561%), depending on the preference order. In the second list, if a seat frees up at a college above the one allotted and this student's merit reaches it, the student upgrades automatically in the public track. The movement is real but small: one MDCAT mark is worth 0.2778 aggregate points, and one FSc mark is worth 0.0364 points, so a handful of freed seats shifts a college's closing merit by fractions of a point, not whole points.",
           "The backward calculation shows how tight the top is. With Matric 1050/1100 and FSc 1000/1100 locked at 45.9091 points, reaching the first-list floor of 93.2970% needs 47.3879 MDCAT points — that is 171 marks out of 180. With 170 marks the aggregate is 93.1313%, just short; with 171 it is 93.4091%, just above the line. One MDCAT question decided it. That is also why the second list cannot rescue an aggregate far below the floor: the vacancies it fills are counted in seats, not in points.",
         ],
@@ -697,7 +697,7 @@ export const BLOG_POSTS_PART9: BlogPost[] = [
         heading: "If your name is still missing after 23 November",
         paragraphs: [
           "The third selection and upgradation lists follow quickly: private on 27 November and public on 1 December 2026. After the third lists, UHS may issue further lists if seats remain vacant — in 2025-26 the public lists ran to a 13th and final list, so do not assume the season ends on 1 December. Keep checking the portals on every scheduled date, and keep your fee money and documents ready: a vacancy can reach you late in the cycle, and the joining window is always short.",
-          "Parallel tracks still open this month: the KMU private final merit list is due on 24 November, with placements from 8 December to 7 January; the NUMS provisional merit list is due on 10 December, with the first MBBS selection on 17 December; SZABMU private applications close on 27 November, with the first selection on 7 December; and public BDS applications open on 15 December, with the first BDS selection on 11 January 2027. If public MBBS is out of reach, the private track, BDS and the other admitting universities are real alternatives — the low-MDCAT-score guide on this site walks through each option with its own dates and eligibility floors.",
+          "Parallel tracks still open this month: the KMU private final merit list is due on 24 November, with placements from 8 December to 7 January; the NUMS provisional merit list is due on 30 November, with the first MBBS selection on 3 December; SZABMU private applications close on 27 November, with the first selection on 7 December; and public BDS applications open on 15 December, with the first BDS selection on 11 January 2027. If public MBBS is out of reach, the private track, BDS and the other admitting universities are real alternatives — the low-MDCAT-score guide on this site walks through each option with its own dates and eligibility floors.",
         ],
       },
       {
@@ -723,12 +723,13 @@ export const BLOG_POSTS_PART9: BlogPost[] = [
           "23 November 2026 — second selection and upgradation list, public and private MBBS.",
           "24 November 2026 — KMU private final merit list.",
           "27 November 2026 — private third selection list; quota first selection list; SZABMU private applications close.",
+          "30 November 2026 — NUMS provisional merit list.",
           "1 December 2026 — public third selection list.",
+          "3 December 2026 — NUMS first MBBS selection list.",
           "4 December 2026 — quota second selection list.",
           "7 December 2026 — SZABMU private first selection list.",
-          "10 December 2026 — quota third selection list; NUMS provisional merit list.",
+          "10 December 2026 — quota third selection list.",
           "15–30 December 2026 — public BDS applications (Punjab).",
-          "17 December 2026 — NUMS first MBBS selection list.",
           "11 January 2027 — public BDS first selection list.",
           "1 February 2027 — public MBBS classes begin.",
         ],
@@ -775,7 +776,7 @@ export const BLOG_POSTS_PART9: BlogPost[] = [
       {
         question: "My aggregate is 90%. Will the 2nd list select me in a public college?",
         answer:
-          "No — 90% is 3.30 points below the lowest first-list close of 93.2970%, and second-list movement is measured in fractions of a point per college. Your realistic options are private colleges (last session's private first-list range was 75.9465% to 92.7136%), public BDS in January, or NUMS, whose provisional list is due on 10 December.",
+          "No — 90% is 3.30 points below the lowest first-list close of 93.2970%, and second-list movement is measured in fractions of a point per college. Your realistic options are private colleges (last session's private first-list range was 75.9465% to 92.7136%), public BDS in January, or NUMS, whose provisional list is due on 30 November.",
       },
       {
         question: "Does the 2nd selection list include BDS?",
@@ -785,7 +786,7 @@ export const BLOG_POSTS_PART9: BlogPost[] = [
       {
         question: "What happens if I am not selected even in the 3rd list?",
         answer:
-          "The season is not necessarily over: in 2025-26 the public lists ran to a 13th and final list as seats kept opening. Keep checking the portals on every scheduled date. In parallel, the KMU private final list (24 November), NUMS provisional list (10 December), SZABMU private first selection (7 December) and public BDS (January) are still open.",
+          "The season is not necessarily over: in 2025-26 the public lists ran to a 13th and final list as seats kept opening. Keep checking the portals on every scheduled date. In parallel, the KMU private final list (24 November), NUMS provisional list (30 November), SZABMU private first selection (7 December) and public BDS (January) are still open.",
       },
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],

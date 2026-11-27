@@ -106,7 +106,7 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
         paragraphs: [
           "First, rule out the simple mistakes. Check the right PDF: MBBS and BDS are separate lists, and open merit, foreign seats and self-finance are separate lists too. Search by form number, not by name — names are misspelled in lists far more often than numbers are. Then read the Remarks column: candidates below the floors (under 60% in HSSC, under 55% in MDCAT for MBBS, under 50% for BDS) appear with their ineligibility noted.",
           "If a genuine error survives into the final list — wrong marks, a missing document that was uploaded on time — the complaint window for this list closed on 12 November, and no fresh objection channel is published for the final list. Your route is direct: contact the KMU admission office with your form number, the list PDF, and your documentary proof, and keep a written record of the contact. Do not pay anyone who offers to fix a list entry.",
-          "And keep the rest of the season alive. The NUMS provisional list is due 10 December, the SZABMU private first selection list on 7 December, the UHS second and third selection lists on 23 November, 27 November and 1 December, and public BDS applications in Punjab open 15 December. A missing name on one list is not the end of the season.",
+          "And keep the rest of the season alive. The NUMS provisional list is due 30 November, the SZABMU private first selection list on 7 December, the UHS second and third selection lists on 23 November, 27 November and 1 December, and public BDS applications in Punjab open 15 December. A missing name on one list is not the end of the season.",
         ],
       },
       {
@@ -162,7 +162,7 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
       {
         question: "What if my name is missing from the final list?",
         answer:
-          "Check the right PDF first (MBBS vs BDS, open merit vs foreign vs self-finance), search by form number rather than name, and read the Remarks column for the reason. Then keep the rest of the season alive: NUMS provisional list 10 December, SZABMU private first selection 7 December, UHS selection lists 23 November–1 December, and public BDS applications in Punjab from 15 December.",
+          "Check the right PDF first (MBBS vs BDS, open merit vs foreign vs self-finance), search by form number rather than name, and read the Remarks column for the reason. Then keep the rest of the season alive: NUMS provisional list 30 November, SZABMU private first selection 7 December, UHS selection lists 23 November–1 December, and public BDS applications in Punjab from 15 December.",
       },
     ],
     relatedCalculators: ["kemu", "duhs", "nums"],
@@ -257,7 +257,7 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
         paragraphs: [
           "First, rule out the simple mistakes. Check the right list: MBBS and BDS are separate, and open merit and overseas are separate. Search by form number, not by name. Then read the Remarks column: candidates below the floors (under 60% in HSSC, under 55% in MDCAT for MBBS, under 50% for BDS) appear with their ineligibility noted, and a missing document is usually named there too.",
           "Second, check the overseas quota before you give up on the private track. Fifteen percent of seats are reserved for overseas Pakistanis and foreign students; unfilled overseas seats convert to open merit. If you applied under the overseas category, your list is a different PDF — and the foreign route has its own document set (NICOP or passport, plus the IBCC equivalence where it applies).",
-          "Third, keep the rest of the season alive. The UHS second selection lists land 23 November and the third lists on 27 November (private) and 1 December (public); the KMU private final list lands 24 November with placement from 8 December; the NUMS provisional merit list is due 10 December; and public BDS applications in Punjab open 15 December. A missing name on one list is not the end of the season — it is a signal to check the next one.",
+          "Third, keep the rest of the season alive. The UHS second selection lists land 23 November and the third lists on 27 November (private) and 1 December (public); the KMU private final list lands 24 November with placement from 8 December; the NUMS provisional merit list is due 30 November; and public BDS applications in Punjab open 15 December. A missing name on one list is not the end of the season — it is a signal to check the next one.",
         ],
       },
       {
@@ -404,7 +404,7 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
       {
         heading: "If private is out of reach: the honest options",
         paragraphs: [
-          "First, the public route is the goal, and it is still open to this cycle's candidates: the UHS public lists run through upgradation rounds (second list 23 November, third list 1 December), KMU and SZABMU lists are still running, and the NUMS provisional merit list is due 10 December. A name missing from one list is not the end of the season — check the next one, and keep the fee ready so a late-round offer is not lost to an unprepared wallet.",
+          "First, the public route is the goal, and it is still open to this cycle's candidates: the UHS public lists run through upgradation rounds (second list 23 November, third list 1 December), KMU and SZABMU lists are still running, and the NUMS provisional merit list is due 30 November. A name missing from one list is not the end of the season — check the next one, and keep the fee ready so a late-round offer is not lost to an unprepared wallet.",
           "Second, the fee itself can be spread. The Punjab policy provides for the balance of the private fee to be paid quarterly, six-monthly or yearly under the PMDC policy — ask your college which schedule it offers before the deposit deadline, and get it in writing. An instalment plan does not reduce the total, but it changes when the money is needed, and that can be the difference between accepting and declining a seat.",
           "Third, scholarships exist, but no specific award is promised here: check the HEC need-based scholarship portal and your province's merit-scholarship programmes, and ask your allotted college's financial-aid office what it offers. Scholarship deadlines are separate from admission deadlines and are easy to miss while you are watching merit lists.",
           "Fourth, the longer route is real and legitimate. MDCAT scores stay valid for up to three years, so a candidate who misses public merit this year can reappear with a stronger score rather than accept a private fee the family cannot afford. It is a hard choice — a year of your life against Rs 9.2 million — but it is a choice many families make, and it should be made with the numbers in front of you, not in the panic of a three-day deposit deadline.",
@@ -567,7 +567,7 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
         list: [
           "Punjab public BDS: applications 15 to 30 December 2026, provisional list 6 January 2027, final list 9 January, first selection 11 January 2027, classes 1 March 2027.",
           "Punjab private BDS: applications 18 December 2026 to 1 January 2027, first selection list 13 January 2027.",
-          "NUMS: provisional merit list 10 December, MBBS first selection 17 December, BDS selection 21 January 2027. Late registration closed 25 November.",
+          "NUMS: provisional merit list 30 November, MBBS first selection 3 December, BDS selection 7 January 2027. Late registration closed 25 November.",
           "SZABMU private: provisional merit list 1 December, final provisional list 3 December, first selected list 7 December.",
           "KMU private: placement in colleges 8 to 12 December, second round 21 to 24 December, third round 4 to 7 January 2027.",
           "KMU public: second placement round 1 to 4 December, third round 15 to 17 December.",
@@ -615,7 +615,7 @@ export const BLOG_POSTS_PART10: BlogPost[] = [
       },
       {
         question: "What if my name is not on the 3rd list either?",
-        answer: "The Punjab MBBS rounds are over, but the season is not: Punjab public BDS applications open 15 December, private BDS 18 December, the NUMS provisional list is due 10 December, the SZABMU private first selected list is due 7 December, and KMU private placement runs 8 to 12 December. Your MDCAT score also stays valid for three years.",
+        answer: "The Punjab MBBS rounds are over, but the season is not: Punjab public BDS applications open 15 December, private BDS 18 December, the NUMS provisional list is due 30 November, the SZABMU private first selected list is due 7 December, and KMU private placement runs 8 to 12 December. Your MDCAT score also stays valid for three years.",
       },
       {
         question: "When do MBBS classes start in Punjab?",

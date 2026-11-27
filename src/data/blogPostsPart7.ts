@@ -247,7 +247,7 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
         heading: 'Your name is not on the list — what now?',
         paragraphs: [
           'Not being selected in the first list does not mean you are out. Selection lists are published in rounds precisely because seats open up when selected candidates do not pay or do not join. In Punjab, three public MBBS selection lists run through 1 December 2026 and three private ones through 27 November, and the PMDC regulations require public medical colleges to complete their lists by 15 December 2026 — so there is real movement after the first list. Keep checking every list, and keep your fee money and documents ready so you can act within three working days if your name appears.',
-          'Meanwhile, check the tracks that are still open. In Punjab, private MBBS applications close on 6 November 2026 and the reserved-quota MBBS applications close on 9 November 2026 — if you qualify for either, those are live options, not consolation prizes. In Khyber Pakhtunkhwa, the private track at caspr.kmu.edu.pk is open until 9 November 2026, with its provisional list on 11 November. NUMS centralised registration closes on 11 November 2026 (late registration to 25 November), with its provisional merit list on 10 December and the first MBBS selection list on 17 December — a completely separate process with its own test. And if you are open to BDS, the Punjab BDS application window (15–30 December 2026) and the Sindh BDS lists (provisional 11 November, final 14 November 2026) are separate tracks with their own seats.',
+          'Meanwhile, check the tracks that are still open. In Punjab, private MBBS applications close on 6 November 2026 and the reserved-quota MBBS applications close on 9 November 2026 — if you qualify for either, those are live options, not consolation prizes. In Khyber Pakhtunkhwa, the private track at caspr.kmu.edu.pk is open until 9 November 2026, with its provisional list on 11 November. NUMS centralised registration closes on 11 November 2026 (late registration to 25 November), with its provisional merit list on 30 November and the first MBBS selection list on 3 December — a completely separate process with its own test. And if you are open to BDS, the Punjab BDS application window (15–30 December 2026) and the Sindh BDS lists (provisional 11 November, final 14 November 2026) are separate tracks with their own seats.',
           'If no list selects you this cycle, the honest next step is to plan the retake rather than chase a shortcut. No agent, no donation and no “management seat” can create a seat in the public merit system — the lists are published, the aggregates are printed, and any offer to sell you a place is a scam. Note your aggregate, compare it with the closing merits of the colleges you wanted, and work out exactly how many more MDCAT marks you need: at 10/40/50, one MDCAT mark is worth 0.2778 aggregate points, so ten more MDCAT marks are worth about 2.78 points.',
         ],
       },
@@ -278,7 +278,7 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
           'UHS Punjab BDS (public): applications 15–30 December 2026, provisional list 6 January 2027, final list 9 January, selection lists 11, 15 and 21 January 2027; classes 1 March 2027.',
           'KMU Khyber Pakhtunkhwa: public final list 12 November, placement 16–21 November, KIMS-KIDS placement 23 November, second round 1–4 December, third round 15–17 December 2026; private applications close 9 November, provisional list 11 November.',
           'Sindh MBBS: final list 6 November 2026; BDS provisional list 11 November, objections 11–12 November, final list 14 November 2026; interview and class dates not published yet.',
-          'NUMS: centralised registration closes 11 November 2026 (late to 25 November), provisional merit list 10 December, first MBBS selection list 17 December 2026, BDS selection 21 January 2027.',
+          'NUMS: centralised registration closes 11 November 2026 (late to 25 November), provisional merit list 30 November, first MBBS selection list 3 December 2026, BDS selection 7 January 2027.',
           'SZABMU Islamabad: applications closed 30 October 2026; no 2026-27 merit list date has been announced yet (checked 30 October 2026).',
         ],
       },
@@ -317,7 +317,7 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
       },
       {
         question: 'When do MBBS and BDS classes start for the 2026-27 session?',
-        answer: 'In Punjab, MBBS classes commence on 1 February 2027 (public and private) and BDS classes on 1 March 2027. In Khyber Pakhtunkhwa, placement runs 16–21 November 2026 with KIMS-KIDS placement on 23 November. Sindh class dates have not been published yet. NUMS MBBS selection is 17 December 2026, so its classes follow later.',
+        answer: 'In Punjab, MBBS classes commence on 1 February 2027 (public and private) and BDS classes on 1 March 2027. In Khyber Pakhtunkhwa, placement runs 16–21 November 2026 with KIMS-KIDS placement on 23 November. Sindh class dates have not been published yet. NUMS MBBS selection is 3 December 2026, so its classes follow later.',
       },
       {
         question: 'My name is on the provisional list but not the first selection list. Why?',
@@ -370,7 +370,7 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
           'UHS Punjab BDS (public): applications 15–30 December 2026, provisional list 6 January 2027, final list 9 January, selection lists 11, 15 and 21 January 2027; classes 1 March 2027.',
           'KMU Khyber Pakhtunkhwa: public final list 12 November, placement 16–21 November, KIMS-KIDS placement 23 November, second round 1–4 December, third round 15–17 December 2026; private applications close 9 November, provisional list 11 November.',
           'Sindh MBBS: final list 6 November 2026; BDS provisional list 11 November, objections 11–12 November, final list 14 November 2026; interview and class dates not published yet.',
-          'NUMS: centralised registration closes 11 November 2026 (late registration to 25 November), provisional merit list 10 December, first MBBS selection list 17 December 2026, BDS selection 21 January 2027.',
+          'NUMS: centralised registration closes 11 November 2026 (late registration to 25 November), provisional merit list 30 November, first MBBS selection list 3 December 2026, BDS selection 7 January 2027.',
           'SZABMU Islamabad: applications closed 30 October 2026; no 2026-27 merit list date has been announced yet.',
         ],
       },
@@ -390,7 +390,7 @@ export const BLOG_POSTS_PART7: BlogPost[] = [
         list: [
           'BDS in the same cycle. In Punjab, public BDS applications open 15–30 December 2026 — a full second chance in the same admission year, with its own merit lists in January 2027. Sindh BDS lists run 11–14 November. BDS closing merits run lower than MBBS, and dentistry is a complete, respected career, not a consolation prize.',
           'Private medical colleges. Punjab private MBBS applications close 6 November 2026 — today — so if you have not applied, do it now, not tomorrow. KMU private applications close 9 November. Private merit runs lower than public, and the fee is the real barrier: a Rs 600,000 token fee is due within three working days of selection in Punjab private colleges, with the remaining dues set by each college.',
-          'NUMS colleges. Centralised registration closes 11 November 2026 (late to 25 November), with the provisional merit list on 10 December and the first MBBS selection on 17 December. NUMS uses its own entry test, so your MDCAT aggregate is not the deciding number here.',
+          'NUMS colleges. Centralised registration closes 11 November 2026 (late to 25 November), with the provisional merit list on 30 November and the first MBBS selection on 3 December. NUMS uses its own entry test, so your MDCAT aggregate is not the deciding number here.',
           'Allied health and other degrees. DPT, Pharm-D, BS Nursing, medical laboratory technology and other allied health programs admit on FSc merit without MDCAT, and their applications are still open at many universities. A year spent in a real degree beats a year spent only waiting.',
           'Repeat MDCAT in 2027 — deliberately. If your aggregate missed by a wide margin, a planned repeat with a full year of focused preparation is a legitimate route. Decide it now, not in June: join a test session, keep your FSc books, and treat the repeat as a plan, not a fallback you drift into.',
         ],

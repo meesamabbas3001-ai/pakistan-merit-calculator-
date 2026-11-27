@@ -643,10 +643,10 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
   {
     slug: 'how-to-check-nums-merit-list-2026',
     image: '/blog/how-to-check-nums-merit-list-2026.svg',
-    imageAlt: 'NUMS merit list 2026 guide: provisional list 10 December, first MBBS selection list 17 December',
+    imageAlt: 'NUMS merit list 2026 guide: provisional list 30 November, first MBBS selection list 3 December',
     title: 'How to Check NUMS Merit List 2026: Provisional List, Selection Lists & What to Do Next',
     description:
-      'NUMS MBBS/BDS provisional merit list on 10 December 2026, first MBBS selection list 17 December, BDS selection 21 January 2027. Step-by-step guide: where the lists appear, how to read your row, how to fix errors, and what to do after selection — with the official 50/40/10 formula and a worked example, and no invented 2026 cutoffs.',
+      'NUMS MBBS/BDS provisional merit list on 30 November 2026, first MBBS selection list 3 December, BDS selection 7 January 2027. Step-by-step guide: where the lists appear, how to read your row, how to fix errors, and what to do after selection — with the official 50/40/10 formula and a worked example, and no invented 2026 cutoffs.',
     category: 'Guides',
     date: 'October 2026',
     readTime: '7 min read',
@@ -656,13 +656,13 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
       {
         heading: 'The NUMS 2026-27 calendar, as announced',
         paragraphs: [
-          'Online registration for NUMS MBBS/BDS session 2026-27 opened on Tuesday, 13 October 2026. Registration with the regular fee closes on Wednesday, 11 November 2026 at 4:00 PM, and registration with a late fee closes on Wednesday, 25 November 2026 at 4:00 PM. The provisional merit list for MBBS and BDS is scheduled for Thursday, 10 December 2026. The first selection list follows on 17 December 2026 for MBBS and 21 January 2027 for BDS. Classes are tentatively scheduled to begin on 15 February 2027 for MBBS and 15 March 2027 for BDS.',
+          'Online registration for NUMS MBBS/BDS session 2026-27 opened on Tuesday, 13 October 2026. Registration with the regular fee closes on Wednesday, 11 November 2026 at 4:00 PM, and registration with a late fee closes on Wednesday, 25 November 2026 at 4:00 PM. The provisional merit list for MBBS and BDS is scheduled for Monday, 30 November 2026. The first selection list follows on 3 December 2026 for MBBS and 7 January 2027 for BDS. Classes are tentatively scheduled to begin on 15 February 2027 for MBBS and 15 March 2027 for BDS.',
           'Registration fees are non-refundable: Rs. 8,500 for open-merit seats with the regular fee and Rs. 9,500 with the late fee; foreign seats cost Rs. 50,000 regular and Rs. 55,000 late. Do not wait for the late-fee window — it costs more and leaves you almost no margin if a document problem appears at the last minute.',
         ],
         list: [
           'Registration: 13 October to 11 November 2026 (regular fee), late fee until 25 November 2026.',
-          'Provisional merit list (MBBS/BDS): 10 December 2026.',
-          'First selection list: 17 December 2026 (MBBS), 21 January 2027 (BDS).',
+          'Provisional merit list (MBBS/BDS): 30 November 2026.',
+          'First selection list: 3 December 2026 (MBBS), 7 January 2027 (BDS).',
           'Classes (tentative): 15 February 2027 (MBBS), 15 March 2027 (BDS).',
         ],
       },
@@ -681,30 +681,30 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
         ],
       },
       {
-        heading: 'Step 1: check your provisional row on 10 December',
+        heading: 'Step 1: check your provisional row on 30 November',
         paragraphs: [
-          'On 10 December, open the provisional merit list and find your own row first — not your friends, not the topper, not the cutoff. Check four things, in order: your name and identity details are correct; your Matric, FSc and NUMS test marks are the marks you actually obtained; your aggregate matches your own calculation under the official 50/40/10 formula; and your category or seat type (open merit or foreign) is recorded correctly. A wrong mark here is not a rounding difference — one NUMS test mark is worth 0.25% of aggregate, so a small error moves your rank visibly.',
+          'On 30 November, open the provisional merit list and find your own row first — not your friends, not the topper, not the cutoff. Check four things, in order: your name and identity details are correct; your Matric, FSc and NUMS test marks are the marks you actually obtained; your aggregate matches your own calculation under the official 50/40/10 formula; and your category or seat type (open merit or foreign) is recorded correctly. A wrong mark here is not a rounding difference — one NUMS test mark is worth 0.25% of aggregate, so a small error moves your rank visibly.',
           'Also check your merit position against your expectations, but do not treat the provisional position as final. Corrections, verified objections, and the removal of ineligible candidates all move ranks between the provisional and selection lists, in both directions. Your job on 10 December is accuracy, not celebration or despair: verify your row, note any error with evidence, and act on it the same day.',
         ],
       },
       {
         heading: 'Step 2: fix errors immediately — do not assume a window',
         paragraphs: [
-          'If your provisional row contains an error, contact NUMS admissions through the channel stated in the provisional-list notice itself, with supporting documentary evidence attached. Read that notice on 10 December: it will state the exact objection or correction procedure and window for the 2026-27 cycle, and you must follow it rather than any window quoted from a past cycle or another university. An objection without evidence is an objection that cannot be verified, so keep your result cards, equivalence certificate if any, and fee receipt in one folder before 10 December.',
+          'If your provisional row contains an error, contact NUMS admissions through the channel stated in the provisional-list notice itself, with supporting documentary evidence attached. Read that notice on 30 November: it will state the exact objection or correction procedure and window for the 2026-27 cycle, and you must follow it rather than any window quoted from a past cycle or another university. An objection without evidence is an objection that cannot be verified, so keep your result cards, equivalence certificate if any, and fee receipt in one folder before 30 November.',
           'Speed matters. Merit-list correction windows in Pakistani medical admissions are routinely short — some universities have given as little as 24 hours in past cycles — so prepare your evidence before the list appears and file the same day if you need to. An unaddressed error on the provisional list can harden into a wrong rank on the selection lists, and there is no later stage designed to fix it.',
         ],
         list: [
-          'Read the 10 December provisional-list notice for the exact correction channel and window — never assume it.',
+          'Read the 30 November provisional-list notice for the exact correction channel and window — never assume it.',
           'File with documentary evidence: result cards, equivalence, fee receipt.',
-          'Prepare the folder before 10 December so a same-day filing is possible.',
+          'Prepare the folder before 30 November so a same-day filing is possible.',
           'Common valid corrections: wrong marks, wrong aggregate, wrong category or seat type.',
         ],
       },
       {
-        heading: 'Step 3: selection lists — MBBS 17 December, BDS 21 January',
+        heading: 'Step 3: selection lists — MBBS 3 December, BDS 7 January',
         paragraphs: [
-          'The first MBBS selection list on 17 December fills seats from the top of the merit order down, following each applicant\'s stated college preferences in order. Its cutoff is the highest of the season, because it takes only the top slice of applicants. Missing it is normal for a large share of students who are eventually admitted — it means your aggregate sits below the first-round cutoff for the colleges on your preference list, not that you are out. Further selection rounds follow as selected candidates join, decline, or move, and merit drops with each round; watch the NUMS admissions page after 17 December rather than waiting for a rumour.',
-          'BDS applicants wait longer: the first BDS selection list is scheduled for 21 January 2027, with classes tentatively from 15 March 2027. Do not read MBBS dates onto a BDS application, and do not read another university\'s dates onto NUMS — UHS Punjab, KMU, SZABMU and Sindh all run separate calendars, and a date that is correct for one of them is wrong for NUMS.',
+          'The first MBBS selection list on 3 December fills seats from the top of the merit order down, following each applicant\'s stated college preferences in order. Its cutoff is the highest of the season, because it takes only the top slice of applicants. Missing it is normal for a large share of students who are eventually admitted — it means your aggregate sits below the first-round cutoff for the colleges on your preference list, not that you are out. Further selection rounds follow as selected candidates join, decline, or move, and merit drops with each round; watch the NUMS admissions page after 3 December rather than waiting for a rumour.',
+          'BDS applicants wait longer: the first BDS selection list is scheduled for 7 January 2027, with classes tentatively from 15 March 2027. Do not read MBBS dates onto a BDS application, and do not read another university\'s dates onto NUMS — UHS Punjab, KMU, SZABMU and Sindh all run separate calendars, and a date that is correct for one of them is wrong for NUMS.',
           'One preference-list rule decides outcomes silently at every university, NUMS included: the system fills seats down your stated preference order, and a college you left off your list can never be offered to you, no matter how far merit drops. If you ranked colleges in an order you did not truly want, no selection list can fix that.',
         ],
       },
@@ -712,28 +712,28 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
         heading: 'Step 4: after selection — join fast, or lose the seat',
         paragraphs: [
           'When your name appears on a selection list, the clock starts immediately. Read that list notice the same day: it states the fee to deposit, the payment route, the documents to present, and the deadline to report to the allotted college. Treat the deadline as absolute. A seat not claimed inside its window is offered to the next candidate on merit, and you cannot reclaim that same placement in a later round.',
-          'Have everything ready before 17 December, not after your name appears: your original documents, your CNIC, your fee arrangement, and a plan for travelling to the college. Keep copies and receipts of everything you submit; your joining proof is the only thing that stands between you and a disputed seat. If you are selected for a lower-preference college and still hope for a later round, follow the notice instructions for that situation exactly rather than assuming you can hold a seat passively while waiting for a better one.',
+          'Have everything ready before 3 December, not after your name appears: your original documents, your CNIC, your fee arrangement, and a plan for travelling to the college. Keep copies and receipts of everything you submit; your joining proof is the only thing that stands between you and a disputed seat. If you are selected for a lower-preference college and still hope for a later round, follow the notice instructions for that situation exactly rather than assuming you can hold a seat passively while waiting for a better one.',
         ],
       },
       {
         heading: 'Worked example: reading your own position before the lists arrive',
         paragraphs: [
           'Take a student with 1000 out of 1100 in Matric, 1000 out of 1100 in FSc, and 170 out of 200 in the NUMS test. Under the official formula, Matric contributes 1000 divided by 1100 times 10, which is 9.0909. FSc contributes 1000 divided by 1100 times 40, which is 36.3636. The NUMS test contributes 170 divided by 200 times 50, which is 42.5. The final aggregate is 87.9545%, about 87.95%.',
-          'Read that number the way the lists will read it. No 2026 NUMS closing merit exists yet, because no 2026 selection list has been published — so do not let any website hand you a precise NUMS cutoff for 2026. What you can do now is run your own numbers through the NUMS merit calculator on this site, check your provisional row on 10 December, and judge your position round by round as the real selection lists appear. An aggregate near 88% is competitive for NUMS colleges in general terms, but which college, and in which round, is decided by the December and January lists — not by a prediction.',
+          'Read that number the way the lists will read it. No 2026 NUMS closing merit exists yet, because no 2026 selection list has been published — so do not let any website hand you a precise NUMS cutoff for 2026. What you can do now is run your own numbers through the NUMS merit calculator on this site, check your provisional row on 30 November, and judge your position round by round as the real selection lists appear. An aggregate near 88% is competitive for NUMS colleges in general terms, but which college, and in which round, is decided by the December and January lists — not by a prediction.',
         ],
       },
       {
         heading: 'Page notes: verified, hedged, and not yet published',
         paragraphs: [
-          'Verified for this guide: the NUMS 2026-27 schedule quoted above (registration 13 October, regular-fee deadline 11 November 4:00 PM, late-fee deadline 25 November 4:00 PM, provisional list 10 December, first MBBS selection 17 December, first BDS selection 21 January 2027, tentative class starts 15 February and 15 March 2027), the registration fees (Rs. 8,500/9,500 open merit; Rs. 50,000/55,000 foreign), the eligibility floors (NUMS MDCAT 55% MBBS / 50% BDS, 60% FSc), and the official 50/40/10 formula with the NUMS test out of 200. These were read from the NUMS centralized-admissions notice as published on numspak.edu.pk and cross-checked against its published schedule.',
-          'Hedged, not hidden: the exact 2026-27 objection window is not stated here, because it will be set in the 10 December provisional-list notice — the short-window warning is drawn from general Pakistani medical-admission practice, not from a NUMS-specific figure. Joining deadlines and any fee for selected candidates are likewise per-notice. Not yet published, and therefore not invented here: every single 2026-27 NUMS closing merit and college-wise cutoff. When the 10 December provisional list and the 17 December selection list appear, this page will be updated with the real, verified numbers — and until then, any site handing you a precise 2026 NUMS cutoff is guessing.',
+          'Verified for this guide: the NUMS 2026-27 schedule quoted above (registration 13 October, regular-fee deadline 11 November 4:00 PM, late-fee deadline 25 November 4:00 PM, provisional list 30 November, first MBBS selection 3 December, first BDS selection 7 January 2027, tentative class starts 15 February and 15 March 2027), the registration fees (Rs. 8,500/9,500 open merit; Rs. 50,000/55,000 foreign), the eligibility floors (NUMS MDCAT 55% MBBS / 50% BDS, 60% FSc), and the official 50/40/10 formula with the NUMS test out of 200. These were read from the NUMS centralized-admissions notice as published on numspak.edu.pk and cross-checked against its published schedule.',
+          'Hedged, not hidden: the exact 2026-27 objection window is not stated here, because it will be set in the 30 November provisional-list notice — the short-window warning is drawn from general Pakistani medical-admission practice, not from a NUMS-specific figure. Joining deadlines and any fee for selected candidates are likewise per-notice. Not yet published, and therefore not invented here: every single 2026-27 NUMS closing merit and college-wise cutoff. When the 30 November provisional list and the 3 December selection list appear, this page will be updated with the real, verified numbers — and until then, any site handing you a precise 2026 NUMS cutoff is guessing.',
         ],
       },
     ],
     faqs: [
       {
         question: 'When will the NUMS provisional merit list 2026 be announced?',
-        answer: 'The NUMS provisional merit list for MBBS and BDS session 2026-27 is scheduled for Thursday, 10 December 2026, on the NUMS official website numspak.edu.pk.',
+        answer: 'The NUMS provisional merit list for MBBS and BDS session 2026-27 is scheduled for Monday, 30 November 2026, on the NUMS official website numspak.edu.pk.',
       },
       {
         question: 'Where can I check the NUMS merit list online?',
@@ -745,7 +745,7 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
       },
       {
         question: 'When is the first NUMS selection list for MBBS and BDS?',
-        answer: 'The first MBBS selection list is scheduled for 17 December 2026 and the first BDS selection list for 21 January 2027. Only a selection list assigns you a college; the provisional list is only a ranking.',
+        answer: 'The first MBBS selection list is scheduled for 3 December 2026 and the first BDS selection list for 7 January 2027. Only a selection list assigns you a college; the provisional list is only a ranking.',
       },
       {
         question: 'What is the last date for NUMS MBBS/BDS registration 2026-27?',
@@ -753,19 +753,19 @@ export const BLOG_POSTS_PART5: BlogPost[] = [
       },
       {
         question: 'What should I do if my marks or aggregate are wrong on the NUMS provisional list?',
-        answer: 'Act the same day through the correction channel stated in the 10 December provisional-list notice, with documentary evidence (result cards, equivalence certificate, fee receipt). Do not assume a window length — read the notice itself.',
+        answer: 'Act the same day through the correction channel stated in the 30 November provisional-list notice, with documentary evidence (result cards, equivalence certificate, fee receipt). Do not assume a window length — read the notice itself.',
       },
       {
         question: 'What if I am not selected in the first NUMS selection list?',
-        answer: 'That is normal: the first list cutoff is the highest of the season. Further selection rounds follow as seats fall vacant and merit drops, so keep watching the NUMS admissions page after 17 December (MBBS) and 21 January (BDS).',
+        answer: 'That is normal: the first list cutoff is the highest of the season. Further selection rounds follow as seats fall vacant and merit drops, so keep watching the NUMS admissions page after 3 December (MBBS) and 7 January (BDS).',
       },
       {
         question: 'Is the NUMS merit list the same as the UHS merit list?',
-        answer: 'No. NUMS runs its own centralized admission for its constituent, affiliated and Armed Forces-administered colleges, using the NUMS MDCAT (held 13 September 2026) — not the provincial MDCAT — with its own dates: provisional list 10 December, MBBS selection 17 December. UHS dates do not apply to NUMS applicants.',
+        answer: 'No. NUMS runs its own centralized admission for its constituent, affiliated and Armed Forces-administered colleges, using the NUMS MDCAT (held 13 September 2026) — not the provincial MDCAT — with its own dates: provisional list 30 November, MBBS selection 3 December. UHS dates do not apply to NUMS applicants.',
       },
       {
         question: 'What aggregate is safe for NUMS MBBS admission in 2026?',
-        answer: 'No 2026 NUMS closing merit exists yet, because no 2026-27 selection list has been published. Run your numbers through the NUMS merit calculator on this site, verify your provisional row on 10 December, and judge your position from the real selection lists — not from a predicted cutoff.',
+        answer: 'No 2026 NUMS closing merit exists yet, because no 2026-27 selection list has been published. Run your numbers through the NUMS merit calculator on this site, verify your provisional row on 30 November, and judge your position from the real selection lists — not from a predicted cutoff.',
       },
     ],
     relatedCalculators: ['nums', 'kemu', 'duhs'],

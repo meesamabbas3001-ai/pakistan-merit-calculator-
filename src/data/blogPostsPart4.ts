@@ -144,7 +144,7 @@ export const BLOG_POSTS_PART4: BlogPost[] = [
         heading: 'Run the formula backwards to set your target',
         paragraphs: [
           'The formula works in reverse, and this is how serious candidates plan. Suppose your target is a 93% aggregate, with 1020 out of 1100 in Matric (which contributes 9.2727) and 980 out of 1100 in FSc (which contributes 35.6364). Your boards give you 44.9091 combined, so the NUMS test must supply the remaining 48.0909.',
-          'That means your test score must be 48.0909 ÷ 50 × 200 = about 193 out of 200. Knowing the exact number turns a vague goal like "do well in the NUMS test" into a concrete, testable target — and it tells you honestly whether your target is reachable from your board marks at all. If the backwards maths says you need 195+ and your practice tests are sitting at 160, your honest options are: a dramatic jump in test preparation, or parallel applications through the MDCAT route where your profile may fit differently. Decide that now, in October — not after the provisional merit list in December.',
+          'That means your test score must be 48.0909 ÷ 50 × 200 = about 193 out of 200. Knowing the exact number turns a vague goal like "do well in the NUMS test" into a concrete, testable target — and it tells you honestly whether your target is reachable from your board marks at all. If the backwards maths says you need 195+ and your practice tests are sitting at 160, your honest options are: a dramatic jump in test preparation, or parallel applications through the MDCAT route where your profile may fit differently. Decide that now — not after the provisional merit list on 30 November.',
         ],
       },
       {
@@ -174,7 +174,7 @@ export const BLOG_POSTS_PART4: BlogPost[] = [
       {
         heading: 'The full NUMS 2026-27 schedule',
         paragraphs: [
-          'After registration closes, NUMS\'s official 2026-27 calendar runs as follows: the provisional merit list for MBBS and BDS is scheduled for 10 December 2026, the first MBBS selection list for 17 December 2026, and the first BDS selection list for 21 January 2027. Commencement of classes is tentatively scheduled for 15 February 2027 for MBBS and 15 March 2027 for BDS.',
+          'After registration closes, NUMS\'s official 2026-27 calendar runs as follows: the provisional merit list for MBBS and BDS is scheduled for 30 November 2026, the first MBBS selection list for 3 December 2026, and the first BDS selection list for 7 January 2027. Commencement of classes is tentatively scheduled for 15 February 2027 for MBBS and 15 March 2027 for BDS.',
           'The provisional merit list on 10 December deserves your full attention: it is the list where errors in your printed aggregate or category surface, and the window to get them corrected is short. Check it the day it appears. Then track every selection list — merit moves between rounds as candidates above you accept or decline, and borderline students get in on later movement, not on the first list.',
           'Every date above comes from NUMS\'s official 2026-27 admission notice, read in October 2026. Admission calendars can shift on PMDC or university directions; treat each date as scheduled and verify against the official portal as it approaches.',
         ],
@@ -182,7 +182,7 @@ export const BLOG_POSTS_PART4: BlogPost[] = [
       {
         heading: 'Closing merits: the honest note',
         paragraphs: [
-          'No 2026-27 NUMS closing merit exists yet — the provisional merit list appears on 10 December 2026, and only published official lists create real cutoffs. Any "predicted" NUMS cutoff number you see before then is a guess dressed as data; we refuse to invent one here, because a guessed number could cost a student their college choice.',
+          'No 2026-27 NUMS closing merit exists yet — the provisional merit list appears on 30 November 2026, and only published official lists create real cutoffs. Any "predicted" NUMS cutoff number you see before then is a guess dressed as data; we refuse to invent one here, because a guessed number could cost a student their college choice.',
           'What can honestly be said: NUMS publishes no single official cutoff figure, but education guides reporting on published merit lists consistently place recent open-merit closing in the 93–94% neighbourhood — among the highest in Pakistan\'s medical admissions. Treat that as an indicative benchmark, not a promise: cutoffs swing every year with test difficulty, applicant strength and seat counts.',
           'The practical use of that benchmark: set your NUMS test target a point or two above the neighbourhood, run the backwards maths from your actual board marks, and — this matters — keep the MDCAT route alive in parallel. NUMS is a reach for almost everyone; the MDCAT-route colleges are where most successful candidates actually land. The related calculators below run the same 10/40/50 maths for NUMS, KEMU and Dow so you can compare across routes honestly.',
         ],
@@ -215,7 +215,7 @@ export const BLOG_POSTS_PART4: BlogPost[] = [
       },
       {
         question: 'When is the NUMS merit list for 2026-27 published?',
-        answer: 'The provisional merit list for MBBS and BDS is scheduled for 10 December 2026, the first MBBS selection list for 17 December 2026, and the first BDS selection list for 21 January 2027. Check the provisional list the day it appears — that is your window to correct any aggregate error.',
+        answer: 'The provisional merit list for MBBS and BDS is scheduled for 30 November 2026, the first MBBS selection list for 3 December 2026, and the first BDS selection list for 7 January 2027. Check the provisional list the day it appears — that is your window to correct any aggregate error.',
       },
       {
         question: 'What aggregate is safe for NUMS MBBS?',

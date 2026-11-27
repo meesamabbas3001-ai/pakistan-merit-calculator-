@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#312e81"/>
+      <stop offset="0.55" stop-color="#155e75"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="70" r="150" fill="#ffffff" opacity="0.06"/>
+  <circle cx="100" cy="570" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="990" cy="530" r="90" fill="#fbbf24" opacity="0.12"/>
+
+  <!-- left text block -->
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="72" width="360" height="40" rx="20" fill="#fbbf24"/>
+    <text x="240" y="99" text-anchor="middle" font-size="20" font-weight="bold" fill="#312e81">NUMS &#8226; SESSION 2026-27</text>
+    <text x="60" y="200" font-size="62" font-weight="bold" fill="#ffffff">NUMS</text>
+    <text x="60" y="262" font-size="42" font-weight="bold" fill="#fbbf24">Provisional Merit List</text>
+    <text x="60" y="312" font-size="25" fill="#e0e7ff">MBBS &amp; BDS &#8212; How to Check Your Rank</text>
+    <text x="60" y="352" font-size="21" fill="#a5f3fc">AMC &#8226; CMH &#8226; Armed Forces Colleges</text>
+    <g font-weight="bold" font-size="20">
+      <rect x="60" y="420" width="180" height="48" rx="24" fill="#ffffff"/>
+      <text x="150" y="451" text-anchor="middle" fill="#312e81">MON 30 NOV</text>
+      <rect x="256" y="420" width="190" height="48" rx="24" fill="#0d9488"/>
+      <text x="351" y="451" text-anchor="middle" fill="#ffffff">MBBS 3 DEC</text>
+      <rect x="462" y="420" width="170" height="48" rx="24" fill="#ffffff"/>
+      <text x="547" y="451" text-anchor="middle" fill="#312e81">BDS 7 JAN</text>
+    </g>
+    <text x="60" y="540" font-size="21" fill="#e0e7ff">Classes: MBBS 15 Feb 2027 &#8226; BDS 15 Mar 2027 (tentative)</text>
+  </g>
+
+  <!-- provisional list card -->
+  <g transform="translate(700,70)">
+    <rect x="0" y="0" width="420" height="490" rx="22" fill="url(#card)"/>
+    <rect x="28" y="28" width="240" height="16" rx="8" fill="#312e81"/>
+    <rect x="28" y="56" width="170" height="10" rx="5" fill="#94a3b8"/>
+    <rect x="28" y="92" width="364" height="58" rx="10" fill="#312e81"/>
+    <text x="210" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#ffffff">PROVISIONAL MERIT LIST</text>
+    <text x="210" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#c7d2fe">Monday 30 November 2026</text>
+    <g font-family="Arial, sans-serif" font-size="16" fill="#1e293b">
+      <rect x="28" y="172" width="364" height="44" rx="10" fill="#eef2ff"/>
+      <text x="48" y="200">1. Check your row on the portal</text>
+      <rect x="28" y="228" width="364" height="44" rx="10" fill="#ffffff"/>
+      <text x="48" y="256">2. Verify marks + aggregate</text>
+      <rect x="28" y="284" width="364" height="44" rx="10" fill="#eef2ff"/>
+      <text x="48" y="312">3. Report any error with evidence</text>
+      <rect x="28" y="340" width="364" height="44" rx="10" fill="#ffffff"/>
+      <text x="48" y="368">4. MBBS 1st selection: 3 Dec</text>
+    </g>
+    <rect x="28" y="404" width="364" height="52" rx="10" fill="#0f766e"/>
+    <text x="210" y="437" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Test 50% &#8226; FSc 40% &#8226; Matric 10%</text>
+  </g>
+</svg>
